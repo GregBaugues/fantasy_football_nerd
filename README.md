@@ -152,15 +152,15 @@ player.injury.last_update
 
 Still To Come
 ------------------
-Currently, the gem does not support these resources:
+I'll be adding this in the near future:
 
+* Better error reporting
 * Schedule
 * Draft Rankings
 
 Tests
 ------------------
 The gem includes extensive RSpec tests.
-
 
 Contributors
 -----------------
