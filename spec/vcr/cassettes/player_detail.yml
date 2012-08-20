@@ -1,0 +1,164 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.fantasyfootballnerd.com/ffnPlayerDetailsXML.php?apiKey=APIKEY&playerId=13
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Fri, 10 Aug 2012 21:08:39 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.1.6
+      ms-author-via:
+      - DAV
+      content-length:
+      - '2233'
+      connection:
+      - close
+      content-type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <FantasyFootballNerd>
+
+        <SearchParams>
+
+        <playerId>13</playerId>
+
+        <ApiKey>APIKEY</ApiKey>
+
+        </SearchParams>
+
+        <PoweredBy Description="Please add a link to FantasyFootballNerd.com">
+
+        <Logo>http://www.fantasyfootballnerd.com/images/logo.gif</Logo>
+
+        <URL>http://www.fantasyfootballnerd.com/?src=APIKEY</URL>
+
+        </PoweredBy>
+
+        <PlayerDetails>
+
+        <FirstName>Tom</FirstName>
+
+        <LastName>Brady</LastName>
+
+        <Team>NE</Team>
+
+        <Position>QB</Position>
+
+        </PlayerDetails>
+
+        <PlayerNews>
+
+        <Article>
+
+        <Title>New England Patriots best New Orleans Saints, 7-6</Title>
+
+        <Source>http://www.nfl.com/goto?id=0ap2000000048294</Source>
+
+        <Published>2012-08-10</Published>
+
+        </Article>
+
+        <Article>
+
+        <Title>Is Peyton Manning the best quarterback of his era?</Title>
+
+        <Source>http://www.nfl.com/goto?id=0ap1000000048004</Source>
+
+        <Published>2012-08-09</Published>
+
+        </Article>
+
+        <Article>
+
+        <Title>Tennessee Titans training camp: Locker pushing to be starter</Title>
+
+        <Source>http://www.nfl.com/goto?id=0ap2000000046032</Source>
+
+        <Published>2012-08-04</Published>
+
+        </Article>
+
+        <Article>
+
+        <Title>Barack Obama vouches for New York Jets'' Tim Tebow</Title>
+
+        <Source>http://www.nfl.com/goto?id=09000d5d82b01766</Source>
+
+        <Published>2012-08-02</Published>
+
+        </Article>
+
+        <Article>
+
+        <Title>Atlanta Falcons training camp: Matt Ryan and Co. seek swagger</Title>
+
+        <Source>http://www.nfl.com/goto?id=09000d5d82aefdec</Source>
+
+        <Published>2012-07-31</Published>
+
+        </Article>
+
+        <Article>
+
+        <Title>Peter King: Randy Moss ''absolutely has something left''</Title>
+
+        <Source>http://www.nfl.com/goto?id=09000d5d82af4633</Source>
+
+        <Published>2012-07-31</Published>
+
+        </Article>
+
+        <Article>
+
+        <Title>Tom Brady: Cliff-diving ''a lot of fun,'' but no biggie</Title>
+
+        <Source>http://www.nfl.com/goto?id=09000d5d82ae46bf</Source>
+
+        <Published>2012-07-29</Published>
+
+        </Article>
+
+        <Article>
+
+        <Title>Patriots training camp: Tom Brady aging but still sharp as ever</Title>
+
+        <Source>http://www.nfl.com/goto?id=09000d5d82ae6a4d</Source>
+
+        <Published>2012-07-29</Published>
+
+        </Article>
+
+        <Article>
+
+        <Title>Wes Welker: New England Patriots and I ''tried'' in contract talks</Title>
+
+        <Source>http://www.nfl.com/goto?id=09000d5d82ad6785</Source>
+
+        <Published>2012-07-26</Published>
+
+        </Article>
+
+        </PlayerNews>
+
+        </FantasyFootballNerd>'
+    http_version: '1.1'
+  recorded_at: Fri, 10 Aug 2012 21:08:39 GMT
+recorded_with: VCR 2.2.4

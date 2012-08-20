@@ -1,0 +1,4869 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.fantasyfootballnerd.com/ffnInjuriesXML.php?apiKey=APIKEY&week=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Thu, 16 Aug 2012 04:16:38 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.1.6
+      ms-author-via:
+      - DAV
+      content-length:
+      - '456'
+      connection:
+      - close
+      content-type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+         <FantasyFootballNerd>
+        <SearchParams>
+        <Week>1</Week>
+        <ApiKey>xxxxxx</ApiKey>
+        </SearchParams>
+        <PoweredBy Description="Please add a Powered By link to FantasyFootballNerd.com">
+        <Logo>http://www.fantasyfootballnerd.com/images/logo.gif</Logo>
+        <URL>http://www.fantasyfootballnerd.com/</URL>
+        </PoweredBy>
+        <Injuries>
+        <Team Code="ARI">
+        <Injury>
+        <Week>1</Week>
+        <playerId>1242</playerId>
+        <PlayerName>Alfonso Smith</PlayerName>
+        <Team>ARI</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Adrian Wilson</PlayerName>
+        <Team>ARI</Team>
+        <Position>S</Position>
+        <InjuryDesc>Biceps</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1465</playerId>
+        <PlayerName>Rob Housler</PlayerName>
+        <Team>ARI</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Groin</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Michael Adams</PlayerName>
+        <Team>ARI</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1456</playerId>
+        <PlayerName>DeMarco Sampson</PlayerName>
+        <Team>ARI</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1119</playerId>
+        <PlayerName>John Skelton</PlayerName>
+        <Team>ARI</Team>
+        <Position>QB</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Korey Lindsey</PlayerName>
+        <Team>ARI</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Illness</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1183</playerId>
+        <PlayerName>Jim Dray</PlayerName>
+        <Team>ARI</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Pectoral</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="ATL">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Todd McClure</PlayerName>
+        <Team>ATL</Team>
+        <Position>C</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Will not play</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Dunta Robinson</PlayerName>
+        <Team>ATL</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>578</playerId>
+        <PlayerName>Roddy White</PlayerName>
+        <Team>ATL</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Thigh</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Lawrence Sidbury</PlayerName>
+        <Team>ATL</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Tyson Clabo</PlayerName>
+        <Team>ATL</Team>
+        <Position>T</Position>
+        <InjuryDesc>Elbow</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Corey Peters</PlayerName>
+        <Team>ATL</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jonathan Babineaux</PlayerName>
+        <Team>ATL</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Rob Bruggeman</PlayerName>
+        <Team>ATL</Team>
+        <Position>C</Position>
+        <InjuryDesc>Concussion</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="BAL">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jason Phillips</PlayerName>
+        <Team>BAL</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Concussion</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Ben Grubbs</PlayerName>
+        <Team>BAL</Team>
+        <Position>G</Position>
+        <InjuryDesc>Thigh</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="BUF">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Arthur Moats</PlayerName>
+        <Team>BUF</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1149</playerId>
+        <PlayerName>Marcus Easley</PlayerName>
+        <Team>BUF</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Illness</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Torell Troup</PlayerName>
+        <Team>BUF</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Back</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="CAR">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jon Beason</PlayerName>
+        <Team>CAR</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Josh Thomas</PlayerName>
+        <Team>CAR</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Thigh</InjuryDesc>
+        <PracticeStatusDesc>Will not play</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jeff Otah</PlayerName>
+        <Team>CAR</Team>
+        <Position>T</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Mackenzy Bernadeau</PlayerName>
+        <Team>CAR</Team>
+        <Position>G</Position>
+        <InjuryDesc>Toe</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1453</playerId>
+        <PlayerName>Kealoha Pilares</PlayerName>
+        <Team>CAR</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Will not play</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="CHI">
+        <Injury>
+        <Week>1</Week>
+        <playerId>625</playerId>
+        <PlayerName>Kellen Davis</PlayerName>
+        <Team>CHI</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Back</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>121</playerId>
+        <PlayerName>Marion Barber</PlayerName>
+        <Team>CHI</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Calf</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Patrick Mannelly</PlayerName>
+        <Team>CHI</Team>
+        <Position>LS</Position>
+        <InjuryDesc>Calf</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>438</playerId>
+        <PlayerName>Sam Hurd</PlayerName>
+        <Team>CHI</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Chris Conte</PlayerName>
+        <Team>CHI</Team>
+        <Position>S</Position>
+        <InjuryDesc>Head</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>909</playerId>
+        <PlayerName>Kahlil Bell</PlayerName>
+        <Team>CHI</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Corey Wootton</PlayerName>
+        <Team>CHI</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Lance Briggs</PlayerName>
+        <Team>CHI</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Anthony Adams</PlayerName>
+        <Team>CHI</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Calf</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Craig Steltz</PlayerName>
+        <Team>CHI</Team>
+        <Position>S</Position>
+        <InjuryDesc>Hip</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="CIN">
+        <Injury>
+        <Week>1</Week>
+        <playerId>816</playerId>
+        <PlayerName>Bernard Scott</PlayerName>
+        <Team>CIN</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Taylor Mays</PlayerName>
+        <Team>CIN</Team>
+        <Position>S</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Not Likely</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Kelly Jennings</PlayerName>
+        <Team>CIN</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Not Likely</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>225</playerId>
+        <PlayerName>Brian Leonard</PlayerName>
+        <Team>CIN</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Finger</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Otis Hudson</PlayerName>
+        <Team>CIN</Team>
+        <Position>G</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Dontay Moch</PlayerName>
+        <Team>CIN</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Foot</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Carlos Dunlap</PlayerName>
+        <Team>CIN</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="CLE">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>T.J. Ward</PlayerName>
+        <Team>CLE</Team>
+        <Position>S</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1163</playerId>
+        <PlayerName>Carlton Mitchell</PlayerName>
+        <Team>CLE</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Finger</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Tony Pashos</PlayerName>
+        <Team>CLE</Team>
+        <Position>T</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Not Likely</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jason Pinkston</PlayerName>
+        <Team>CLE</Team>
+        <Position>T</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Chris Gocong</PlayerName>
+        <Team>CLE</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Shoulder</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Titus Brown</PlayerName>
+        <Team>CLE</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>730</playerId>
+        <PlayerName>Benjamin Watson</PlayerName>
+        <Team>CLE</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Hip</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Eric Hagg</PlayerName>
+        <Team>CLE</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Usama Young</PlayerName>
+        <Team>CLE</Team>
+        <Position>S</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>848</playerId>
+        <PlayerName>Mohamed Massaquoi</PlayerName>
+        <Team>CLE</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Foot</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>375</playerId>
+        <PlayerName>Joshua Cribbs</PlayerName>
+        <Team>CLE</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="DAL">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Phil Costa</PlayerName>
+        <Team>DAL</Team>
+        <Position>C</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Marcus Spears</PlayerName>
+        <Team>DAL</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Groin</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Laurent Robinson</PlayerName>
+        <Team>DAL</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Mike Jenkins</PlayerName>
+        <Team>DAL</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Neck</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>602</playerId>
+        <PlayerName>Martellus Bennett</PlayerName>
+        <Team>DAL</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>328</playerId>
+        <PlayerName>Miles Austin</PlayerName>
+        <Team>DAL</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Tyron Smith</PlayerName>
+        <Team>DAL</Team>
+        <Position>T</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>147</playerId>
+        <PlayerName>Tashard Choice</PlayerName>
+        <Team>DAL</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Bradie James</PlayerName>
+        <Team>DAL</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Terence Newman</PlayerName>
+        <Team>DAL</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Groin</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="DEN">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Marcus Thomas</PlayerName>
+        <Team>DEN</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Shoulder</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>590</playerId>
+        <PlayerName>Matt Willis</PlayerName>
+        <Team>DEN</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Toe</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>David Bruton</PlayerName>
+        <Team>DEN</Team>
+        <Position>S</Position>
+        <InjuryDesc>Shoulder</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>D.J. Williams</PlayerName>
+        <Team>DEN</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Elbow</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Quinton Carter</PlayerName>
+        <Team>DEN</Team>
+        <Position>S</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1172</playerId>
+        <PlayerName>Demaryius Thomas</PlayerName>
+        <Team>DEN</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Achilles</InjuryDesc>
+        <PracticeStatusDesc>Will not play</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Chris Kuper</PlayerName>
+        <Team>DEN</Team>
+        <Position>G</Position>
+        <InjuryDesc>Toe</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Brodrick Bunkley</PlayerName>
+        <Team>DEN</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Ty Warren</PlayerName>
+        <Team>DEN</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Triceps</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="DET">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Andre Fluellen</PlayerName>
+        <Team>DET</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Hand</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Alphonso Smith</PlayerName>
+        <Team>DET</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Foot</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jason Fox</PlayerName>
+        <Team>DET</Team>
+        <Position>T</Position>
+        <InjuryDesc>Foot</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Nick Fairley</PlayerName>
+        <Team>DET</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Foot</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Kyle Vanden Bosch</PlayerName>
+        <Team>DET</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Not Injury Related</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc> </GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>245</playerId>
+        <PlayerName>Maurice Morris</PlayerName>
+        <Team>DET</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Hand</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="GB">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Frank Zombo</PlayerName>
+        <Team>GB</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Shoulder</InjuryDesc>
+        <PracticeStatusDesc>Will not play</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Chad Clifton</PlayerName>
+        <Team>GB</Team>
+        <Position>T</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Mike Neal</PlayerName>
+        <Team>GB</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Vic Sooto</PlayerName>
+        <Team>GB</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Back</InjuryDesc>
+        <PracticeStatusDesc>Will not play</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Davon House</PlayerName>
+        <Team>GB</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Will not play</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>637</playerId>
+        <PlayerName>Jermichael Finley</PlayerName>
+        <Team>GB</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1470</playerId>
+        <PlayerName>Ryan Taylor</PlayerName>
+        <Team>GB</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Hip</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="HOU">
+        <Injury>
+        <Week>1</Week>
+        <playerId>917</playerId>
+        <PlayerName>Arian Foster</PlayerName>
+        <Team>HOU</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Rashad Carmichael</PlayerName>
+        <Team>HOU</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Shoulder</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Mario Williams</PlayerName>
+        <Team>HOU</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Groin</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>DeMeco Ryans</PlayerName>
+        <Team>HOU</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Elbow</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jonathan Weeks</PlayerName>
+        <Team>HOU</Team>
+        <Position>LS</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Earl Mitchell</PlayerName>
+        <Team>HOU</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Brooks Reed</PlayerName>
+        <Team>HOU</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Wrist</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Glover Quin</PlayerName>
+        <Team>HOU</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Head</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Antoine Caldwell</PlayerName>
+        <Team>HOU</Team>
+        <Position>G</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="IND">
+        <Injury>
+        <Week>1</Week>
+        <playerId>1307</playerId>
+        <PlayerName>Blair White</PlayerName>
+        <Team>IND</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Back</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Drake Nevis</PlayerName>
+        <Team>IND</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Foot</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>66</playerId>
+        <PlayerName>Peyton Manning</PlayerName>
+        <Team>IND</Team>
+        <Position>QB</Position>
+        <InjuryDesc>Neck</InjuryDesc>
+        <PracticeStatusDesc>Will not play</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>829</playerId>
+        <PlayerName>Austin Collie</PlayerName>
+        <Team>IND</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Foot</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>407</playerId>
+        <PlayerName>Anthony Gonzalez</PlayerName>
+        <Team>IND</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Antoine Bethea</PlayerName>
+        <Team>IND</Team>
+        <Position>S</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Gary Brackett</PlayerName>
+        <Team>IND</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Not Injury Related</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc> </GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="JAC">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Eben Britton</PlayerName>
+        <Team>JAC</Team>
+        <Position>T</Position>
+        <InjuryDesc>Back</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Aaron Kampman</PlayerName>
+        <Team>JAC</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>213</playerId>
+        <PlayerName>Greg Jones</PlayerName>
+        <Team>JAC</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Not Injury Related</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc> </GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>217</playerId>
+        <PlayerName>Maurice Jones-Drew</PlayerName>
+        <Team>JAC</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Not Injury Related</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc> </GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Tyson Alualu</PlayerName>
+        <Team>JAC</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Not Injury Related</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc> </GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Rashean Mathis</PlayerName>
+        <Team>JAC</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Not Injury Related</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc> </GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>880</playerId>
+        <PlayerName>Zach Miller</PlayerName>
+        <Team>JAC</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="KC">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jared Gaither</PlayerName>
+        <Team>KC</Team>
+        <Position>T</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>22</playerId>
+        <PlayerName>Matt Cassel</PlayerName>
+        <Team>KC</Team>
+        <Position>QB</Position>
+        <InjuryDesc>Rib</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1434</playerId>
+        <PlayerName>Jon Baldwin</PlayerName>
+        <Team>KC</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Thumb</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Ryan Lilja</PlayerName>
+        <Team>KC</Team>
+        <Position>G</Position>
+        <InjuryDesc>Not Injury Related</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc> </GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>347</playerId>
+        <PlayerName>Steve Breaston</PlayerName>
+        <Team>KC</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="MIA">
+        <Injury>
+        <Week>1</Week>
+        <playerId>1428</playerId>
+        <PlayerName>Daniel Thomas</PlayerName>
+        <Team>MIA</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1408</playerId>
+        <PlayerName>Charles Clay</PlayerName>
+        <Team>MIA</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="MIN">
+        <Injury>
+        <Week>1</Week>
+        <playerId>71</playerId>
+        <PlayerName>Donovan McNabb</PlayerName>
+        <Team>MIN</Team>
+        <Position>QB</Position>
+        <InjuryDesc>right Wrist</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Phil Loadholt</PlayerName>
+        <Team>MIN</Team>
+        <Position>T</Position>
+        <InjuryDesc>Not Injury Related</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc> </GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>709</playerId>
+        <PlayerName>Visanthe Shiancoe</PlayerName>
+        <Team>MIN</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Letroy Guion</PlayerName>
+        <Team>MIN</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Not Injury Related</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc> </GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Asher Allen</PlayerName>
+        <Team>MIN</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Foot</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Chris Cook</PlayerName>
+        <Team>MIN</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="NE">
+        <Injury>
+        <Week>1</Week>
+        <playerId>832</playerId>
+        <PlayerName>Julian Edelman</PlayerName>
+        <Team>NE</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Hand</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Dan Connolly</PlayerName>
+        <Team>NE</Team>
+        <Position>G</Position>
+        <InjuryDesc>Foot</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Dane Fletcher</PlayerName>
+        <Team>NE</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Thumb</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1430</playerId>
+        <PlayerName>Shane Vereen</PlayerName>
+        <Team>NE</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jeff Tarpinian</PlayerName>
+        <Team>NE</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1164</playerId>
+        <PlayerName>Taylor Price</PlayerName>
+        <Team>NE</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1423</playerId>
+        <PlayerName>Stevan Ridley</PlayerName>
+        <Team>NE</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Kyle Arrington</PlayerName>
+        <Team>NE</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Hip</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Leigh Bodden</PlayerName>
+        <Team>NE</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Hand</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Ryan Wendell</PlayerName>
+        <Team>NE</Team>
+        <Position>C</Position>
+        <InjuryDesc>Calf</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Sebastian Vollmer</PlayerName>
+        <Team>NE</Team>
+        <Position>T</Position>
+        <InjuryDesc>Back</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Albert Haynesworth</PlayerName>
+        <Team>NE</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Illness</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc> </GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Mark Anderson</PlayerName>
+        <Team>NE</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jermaine Cunningham</PlayerName>
+        <Team>NE</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Groin</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="NO">
+        <Injury>
+        <Week>1</Week>
+        <playerId>757</playerId>
+        <PlayerName>Garrett Hartley</PlayerName>
+        <Team>NO</Team>
+        <Position>K</Position>
+        <InjuryDesc>right Hip</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>327</playerId>
+        <PlayerName>Adrian Arrington</PlayerName>
+        <Team>NO</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Tom Johnson</PlayerName>
+        <Team>NO</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Calf</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>493</playerId>
+        <PlayerName>Lance Moore</PlayerName>
+        <Team>NO</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Groin</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="NYG">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Prince Amukamara</PlayerName>
+        <Team>NYG</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Foot</InjuryDesc>
+        <PracticeStatusDesc>Will not play</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Osi Umenyiora</PlayerName>
+        <Team>NYG</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Will not play</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Justin Tuck</PlayerName>
+        <Team>NYG</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Neck</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>868</playerId>
+        <PlayerName>Travis Beckum</PlayerName>
+        <Team>NYG</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jonathan Goff</PlayerName>
+        <Team>NYG</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Will not play</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="NYJ">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Kenrick Ellis</PlayerName>
+        <Team>NYJ</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Marcus Dixon</PlayerName>
+        <Team>NYJ</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>510</playerId>
+        <PlayerName>Logan Payne</PlayerName>
+        <Team>NYJ</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Wrist</InjuryDesc>
+        <PracticeStatusDesc>Will not play</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>431</playerId>
+        <PlayerName>Santonio Holmes</PlayerName>
+        <Team>NYJ</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Illness</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>356</playerId>
+        <PlayerName>Plaxico Burress</PlayerName>
+        <Team>NYJ</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Darrelle Revis</PlayerName>
+        <Team>NYJ</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Hip</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1123</playerId>
+        <PlayerName>John Conner</PlayerName>
+        <Team>NYJ</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Sione Pouha</PlayerName>
+        <Team>NYJ</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1313</playerId>
+        <PlayerName>Jeff Cumberland</PlayerName>
+        <Team>NYJ</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>18</playerId>
+        <PlayerName>Mark Brunell</PlayerName>
+        <Team>NYJ</Team>
+        <Position>QB</Position>
+        <InjuryDesc>Calf</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Brandon Moore</PlayerName>
+        <Team>NYJ</Team>
+        <Position>G</Position>
+        <InjuryDesc>Illness</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1078</playerId>
+        <PlayerName>Derrick Mason</PlayerName>
+        <Team>NYJ</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Ropati Pitoitua</PlayerName>
+        <Team>NYJ</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Robert Turner</PlayerName>
+        <Team>NYJ</Team>
+        <Position>C</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Will not play</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1133</playerId>
+        <PlayerName>Joe McKnight</PlayerName>
+        <Team>NYJ</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Illness</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="OAK">
+        <Injury>
+        <Week>1</Week>
+        <playerId>605</playerId>
+        <PlayerName>Kevin Boss</PlayerName>
+        <Team>OAK</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Chris Johnson</PlayerName>
+        <Team>OAK</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Groin</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1416</playerId>
+        <PlayerName>Taiwan Jones</PlayerName>
+        <Team>OAK</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Foot</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Darryl Blackstock</PlayerName>
+        <Team>OAK</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Concussion</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>532</playerId>
+        <PlayerName>Chaz Schilens</PlayerName>
+        <Team>OAK</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>410</playerId>
+        <PlayerName>Derek Hagan</PlayerName>
+        <Team>OAK</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Calf</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>DeMarcus Van Dyke</PlayerName>
+        <Team>OAK</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Ribs</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Michael Mitchell</PlayerName>
+        <Team>OAK</Team>
+        <Position>S</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>852</playerId>
+        <PlayerName>Louis Murphy</PlayerName>
+        <Team>OAK</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Groin</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="PHI">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jaiquawn Jarrett</PlayerName>
+        <Team>PHI</Team>
+        <Position>S</Position>
+        <InjuryDesc>Quadricep</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Trevor Laws</PlayerName>
+        <Team>PHI</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Hip</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Juqua Parker</PlayerName>
+        <Team>PHI</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Calf</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>113</playerId>
+        <PlayerName>Vince Young</PlayerName>
+        <Team>PHI</Team>
+        <Position>QB</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Not Likely</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Asante Samuel</PlayerName>
+        <Team>PHI</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Shoulder</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Antonio Dixon</PlayerName>
+        <Team>PHI</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Back</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1190</playerId>
+        <PlayerName>Clay Harbor</PlayerName>
+        <Team>PHI</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Shoulder</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Todd Herremans</PlayerName>
+        <Team>PHI</Team>
+        <Position>T</Position>
+        <InjuryDesc>Back</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Winston Justice</PlayerName>
+        <Team>PHI</Team>
+        <Position>T</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Nate Allen</PlayerName>
+        <Team>PHI</Team>
+        <Position>S</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Danny Watkins</PlayerName>
+        <Team>PHI</Team>
+        <Position>G</Position>
+        <InjuryDesc>Foot</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>540</playerId>
+        <PlayerName>Steve Smith</PlayerName>
+        <Team>PHI</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="PIT">
+        <Injury>
+        <Week>1</Week>
+        <playerId>373</playerId>
+        <PlayerName>Jerricho Cotchery</PlayerName>
+        <Team>PIT</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Not Likely</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Marcus Gilbert</PlayerName>
+        <Team>PIT</Team>
+        <Position>T</Position>
+        <InjuryDesc>Concussion</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Chris Carter</PlayerName>
+        <Team>PIT</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="SD">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jonas Mouton</PlayerName>
+        <Team>SD</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Shoulder</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>374</playerId>
+        <PlayerName>Patrick Crayton</PlayerName>
+        <Team>SD</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1435</playerId>
+        <PlayerName>Vincent Brown</PlayerName>
+        <Team>SD</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Andrew Gachkar</PlayerName>
+        <Team>SD</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Back</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="SEA">
+        <Injury>
+        <Week>1</Week>
+        <playerId>519</playerId>
+        <PlayerName>Sidney Rice</PlayerName>
+        <Team>SEA</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Shoulder</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Not Likely</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Robert Gallery</PlayerName>
+        <Team>SEA</Team>
+        <Position>G</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Not Likely</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>David Hawthorne</PlayerName>
+        <Team>SEA</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Chris Clemons</PlayerName>
+        <Team>SEA</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jarriel King</PlayerName>
+        <Team>SEA</Team>
+        <Position>T</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="SF">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Dashon Goldson</PlayerName>
+        <Team>SF</Team>
+        <Position>S</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Not Likely</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="STL">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>James Hall</PlayerName>
+        <Team>STL</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Back</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1192</playerId>
+        <PlayerName>Michael Hoomanawanui</PlayerName>
+        <Team>STL</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Calf</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Eugene Sims</PlayerName>
+        <Team>STL</Team>
+        <Position>DE</Position>
+        <InjuryDesc>oblique</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="TB">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Myron Lewis</PlayerName>
+        <Team>TB</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Ted Larsen</PlayerName>
+        <Team>TB</Team>
+        <Position>C</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Dekoda Watson</PlayerName>
+        <Team>TB</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>732</playerId>
+        <PlayerName>Kellen Winslow</PlayerName>
+        <Team>TB</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Not Injury Related</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc> </GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="TEN">
+        <Injury>
+        <Week>1</Week>
+        <playerId>420</playerId>
+        <PlayerName>Lavelle Hawkins</PlayerName>
+        <Team>TEN</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Foot</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jason Jones</PlayerName>
+        <Team>TEN</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>815</playerId>
+        <PlayerName>Javon Ringer</PlayerName>
+        <Team>TEN</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Back</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Derrick Morgan</PlayerName>
+        <Team>TEN</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Not Likely</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="WAS">
+        <Injury>
+        <Week>1</Week>
+        <playerId>544</playerId>
+        <PlayerName>Donte Stallworth</PlayerName>
+        <Team>WAS</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Shoulder</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1340</playerId>
+        <PlayerName>Brandon Banks</PlayerName>
+        <Team>WAS</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>LaRon Landry</PlayerName>
+        <Team>WAS</Team>
+        <Position>S</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Oshiomogho Atogwe</PlayerName>
+        <Team>WAS</Team>
+        <Position>S</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>296</playerId>
+        <PlayerName>Ryan Torain</PlayerName>
+        <Team>WAS</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Hand</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>618</playerId>
+        <PlayerName>Chris Cooley</PlayerName>
+        <Team>WAS</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        </Injuries>
+        </FantasyFootballNerd>'
+    http_version: '1.1'
+  recorded_at: Thu, 16 Aug 2012 04:16:38 GMT
+- request:
+    method: get
+    uri: http://api.fantasyfootballnerd.com/ffnInjuriesXML.php?apiKey=APIKEY&week=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Thu, 16 Aug 2012 04:16:38 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.1.6
+      ms-author-via:
+      - DAV
+      content-length:
+      - '456'
+      connection:
+      - close
+      content-type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+         <FantasyFootballNerd>
+        <SearchParams>
+        <Week>1</Week>
+        <ApiKey>xxxxxx</ApiKey>
+        </SearchParams>
+        <PoweredBy Description="Please add a Powered By link to FantasyFootballNerd.com">
+        <Logo>http://www.fantasyfootballnerd.com/images/logo.gif</Logo>
+        <URL>http://www.fantasyfootballnerd.com/</URL>
+        </PoweredBy>
+        <Injuries>
+        <Team Code="ARI">
+        <Injury>
+        <Week>1</Week>
+        <playerId>1242</playerId>
+        <PlayerName>Alfonso Smith</PlayerName>
+        <Team>ARI</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Adrian Wilson</PlayerName>
+        <Team>ARI</Team>
+        <Position>S</Position>
+        <InjuryDesc>Biceps</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1465</playerId>
+        <PlayerName>Rob Housler</PlayerName>
+        <Team>ARI</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Groin</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Michael Adams</PlayerName>
+        <Team>ARI</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1456</playerId>
+        <PlayerName>DeMarco Sampson</PlayerName>
+        <Team>ARI</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1119</playerId>
+        <PlayerName>John Skelton</PlayerName>
+        <Team>ARI</Team>
+        <Position>QB</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Korey Lindsey</PlayerName>
+        <Team>ARI</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Illness</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1183</playerId>
+        <PlayerName>Jim Dray</PlayerName>
+        <Team>ARI</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Pectoral</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="ATL">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Todd McClure</PlayerName>
+        <Team>ATL</Team>
+        <Position>C</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Will not play</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Dunta Robinson</PlayerName>
+        <Team>ATL</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>578</playerId>
+        <PlayerName>Roddy White</PlayerName>
+        <Team>ATL</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Thigh</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Lawrence Sidbury</PlayerName>
+        <Team>ATL</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Tyson Clabo</PlayerName>
+        <Team>ATL</Team>
+        <Position>T</Position>
+        <InjuryDesc>Elbow</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Corey Peters</PlayerName>
+        <Team>ATL</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jonathan Babineaux</PlayerName>
+        <Team>ATL</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Rob Bruggeman</PlayerName>
+        <Team>ATL</Team>
+        <Position>C</Position>
+        <InjuryDesc>Concussion</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="BAL">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jason Phillips</PlayerName>
+        <Team>BAL</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Concussion</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Ben Grubbs</PlayerName>
+        <Team>BAL</Team>
+        <Position>G</Position>
+        <InjuryDesc>Thigh</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="BUF">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Arthur Moats</PlayerName>
+        <Team>BUF</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1149</playerId>
+        <PlayerName>Marcus Easley</PlayerName>
+        <Team>BUF</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Illness</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Torell Troup</PlayerName>
+        <Team>BUF</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Back</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="CAR">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jon Beason</PlayerName>
+        <Team>CAR</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Josh Thomas</PlayerName>
+        <Team>CAR</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Thigh</InjuryDesc>
+        <PracticeStatusDesc>Will not play</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jeff Otah</PlayerName>
+        <Team>CAR</Team>
+        <Position>T</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Mackenzy Bernadeau</PlayerName>
+        <Team>CAR</Team>
+        <Position>G</Position>
+        <InjuryDesc>Toe</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1453</playerId>
+        <PlayerName>Kealoha Pilares</PlayerName>
+        <Team>CAR</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Will not play</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="CHI">
+        <Injury>
+        <Week>1</Week>
+        <playerId>625</playerId>
+        <PlayerName>Kellen Davis</PlayerName>
+        <Team>CHI</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Back</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>121</playerId>
+        <PlayerName>Marion Barber</PlayerName>
+        <Team>CHI</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Calf</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Patrick Mannelly</PlayerName>
+        <Team>CHI</Team>
+        <Position>LS</Position>
+        <InjuryDesc>Calf</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>438</playerId>
+        <PlayerName>Sam Hurd</PlayerName>
+        <Team>CHI</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Chris Conte</PlayerName>
+        <Team>CHI</Team>
+        <Position>S</Position>
+        <InjuryDesc>Head</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>909</playerId>
+        <PlayerName>Kahlil Bell</PlayerName>
+        <Team>CHI</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Corey Wootton</PlayerName>
+        <Team>CHI</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Lance Briggs</PlayerName>
+        <Team>CHI</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Anthony Adams</PlayerName>
+        <Team>CHI</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Calf</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Craig Steltz</PlayerName>
+        <Team>CHI</Team>
+        <Position>S</Position>
+        <InjuryDesc>Hip</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="CIN">
+        <Injury>
+        <Week>1</Week>
+        <playerId>816</playerId>
+        <PlayerName>Bernard Scott</PlayerName>
+        <Team>CIN</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Taylor Mays</PlayerName>
+        <Team>CIN</Team>
+        <Position>S</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Not Likely</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Kelly Jennings</PlayerName>
+        <Team>CIN</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Not Likely</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>225</playerId>
+        <PlayerName>Brian Leonard</PlayerName>
+        <Team>CIN</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Finger</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Otis Hudson</PlayerName>
+        <Team>CIN</Team>
+        <Position>G</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Dontay Moch</PlayerName>
+        <Team>CIN</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Foot</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Carlos Dunlap</PlayerName>
+        <Team>CIN</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="CLE">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>T.J. Ward</PlayerName>
+        <Team>CLE</Team>
+        <Position>S</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1163</playerId>
+        <PlayerName>Carlton Mitchell</PlayerName>
+        <Team>CLE</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Finger</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Tony Pashos</PlayerName>
+        <Team>CLE</Team>
+        <Position>T</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Not Likely</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jason Pinkston</PlayerName>
+        <Team>CLE</Team>
+        <Position>T</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Chris Gocong</PlayerName>
+        <Team>CLE</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Shoulder</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Titus Brown</PlayerName>
+        <Team>CLE</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>730</playerId>
+        <PlayerName>Benjamin Watson</PlayerName>
+        <Team>CLE</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Hip</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Eric Hagg</PlayerName>
+        <Team>CLE</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Usama Young</PlayerName>
+        <Team>CLE</Team>
+        <Position>S</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>848</playerId>
+        <PlayerName>Mohamed Massaquoi</PlayerName>
+        <Team>CLE</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Foot</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>375</playerId>
+        <PlayerName>Joshua Cribbs</PlayerName>
+        <Team>CLE</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="DAL">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Phil Costa</PlayerName>
+        <Team>DAL</Team>
+        <Position>C</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Marcus Spears</PlayerName>
+        <Team>DAL</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Groin</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Laurent Robinson</PlayerName>
+        <Team>DAL</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Mike Jenkins</PlayerName>
+        <Team>DAL</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Neck</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>602</playerId>
+        <PlayerName>Martellus Bennett</PlayerName>
+        <Team>DAL</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>328</playerId>
+        <PlayerName>Miles Austin</PlayerName>
+        <Team>DAL</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Tyron Smith</PlayerName>
+        <Team>DAL</Team>
+        <Position>T</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>147</playerId>
+        <PlayerName>Tashard Choice</PlayerName>
+        <Team>DAL</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Bradie James</PlayerName>
+        <Team>DAL</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Terence Newman</PlayerName>
+        <Team>DAL</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Groin</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="DEN">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Marcus Thomas</PlayerName>
+        <Team>DEN</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Shoulder</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>590</playerId>
+        <PlayerName>Matt Willis</PlayerName>
+        <Team>DEN</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Toe</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>David Bruton</PlayerName>
+        <Team>DEN</Team>
+        <Position>S</Position>
+        <InjuryDesc>Shoulder</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>D.J. Williams</PlayerName>
+        <Team>DEN</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Elbow</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Quinton Carter</PlayerName>
+        <Team>DEN</Team>
+        <Position>S</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1172</playerId>
+        <PlayerName>Demaryius Thomas</PlayerName>
+        <Team>DEN</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Achilles</InjuryDesc>
+        <PracticeStatusDesc>Will not play</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Chris Kuper</PlayerName>
+        <Team>DEN</Team>
+        <Position>G</Position>
+        <InjuryDesc>Toe</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Brodrick Bunkley</PlayerName>
+        <Team>DEN</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Ty Warren</PlayerName>
+        <Team>DEN</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Triceps</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="DET">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Andre Fluellen</PlayerName>
+        <Team>DET</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Hand</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Alphonso Smith</PlayerName>
+        <Team>DET</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Foot</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jason Fox</PlayerName>
+        <Team>DET</Team>
+        <Position>T</Position>
+        <InjuryDesc>Foot</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Nick Fairley</PlayerName>
+        <Team>DET</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Foot</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Kyle Vanden Bosch</PlayerName>
+        <Team>DET</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Not Injury Related</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc> </GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>245</playerId>
+        <PlayerName>Maurice Morris</PlayerName>
+        <Team>DET</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Hand</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="GB">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Frank Zombo</PlayerName>
+        <Team>GB</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Shoulder</InjuryDesc>
+        <PracticeStatusDesc>Will not play</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Chad Clifton</PlayerName>
+        <Team>GB</Team>
+        <Position>T</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Mike Neal</PlayerName>
+        <Team>GB</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Vic Sooto</PlayerName>
+        <Team>GB</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Back</InjuryDesc>
+        <PracticeStatusDesc>Will not play</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Davon House</PlayerName>
+        <Team>GB</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Will not play</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>637</playerId>
+        <PlayerName>Jermichael Finley</PlayerName>
+        <Team>GB</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1470</playerId>
+        <PlayerName>Ryan Taylor</PlayerName>
+        <Team>GB</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Hip</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="HOU">
+        <Injury>
+        <Week>1</Week>
+        <playerId>917</playerId>
+        <PlayerName>Arian Foster</PlayerName>
+        <Team>HOU</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Rashad Carmichael</PlayerName>
+        <Team>HOU</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Shoulder</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Mario Williams</PlayerName>
+        <Team>HOU</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Groin</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>DeMeco Ryans</PlayerName>
+        <Team>HOU</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Elbow</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jonathan Weeks</PlayerName>
+        <Team>HOU</Team>
+        <Position>LS</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Earl Mitchell</PlayerName>
+        <Team>HOU</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Brooks Reed</PlayerName>
+        <Team>HOU</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Wrist</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Glover Quin</PlayerName>
+        <Team>HOU</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Head</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Antoine Caldwell</PlayerName>
+        <Team>HOU</Team>
+        <Position>G</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="IND">
+        <Injury>
+        <Week>1</Week>
+        <playerId>1307</playerId>
+        <PlayerName>Blair White</PlayerName>
+        <Team>IND</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Back</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Drake Nevis</PlayerName>
+        <Team>IND</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Foot</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>66</playerId>
+        <PlayerName>Peyton Manning</PlayerName>
+        <Team>IND</Team>
+        <Position>QB</Position>
+        <InjuryDesc>Neck</InjuryDesc>
+        <PracticeStatusDesc>Will not play</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>829</playerId>
+        <PlayerName>Austin Collie</PlayerName>
+        <Team>IND</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Foot</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>407</playerId>
+        <PlayerName>Anthony Gonzalez</PlayerName>
+        <Team>IND</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Antoine Bethea</PlayerName>
+        <Team>IND</Team>
+        <Position>S</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Gary Brackett</PlayerName>
+        <Team>IND</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Not Injury Related</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc> </GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="JAC">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Eben Britton</PlayerName>
+        <Team>JAC</Team>
+        <Position>T</Position>
+        <InjuryDesc>Back</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Aaron Kampman</PlayerName>
+        <Team>JAC</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>213</playerId>
+        <PlayerName>Greg Jones</PlayerName>
+        <Team>JAC</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Not Injury Related</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc> </GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>217</playerId>
+        <PlayerName>Maurice Jones-Drew</PlayerName>
+        <Team>JAC</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Not Injury Related</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc> </GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Tyson Alualu</PlayerName>
+        <Team>JAC</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Not Injury Related</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc> </GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Rashean Mathis</PlayerName>
+        <Team>JAC</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Not Injury Related</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc> </GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>880</playerId>
+        <PlayerName>Zach Miller</PlayerName>
+        <Team>JAC</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="KC">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jared Gaither</PlayerName>
+        <Team>KC</Team>
+        <Position>T</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>22</playerId>
+        <PlayerName>Matt Cassel</PlayerName>
+        <Team>KC</Team>
+        <Position>QB</Position>
+        <InjuryDesc>Rib</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1434</playerId>
+        <PlayerName>Jon Baldwin</PlayerName>
+        <Team>KC</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Thumb</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Ryan Lilja</PlayerName>
+        <Team>KC</Team>
+        <Position>G</Position>
+        <InjuryDesc>Not Injury Related</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc> </GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>347</playerId>
+        <PlayerName>Steve Breaston</PlayerName>
+        <Team>KC</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="MIA">
+        <Injury>
+        <Week>1</Week>
+        <playerId>1428</playerId>
+        <PlayerName>Daniel Thomas</PlayerName>
+        <Team>MIA</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1408</playerId>
+        <PlayerName>Charles Clay</PlayerName>
+        <Team>MIA</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="MIN">
+        <Injury>
+        <Week>1</Week>
+        <playerId>71</playerId>
+        <PlayerName>Donovan McNabb</PlayerName>
+        <Team>MIN</Team>
+        <Position>QB</Position>
+        <InjuryDesc>right Wrist</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Phil Loadholt</PlayerName>
+        <Team>MIN</Team>
+        <Position>T</Position>
+        <InjuryDesc>Not Injury Related</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc> </GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>709</playerId>
+        <PlayerName>Visanthe Shiancoe</PlayerName>
+        <Team>MIN</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Letroy Guion</PlayerName>
+        <Team>MIN</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Not Injury Related</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc> </GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Asher Allen</PlayerName>
+        <Team>MIN</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Foot</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Chris Cook</PlayerName>
+        <Team>MIN</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="NE">
+        <Injury>
+        <Week>1</Week>
+        <playerId>832</playerId>
+        <PlayerName>Julian Edelman</PlayerName>
+        <Team>NE</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Hand</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Dan Connolly</PlayerName>
+        <Team>NE</Team>
+        <Position>G</Position>
+        <InjuryDesc>Foot</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Dane Fletcher</PlayerName>
+        <Team>NE</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Thumb</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1430</playerId>
+        <PlayerName>Shane Vereen</PlayerName>
+        <Team>NE</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jeff Tarpinian</PlayerName>
+        <Team>NE</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1164</playerId>
+        <PlayerName>Taylor Price</PlayerName>
+        <Team>NE</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1423</playerId>
+        <PlayerName>Stevan Ridley</PlayerName>
+        <Team>NE</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Kyle Arrington</PlayerName>
+        <Team>NE</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Hip</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Leigh Bodden</PlayerName>
+        <Team>NE</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Hand</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Ryan Wendell</PlayerName>
+        <Team>NE</Team>
+        <Position>C</Position>
+        <InjuryDesc>Calf</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Sebastian Vollmer</PlayerName>
+        <Team>NE</Team>
+        <Position>T</Position>
+        <InjuryDesc>Back</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Albert Haynesworth</PlayerName>
+        <Team>NE</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Illness</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc> </GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Mark Anderson</PlayerName>
+        <Team>NE</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jermaine Cunningham</PlayerName>
+        <Team>NE</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Groin</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="NO">
+        <Injury>
+        <Week>1</Week>
+        <playerId>757</playerId>
+        <PlayerName>Garrett Hartley</PlayerName>
+        <Team>NO</Team>
+        <Position>K</Position>
+        <InjuryDesc>right Hip</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>327</playerId>
+        <PlayerName>Adrian Arrington</PlayerName>
+        <Team>NO</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Tom Johnson</PlayerName>
+        <Team>NO</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Calf</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>493</playerId>
+        <PlayerName>Lance Moore</PlayerName>
+        <Team>NO</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Groin</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="NYG">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Prince Amukamara</PlayerName>
+        <Team>NYG</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Foot</InjuryDesc>
+        <PracticeStatusDesc>Will not play</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Osi Umenyiora</PlayerName>
+        <Team>NYG</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Will not play</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Justin Tuck</PlayerName>
+        <Team>NYG</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Neck</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>868</playerId>
+        <PlayerName>Travis Beckum</PlayerName>
+        <Team>NYG</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jonathan Goff</PlayerName>
+        <Team>NYG</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Will not play</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="NYJ">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Kenrick Ellis</PlayerName>
+        <Team>NYJ</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Marcus Dixon</PlayerName>
+        <Team>NYJ</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>510</playerId>
+        <PlayerName>Logan Payne</PlayerName>
+        <Team>NYJ</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Wrist</InjuryDesc>
+        <PracticeStatusDesc>Will not play</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>431</playerId>
+        <PlayerName>Santonio Holmes</PlayerName>
+        <Team>NYJ</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Illness</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>356</playerId>
+        <PlayerName>Plaxico Burress</PlayerName>
+        <Team>NYJ</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Darrelle Revis</PlayerName>
+        <Team>NYJ</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Hip</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1123</playerId>
+        <PlayerName>John Conner</PlayerName>
+        <Team>NYJ</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Sione Pouha</PlayerName>
+        <Team>NYJ</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1313</playerId>
+        <PlayerName>Jeff Cumberland</PlayerName>
+        <Team>NYJ</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>18</playerId>
+        <PlayerName>Mark Brunell</PlayerName>
+        <Team>NYJ</Team>
+        <Position>QB</Position>
+        <InjuryDesc>Calf</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Brandon Moore</PlayerName>
+        <Team>NYJ</Team>
+        <Position>G</Position>
+        <InjuryDesc>Illness</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1078</playerId>
+        <PlayerName>Derrick Mason</PlayerName>
+        <Team>NYJ</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Ropati Pitoitua</PlayerName>
+        <Team>NYJ</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Robert Turner</PlayerName>
+        <Team>NYJ</Team>
+        <Position>C</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Will not play</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1133</playerId>
+        <PlayerName>Joe McKnight</PlayerName>
+        <Team>NYJ</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Illness</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="OAK">
+        <Injury>
+        <Week>1</Week>
+        <playerId>605</playerId>
+        <PlayerName>Kevin Boss</PlayerName>
+        <Team>OAK</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Chris Johnson</PlayerName>
+        <Team>OAK</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Groin</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1416</playerId>
+        <PlayerName>Taiwan Jones</PlayerName>
+        <Team>OAK</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Foot</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Darryl Blackstock</PlayerName>
+        <Team>OAK</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Concussion</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>532</playerId>
+        <PlayerName>Chaz Schilens</PlayerName>
+        <Team>OAK</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>410</playerId>
+        <PlayerName>Derek Hagan</PlayerName>
+        <Team>OAK</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Calf</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>DeMarcus Van Dyke</PlayerName>
+        <Team>OAK</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Ribs</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Michael Mitchell</PlayerName>
+        <Team>OAK</Team>
+        <Position>S</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>852</playerId>
+        <PlayerName>Louis Murphy</PlayerName>
+        <Team>OAK</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Groin</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="PHI">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jaiquawn Jarrett</PlayerName>
+        <Team>PHI</Team>
+        <Position>S</Position>
+        <InjuryDesc>Quadricep</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Trevor Laws</PlayerName>
+        <Team>PHI</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Hip</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Juqua Parker</PlayerName>
+        <Team>PHI</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Calf</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>113</playerId>
+        <PlayerName>Vince Young</PlayerName>
+        <Team>PHI</Team>
+        <Position>QB</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Not Likely</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Asante Samuel</PlayerName>
+        <Team>PHI</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Shoulder</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Antonio Dixon</PlayerName>
+        <Team>PHI</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Back</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1190</playerId>
+        <PlayerName>Clay Harbor</PlayerName>
+        <Team>PHI</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Shoulder</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Todd Herremans</PlayerName>
+        <Team>PHI</Team>
+        <Position>T</Position>
+        <InjuryDesc>Back</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Winston Justice</PlayerName>
+        <Team>PHI</Team>
+        <Position>T</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Nate Allen</PlayerName>
+        <Team>PHI</Team>
+        <Position>S</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Danny Watkins</PlayerName>
+        <Team>PHI</Team>
+        <Position>G</Position>
+        <InjuryDesc>Foot</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>540</playerId>
+        <PlayerName>Steve Smith</PlayerName>
+        <Team>PHI</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="PIT">
+        <Injury>
+        <Week>1</Week>
+        <playerId>373</playerId>
+        <PlayerName>Jerricho Cotchery</PlayerName>
+        <Team>PIT</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Not Likely</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Marcus Gilbert</PlayerName>
+        <Team>PIT</Team>
+        <Position>T</Position>
+        <InjuryDesc>Concussion</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Chris Carter</PlayerName>
+        <Team>PIT</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="SD">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jonas Mouton</PlayerName>
+        <Team>SD</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Shoulder</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>374</playerId>
+        <PlayerName>Patrick Crayton</PlayerName>
+        <Team>SD</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1435</playerId>
+        <PlayerName>Vincent Brown</PlayerName>
+        <Team>SD</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Andrew Gachkar</PlayerName>
+        <Team>SD</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Back</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="SEA">
+        <Injury>
+        <Week>1</Week>
+        <playerId>519</playerId>
+        <PlayerName>Sidney Rice</PlayerName>
+        <Team>SEA</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Shoulder</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Not Likely</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Robert Gallery</PlayerName>
+        <Team>SEA</Team>
+        <Position>G</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Not Likely</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>David Hawthorne</PlayerName>
+        <Team>SEA</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Chris Clemons</PlayerName>
+        <Team>SEA</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jarriel King</PlayerName>
+        <Team>SEA</Team>
+        <Position>T</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="SF">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Dashon Goldson</PlayerName>
+        <Team>SF</Team>
+        <Position>S</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Not Likely</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="STL">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>James Hall</PlayerName>
+        <Team>STL</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Back</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1192</playerId>
+        <PlayerName>Michael Hoomanawanui</PlayerName>
+        <Team>STL</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Calf</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Eugene Sims</PlayerName>
+        <Team>STL</Team>
+        <Position>DE</Position>
+        <InjuryDesc>oblique</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="TB">
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Myron Lewis</PlayerName>
+        <Team>TB</Team>
+        <Position>CB</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Ted Larsen</PlayerName>
+        <Team>TB</Team>
+        <Position>C</Position>
+        <InjuryDesc>Ankle</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Dekoda Watson</PlayerName>
+        <Team>TB</Team>
+        <Position>LB</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>732</playerId>
+        <PlayerName>Kellen Winslow</PlayerName>
+        <Team>TB</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Not Injury Related</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc> </GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="TEN">
+        <Injury>
+        <Week>1</Week>
+        <playerId>420</playerId>
+        <PlayerName>Lavelle Hawkins</PlayerName>
+        <Team>TEN</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Foot</InjuryDesc>
+        <PracticeStatusDesc>Full Practice</PracticeStatusDesc>
+        <GameStatusDesc>Good chance to play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Jason Jones</PlayerName>
+        <Team>TEN</Team>
+        <Position>DT</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>815</playerId>
+        <PlayerName>Javon Ringer</PlayerName>
+        <Team>TEN</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Back</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Derrick Morgan</PlayerName>
+        <Team>TEN</Team>
+        <Position>DE</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Not Likely</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        <Team Code="WAS">
+        <Injury>
+        <Week>1</Week>
+        <playerId>544</playerId>
+        <PlayerName>Donte Stallworth</PlayerName>
+        <Team>WAS</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Shoulder</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>1340</playerId>
+        <PlayerName>Brandon Banks</PlayerName>
+        <Team>WAS</Team>
+        <Position>WR</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>LaRon Landry</PlayerName>
+        <Team>WAS</Team>
+        <Position>S</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Did not practice</PracticeStatusDesc>
+        <GameStatusDesc>Will not play</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>0</playerId>
+        <PlayerName>Oshiomogho Atogwe</PlayerName>
+        <Team>WAS</Team>
+        <Position>S</Position>
+        <InjuryDesc>Hamstring</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>296</playerId>
+        <PlayerName>Ryan Torain</PlayerName>
+        <Team>WAS</Team>
+        <Position>RB</Position>
+        <InjuryDesc>Hand</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        <Injury>
+        <Week>1</Week>
+        <playerId>618</playerId>
+        <PlayerName>Chris Cooley</PlayerName>
+        <Team>WAS</Team>
+        <Position>TE</Position>
+        <InjuryDesc>Knee</InjuryDesc>
+        <PracticeStatusDesc>Limited in practice</PracticeStatusDesc>
+        <GameStatusDesc>Questionable</GameStatusDesc>
+        <LastUpdate>2011-09-12</LastUpdate>
+        </Injury>
+        </Team>
+        </Injuries>
+        </FantasyFootballNerd>'
+    http_version: '1.1'
+  recorded_at: Thu, 16 Aug 2012 04:16:38 GMT
+recorded_with: VCR 2.2.4
