@@ -28,11 +28,11 @@ Seriously, FFN is not a big operation. Don't abuse their servers.
 
 Setup
 =================
-In plain ol' ruby, install the gem:
+In Ruby, install the gem:
 
         gem install fantasy-football-nerd
 
-And then require it:
+And require it:
 
 ````ruby
 require 'rubygems'
@@ -64,13 +64,11 @@ Currently, this gem provides access to four feeds:
 Player List
 --------------------------
 
-````ruby
-FFNerd.player_list
-````
-
-Returns an array of players with attributes:
+Returns an array of players:
 
 ````ruby
+players = FFNerd.player_list
+player = players.first
 player.player_id
 player.name
 player.position
@@ -80,23 +78,14 @@ player.team
 Player Detail
 ------------------------------
 
+Returns a single player with a nested array of articles:
 ````ruby
-player = FFNerd.player_detail(id)
-````
-
-Returns a single player with attributes:
-````ruby
+player = FFNerd.player_detail(player_id)
 player.id
 player.first_name
 player.last_name
 player.team
 player.position
-player.articles
-````
-
-<tt>player.articles</tt> is an array of articles:
-
-````ruby
 article = player.articles.first
 article.title
 article.source
@@ -106,12 +95,10 @@ article.published
 Projections
 ---------------
 
+Returns an array of players, each with a nested projection:
+
 ````ruby
 projections = FFNerd.projections(week)
-````
-
-Returns an array of players with attributes:
-````ruby
 player = projections.first
 player.id
 player.name
@@ -131,13 +118,10 @@ player.projection.ppr_high
 Injuries
 ---------------------
 
+Returns an array of players, each with a nested injury:
+
 ````ruby
 injuries = FFNerd.injuries(week)
-````
-
-Returns an array of players with attributes:
-
-````ruby
 player = injuries.first
 player.id
 player.name
@@ -152,7 +136,6 @@ player.injury.last_update
 
 Still To Come
 ------------------
-I'll be adding this in the near future:
 
 * Better error reporting
 * Schedule
@@ -167,5 +150,7 @@ Contributors
 This gem was created by:
 
 Greg Baugues ([greg@baugues.com](mailto:greg@baugues.com))
+
+[www.baugues.com](http://www.baugues.com)
 
 
