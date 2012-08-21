@@ -28,21 +28,21 @@ Seriously, FFN is not a big operation. Don't abuse their servers.
 
 Setup
 =================
-Install the gem:
+In plain ol' ruby, install the gem:
 
         gem install fantasy-football-nerd
 
-In plain ol' ruby, require it:
+And then require it:
 
 ````ruby
 require 'rubygems'
-require 'fantasy-football-nerd'
+require 'fantasy_football_nerd'
 ````
 
-In rails, add the gem to your gemfile:
+In Rails, add the gem to your gemfile and run <tt>bundle install</tt>
 
 ````ruby
-gem 'fantasy-football-nerd'
+gem 'fantasy_football_nerd'
 ````
 
 Set your FFN APIKey before making any calls:
