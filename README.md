@@ -28,6 +28,8 @@ Seriously, FFN is not a big operation. Don't abuse their servers.
 
 Setup
 =================
+[Sign up](http://www.fantasyfootballnerd.com/create-account) up for a Fantasy Football Nerd account.
+
 In Ruby, install the gem:
 
         gem install fantasy-football-nerd
@@ -45,7 +47,7 @@ In Rails, add the gem to your gemfile and run <tt>bundle install</tt>
 gem 'fantasy_football_nerd'
 ````
 
-Set your FFN APIKey before making any calls:
+Set your api_key before before making any call. You can find it on the [FFN api page](http://www.fantasyfootballnerd.com/api).
 
 ````ruby
 FFNerd.api_key = 123456789
