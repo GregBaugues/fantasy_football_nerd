@@ -6,6 +6,14 @@ class FFNerd
 
   BASE_URL = "http://api.fantasyfootballnerd.com"
 
+  FEEDS = {
+    schedule:    'ffnScheduleXML.php',
+    projections: 'ffnSitStartXML.php',
+    injuries:    'ffnInjuriesXML.php',
+    all_players: 'ffnPlayersXML.php',
+    player:      'ffnPlayerDetailsXML.php'
+  }
+
   #############################################################################
   # URL Generators
   # These methods generate the URLs that will be used for the API calls
@@ -22,22 +30,14 @@ class FFNerd
   end
 
   def self.feed_url(feed, params = {} )
-    raise "api_key not set" if @@api_key.nil?
-    middle =
-      case feed
-      when :schedule        then 'ffnScheduleXML.php'
-      when :projections     then 'ffnSitStartXML.php'
-      when :injuries        then 'ffnInjuriesXML.php'
-      when :all_players     then 'ffnPlayersXML.php'
-      when :player          then 'ffnPlayerDetailsXML.php'
-      end
-    url = "#{BASE_URL}/#{middle}?apiKey=#{@@api_key}"
+    raise 'api_key not set' if @@api_key.nil?
+    url = "#{BASE_URL}/#{FEEDS[feed]}?apiKey=#{@@api_key}"
     params.each { |key, value| url += "&#{key}=#{value}" }
     url
   end
 
   def self.player_url(player_id)
-    feed_url(:player, 'playerId' => 13)
+    feed_url(:player, 'playerId' => player_id)
   end
 
   def self.projections_url(position, week)
