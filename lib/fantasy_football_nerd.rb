@@ -282,10 +282,22 @@ class FFNerd
       rankings << ranking
     end
     rankings
+
   end
 
   def self.standard_rankings(position = :all, limit = 20, strength_of_sched = true)
-
+    rankings = []
+    url = rankings_url(position, limit, true, strength_of_sched)
+    doc = get_resource(url)
+    doc.css('player').each  do |data|
+      ranking = Hashie::Mash.new
+      ranking.player_id = data.attr('playerid').to_i
+      ranking.player_name = data.attr('name')
+      ranking.player_team = data.attr('team')
+      ranking.player_position = data.attr('position')
+      rankings << ranking
+    end
+    rankings
   end
 
 

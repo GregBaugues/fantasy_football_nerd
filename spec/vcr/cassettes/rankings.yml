@@ -1,0 +1,2715 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.fantasyfootballnerd.com/ffnRankingsXML.php?apiKey=APIKEY&position=ALL&sos=1&limit=20
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Fri, 07 Dec 2012 18:52:50 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.1.6
+      ms-author-via:
+      - DAV
+      connection:
+      - close
+      transfer-encoding:
+      - chunked
+      content-type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <FantasyFootballNerd>
+
+        <SearchParams>
+
+        <Position>ALL</Position>
+
+        <Limit>15</Limit>
+
+        <PPR>0</PPR>
+
+        <ApiKey>APIKEY</ApiKey>
+
+        </SearchParams>
+
+        <PoweredBy Description="Please add a link to FantasyFootballNerd.com">
+
+        <Logo>http://www.fantasyfootballnerd.com/images/logo.gif</Logo>
+
+        <URL>http://www.fantasyfootballnerd.com/?src=APIKEY</URL>
+
+        </PoweredBy>
+
+        <Results>
+
+        <Player playerId="917" Name="Arian Foster" Position="RB" Team="HOU" OverallRank="1"
+        PositionRank="1" ByeWeek="8">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="MIA" DefensiveRank="23" />
+
+        <Week Number="2" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="3" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="4" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="5" Opponent="NYJ" DefensiveRank="11" />
+
+        <Week Number="6" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="7" Opponent="BAL" DefensiveRank="3" />
+
+        <Week Number="9" Opponent="BUF" DefensiveRank="8" />
+
+        <Week Number="10" Opponent="CHI" DefensiveRank="6" />
+
+        <Week Number="11" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="12" Opponent="DET" DefensiveRank="7" />
+
+        <Week Number="13" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="14" Opponent="NE" DefensiveRank="12" />
+
+        <Week Number="15" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="16" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="17" Opponent="IND" DefensiveRank="31" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="269" Name="Ray Rice" Position="RB" Team="BAL" OverallRank="2"
+        PositionRank="2" ByeWeek="8">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="CIN" DefensiveRank="18" />
+
+        <Week Number="2" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="3" Opponent="NE" DefensiveRank="12" />
+
+        <Week Number="4" Opponent="CLE" DefensiveRank="29" />
+
+        <Week Number="5" Opponent="KC" DefensiveRank="24" />
+
+        <Week Number="6" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="7" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="9" Opponent="CLE" DefensiveRank="29" />
+
+        <Week Number="10" Opponent="OAK" DefensiveRank="25" />
+
+        <Week Number="11" Opponent="PIT" DefensiveRank="9" />
+
+        <Week Number="12" Opponent="SD" DefensiveRank="22" />
+
+        <Week Number="13" Opponent="PIT" DefensiveRank="9" />
+
+        <Week Number="14" Opponent="WAS" DefensiveRank="27" />
+
+        <Week Number="15" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="16" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="17" Opponent="CIN" DefensiveRank="18" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="810" Name="LeSean McCoy" Position="RB" Team="PHI" OverallRank="3"
+        PositionRank="3" ByeWeek="7">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="CLE" DefensiveRank="29" />
+
+        <Week Number="2" Opponent="BAL" DefensiveRank="3" />
+
+        <Week Number="3" Opponent="ARI" DefensiveRank="21" />
+
+        <Week Number="4" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="5" Opponent="PIT" DefensiveRank="9" />
+
+        <Week Number="6" Opponent="DET" DefensiveRank="7" />
+
+        <Week Number="8" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="9" Opponent="NO" DefensiveRank="32" />
+
+        <Week Number="10" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="11" Opponent="WAS" DefensiveRank="27" />
+
+        <Week Number="12" Opponent="CAR" DefensiveRank="28" />
+
+        <Week Number="13" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="14" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="15" Opponent="CIN" DefensiveRank="18" />
+
+        <Week Number="16" Opponent="WAS" DefensiveRank="27" />
+
+        <Week Number="17" Opponent="NYG" DefensiveRank="10" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="87" Name="Aaron Rodgers" Position="QB" Team="GB" OverallRank="4"
+        PositionRank="1" ByeWeek="10">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="2" Opponent="CHI" DefensiveRank="6" />
+
+        <Week Number="3" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="4" Opponent="NO" DefensiveRank="32" />
+
+        <Week Number="5" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="6" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="7" Opponent="STL" DefensiveRank="17" />
+
+        <Week Number="8" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="9" Opponent="ARI" DefensiveRank="21" />
+
+        <Week Number="11" Opponent="DET" DefensiveRank="7" />
+
+        <Week Number="12" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="13" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="14" Opponent="DET" DefensiveRank="7" />
+
+        <Week Number="15" Opponent="CHI" DefensiveRank="6" />
+
+        <Week Number="16" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="17" Opponent="MIN" DefensiveRank="26" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="454" Name="Calvin Johnson" Position="WR" Team="DET" OverallRank="5"
+        PositionRank="1" ByeWeek="5">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="STL" DefensiveRank="17" />
+
+        <Week Number="2" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="3" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="4" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="6" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="7" Opponent="CHI" DefensiveRank="6" />
+
+        <Week Number="8" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="9" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="10" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="11" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="12" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="13" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="14" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="15" Opponent="ARI" DefensiveRank="21" />
+
+        <Week Number="16" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="17" Opponent="CHI" DefensiveRank="6" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="13" Name="Tom Brady" Position="QB" Team="NE" OverallRank="6"
+        PositionRank="2" ByeWeek="9">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="2" Opponent="ARI" DefensiveRank="21" />
+
+        <Week Number="3" Opponent="BAL" DefensiveRank="3" />
+
+        <Week Number="4" Opponent="BUF" DefensiveRank="8" />
+
+        <Week Number="5" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="6" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="7" Opponent="NYJ" DefensiveRank="11" />
+
+        <Week Number="8" Opponent="STL" DefensiveRank="17" />
+
+        <Week Number="10" Opponent="BUF" DefensiveRank="8" />
+
+        <Week Number="11" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="12" Opponent="NYJ" DefensiveRank="11" />
+
+        <Week Number="13" Opponent="MIA" DefensiveRank="23" />
+
+        <Week Number="14" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="15" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="16" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="17" Opponent="MIA" DefensiveRank="23" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="208" Name="Chris Johnson" Position="RB" Team="TEN" OverallRank="7"
+        PositionRank="4" ByeWeek="11">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="NE" DefensiveRank="12" />
+
+        <Week Number="2" Opponent="SD" DefensiveRank="22" />
+
+        <Week Number="3" Opponent="DET" DefensiveRank="7" />
+
+        <Week Number="4" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="5" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="6" Opponent="PIT" DefensiveRank="9" />
+
+        <Week Number="7" Opponent="BUF" DefensiveRank="8" />
+
+        <Week Number="8" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="9" Opponent="CHI" DefensiveRank="6" />
+
+        <Week Number="10" Opponent="MIA" DefensiveRank="23" />
+
+        <Week Number="12" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="13" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="14" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="15" Opponent="NYJ" DefensiveRank="11" />
+
+        <Week Number="16" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="17" Opponent="JAC" DefensiveRank="30" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="14" Name="Drew Brees" Position="QB" Team="NO" OverallRank="8"
+        PositionRank="3" ByeWeek="6">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="WAS" DefensiveRank="27" />
+
+        <Week Number="2" Opponent="CAR" DefensiveRank="28" />
+
+        <Week Number="3" Opponent="KC" DefensiveRank="24" />
+
+        <Week Number="4" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="5" Opponent="SD" DefensiveRank="22" />
+
+        <Week Number="7" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="8" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="9" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="10" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="11" Opponent="OAK" DefensiveRank="25" />
+
+        <Week Number="12" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="13" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="14" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="15" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="16" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="17" Opponent="CAR" DefensiveRank="28" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="235" Name="Darren McFadden" Position="RB" Team="OAK" OverallRank="9"
+        PositionRank="5" ByeWeek="5">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="SD" DefensiveRank="22" />
+
+        <Week Number="2" Opponent="MIA" DefensiveRank="23" />
+
+        <Week Number="3" Opponent="PIT" DefensiveRank="9" />
+
+        <Week Number="4" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="6" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="7" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="8" Opponent="KC" DefensiveRank="24" />
+
+        <Week Number="9" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="10" Opponent="BAL" DefensiveRank="3" />
+
+        <Week Number="11" Opponent="NO" DefensiveRank="32" />
+
+        <Week Number="12" Opponent="CIN" DefensiveRank="18" />
+
+        <Week Number="13" Opponent="CLE" DefensiveRank="29" />
+
+        <Week Number="14" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="15" Opponent="KC" DefensiveRank="24" />
+
+        <Week Number="16" Opponent="CAR" DefensiveRank="28" />
+
+        <Week Number="17" Opponent="SD" DefensiveRank="22" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="1187" Name="Jimmy Graham" Position="TE" Team="NO" OverallRank="10"
+        PositionRank="1" ByeWeek="6">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="WAS" DefensiveRank="27" />
+
+        <Week Number="2" Opponent="CAR" DefensiveRank="28" />
+
+        <Week Number="3" Opponent="KC" DefensiveRank="24" />
+
+        <Week Number="4" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="5" Opponent="SD" DefensiveRank="22" />
+
+        <Week Number="7" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="8" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="9" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="10" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="11" Opponent="OAK" DefensiveRank="25" />
+
+        <Week Number="12" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="13" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="14" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="15" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="16" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="17" Opponent="CAR" DefensiveRank="28" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="1398" Name="Cam Newton" Position="QB" Team="CAR" OverallRank="11"
+        PositionRank="4" ByeWeek="6">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="2" Opponent="NO" DefensiveRank="32" />
+
+        <Week Number="3" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="4" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="5" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="7" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="8" Opponent="CHI" DefensiveRank="6" />
+
+        <Week Number="9" Opponent="WAS" DefensiveRank="27" />
+
+        <Week Number="10" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="11" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="12" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="13" Opponent="KC" DefensiveRank="24" />
+
+        <Week Number="14" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="15" Opponent="SD" DefensiveRank="22" />
+
+        <Week Number="16" Opponent="OAK" DefensiveRank="25" />
+
+        <Week Number="17" Opponent="NO" DefensiveRank="32" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="1189" Name="Rob Gronkowski" Position="TE" Team="NE" OverallRank="12"
+        PositionRank="2" ByeWeek="9">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="2" Opponent="ARI" DefensiveRank="21" />
+
+        <Week Number="3" Opponent="BAL" DefensiveRank="3" />
+
+        <Week Number="4" Opponent="BUF" DefensiveRank="8" />
+
+        <Week Number="5" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="6" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="7" Opponent="NYJ" DefensiveRank="11" />
+
+        <Week Number="8" Opponent="STL" DefensiveRank="17" />
+
+        <Week Number="10" Opponent="BUF" DefensiveRank="8" />
+
+        <Week Number="11" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="12" Opponent="NYJ" DefensiveRank="11" />
+
+        <Week Number="13" Opponent="MIA" DefensiveRank="23" />
+
+        <Week Number="14" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="15" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="16" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="17" Opponent="MIA" DefensiveRank="23" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="394" Name="Larry Fitzgerald" Position="WR" Team="ARI" OverallRank="13"
+        PositionRank="2" ByeWeek="10">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="2" Opponent="NE" DefensiveRank="12" />
+
+        <Week Number="3" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="4" Opponent="MIA" DefensiveRank="23" />
+
+        <Week Number="5" Opponent="STL" DefensiveRank="17" />
+
+        <Week Number="6" Opponent="BUF" DefensiveRank="8" />
+
+        <Week Number="7" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="8" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="9" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="11" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="12" Opponent="STL" DefensiveRank="17" />
+
+        <Week Number="13" Opponent="NYJ" DefensiveRank="11" />
+
+        <Week Number="14" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="15" Opponent="DET" DefensiveRank="7" />
+
+        <Week Number="16" Opponent="CHI" DefensiveRank="6" />
+
+        <Week Number="17" Opponent="SF" DefensiveRank="1" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="175" Name="Matt Forte" Position="RB" Team="CHI" OverallRank="14"
+        PositionRank="6" ByeWeek="6">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="2" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="3" Opponent="STL" DefensiveRank="17" />
+
+        <Week Number="4" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="5" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="7" Opponent="DET" DefensiveRank="7" />
+
+        <Week Number="8" Opponent="CAR" DefensiveRank="28" />
+
+        <Week Number="9" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="10" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="11" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="12" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="13" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="14" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="15" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="16" Opponent="ARI" DefensiveRank="21" />
+
+        <Week Number="17" Opponent="DET" DefensiveRank="7" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="1421" Name="DeMarco Murray" Position="RB" Team="DAL" OverallRank="15"
+        PositionRank="7" ByeWeek="5">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="2" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="3" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="4" Opponent="CHI" DefensiveRank="6" />
+
+        <Week Number="6" Opponent="BAL" DefensiveRank="3" />
+
+        <Week Number="7" Opponent="CAR" DefensiveRank="28" />
+
+        <Week Number="8" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="9" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="10" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="11" Opponent="CLE" DefensiveRank="29" />
+
+        <Week Number="12" Opponent="WAS" DefensiveRank="27" />
+
+        <Week Number="13" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="14" Opponent="CIN" DefensiveRank="18" />
+
+        <Week Number="15" Opponent="PIT" DefensiveRank="9" />
+
+        <Week Number="16" Opponent="NO" DefensiveRank="32" />
+
+        <Week Number="17" Opponent="WAS" DefensiveRank="27" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        </Results>
+
+        </FantasyFootballNerd>'
+    http_version: '1.1'
+  recorded_at: Fri, 07 Dec 2012 18:52:50 GMT
+- request:
+    method: get
+    uri: http://api.fantasyfootballnerd.com/ffnRankingsXML.php?apiKey=APIKEY&position=QB&sos=1&limit=20
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Fri, 07 Dec 2012 18:52:50 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.1.6
+      ms-author-via:
+      - DAV
+      connection:
+      - close
+      transfer-encoding:
+      - chunked
+      content-type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <FantasyFootballNerd>
+
+        <SearchParams>
+
+        <Position>QB</Position>
+
+        <Limit>15</Limit>
+
+        <PPR>0</PPR>
+
+        <ApiKey>APIKEY</ApiKey>
+
+        </SearchParams>
+
+        <PoweredBy Description="Please add a link to FantasyFootballNerd.com">
+
+        <Logo>http://www.fantasyfootballnerd.com/images/logo.gif</Logo>
+
+        <URL>http://www.fantasyfootballnerd.com/?src=APIKEY</URL>
+
+        </PoweredBy>
+
+        <Results>
+
+        <Player playerId="87" Name="Aaron Rodgers" Position="QB" Team="GB" OverallRank="4"
+        PositionRank="1" ByeWeek="10">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="2" Opponent="CHI" DefensiveRank="6" />
+
+        <Week Number="3" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="4" Opponent="NO" DefensiveRank="32" />
+
+        <Week Number="5" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="6" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="7" Opponent="STL" DefensiveRank="17" />
+
+        <Week Number="8" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="9" Opponent="ARI" DefensiveRank="21" />
+
+        <Week Number="11" Opponent="DET" DefensiveRank="7" />
+
+        <Week Number="12" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="13" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="14" Opponent="DET" DefensiveRank="7" />
+
+        <Week Number="15" Opponent="CHI" DefensiveRank="6" />
+
+        <Week Number="16" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="17" Opponent="MIN" DefensiveRank="26" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="13" Name="Tom Brady" Position="QB" Team="NE" OverallRank="6"
+        PositionRank="2" ByeWeek="9">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="2" Opponent="ARI" DefensiveRank="21" />
+
+        <Week Number="3" Opponent="BAL" DefensiveRank="3" />
+
+        <Week Number="4" Opponent="BUF" DefensiveRank="8" />
+
+        <Week Number="5" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="6" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="7" Opponent="NYJ" DefensiveRank="11" />
+
+        <Week Number="8" Opponent="STL" DefensiveRank="17" />
+
+        <Week Number="10" Opponent="BUF" DefensiveRank="8" />
+
+        <Week Number="11" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="12" Opponent="NYJ" DefensiveRank="11" />
+
+        <Week Number="13" Opponent="MIA" DefensiveRank="23" />
+
+        <Week Number="14" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="15" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="16" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="17" Opponent="MIA" DefensiveRank="23" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="14" Name="Drew Brees" Position="QB" Team="NO" OverallRank="8"
+        PositionRank="3" ByeWeek="6">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="WAS" DefensiveRank="27" />
+
+        <Week Number="2" Opponent="CAR" DefensiveRank="28" />
+
+        <Week Number="3" Opponent="KC" DefensiveRank="24" />
+
+        <Week Number="4" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="5" Opponent="SD" DefensiveRank="22" />
+
+        <Week Number="7" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="8" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="9" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="10" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="11" Opponent="OAK" DefensiveRank="25" />
+
+        <Week Number="12" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="13" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="14" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="15" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="16" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="17" Opponent="CAR" DefensiveRank="28" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="1398" Name="Cam Newton" Position="QB" Team="CAR" OverallRank="11"
+        PositionRank="4" ByeWeek="6">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="2" Opponent="NO" DefensiveRank="32" />
+
+        <Week Number="3" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="4" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="5" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="7" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="8" Opponent="CHI" DefensiveRank="6" />
+
+        <Week Number="9" Opponent="WAS" DefensiveRank="27" />
+
+        <Week Number="10" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="11" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="12" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="13" Opponent="KC" DefensiveRank="24" />
+
+        <Week Number="14" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="15" Opponent="SD" DefensiveRank="22" />
+
+        <Week Number="16" Opponent="OAK" DefensiveRank="25" />
+
+        <Week Number="17" Opponent="NO" DefensiveRank="32" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="793" Name="Matthew Stafford" Position="QB" Team="DET" OverallRank="16"
+        PositionRank="5" ByeWeek="5">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="STL" DefensiveRank="17" />
+
+        <Week Number="2" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="3" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="4" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="6" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="7" Opponent="CHI" DefensiveRank="6" />
+
+        <Week Number="8" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="9" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="10" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="11" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="12" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="13" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="14" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="15" Opponent="ARI" DefensiveRank="21" />
+
+        <Week Number="16" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="17" Opponent="CHI" DefensiveRank="6" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="105" Name="Michael Vick" Position="QB" Team="PHI" OverallRank="44"
+        PositionRank="6" ByeWeek="7">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="CLE" DefensiveRank="29" />
+
+        <Week Number="2" Opponent="BAL" DefensiveRank="3" />
+
+        <Week Number="3" Opponent="ARI" DefensiveRank="21" />
+
+        <Week Number="4" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="5" Opponent="PIT" DefensiveRank="9" />
+
+        <Week Number="6" Opponent="DET" DefensiveRank="7" />
+
+        <Week Number="8" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="9" Opponent="NO" DefensiveRank="32" />
+
+        <Week Number="10" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="11" Opponent="WAS" DefensiveRank="27" />
+
+        <Week Number="12" Opponent="CAR" DefensiveRank="28" />
+
+        <Week Number="13" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="14" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="15" Opponent="CIN" DefensiveRank="18" />
+
+        <Week Number="16" Opponent="WAS" DefensiveRank="27" />
+
+        <Week Number="17" Opponent="NYG" DefensiveRank="10" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="65" Name="Eli Manning" Position="QB" Team="NYG" OverallRank="46"
+        PositionRank="7" ByeWeek="11">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="2" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="3" Opponent="CAR" DefensiveRank="28" />
+
+        <Week Number="4" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="5" Opponent="CLE" DefensiveRank="29" />
+
+        <Week Number="6" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="7" Opponent="WAS" DefensiveRank="27" />
+
+        <Week Number="8" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="9" Opponent="PIT" DefensiveRank="9" />
+
+        <Week Number="10" Opponent="CIN" DefensiveRank="18" />
+
+        <Week Number="12" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="13" Opponent="WAS" DefensiveRank="27" />
+
+        <Week Number="14" Opponent="NO" DefensiveRank="32" />
+
+        <Week Number="15" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="16" Opponent="BAL" DefensiveRank="3" />
+
+        <Week Number="17" Opponent="PHI" DefensiveRank="4" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="93" Name="Matt Ryan" Position="QB" Team="ATL" OverallRank="47"
+        PositionRank="8" ByeWeek="7">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="KC" DefensiveRank="24" />
+
+        <Week Number="2" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="3" Opponent="SD" DefensiveRank="22" />
+
+        <Week Number="4" Opponent="CAR" DefensiveRank="28" />
+
+        <Week Number="5" Opponent="WAS" DefensiveRank="27" />
+
+        <Week Number="6" Opponent="OAK" DefensiveRank="25" />
+
+        <Week Number="8" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="9" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="10" Opponent="NO" DefensiveRank="32" />
+
+        <Week Number="11" Opponent="ARI" DefensiveRank="21" />
+
+        <Week Number="12" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="13" Opponent="NO" DefensiveRank="32" />
+
+        <Week Number="14" Opponent="CAR" DefensiveRank="28" />
+
+        <Week Number="15" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="16" Opponent="DET" DefensiveRank="7" />
+
+        <Week Number="17" Opponent="TB" DefensiveRank="20" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="89" Name="Tony Romo" Position="QB" Team="DAL" OverallRank="53"
+        PositionRank="9" ByeWeek="5">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="2" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="3" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="4" Opponent="CHI" DefensiveRank="6" />
+
+        <Week Number="6" Opponent="BAL" DefensiveRank="3" />
+
+        <Week Number="7" Opponent="CAR" DefensiveRank="28" />
+
+        <Week Number="8" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="9" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="10" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="11" Opponent="CLE" DefensiveRank="29" />
+
+        <Week Number="12" Opponent="WAS" DefensiveRank="27" />
+
+        <Week Number="13" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="14" Opponent="CIN" DefensiveRank="18" />
+
+        <Week Number="15" Opponent="PIT" DefensiveRank="9" />
+
+        <Week Number="16" Opponent="NO" DefensiveRank="32" />
+
+        <Week Number="17" Opponent="WAS" DefensiveRank="27" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="86" Name="Philip Rivers" Position="QB" Team="SD" OverallRank="63"
+        PositionRank="10" ByeWeek="7">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="OAK" DefensiveRank="25" />
+
+        <Week Number="2" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="3" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="4" Opponent="KC" DefensiveRank="24" />
+
+        <Week Number="5" Opponent="NO" DefensiveRank="32" />
+
+        <Week Number="6" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="8" Opponent="CLE" DefensiveRank="29" />
+
+        <Week Number="9" Opponent="KC" DefensiveRank="24" />
+
+        <Week Number="10" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="11" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="12" Opponent="BAL" DefensiveRank="3" />
+
+        <Week Number="13" Opponent="CIN" DefensiveRank="18" />
+
+        <Week Number="14" Opponent="PIT" DefensiveRank="9" />
+
+        <Week Number="15" Opponent="CAR" DefensiveRank="28" />
+
+        <Week Number="16" Opponent="NYJ" DefensiveRank="11" />
+
+        <Week Number="17" Opponent="OAK" DefensiveRank="25" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="66" Name="Peyton Manning" Position="QB" Team="DEN" OverallRank="67"
+        PositionRank="11" ByeWeek="7">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="PIT" DefensiveRank="9" />
+
+        <Week Number="2" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="3" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="4" Opponent="OAK" DefensiveRank="25" />
+
+        <Week Number="5" Opponent="NE" DefensiveRank="12" />
+
+        <Week Number="6" Opponent="SD" DefensiveRank="22" />
+
+        <Week Number="8" Opponent="NO" DefensiveRank="32" />
+
+        <Week Number="9" Opponent="CIN" DefensiveRank="18" />
+
+        <Week Number="10" Opponent="CAR" DefensiveRank="28" />
+
+        <Week Number="11" Opponent="SD" DefensiveRank="22" />
+
+        <Week Number="12" Opponent="KC" DefensiveRank="24" />
+
+        <Week Number="13" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="14" Opponent="OAK" DefensiveRank="25" />
+
+        <Week Number="15" Opponent="BAL" DefensiveRank="3" />
+
+        <Week Number="16" Opponent="CLE" DefensiveRank="29" />
+
+        <Week Number="17" Opponent="KC" DefensiveRank="24" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="88" Name="Ben Roethlisberger" Position="QB" Team="PIT" OverallRank="80"
+        PositionRank="12" ByeWeek="4">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="2" Opponent="NYJ" DefensiveRank="11" />
+
+        <Week Number="3" Opponent="OAK" DefensiveRank="25" />
+
+        <Week Number="5" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="6" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="7" Opponent="CIN" DefensiveRank="18" />
+
+        <Week Number="8" Opponent="WAS" DefensiveRank="27" />
+
+        <Week Number="9" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="10" Opponent="KC" DefensiveRank="24" />
+
+        <Week Number="11" Opponent="BAL" DefensiveRank="3" />
+
+        <Week Number="12" Opponent="CLE" DefensiveRank="29" />
+
+        <Week Number="13" Opponent="BAL" DefensiveRank="3" />
+
+        <Week Number="14" Opponent="SD" DefensiveRank="22" />
+
+        <Week Number="15" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="16" Opponent="CIN" DefensiveRank="18" />
+
+        <Week Number="17" Opponent="CLE" DefensiveRank="29" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="28" Name="Jay Cutler" Position="QB" Team="CHI" OverallRank="84"
+        PositionRank="13" ByeWeek="6">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="2" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="3" Opponent="STL" DefensiveRank="17" />
+
+        <Week Number="4" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="5" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="7" Opponent="DET" DefensiveRank="7" />
+
+        <Week Number="8" Opponent="CAR" DefensiveRank="28" />
+
+        <Week Number="9" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="10" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="11" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="12" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="13" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="14" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="15" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="16" Opponent="ARI" DefensiveRank="21" />
+
+        <Week Number="17" Opponent="DET" DefensiveRank="7" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="1806" Name="Robert Griffin III" Position="QB" Team="WAS"
+        OverallRank="89" PositionRank="14" ByeWeek="10">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="NO" DefensiveRank="32" />
+
+        <Week Number="2" Opponent="STL" DefensiveRank="17" />
+
+        <Week Number="3" Opponent="CIN" DefensiveRank="18" />
+
+        <Week Number="4" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="5" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="6" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="7" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="8" Opponent="PIT" DefensiveRank="9" />
+
+        <Week Number="9" Opponent="CAR" DefensiveRank="28" />
+
+        <Week Number="11" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="12" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="13" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="14" Opponent="BAL" DefensiveRank="3" />
+
+        <Week Number="15" Opponent="CLE" DefensiveRank="29" />
+
+        <Week Number="16" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="17" Opponent="DAL" DefensiveRank="15" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="94" Name="Matt Schaub" Position="QB" Team="HOU" OverallRank="92"
+        PositionRank="15" ByeWeek="8">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="MIA" DefensiveRank="23" />
+
+        <Week Number="2" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="3" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="4" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="5" Opponent="NYJ" DefensiveRank="11" />
+
+        <Week Number="6" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="7" Opponent="BAL" DefensiveRank="3" />
+
+        <Week Number="9" Opponent="BUF" DefensiveRank="8" />
+
+        <Week Number="10" Opponent="CHI" DefensiveRank="6" />
+
+        <Week Number="11" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="12" Opponent="DET" DefensiveRank="7" />
+
+        <Week Number="13" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="14" Opponent="NE" DefensiveRank="12" />
+
+        <Week Number="15" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="16" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="17" Opponent="IND" DefensiveRank="31" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        </Results>
+
+        </FantasyFootballNerd>'
+    http_version: '1.1'
+  recorded_at: Fri, 07 Dec 2012 18:52:50 GMT
+- request:
+    method: get
+    uri: http://api.fantasyfootballnerd.com/ffnRankingsXML.php?apiKey=APIKEY&position=ALL&sos=1&limit=10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Fri, 07 Dec 2012 18:56:46 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.1.6
+      ms-author-via:
+      - DAV
+      connection:
+      - close
+      transfer-encoding:
+      - chunked
+      content-type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <FantasyFootballNerd>
+
+        <SearchParams>
+
+        <Position>ALL</Position>
+
+        <Limit>15</Limit>
+
+        <PPR>0</PPR>
+
+        <ApiKey>APIKEY</ApiKey>
+
+        </SearchParams>
+
+        <PoweredBy Description="Please add a link to FantasyFootballNerd.com">
+
+        <Logo>http://www.fantasyfootballnerd.com/images/logo.gif</Logo>
+
+        <URL>http://www.fantasyfootballnerd.com/?src=APIKEY</URL>
+
+        </PoweredBy>
+
+        <Results>
+
+        <Player playerId="917" Name="Arian Foster" Position="RB" Team="HOU" OverallRank="1"
+        PositionRank="1" ByeWeek="8">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="MIA" DefensiveRank="23" />
+
+        <Week Number="2" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="3" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="4" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="5" Opponent="NYJ" DefensiveRank="11" />
+
+        <Week Number="6" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="7" Opponent="BAL" DefensiveRank="3" />
+
+        <Week Number="9" Opponent="BUF" DefensiveRank="8" />
+
+        <Week Number="10" Opponent="CHI" DefensiveRank="6" />
+
+        <Week Number="11" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="12" Opponent="DET" DefensiveRank="7" />
+
+        <Week Number="13" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="14" Opponent="NE" DefensiveRank="12" />
+
+        <Week Number="15" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="16" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="17" Opponent="IND" DefensiveRank="31" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="269" Name="Ray Rice" Position="RB" Team="BAL" OverallRank="2"
+        PositionRank="2" ByeWeek="8">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="CIN" DefensiveRank="18" />
+
+        <Week Number="2" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="3" Opponent="NE" DefensiveRank="12" />
+
+        <Week Number="4" Opponent="CLE" DefensiveRank="29" />
+
+        <Week Number="5" Opponent="KC" DefensiveRank="24" />
+
+        <Week Number="6" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="7" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="9" Opponent="CLE" DefensiveRank="29" />
+
+        <Week Number="10" Opponent="OAK" DefensiveRank="25" />
+
+        <Week Number="11" Opponent="PIT" DefensiveRank="9" />
+
+        <Week Number="12" Opponent="SD" DefensiveRank="22" />
+
+        <Week Number="13" Opponent="PIT" DefensiveRank="9" />
+
+        <Week Number="14" Opponent="WAS" DefensiveRank="27" />
+
+        <Week Number="15" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="16" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="17" Opponent="CIN" DefensiveRank="18" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="810" Name="LeSean McCoy" Position="RB" Team="PHI" OverallRank="3"
+        PositionRank="3" ByeWeek="7">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="CLE" DefensiveRank="29" />
+
+        <Week Number="2" Opponent="BAL" DefensiveRank="3" />
+
+        <Week Number="3" Opponent="ARI" DefensiveRank="21" />
+
+        <Week Number="4" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="5" Opponent="PIT" DefensiveRank="9" />
+
+        <Week Number="6" Opponent="DET" DefensiveRank="7" />
+
+        <Week Number="8" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="9" Opponent="NO" DefensiveRank="32" />
+
+        <Week Number="10" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="11" Opponent="WAS" DefensiveRank="27" />
+
+        <Week Number="12" Opponent="CAR" DefensiveRank="28" />
+
+        <Week Number="13" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="14" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="15" Opponent="CIN" DefensiveRank="18" />
+
+        <Week Number="16" Opponent="WAS" DefensiveRank="27" />
+
+        <Week Number="17" Opponent="NYG" DefensiveRank="10" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="87" Name="Aaron Rodgers" Position="QB" Team="GB" OverallRank="4"
+        PositionRank="1" ByeWeek="10">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="2" Opponent="CHI" DefensiveRank="6" />
+
+        <Week Number="3" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="4" Opponent="NO" DefensiveRank="32" />
+
+        <Week Number="5" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="6" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="7" Opponent="STL" DefensiveRank="17" />
+
+        <Week Number="8" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="9" Opponent="ARI" DefensiveRank="21" />
+
+        <Week Number="11" Opponent="DET" DefensiveRank="7" />
+
+        <Week Number="12" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="13" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="14" Opponent="DET" DefensiveRank="7" />
+
+        <Week Number="15" Opponent="CHI" DefensiveRank="6" />
+
+        <Week Number="16" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="17" Opponent="MIN" DefensiveRank="26" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="454" Name="Calvin Johnson" Position="WR" Team="DET" OverallRank="5"
+        PositionRank="1" ByeWeek="5">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="STL" DefensiveRank="17" />
+
+        <Week Number="2" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="3" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="4" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="6" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="7" Opponent="CHI" DefensiveRank="6" />
+
+        <Week Number="8" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="9" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="10" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="11" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="12" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="13" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="14" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="15" Opponent="ARI" DefensiveRank="21" />
+
+        <Week Number="16" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="17" Opponent="CHI" DefensiveRank="6" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="13" Name="Tom Brady" Position="QB" Team="NE" OverallRank="6"
+        PositionRank="2" ByeWeek="9">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="2" Opponent="ARI" DefensiveRank="21" />
+
+        <Week Number="3" Opponent="BAL" DefensiveRank="3" />
+
+        <Week Number="4" Opponent="BUF" DefensiveRank="8" />
+
+        <Week Number="5" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="6" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="7" Opponent="NYJ" DefensiveRank="11" />
+
+        <Week Number="8" Opponent="STL" DefensiveRank="17" />
+
+        <Week Number="10" Opponent="BUF" DefensiveRank="8" />
+
+        <Week Number="11" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="12" Opponent="NYJ" DefensiveRank="11" />
+
+        <Week Number="13" Opponent="MIA" DefensiveRank="23" />
+
+        <Week Number="14" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="15" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="16" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="17" Opponent="MIA" DefensiveRank="23" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="208" Name="Chris Johnson" Position="RB" Team="TEN" OverallRank="7"
+        PositionRank="4" ByeWeek="11">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="NE" DefensiveRank="12" />
+
+        <Week Number="2" Opponent="SD" DefensiveRank="22" />
+
+        <Week Number="3" Opponent="DET" DefensiveRank="7" />
+
+        <Week Number="4" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="5" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="6" Opponent="PIT" DefensiveRank="9" />
+
+        <Week Number="7" Opponent="BUF" DefensiveRank="8" />
+
+        <Week Number="8" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="9" Opponent="CHI" DefensiveRank="6" />
+
+        <Week Number="10" Opponent="MIA" DefensiveRank="23" />
+
+        <Week Number="12" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="13" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="14" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="15" Opponent="NYJ" DefensiveRank="11" />
+
+        <Week Number="16" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="17" Opponent="JAC" DefensiveRank="30" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="14" Name="Drew Brees" Position="QB" Team="NO" OverallRank="8"
+        PositionRank="3" ByeWeek="6">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="WAS" DefensiveRank="27" />
+
+        <Week Number="2" Opponent="CAR" DefensiveRank="28" />
+
+        <Week Number="3" Opponent="KC" DefensiveRank="24" />
+
+        <Week Number="4" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="5" Opponent="SD" DefensiveRank="22" />
+
+        <Week Number="7" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="8" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="9" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="10" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="11" Opponent="OAK" DefensiveRank="25" />
+
+        <Week Number="12" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="13" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="14" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="15" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="16" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="17" Opponent="CAR" DefensiveRank="28" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="235" Name="Darren McFadden" Position="RB" Team="OAK" OverallRank="9"
+        PositionRank="5" ByeWeek="5">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="SD" DefensiveRank="22" />
+
+        <Week Number="2" Opponent="MIA" DefensiveRank="23" />
+
+        <Week Number="3" Opponent="PIT" DefensiveRank="9" />
+
+        <Week Number="4" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="6" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="7" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="8" Opponent="KC" DefensiveRank="24" />
+
+        <Week Number="9" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="10" Opponent="BAL" DefensiveRank="3" />
+
+        <Week Number="11" Opponent="NO" DefensiveRank="32" />
+
+        <Week Number="12" Opponent="CIN" DefensiveRank="18" />
+
+        <Week Number="13" Opponent="CLE" DefensiveRank="29" />
+
+        <Week Number="14" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="15" Opponent="KC" DefensiveRank="24" />
+
+        <Week Number="16" Opponent="CAR" DefensiveRank="28" />
+
+        <Week Number="17" Opponent="SD" DefensiveRank="22" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="1187" Name="Jimmy Graham" Position="TE" Team="NO" OverallRank="10"
+        PositionRank="1" ByeWeek="6">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="WAS" DefensiveRank="27" />
+
+        <Week Number="2" Opponent="CAR" DefensiveRank="28" />
+
+        <Week Number="3" Opponent="KC" DefensiveRank="24" />
+
+        <Week Number="4" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="5" Opponent="SD" DefensiveRank="22" />
+
+        <Week Number="7" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="8" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="9" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="10" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="11" Opponent="OAK" DefensiveRank="25" />
+
+        <Week Number="12" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="13" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="14" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="15" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="16" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="17" Opponent="CAR" DefensiveRank="28" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="1398" Name="Cam Newton" Position="QB" Team="CAR" OverallRank="11"
+        PositionRank="4" ByeWeek="6">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="2" Opponent="NO" DefensiveRank="32" />
+
+        <Week Number="3" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="4" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="5" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="7" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="8" Opponent="CHI" DefensiveRank="6" />
+
+        <Week Number="9" Opponent="WAS" DefensiveRank="27" />
+
+        <Week Number="10" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="11" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="12" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="13" Opponent="KC" DefensiveRank="24" />
+
+        <Week Number="14" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="15" Opponent="SD" DefensiveRank="22" />
+
+        <Week Number="16" Opponent="OAK" DefensiveRank="25" />
+
+        <Week Number="17" Opponent="NO" DefensiveRank="32" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="1189" Name="Rob Gronkowski" Position="TE" Team="NE" OverallRank="12"
+        PositionRank="2" ByeWeek="9">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="2" Opponent="ARI" DefensiveRank="21" />
+
+        <Week Number="3" Opponent="BAL" DefensiveRank="3" />
+
+        <Week Number="4" Opponent="BUF" DefensiveRank="8" />
+
+        <Week Number="5" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="6" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="7" Opponent="NYJ" DefensiveRank="11" />
+
+        <Week Number="8" Opponent="STL" DefensiveRank="17" />
+
+        <Week Number="10" Opponent="BUF" DefensiveRank="8" />
+
+        <Week Number="11" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="12" Opponent="NYJ" DefensiveRank="11" />
+
+        <Week Number="13" Opponent="MIA" DefensiveRank="23" />
+
+        <Week Number="14" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="15" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="16" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="17" Opponent="MIA" DefensiveRank="23" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="394" Name="Larry Fitzgerald" Position="WR" Team="ARI" OverallRank="13"
+        PositionRank="2" ByeWeek="10">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="2" Opponent="NE" DefensiveRank="12" />
+
+        <Week Number="3" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="4" Opponent="MIA" DefensiveRank="23" />
+
+        <Week Number="5" Opponent="STL" DefensiveRank="17" />
+
+        <Week Number="6" Opponent="BUF" DefensiveRank="8" />
+
+        <Week Number="7" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="8" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="9" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="11" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="12" Opponent="STL" DefensiveRank="17" />
+
+        <Week Number="13" Opponent="NYJ" DefensiveRank="11" />
+
+        <Week Number="14" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="15" Opponent="DET" DefensiveRank="7" />
+
+        <Week Number="16" Opponent="CHI" DefensiveRank="6" />
+
+        <Week Number="17" Opponent="SF" DefensiveRank="1" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="175" Name="Matt Forte" Position="RB" Team="CHI" OverallRank="14"
+        PositionRank="6" ByeWeek="6">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="2" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="3" Opponent="STL" DefensiveRank="17" />
+
+        <Week Number="4" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="5" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="7" Opponent="DET" DefensiveRank="7" />
+
+        <Week Number="8" Opponent="CAR" DefensiveRank="28" />
+
+        <Week Number="9" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="10" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="11" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="12" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="13" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="14" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="15" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="16" Opponent="ARI" DefensiveRank="21" />
+
+        <Week Number="17" Opponent="DET" DefensiveRank="7" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="1421" Name="DeMarco Murray" Position="RB" Team="DAL" OverallRank="15"
+        PositionRank="7" ByeWeek="5">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="2" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="3" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="4" Opponent="CHI" DefensiveRank="6" />
+
+        <Week Number="6" Opponent="BAL" DefensiveRank="3" />
+
+        <Week Number="7" Opponent="CAR" DefensiveRank="28" />
+
+        <Week Number="8" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="9" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="10" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="11" Opponent="CLE" DefensiveRank="29" />
+
+        <Week Number="12" Opponent="WAS" DefensiveRank="27" />
+
+        <Week Number="13" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="14" Opponent="CIN" DefensiveRank="18" />
+
+        <Week Number="15" Opponent="PIT" DefensiveRank="9" />
+
+        <Week Number="16" Opponent="NO" DefensiveRank="32" />
+
+        <Week Number="17" Opponent="WAS" DefensiveRank="27" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        </Results>
+
+        </FantasyFootballNerd>'
+    http_version: '1.1'
+  recorded_at: Fri, 07 Dec 2012 18:56:47 GMT
+- request:
+    method: get
+    uri: http://api.fantasyfootballnerd.com/ffnRankingsXML.php?apiKey=APIKEY&position=ALL&sos=1&limit=20&ppr=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      accept:
+      - ! '*/*'
+      user-agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Fri, 07 Dec 2012 18:59:54 GMT
+      server:
+      - Apache/2.2.3 (CentOS)
+      x-powered-by:
+      - PHP/5.1.6
+      ms-author-via:
+      - DAV
+      connection:
+      - close
+      transfer-encoding:
+      - chunked
+      content-type:
+      - text/xml
+    body:
+      encoding: US-ASCII
+      string: ! '<?xml version="1.0" encoding="UTF-8"?>
+
+        <FantasyFootballNerd>
+
+        <SearchParams>
+
+        <Position>ALL</Position>
+
+        <Limit>15</Limit>
+
+        <PPR>1</PPR>
+
+        <ApiKey>APIKEY</ApiKey>
+
+        </SearchParams>
+
+        <PoweredBy Description="Please add a link to FantasyFootballNerd.com">
+
+        <Logo>http://www.fantasyfootballnerd.com/images/logo.gif</Logo>
+
+        <URL>http://www.fantasyfootballnerd.com/?src=APIKEY</URL>
+
+        </PoweredBy>
+
+        <Results>
+
+        <Player playerId="917" Name="Arian Foster" Position="RB" Team="HOU" OverallRank="1"
+        PositionRank="1" ByeWeek="8">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="MIA" DefensiveRank="23" />
+
+        <Week Number="2" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="3" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="4" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="5" Opponent="NYJ" DefensiveRank="11" />
+
+        <Week Number="6" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="7" Opponent="BAL" DefensiveRank="3" />
+
+        <Week Number="9" Opponent="BUF" DefensiveRank="8" />
+
+        <Week Number="10" Opponent="CHI" DefensiveRank="6" />
+
+        <Week Number="11" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="12" Opponent="DET" DefensiveRank="7" />
+
+        <Week Number="13" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="14" Opponent="NE" DefensiveRank="12" />
+
+        <Week Number="15" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="16" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="17" Opponent="IND" DefensiveRank="31" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="269" Name="Ray Rice" Position="RB" Team="BAL" OverallRank="2"
+        PositionRank="2" ByeWeek="8">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="CIN" DefensiveRank="18" />
+
+        <Week Number="2" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="3" Opponent="NE" DefensiveRank="12" />
+
+        <Week Number="4" Opponent="CLE" DefensiveRank="29" />
+
+        <Week Number="5" Opponent="KC" DefensiveRank="24" />
+
+        <Week Number="6" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="7" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="9" Opponent="CLE" DefensiveRank="29" />
+
+        <Week Number="10" Opponent="OAK" DefensiveRank="25" />
+
+        <Week Number="11" Opponent="PIT" DefensiveRank="9" />
+
+        <Week Number="12" Opponent="SD" DefensiveRank="22" />
+
+        <Week Number="13" Opponent="PIT" DefensiveRank="9" />
+
+        <Week Number="14" Opponent="WAS" DefensiveRank="27" />
+
+        <Week Number="15" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="16" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="17" Opponent="CIN" DefensiveRank="18" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="810" Name="LeSean McCoy" Position="RB" Team="PHI" OverallRank="3"
+        PositionRank="3" ByeWeek="7">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="CLE" DefensiveRank="29" />
+
+        <Week Number="2" Opponent="BAL" DefensiveRank="3" />
+
+        <Week Number="3" Opponent="ARI" DefensiveRank="21" />
+
+        <Week Number="4" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="5" Opponent="PIT" DefensiveRank="9" />
+
+        <Week Number="6" Opponent="DET" DefensiveRank="7" />
+
+        <Week Number="8" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="9" Opponent="NO" DefensiveRank="32" />
+
+        <Week Number="10" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="11" Opponent="WAS" DefensiveRank="27" />
+
+        <Week Number="12" Opponent="CAR" DefensiveRank="28" />
+
+        <Week Number="13" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="14" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="15" Opponent="CIN" DefensiveRank="18" />
+
+        <Week Number="16" Opponent="WAS" DefensiveRank="27" />
+
+        <Week Number="17" Opponent="NYG" DefensiveRank="10" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="454" Name="Calvin Johnson" Position="WR" Team="DET" OverallRank="4"
+        PositionRank="1" ByeWeek="5">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="STL" DefensiveRank="17" />
+
+        <Week Number="2" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="3" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="4" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="6" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="7" Opponent="CHI" DefensiveRank="6" />
+
+        <Week Number="8" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="9" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="10" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="11" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="12" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="13" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="14" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="15" Opponent="ARI" DefensiveRank="21" />
+
+        <Week Number="16" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="17" Opponent="CHI" DefensiveRank="6" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="87" Name="Aaron Rodgers" Position="QB" Team="GB" OverallRank="5"
+        PositionRank="1" ByeWeek="10">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="2" Opponent="CHI" DefensiveRank="6" />
+
+        <Week Number="3" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="4" Opponent="NO" DefensiveRank="32" />
+
+        <Week Number="5" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="6" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="7" Opponent="STL" DefensiveRank="17" />
+
+        <Week Number="8" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="9" Opponent="ARI" DefensiveRank="21" />
+
+        <Week Number="11" Opponent="DET" DefensiveRank="7" />
+
+        <Week Number="12" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="13" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="14" Opponent="DET" DefensiveRank="7" />
+
+        <Week Number="15" Opponent="CHI" DefensiveRank="6" />
+
+        <Week Number="16" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="17" Opponent="MIN" DefensiveRank="26" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="208" Name="Chris Johnson" Position="RB" Team="TEN" OverallRank="6"
+        PositionRank="4" ByeWeek="11">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="NE" DefensiveRank="12" />
+
+        <Week Number="2" Opponent="SD" DefensiveRank="22" />
+
+        <Week Number="3" Opponent="DET" DefensiveRank="7" />
+
+        <Week Number="4" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="5" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="6" Opponent="PIT" DefensiveRank="9" />
+
+        <Week Number="7" Opponent="BUF" DefensiveRank="8" />
+
+        <Week Number="8" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="9" Opponent="CHI" DefensiveRank="6" />
+
+        <Week Number="10" Opponent="MIA" DefensiveRank="23" />
+
+        <Week Number="12" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="13" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="14" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="15" Opponent="NYJ" DefensiveRank="11" />
+
+        <Week Number="16" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="17" Opponent="JAC" DefensiveRank="30" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="235" Name="Darren McFadden" Position="RB" Team="OAK" OverallRank="7"
+        PositionRank="5" ByeWeek="5">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="SD" DefensiveRank="22" />
+
+        <Week Number="2" Opponent="MIA" DefensiveRank="23" />
+
+        <Week Number="3" Opponent="PIT" DefensiveRank="9" />
+
+        <Week Number="4" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="6" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="7" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="8" Opponent="KC" DefensiveRank="24" />
+
+        <Week Number="9" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="10" Opponent="BAL" DefensiveRank="3" />
+
+        <Week Number="11" Opponent="NO" DefensiveRank="32" />
+
+        <Week Number="12" Opponent="CIN" DefensiveRank="18" />
+
+        <Week Number="13" Opponent="CLE" DefensiveRank="29" />
+
+        <Week Number="14" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="15" Opponent="KC" DefensiveRank="24" />
+
+        <Week Number="16" Opponent="CAR" DefensiveRank="28" />
+
+        <Week Number="17" Opponent="SD" DefensiveRank="22" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="1187" Name="Jimmy Graham" Position="TE" Team="NO" OverallRank="8"
+        PositionRank="1" ByeWeek="6">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="WAS" DefensiveRank="27" />
+
+        <Week Number="2" Opponent="CAR" DefensiveRank="28" />
+
+        <Week Number="3" Opponent="KC" DefensiveRank="24" />
+
+        <Week Number="4" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="5" Opponent="SD" DefensiveRank="22" />
+
+        <Week Number="7" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="8" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="9" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="10" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="11" Opponent="OAK" DefensiveRank="25" />
+
+        <Week Number="12" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="13" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="14" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="15" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="16" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="17" Opponent="CAR" DefensiveRank="28" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="175" Name="Matt Forte" Position="RB" Team="CHI" OverallRank="9"
+        PositionRank="6" ByeWeek="6">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="2" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="3" Opponent="STL" DefensiveRank="17" />
+
+        <Week Number="4" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="5" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="7" Opponent="DET" DefensiveRank="7" />
+
+        <Week Number="8" Opponent="CAR" DefensiveRank="28" />
+
+        <Week Number="9" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="10" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="11" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="12" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="13" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="14" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="15" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="16" Opponent="ARI" DefensiveRank="21" />
+
+        <Week Number="17" Opponent="DET" DefensiveRank="7" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="13" Name="Tom Brady" Position="QB" Team="NE" OverallRank="10"
+        PositionRank="2" ByeWeek="9">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="2" Opponent="ARI" DefensiveRank="21" />
+
+        <Week Number="3" Opponent="BAL" DefensiveRank="3" />
+
+        <Week Number="4" Opponent="BUF" DefensiveRank="8" />
+
+        <Week Number="5" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="6" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="7" Opponent="NYJ" DefensiveRank="11" />
+
+        <Week Number="8" Opponent="STL" DefensiveRank="17" />
+
+        <Week Number="10" Opponent="BUF" DefensiveRank="8" />
+
+        <Week Number="11" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="12" Opponent="NYJ" DefensiveRank="11" />
+
+        <Week Number="13" Opponent="MIA" DefensiveRank="23" />
+
+        <Week Number="14" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="15" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="16" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="17" Opponent="MIA" DefensiveRank="23" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="394" Name="Larry Fitzgerald" Position="WR" Team="ARI" OverallRank="11"
+        PositionRank="2" ByeWeek="10">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="2" Opponent="NE" DefensiveRank="12" />
+
+        <Week Number="3" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="4" Opponent="MIA" DefensiveRank="23" />
+
+        <Week Number="5" Opponent="STL" DefensiveRank="17" />
+
+        <Week Number="6" Opponent="BUF" DefensiveRank="8" />
+
+        <Week Number="7" Opponent="MIN" DefensiveRank="26" />
+
+        <Week Number="8" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="9" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="11" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="12" Opponent="STL" DefensiveRank="17" />
+
+        <Week Number="13" Opponent="NYJ" DefensiveRank="11" />
+
+        <Week Number="14" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="15" Opponent="DET" DefensiveRank="7" />
+
+        <Week Number="16" Opponent="CHI" DefensiveRank="6" />
+
+        <Week Number="17" Opponent="SF" DefensiveRank="1" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="14" Name="Drew Brees" Position="QB" Team="NO" OverallRank="12"
+        PositionRank="3" ByeWeek="6">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="WAS" DefensiveRank="27" />
+
+        <Week Number="2" Opponent="CAR" DefensiveRank="28" />
+
+        <Week Number="3" Opponent="KC" DefensiveRank="24" />
+
+        <Week Number="4" Opponent="GB" DefensiveRank="2" />
+
+        <Week Number="5" Opponent="SD" DefensiveRank="22" />
+
+        <Week Number="7" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="8" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="9" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="10" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="11" Opponent="OAK" DefensiveRank="25" />
+
+        <Week Number="12" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="13" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="14" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="15" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="16" Opponent="DAL" DefensiveRank="15" />
+
+        <Week Number="17" Opponent="CAR" DefensiveRank="28" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="1189" Name="Rob Gronkowski" Position="TE" Team="NE" OverallRank="13"
+        PositionRank="2" ByeWeek="9">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="2" Opponent="ARI" DefensiveRank="21" />
+
+        <Week Number="3" Opponent="BAL" DefensiveRank="3" />
+
+        <Week Number="4" Opponent="BUF" DefensiveRank="8" />
+
+        <Week Number="5" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="6" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="7" Opponent="NYJ" DefensiveRank="11" />
+
+        <Week Number="8" Opponent="STL" DefensiveRank="17" />
+
+        <Week Number="10" Opponent="BUF" DefensiveRank="8" />
+
+        <Week Number="11" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="12" Opponent="NYJ" DefensiveRank="11" />
+
+        <Week Number="13" Opponent="MIA" DefensiveRank="23" />
+
+        <Week Number="14" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="15" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="16" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="17" Opponent="MIA" DefensiveRank="23" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="1421" Name="DeMarco Murray" Position="RB" Team="DAL" OverallRank="14"
+        PositionRank="7" ByeWeek="5">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="2" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="3" Opponent="TB" DefensiveRank="20" />
+
+        <Week Number="4" Opponent="CHI" DefensiveRank="6" />
+
+        <Week Number="6" Opponent="BAL" DefensiveRank="3" />
+
+        <Week Number="7" Opponent="CAR" DefensiveRank="28" />
+
+        <Week Number="8" Opponent="NYG" DefensiveRank="10" />
+
+        <Week Number="9" Opponent="ATL" DefensiveRank="14" />
+
+        <Week Number="10" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="11" Opponent="CLE" DefensiveRank="29" />
+
+        <Week Number="12" Opponent="WAS" DefensiveRank="27" />
+
+        <Week Number="13" Opponent="PHI" DefensiveRank="4" />
+
+        <Week Number="14" Opponent="CIN" DefensiveRank="18" />
+
+        <Week Number="15" Opponent="PIT" DefensiveRank="9" />
+
+        <Week Number="16" Opponent="NO" DefensiveRank="32" />
+
+        <Week Number="17" Opponent="WAS" DefensiveRank="27" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        <Player playerId="576" Name="Wes Welker" Position="WR" Team="NE" OverallRank="15"
+        PositionRank="3" ByeWeek="9">
+
+        <StrengthOfSchedule>
+
+        <Week Number="1" Opponent="TEN" DefensiveRank="16" />
+
+        <Week Number="2" Opponent="ARI" DefensiveRank="21" />
+
+        <Week Number="3" Opponent="BAL" DefensiveRank="3" />
+
+        <Week Number="4" Opponent="BUF" DefensiveRank="8" />
+
+        <Week Number="5" Opponent="DEN" DefensiveRank="19" />
+
+        <Week Number="6" Opponent="SEA" DefensiveRank="13" />
+
+        <Week Number="7" Opponent="NYJ" DefensiveRank="11" />
+
+        <Week Number="8" Opponent="STL" DefensiveRank="17" />
+
+        <Week Number="10" Opponent="BUF" DefensiveRank="8" />
+
+        <Week Number="11" Opponent="IND" DefensiveRank="31" />
+
+        <Week Number="12" Opponent="NYJ" DefensiveRank="11" />
+
+        <Week Number="13" Opponent="MIA" DefensiveRank="23" />
+
+        <Week Number="14" Opponent="HOU" DefensiveRank="5" />
+
+        <Week Number="15" Opponent="SF" DefensiveRank="1" />
+
+        <Week Number="16" Opponent="JAC" DefensiveRank="30" />
+
+        <Week Number="17" Opponent="MIA" DefensiveRank="23" />
+
+        </StrengthOfSchedule>
+
+        </Player>
+
+        </Results>
+
+        </FantasyFootballNerd>'
+    http_version: '1.1'
+  recorded_at: Fri, 07 Dec 2012 18:59:55 GMT
+recorded_with: VCR 2.3.0
