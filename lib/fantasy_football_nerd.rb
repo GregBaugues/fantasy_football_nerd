@@ -11,6 +11,7 @@ class FFNerd
     projections: 'ffnSitStartXML.php',
     injuries:    'ffnInjuriesXML.php',
     all_players: 'ffnPlayersXML.php',
+    rankings:    'ffnRankingsXML.php',
     player:      'ffnPlayerDetailsXML.php'
   }
 
@@ -42,7 +43,7 @@ class FFNerd
 
   def self.projections_url(position, week)
     position = position.to_s.upcase
-    feed_url(:projections, 'week' => week, 'position' => position)
+    url = feed_url(:projections, 'week' => week, 'position' => position)
   end
 
   def self.injuries_url(week)
@@ -210,6 +211,83 @@ class FFNerd
       position: 'position'
     }
   end
+
+  #############################################################################
+  # Schedule
+  # Returns a Hashie of the schedule for a given week (or default whole season)
+  #############################################################################
+  def self.schedule_url
+    url = feed_url(:schedule)
+  end
+
+  def self.schedule(week = :all)
+
+    schedule  = []
+    url = schedule_url
+    doc = get_resource(url)
+    doc.css('game').each do |data|
+      game = Hashie::Mash.new
+      game.id = data.attr('gameid').to_i
+      game.week = data.attr('week').to_i
+      game.date = DateTime.parse(data.attr('gamedate'))
+      game.home = data.attr('hometeam')
+      game.away = data.attr('awayteam')
+      game.time = Time.new(data.attr('gametime'))
+      schedule << game
+    end
+    if !week.eql? :all
+      schedule = schedule.select {|game| game.week.eql? week}
+    end
+    schedule
+  end
+
+
+  def self.game_data_map
+    {
+
+    }
+
+  end
+
+  #############################################################################
+  # Draft Rankings
+  # Preseason draft rankings
+  # Separate calls for standard and PPR.
+  #############################################################################
+
+  def self.rankings_url(position, limit, ppr, strength_of_sched)
+    position = position.to_s.upcase
+    strength_of_sched = (strength_of_sched ? 1 : 0)
+    query_hash = {
+      'position' => position,
+      'sos' => strength_of_sched,
+      'limit' => limit
+    }
+    if ppr
+      query_hash['ppr'] = 1
+    end
+    feed_url(:rankings, query_hash)
+  end
+
+  def self.ppr_rankings(position = :all, limit = 20, strength_of_sched = true)
+    rankings = []
+    url = rankings_url(position, limit, false, strength_of_sched)
+    doc = get_resource(url)
+    doc.css('player').each  do |data|
+      ranking = Hashie::Mash.new
+      ranking.player_id = data.attr('playerid').to_i
+      ranking.player_name = data.attr('name')
+      ranking.player_team = data.attr('team')
+      ranking.player_position = data.attr('position')
+      rankings << ranking
+    end
+    rankings
+  end
+
+  def self.standard_rankings(position = :all, limit = 20, strength_of_sched = true)
+
+  end
+
 
   #############################################################################
   # players
