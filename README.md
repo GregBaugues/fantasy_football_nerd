@@ -32,7 +32,7 @@ Setup
 
 In Ruby, install the gem:
 
-        gem install fantasy-football-nerd
+        gem install fantasy_football_nerd
 
 And require it:
 
@@ -136,12 +136,30 @@ player.injury.game_status_desc
 player.injury.last_update
 ````
 
+Projections to CSV
+---------------------
+Returns a string of player projections that can be written to a CSV. Does not do the writing of the CSV itself - you need to handle that. But the string is all ready for you.
+
+If you do not pass a week parameter, it will assume the current week.
+
+````ruby
+week = 2
+output = FFNerd.projections_to_csv(week)
+````
+
+Current Week
+---------------------
+Returns the current NFL week. Currently only set to work for the first 16 weeks of the 2012 season.
+
+````ruby
+FFNerd.current_week
+````
+
 Still To Come
 ------------------
 
 * Better error reporting
 * Schedule
-* Draft Rankings
 
 Tests
 ------------------
@@ -149,10 +167,7 @@ The gem includes extensive RSpec tests.
 
 Contributors
 -----------------
-This gem was created by:
-
 Greg Baugues ([greg@baugues.com](mailto:greg@baugues.com))
-
 [www.baugues.com](http://www.baugues.com)
 
 
