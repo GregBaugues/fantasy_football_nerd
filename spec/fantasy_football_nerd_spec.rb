@@ -14,6 +14,7 @@ describe 'Fantasy Football Nerd Gem' do
       FFNerd.feed_url(:all_players).should    =~ /ffnPlayersXML.php/
       FFNerd.feed_url(:player).should         =~ /ffnPlayerDetailsXML.php/
       FFNerd.feed_url(:schedule).should       =~ /apiKey=\d+/
+      FFNerd.feed_url(:rankings).should       =~ /ffnRankingsXML.php/
     end
 
     it 'should take parameters' do
@@ -45,6 +46,11 @@ describe 'Fantasy Football Nerd Gem' do
     it 'should get a list of all players' do
       url = FFNerd.player_list_url
       url.should =~ /ffnPlayersXML.php\?apiKey=\d+/
+    end
+
+    it 'should get a url for rankings of only qb position' do
+      url = FFNerd.rankings_url(:qb, 10, false,false)
+      url.should =~ /ffnRankingsXML.php\?apiKey=\d+&position=QB&sos=0&limit=10/
     end
   end
 
@@ -162,10 +168,10 @@ describe 'Fantasy Football Nerd Gem' do
     end
   end
 
-#############################################################################
-# Master Player Method
-# Combines injury and projection data into a single call
-#############################################################################
+  #############################################################################
+  # Master Player Method
+  # Combines injury and projection data into a single call
+  #############################################################################
 
   describe 'Master Player Method' do
 
@@ -178,5 +184,75 @@ describe 'Fantasy Football Nerd Gem' do
       end
     end
 
+  end
+  #############################################################################
+  # Schedule
+  # API call for NFL season schedule data
+  #############################################################################
+  describe 'Schedule Method' do
+    it 'should get the schedule for a particular week' do
+      VCR.use_cassette('schedule') do
+        schedule = FFNerd.schedule(5)
+        schedule.size.should == 14
+        schedule.each do |game|
+          game.week.should == 5
+        end
+      end
+    end
+
+    it 'should get the schedule for whole season if no week specified' do
+      VCR.use_cassette('schedule') do
+        schedule = FFNerd.schedule
+        schedule.size.should == 256  # 16 teams play 16 games.
+      end
+    end
+
+  end
+
+  #############################################################################
+  # Preseason Draft Rankings
+  # API call for preseason rankings of players
+  #############################################################################
+
+  describe 'PPR Rankings Method' do
+
+    it 'should get PPR-scoring rankings' do
+      VCR.use_cassette('rankings') do
+        FFNerd.api_key = 2012120677595038
+        rankings = FFNerd.ppr_rankings
+        rankings.size.should == 15
+      end
+    end
+
+    it 'should get PPR-scoring rankings of specified positions' do
+      VCR.use_cassette('rankings', :record => :new_episodes) do
+        FFNerd.api_key = 2012120677595038
+        qb_rankings = FFNerd.ppr_rankings(:qb)
+        qb_rankings.size.should == 15
+        qb_rankings.each do |ranking|
+          ranking.player_position.should == 'QB'
+        end
+      end
+    end
+
+ end
+
+  describe 'Standard Rankings Method' do
+    it 'should get standard-scoring rankings' do
+      VCR.use_cassette('rankings', :record => :new_episodes) do
+        FFNerd.api_key = 2012120677595038
+        rankings = FFNerd.standard_rankings
+        rankings.size.should == 15
+      end
+
+    end
+
+    it 'should get standard-scoring rankings of specified positions' do
+      VCR.use_cassette('rankings', :record => :new_episodes) do
+        FFNerd.api_key = 2012120677595038
+        rankings = FFNerd.standard_rankings
+        rankings.size.should == 15
+      end
+    end
   end
 end
