@@ -14,7 +14,7 @@ class FFNerd
     player:      'ffnPlayerDetailsXML.php'
   }
 
-  FIRST_DAY_OF_SEASON = Date.new(2013,9,5)
+  FIRST_DAY_OF_SEASON = Date.new(2013,9,3)
 
   #############################################################################
   # URL Generators
