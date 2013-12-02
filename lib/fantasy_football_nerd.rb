@@ -224,9 +224,9 @@ class FFNerd
     if week >= 1 && week <= 17
       return week
     elsif week < 1
-      puts "The NFL season has not yet started."
+      raise "The NFL season has not yet started."
     elsif week > 17
-      puts "The regular NFL season is over."
+      raise "The regular NFL season is over."
     end
   end
 
