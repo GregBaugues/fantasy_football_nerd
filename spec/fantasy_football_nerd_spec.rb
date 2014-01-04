@@ -82,9 +82,9 @@ describe 'Fantasy Football Nerd Gem' do
     end
   end
 
-#############################################################################
-# Injuries
-#############################################################################
+  #############################################################################
+  # Injuries
+  #############################################################################
 
   it 'should get player data from the injury feed' do
     VCR.use_cassette('injuries') do
@@ -111,9 +111,9 @@ describe 'Fantasy Football Nerd Gem' do
     end
   end
 
-#############################################################################
-# Player List
-#############################################################################
+  #############################################################################
+  # Player List
+  #############################################################################
 
   it 'player_list should return player data' do
     VCR.use_cassette('player_list') do
@@ -128,9 +128,9 @@ describe 'Fantasy Football Nerd Gem' do
     end
   end
 
-#############################################################################
-# Projections
-#############################################################################
+  #############################################################################
+  # Projections
+  #############################################################################
 
   it 'should retrieve player data from the projection feed' do
     VCR.use_cassette('projections') do
@@ -162,10 +162,10 @@ describe 'Fantasy Football Nerd Gem' do
     end
   end
 
-#############################################################################
-# Master Player Method
-# Combines injury and projection data into a single call
-#############################################################################
+  #############################################################################
+  # Master Player Method
+  # Combines injury and projection data into a single call
+  #############################################################################
 
   describe 'Master Player Method' do
 
@@ -179,4 +179,25 @@ describe 'Fantasy Football Nerd Gem' do
     end
 
   end
+
+  #############################################################################
+  # Current Week
+  # Returns the current week of the season
+  #############################################################################
+
+  describe 'Current Week' do
+
+    it 'should return the current week of the NFL season' do
+      date = Date.parse('2012-9-14')
+      Date.stub(:today).and_return(date)
+      FFNerd.current_week.should == 2
+    end
+
+    it 'Monday should still be considered the previous week' do
+      date = Date.parse('2012-9-10')
+      Date.stub(:today).and_return(date)
+      FFNerd.current_week.should == 1
+    end
+  end
+
 end

@@ -40,12 +40,12 @@ class FFNerd
     feed_url(:player, 'playerId' => player_id)
   end
 
-  def self.projections_url(position, week)
+  def self.projections_url(position, week = current_week)
     position = position.to_s.upcase
     feed_url(:projections, 'week' => week, 'position' => position)
   end
 
-  def self.injuries_url(week)
+  def self.injuries_url(week = current_week)
     feed_url(:injuries, 'week' => week)
   end
 
@@ -121,7 +121,7 @@ class FFNerd
   # retrieves weekly projections
   #############################################################################
 
-  def self.projections(week, position = :all)
+  def self.projections(week = current_week, position = :all)
     projections = []
     position    = position.to_s.upcase
     url         = projections_url(position, week)
@@ -164,11 +164,10 @@ class FFNerd
   #############################################################################
 
 
-  def self.injuries(week)
+  def self.injuries(week = current_week)
     players = []
     url = injuries_url(week)
     doc = get_resource(url)
-    #puts doc.css('injury')
     doc.css('injury').each do |data|
       player = Hashie::Mash.new
 
@@ -216,7 +215,7 @@ class FFNerd
   # The one method to rule them all
   #############################################################################
 
-  def self.players(week, position = :all)
+  def self.players(week = current_week, position = :all)
     players = {}
 
     FFNerd.projections(week).each do |player|
@@ -224,7 +223,7 @@ class FFNerd
       players[player.id] = player
     end
 
-    FFNerd.injuries(week).each do |player|
+    FFNerd.injuries(week = current_week).each do |player|
       raise if players[player.id].nil?
       players[player.id].injured = true
       players[player.id].injury = player.injury
@@ -233,5 +232,44 @@ class FFNerd
     players.values
   end
 
+  #############################################################################
+  # Projections to CSV
+  # Returns a string of projections in CSV format - does not actually write the CSV
+  #############################################################################
+
+  def self.projections_to_csv(week = current_week)
+    output = []
+    players = FFNerd.projections(week)
+    players.each do |player|
+      line = []
+      line << player.name
+      line << player.position
+      line << player.team
+      line << player.projection.standard
+      line << player.projection.standard_low
+      line << player.projection.standard_high
+      line << player.projection.ppr
+      line << player.projection.ppr_low
+      line << player.projection.ppr_high
+      line << "\r\n"
+      output << line.join(',')
+    end
+    output
+  end
+
+  #############################################################################
+  # Current Week
+  # Returns the current week of the NFL season
+  #############################################################################
+
+  def self.current_week
+    # season_start_week = 36 #correct for 2013
+    # week_of_year = Date.today.strftime('%W').to_i
+    # raise 'NFL is not in season' if week_of_year < season_start_week #week 52 is last week of reg season
+    # nfl_week = week_of_year - season_start_week + 1
+    # nfl_week -= 1 if Date.today.monday? #Monday should be last day of prev NFL week
+    # nfl_week
+    1
+  end
 
 end
