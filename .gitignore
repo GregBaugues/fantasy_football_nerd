@@ -1,2 +1,4 @@
 *.gem
 Rakefile
+.ruby-version
+.ruby-gemset
