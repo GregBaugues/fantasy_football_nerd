@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'simplecov'
 require 'vcr'
+require 'timecop'
 
 RSpec.configure do |config|
     config.treat_symbols_as_metadata_keys_with_true_values = true
