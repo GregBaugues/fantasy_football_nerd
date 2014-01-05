@@ -111,6 +111,7 @@ describe 'Fantasy Football Nerd Gem' do
     end
   end
 
+
 #############################################################################
 # Player List
 #############################################################################
@@ -159,6 +160,36 @@ describe 'Fantasy Football Nerd Gem' do
         ppr_low:          18.25,
         ppr_high:         31.20
       )
+    end
+  end
+
+#############################################################################
+# Current Week
+#############################################################################
+
+  describe '#current_week' do
+    context 'when in season' do
+      it 'returns the current week number' do
+        Timecop.freeze(2013,9,8)
+        expect(FFNerd.current_week).to eq(1)
+        Timecop.return
+      end
+    end
+
+    context 'before the season starts' do
+      it 'raises an error that the season has not yet started' do
+        Timecop.freeze(2013,9,1)
+        expect { FFNerd.current_week }.to raise_error "The NFL season has not yet started." 
+        Timecop.return
+      end
+    end
+
+    context 'when the season is over' do
+      it 'raises an error that the season is over' do
+        Timecop.freeze(2013,12,31)
+        expect { FFNerd.current_week }.to raise_error "The regular NFL season is over." 
+        Timecop.return
+      end
     end
   end
 

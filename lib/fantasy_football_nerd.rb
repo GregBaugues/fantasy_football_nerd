@@ -14,6 +14,8 @@ class FFNerd
     player:      'ffnPlayerDetailsXML.php'
   }
 
+  FIRST_DAY_OF_SEASON = Date.new(2013,9,3)
+
   #############################################################################
   # URL Generators
   # These methods generate the URLs that will be used for the API calls
@@ -209,6 +211,23 @@ class FFNerd
       team: 'team',
       position: 'position'
     }
+  end
+
+  #############################################################################
+  # current week
+  # The NFL season is composed of 17 weeks of football, this methods returns
+  # which NFL week you're currently in
+  #############################################################################
+
+  def self.current_week
+    week = (( Time.now.to_date - FIRST_DAY_OF_SEASON ) / 7 ) + 1
+    if week >= 1 && week <= 17
+      return week
+    elsif week < 1
+      raise "The NFL season has not yet started."
+    elsif week > 17
+      raise "The regular NFL season is over."
+    end
   end
 
   #############################################################################
