@@ -1,9 +1,16 @@
-require 'spec_helper.rb'
+require_relative 'spec_helper.rb'
 require_relative '../lib/fantasy_football_nerd.rb'
 
 describe 'Fantasy Football Nerd Gem' do
-  before (:each) do
-    FFNerd.api_key = '123456789'
+
+  before :each do
+    FFNerd.load_settings
+  end
+
+  describe 'settings' do
+    it 'should retrieve settings from settings.yml' do
+      FFNerd.api_key.should_not be_nil
+    end
   end
 
   describe 'feed_url' do

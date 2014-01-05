@@ -1,8 +1,14 @@
 require 'nokogiri'
 require 'open-uri'
 require 'hashie'
+require 'yaml'
+require 'pry'
 
 class FFNerd
+
+  attr_accessor :feeds,
+                :base_url,
+                :api_key
 
   BASE_URL = "http://api.fantasyfootballnerd.com"
 
@@ -23,12 +29,18 @@ class FFNerd
   # the others are to make things easier on the developer
   #############################################################################
 
+  def self.api_key=(value)
+    @@api_key = value
+  end
+
   def self.api_key
     @@api_key
   end
 
-  def self.api_key=(api_key)
-    @@api_key = api_key
+  def self.load_settings
+    f = File.open('settings.yml', 'r')
+    settings = YAML.load(f)
+    @@api_key = settings['api_key']
   end
 
   def self.feed_url(feed, params = {} )
@@ -274,21 +286,6 @@ class FFNerd
       output << line.join(',')
     end
     output
-  end
-
-  #############################################################################
-  # Current Week
-  # Returns the current week of the NFL season
-  #############################################################################
-
-  def self.current_week
-    # season_start_week = 36 #correct for 2013
-    # week_of_year = Date.today.strftime('%W').to_i
-    # raise 'NFL is not in season' if week_of_year < season_start_week #week 52 is last week of reg season
-    # nfl_week = week_of_year - season_start_week + 1
-    # nfl_week -= 1 if Date.today.monday? #Monday should be last day of prev NFL week
-    # nfl_week
-    1
   end
 
 end
