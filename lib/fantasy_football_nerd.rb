@@ -10,16 +10,6 @@ class FFNerd
                 :base_url,
                 :api_key
 
-  BASE_URL = "http://api.fantasyfootballnerd.com"
-
-  FEEDS = {
-    schedule:    'ffnScheduleXML.php',
-    projections: 'ffnSitStartXML.php',
-    injuries:    'ffnInjuriesXML.php',
-    all_players: 'ffnPlayersXML.php',
-    player:      'ffnPlayerDetailsXML.php'
-  }
-
   FIRST_DAY_OF_SEASON = Date.new(2013,9,3)
 
   #############################################################################
@@ -29,23 +19,29 @@ class FFNerd
   # the others are to make things easier on the developer
   #############################################################################
 
-  def self.api_key=(value)
-    @@api_key = value
-  end
-
   def self.api_key
     @@api_key
   end
 
+  def self.base_url
+    @@base_url
+  end
+
+  def self.feeds
+    @@feeds
+  end
+
   def self.load_settings
-    f = File.open('settings.yml', 'r')
-    settings = YAML.load(f)
-    @@api_key = settings['api_key']
+    file = File.open('settings.yml', 'r')
+    settings = YAML.load(file)
+    @@api_key = settings['api_key'].to_s
+    @@feeds = settings['feeds']
+    @@base_url = settings['base_url']
   end
 
   def self.feed_url(feed, params = {} )
     raise 'api_key not set' if @@api_key.nil?
-    url = "#{BASE_URL}/#{FEEDS[feed]}?apiKey=#{@@api_key}"
+    url = "#{@@base_url}/#{@@feeds[feed]}?apiKey=#{@@api_key}"
     params.each { |key, value| url += "&#{key}=#{value}" }
     url
   end
@@ -67,7 +63,6 @@ class FFNerd
     feed_url(:all_players)
   end
 
-
   #############################################################################
   # Resource retreiver
   # Connect to the API resource using the Url builders and Nokogiri
@@ -81,7 +76,6 @@ class FFNerd
   # Player List
   # Grabs a list of all players
   #############################################################################
-
 
   def self.player_list
     players = []
@@ -102,7 +96,6 @@ class FFNerd
   # Player Detail
   # grabs player detail and related news articles
   #############################################################################
-
 
   def self.player_detail(player_id)
     player = Hashie::Mash.new
@@ -176,7 +169,6 @@ class FFNerd
   # Injuries
   # retrieves weekly injuries
   #############################################################################
-
 
   def self.injuries(week = current_week)
     players = []

@@ -9,7 +9,9 @@ describe 'Fantasy Football Nerd Gem' do
 
   describe 'settings' do
     it 'should retrieve settings from settings.yml' do
-      FFNerd.api_key.should_not be_nil
+      FFNerd.api_key.should be_a_kind_of String
+      FFNerd.base_url.should be_a_kind_of String
+      FFNerd.feeds.should be_a_kind_of Hash
     end
   end
 

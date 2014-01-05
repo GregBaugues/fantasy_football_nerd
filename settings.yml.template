@@ -1,1 +1,8 @@
 api_key: 123456789
+base_url: http://api.fantasyfootballnerd.com
+feeds:
+    schedule:    ffnScheduleXML.php
+    projections: ffnSitStartXML.php
+    injuries:    ffnInjuriesXML.php
+    all_players: ffnPlayersXML.php
+    player:      ffnPlayerDetailsXML.php
