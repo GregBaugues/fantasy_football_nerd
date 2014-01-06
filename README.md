@@ -163,11 +163,16 @@ Still To Come
 
 Tests
 ------------------
-The gem includes extensive RSpec tests.
+The gem includes extensive RSpec tests which use VCR to cache HTTP requests, so the existing test suite will run without requiring your API key, and without actually making live HTTP requests. If you'd like to add tests with new or modified requests, you'll need to:
+
+1. ```cp spec/spec_settings.yml.template spec/spec_settings```
+2. in ```spec_settings.yml```, replace ```123456789``` with your Fantasy Football Nerd API key.
+
+```spec_settings.yml``` is in the .gitignore, so your api key will not be committed when you push changes.
 
 Contributors
 -----------------
-Greg Baugues ([greg@baugues.com](mailto:greg@baugues.com))
+Greg Baugues ([greg@baugues.com](mailto:greg@baugues.com)) <br/>
 [www.baugues.com](http://www.baugues.com)
 
 
