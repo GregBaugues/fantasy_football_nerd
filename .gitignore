@@ -2,4 +2,4 @@
 Rakefile
 .ruby-version
 .ruby-gemset
-/settings.yml
+/spec/spec_settings.yml

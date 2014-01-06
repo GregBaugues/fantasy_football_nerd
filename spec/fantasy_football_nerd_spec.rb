@@ -4,8 +4,8 @@ require_relative '../lib/api_settings.rb'
 
 describe 'Fantasy Football Nerd Gem' do
 
-  before :each do
-    FFNerd.api_key = 123456789
+  before :all do
+    FFNerd.api_key = api_key_from_settings
   end
 
   describe 'feed_url' do
@@ -49,12 +49,12 @@ describe 'Fantasy Football Nerd Gem' do
 
   end
 
-  it 'should return a resource' do
-    VCR.use_cassette('player_list') do
-      url = FFNerd.player_list_url
-      FFNerd.get_resource(url).should be_true
-    end
-  end
+  # it 'should return a resource' do
+  #   VCR.use_cassette('player_list') do
+  #     url = FFNerd.player_list_url
+  #     FFNerd.get_resource(url).should be_true
+  #   end
+  # end
 
   #############################################################################
   # Player Detail

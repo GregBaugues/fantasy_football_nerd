@@ -13,6 +13,12 @@ VCR.configure do |c|
   c.filter_sensitive_data('APIKEY') { FFNerd.api_key }
 end
 
+def api_key_from_settings
+  f = File.open('spec/spec_settings.yml', 'r')
+  data = YAML.load(f)
+  data['api_key']
+end
+
 def test_values(object, expected_values)
   expected_values.each do |attribute, value|
     object[attribute].should == value
@@ -39,3 +45,4 @@ def test_player
   player.team = 'SEA'
   player
 end
+

@@ -7,7 +7,6 @@ require 'api_settings'
 
 class FFNerd
 
-
   class << self
     include APISettings
 
