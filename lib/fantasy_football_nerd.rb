@@ -3,14 +3,22 @@ require 'open-uri'
 require 'hashie'
 require 'yaml'
 require 'pry'
+require 'api_settings'
 
 class FFNerd
 
-  attr_accessor :feeds,
-                :base_url,
-                :api_key
 
-  FIRST_DAY_OF_SEASON = Date.new(2013,9,3)
+  class << self
+    include APISettings
+
+    attr_accessor :api_key
+
+    def api_key
+      raise "Fantasy Football Nerd really needs an API key. Use FFNerd.api_key = 1234567." unless @api_key
+      @api_key
+    end
+
+  end
 
   #############################################################################
   # URL Generators
@@ -19,29 +27,9 @@ class FFNerd
   # the others are to make things easier on the developer
   #############################################################################
 
-  def self.api_key
-    @@api_key
-  end
-
-  def self.base_url
-    @@base_url
-  end
-
-  def self.feeds
-    @@feeds
-  end
-
-  def self.load_settings
-    file = File.open('settings.yml', 'r')
-    settings = YAML.load(file)
-    @@api_key = settings['api_key'].to_s
-    @@feeds = settings['feeds']
-    @@base_url = settings['base_url']
-  end
 
   def self.feed_url(feed, params = {} )
-    raise 'api_key not set' if @@api_key.nil?
-    url = "#{@@base_url}/#{@@feeds[feed]}?apiKey=#{@@api_key}"
+    url = "#{base_url}/#{feeds}?apiKey=#{@api_key}"
     params.each { |key, value| url += "&#{key}=#{value}" }
     url
   end
