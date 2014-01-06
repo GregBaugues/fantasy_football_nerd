@@ -1,5 +1,6 @@
 require_relative 'spec_helper.rb'
 require_relative '../lib/fantasy_football_nerd.rb'
+require_relative '../lib/api_settings.rb'
 
 describe 'Fantasy Football Nerd Gem' do
 
@@ -8,13 +9,9 @@ describe 'Fantasy Football Nerd Gem' do
   end
 
   describe 'feed_url' do
+    include APISettings
     it 'should generate a url for feeds with an api key' do
-      FFNerd.feed_url(:schedule).should       =~ /ffnScheduleXML.php/
-      FFNerd.feed_url(:projections).should    =~ /ffnSitStartXML.php/
-      FFNerd.feed_url(:injuries).should       =~ /ffnInjuriesXML.php/
-      FFNerd.feed_url(:all_players).should    =~ /ffnPlayersXML.php/
-      FFNerd.feed_url(:player).should         =~ /ffnPlayerDetailsXML.php/
-      FFNerd.feed_url(:schedule).should       =~ /apiKey=\d+/
+      FFNerd.feed_url(:schedule).should eq "#{APISettings.base_url}/#{APISettings.feeds[:schedule]}?apiKey=#{FFNerd.api_key}"
     end
 
     it 'should take parameters' do
@@ -35,29 +32,29 @@ describe 'Fantasy Football Nerd Gem' do
       url.should =~ /ffnPlayerDetailsXML.php\?apiKey=\d+&playerId=#{id}/
     end
 
-  #   it 'should get a url for a week\'s projections' do
-  #     url = FFNerd.projections_url(:all, 1)
-  #     url.should =~ /ffnSitStartXML.php\?apiKey=\d+&week=1&position=ALL/
-  #   end
+    it 'should get a url for a week\'s projections' do
+      url = FFNerd.projections_url(:all, 1)
+      url.should =~ /ffnSitStartXML.php\?apiKey=\d+&week=1&position=ALL/
+    end
 
-  #   it 'should get an injury url' do
-  #     url = FFNerd.injuries_url(1)
-  #     url.should =~ /ffnInjuriesXML.php\?apiKey=\d+&week=1/
-  #   end
+    it 'should get an injury url' do
+      url = FFNerd.injuries_url(1)
+      url.should =~ /ffnInjuriesXML.php\?apiKey=\d+&week=1/
+    end
 
-  #   it 'should get a list of all players' do
-  #     url = FFNerd.player_list_url
-  #     url.should =~ /ffnPlayersXML.php\?apiKey=\d+/
-  #   end
+    it 'should get a list of all players' do
+      url = FFNerd.player_list_url
+      url.should =~ /ffnPlayersXML.php\?apiKey=\d+/
+    end
 
   end
 
-  # it 'should return a resource' do
-  #   VCR.use_cassette('player_list') do
-  #     url = FFNerd.player_list_url
-  #     FFNerd.get_resource(url).should be_true
-  #   end
-  # end
+  it 'should return a resource' do
+    VCR.use_cassette('player_list') do
+      url = FFNerd.player_list_url
+      FFNerd.get_resource(url).should be_true
+    end
+  end
 
   #############################################################################
   # Player Detail

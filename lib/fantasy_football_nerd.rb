@@ -29,7 +29,7 @@ class FFNerd
 
 
   def self.feed_url(feed, params = {} )
-    url = "#{base_url}/#{feeds}?apiKey=#{@api_key}"
+    url = "#{base_url}/#{feeds[feed]}?apiKey=#{@api_key}"
     params.each { |key, value| url += "&#{key}=#{value}" }
     url
   end
