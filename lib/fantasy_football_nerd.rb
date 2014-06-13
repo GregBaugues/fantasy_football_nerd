@@ -8,4 +8,8 @@ class FFNerd
     @@api_key = value
   end
 
+  def self.api_key
+    @@api_key
+  end
+
 end
