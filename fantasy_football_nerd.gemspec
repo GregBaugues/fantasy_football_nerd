@@ -10,6 +10,4 @@ Gem::Specification.new do |s|
   s.homepage = 'http://www.baugues.com'
   s.has_rdoc = false
   s.rubyforge_project = 'fantasy_football_nerd'
-  s.add_dependency('hashie')
-  s.add_dependency('nokogiri')
 end
