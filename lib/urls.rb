@@ -4,10 +4,9 @@ module Urls
     "http://www.fantasyfootballnerd.com/service"
   end
 
-  def service_url(service, api_key, format = :json)
-    format = format.to_sym
-    raise "Only xml and json are valid formats" unless [:json, :xml].include?(format)
-    [base_url, service, format.to_s, api_key].join("/")
+  def service_url(service, api_key)
+    service = service.to_s
+    [base_url, service, "json", api_key].join("/")
   end
 
   def test_service_url(service, format = :json)
