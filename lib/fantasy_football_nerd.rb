@@ -1,8 +1,6 @@
-require 'nokogiri'
-require 'open-uri'
-require './lib/urls.rb'
+require 'json'
+require './lib/requests.rb'
 
 class FFNerd
-  include Urls
 
 end
