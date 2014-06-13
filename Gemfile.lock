@@ -6,6 +6,9 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.3.6)
+    crack (0.4.2)
+      safe_yaml (~> 1.0.0)
     diff-lcs (1.2.5)
     rspec (3.0.0)
       rspec-core (~> 3.0.0)
@@ -19,6 +22,11 @@ GEM
     rspec-mocks (3.0.1)
       rspec-support (~> 3.0.0)
     rspec-support (3.0.0)
+    safe_yaml (1.0.3)
+    vcr (2.9.2)
+    webmock (1.18.0)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
 
 PLATFORMS
   ruby
@@ -26,3 +34,5 @@ PLATFORMS
 DEPENDENCIES
   fantasy_football_nerd!
   rspec (~> 3.0.0)
+  vcr (~> 2.9.2)
+  webmock (~> 1.18.0)
