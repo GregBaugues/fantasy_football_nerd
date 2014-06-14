@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.fantasyfootballnerd.com/service/players/json/APIKEY
+    uri: http://www.fantasyfootballnerd.com/service/players/json/APIKEY/
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Sat, 14 Jun 2014 04:38:41 GMT
+      - Sat, 14 Jun 2014 04:53:07 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,22 +29,22 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=db9bb0fd9849afab3b924132341aa4cc81402720721800; expires=Mon, 23-Dec-2019
+      - __cfduid=d97a72fb679b1a8b34e449078408ea4e71402721587853; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
       Expires:
-      - Sat, 14 Jun 2014 16:38:41 GMT
+      - Sat, 14 Jun 2014 08:53:07 GMT
       Cache-Control:
-      - public, max-age=43200
+      - public, max-age=14400
       Pragma:
       - no-cache
       X-Powered-By:
       - PleskLin
       Cf-Cache-Status:
-      - HIT
+      - MISS
       Vary:
       - Accept-Encoding
       Cf-Ray:
-      - 13a3d6ff4ecb09b8-ORD
+      - 13a3ec24106309b8-ORD
     body:
       encoding: UTF-8
       string: '{"Players":[{"playerId":"2","active":"1","jersey":"3","lname":"Anderson","fname":"Derek","displayName":"Derek
@@ -1527,5 +1527,5 @@ http_interactions:
         Thompson","team":"TB","position":"TE","height":"6-4","weight":"234","dob":"0000-00-00","college":"Louisiana-Lafayette"},{"playerId":"2684","active":"1","jersey":"0","lname":"Murray","fname":"Patrick","displayName":"Patrick
         Murray","team":"TB","position":"K","height":"5-7","weight":"182","dob":"0000-00-00","college":"Fordham"}]}'
     http_version: 
-  recorded_at: Sat, 14 Jun 2014 04:38:42 GMT
+  recorded_at: Sat, 14 Jun 2014 04:53:08 GMT
 recorded_with: VCR 2.9.2

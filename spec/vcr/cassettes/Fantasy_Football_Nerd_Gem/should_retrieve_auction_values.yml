@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.fantasyfootballnerd.com/service/auction/json/APIKEY
+    uri: http://www.fantasyfootballnerd.com/service/auction/json/APIKEY/
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Sat, 14 Jun 2014 04:38:42 GMT
+      - Sat, 14 Jun 2014 04:53:08 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,19 +29,22 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - PHPSESSID=50sln42u6vg9ueif9cb82osk07; path=/
-      - __cfduid=d673713bafc6b6113f4049851ec73ad4b1402720722011; expires=Mon, 23-Dec-2019
+      - __cfduid=dcc8dfc9321d54b9fa715490d9902bc871402721588338; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
       Expires:
-      - Thu, 19 Nov 1981 08:52:00 GMT
+      - Sat, 14 Jun 2014 08:53:08 GMT
       Cache-Control:
-      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      - public, max-age=14400
       Pragma:
       - no-cache
       X-Powered-By:
       - PleskLin
+      Cf-Cache-Status:
+      - HIT
+      Vary:
+      - Accept-Encoding
       Cf-Ray:
-      - 13a3d70093b609b8-ORD
+      - 13a3ec271b4809b8-ORD
     body:
       encoding: UTF-8
       string: '{"AuctionValues":[{"playerId":"259","minPrice":"54","maxPrice":"54","avgPrice":"54","displayName":"Adrian
@@ -246,5 +249,5 @@ http_interactions:
         Davis","team":"KC","position":"RB"},{"playerId":"2222","minPrice":"2","maxPrice":"2","avgPrice":"2","displayName":"Stepfan
         Taylor","team":"ARI","position":"RB"}]}'
     http_version: 
-  recorded_at: Sat, 14 Jun 2014 04:38:42 GMT
+  recorded_at: Sat, 14 Jun 2014 04:53:08 GMT
 recorded_with: VCR 2.9.2

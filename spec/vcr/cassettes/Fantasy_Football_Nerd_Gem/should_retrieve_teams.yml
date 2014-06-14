@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.fantasyfootballnerd.com/service/nfl-teams/json/APIKEY
+    uri: http://www.fantasyfootballnerd.com/service/nfl-teams/json/APIKEY/
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Sat, 14 Jun 2014 04:34:04 GMT
+      - Sat, 14 Jun 2014 04:53:07 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,19 +29,22 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - PHPSESSID=6ndeuko4ev26r8h3qca4qoc5p6; path=/
-      - __cfduid=d5e14fb8af133a78b14ba508a16c8dedb1402720444910; expires=Mon, 23-Dec-2019
+      - __cfduid=dc2ca617591256631173eb2bcd4be10f11402721587702; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
       Expires:
-      - Thu, 19 Nov 1981 08:52:00 GMT
+      - Sat, 14 Jun 2014 08:53:07 GMT
       Cache-Control:
-      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      - public, max-age=14400
       Pragma:
       - no-cache
       X-Powered-By:
       - PleskLin
+      Cf-Cache-Status:
+      - MISS
+      Vary:
+      - Accept-Encoding
       Cf-Ray:
-      - 13a3d03cbaa609b8-ORD
+      - 13a3ec232faf09b8-ORD
     body:
       encoding: UTF-8
       string: '{"NFLTeams":[{"code":"ARI","fullName":"Arizona Cardinals","shortName":"Arizona"},{"code":"ATL","fullName":"Atlanta
@@ -66,5 +69,5 @@ http_interactions:
         Bay"},{"code":"TEN","fullName":"Tennessee Titans","shortName":"Tennessee"},{"code":"WAS","fullName":"Washington
         Redskins","shortName":"Washington"}]}'
     http_version: 
-  recorded_at: Sat, 14 Jun 2014 04:34:05 GMT
+  recorded_at: Sat, 14 Jun 2014 04:53:08 GMT
 recorded_with: VCR 2.9.2

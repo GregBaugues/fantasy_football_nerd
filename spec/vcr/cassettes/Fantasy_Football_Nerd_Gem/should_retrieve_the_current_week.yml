@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.fantasyfootballnerd.com/service/schedule/json/APIKEY
+    uri: http://www.fantasyfootballnerd.com/service/schedule/json/APIKEY/
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Sat, 14 Jun 2014 04:39:48 GMT
+      - Sat, 14 Jun 2014 04:53:08 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,19 +29,22 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - PHPSESSID=342453dl83bbmhj0h4mootg2u4; path=/
-      - __cfduid=d7074327de2f5ee1e921cbcfa0e587c041402720788933; expires=Mon, 23-Dec-2019
+      - __cfduid=df852332047d49e731a843a131c04853f1402721588429; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
       Expires:
-      - Thu, 19 Nov 1981 08:52:00 GMT
+      - Sat, 14 Jun 2014 08:53:08 GMT
       Cache-Control:
-      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      - public, max-age=14400
       Pragma:
       - no-cache
       X-Powered-By:
       - PleskLin
+      Cf-Cache-Status:
+      - HIT
+      Vary:
+      - Accept-Encoding
       Cf-Ray:
-      - 13a3d8a2dfc109b8-ORD
+      - 13a3ec27a0e109b8-ORD
     body:
       encoding: UTF-8
       string: '{"currentWeek":"1","Schedule":[{"gameId":"1","gameWeek":"1","gameDate":"2014-09-04","awayTeam":"GB","homeTeam":"SEA","gameTimeET":"8:30
@@ -300,5 +303,5 @@ http_interactions:
         PM","tvStation":"FOX"},{"gameId":"256","gameWeek":"17","gameDate":"2014-12-28","awayTeam":"STL","homeTeam":"SEA","gameTimeET":"4:25
         PM","tvStation":"FOX"}]}'
     http_version: 
-  recorded_at: Sat, 14 Jun 2014 04:39:49 GMT
+  recorded_at: Sat, 14 Jun 2014 04:53:08 GMT
 recorded_with: VCR 2.9.2
