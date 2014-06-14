@@ -30,4 +30,9 @@ class FFNerd
     response['Players'].collect { |p| OpenStruct.new(p) }
   end
 
+  def self.auction_values
+    response = request_service('auction', api_key)
+    response['AuctionValues'].collect { |av| OpenStruct.new(av) }
+  end
+
 end
