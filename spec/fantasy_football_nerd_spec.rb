@@ -19,4 +19,8 @@ describe 'Fantasy Football Nerd Gem', vcr: true do
     expect(FFNerd.auction_values.first).to be
   end
 
+  it 'should retrieve the current week' do
+    expect(FFNerd.current_week).to be
+  end
+
 end
