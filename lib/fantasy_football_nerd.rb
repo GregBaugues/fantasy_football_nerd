@@ -31,10 +31,6 @@ class FFNerd
     ostruct_request('auction', 'AuctionValues')
   end
 
-  def self.ppr_draft_projections
-    ostruct_request('draft-projections', 'DraftRankings')
-  end
-
   def self.current_week
     response = request_service('schedule', api_key)
     response['currentWeek']
