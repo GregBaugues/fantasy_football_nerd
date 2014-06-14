@@ -15,4 +15,9 @@ class FFNerd
     response['NFLTeams'].collect { |t| OpenStruct.new(t) }
   end
 
+  def self.schedule
+    response = request_service('schedule', api_key)
+    response['Schedule'].collect { |g| OpenStruct.new(g) }
+  end
+
 end
