@@ -1,4 +1,5 @@
 require 'json'
+require 'ostruct'
 require './lib/requests.rb'
 
 class FFNerd
@@ -10,7 +11,8 @@ class FFNerd
   end
 
   def self.teams
-    data = request_service('nfl-teams', api_key)
+    response = request_service('nfl-teams', api_key)
+    response['NFLTeams'].collect { |t| OpenStruct.new(t) }
   end
 
 end
