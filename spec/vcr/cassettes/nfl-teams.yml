@@ -1,0 +1,70 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.fantasyfootballnerd.com/service/nfl-teams/json/APIKEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Sat, 14 Jun 2014 03:16:55 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - PHPSESSID=s97ipe1l1pu2jqer28clbs3ua4; path=/
+      - __cfduid=d2f5b1625adb1fd601c4887d2515714461402715815832; expires=Mon, 23-Dec-2019
+        23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      X-Powered-By:
+      - PleskLin
+      Cf-Ray:
+      - 13a35f38fd9609b8-ORD
+    body:
+      encoding: UTF-8
+      string: '{"NFLTeams":[{"code":"ARI","fullName":"Arizona Cardinals","shortName":"Arizona"},{"code":"ATL","fullName":"Atlanta
+        Falcons","shortName":"Atlanta"},{"code":"BAL","fullName":"Baltimore Ravens","shortName":"Baltimore"},{"code":"BUF","fullName":"Buffalo
+        Bills","shortName":"Buffalo"},{"code":"CAR","fullName":"Carolina Panthers","shortName":"Carolina"},{"code":"CHI","fullName":"Chicago
+        Bears","shortName":"Chicago"},{"code":"CIN","fullName":"Cincinnati Bengals","shortName":"Cincinnati"},{"code":"CLE","fullName":"Cleveland
+        Browns","shortName":"Cleveland"},{"code":"DAL","fullName":"Dallas Cowboys","shortName":"Dallas"},{"code":"DEN","fullName":"Denver
+        Broncos","shortName":"Denver"},{"code":"DET","fullName":"Detroit Lions","shortName":"Detroit"},{"code":"GB","fullName":"Green
+        Bay Packers","shortName":"Green Bay"},{"code":"HOU","fullName":"Houston Texans","shortName":"Houston"},{"code":"IND","fullName":"Indianapolis
+        Colts","shortName":"Indianapolis"},{"code":"JAC","fullName":"Jacksonville
+        Jaguars","shortName":"Jacksonville"},{"code":"KC","fullName":"Kansas City
+        Chiefs","shortName":"Kansas City"},{"code":"MIA","fullName":"Miami Dolphins","shortName":"Miami"},{"code":"MIN","fullName":"Minnesota
+        Vikings","shortName":"Minnesota"},{"code":"NYG","fullName":"N.Y. Giants","shortName":"N.Y.
+        Giants"},{"code":"NYJ","fullName":"N.Y. Jets","shortName":"N.Y. Jets"},{"code":"NE","fullName":"New
+        England Patriots","shortName":"New England"},{"code":"NO","fullName":"New
+        Orleans Saints","shortName":"New Orleans"},{"code":"OAK","fullName":"Oakland
+        Raiders","shortName":"Oakland"},{"code":"PHI","fullName":"Philadelphia Eagles","shortName":"Philadelphia"},{"code":"PIT","fullName":"Pittsburgh
+        Steelers","shortName":"Pittsburgh"},{"code":"SD","fullName":"San Diego Chargers","shortName":"San
+        Diego"},{"code":"SF","fullName":"San Francisco 49ers","shortName":"San Francisco"},{"code":"SEA","fullName":"Seattle
+        Seahawks","shortName":"Seattle"},{"code":"STL","fullName":"St. Louis Rams","shortName":"St.
+        Louis"},{"code":"TB","fullName":"Tampa Bay Buccaneers","shortName":"Tampa
+        Bay"},{"code":"TEN","fullName":"Tennessee Titans","shortName":"Tennessee"},{"code":"WAS","fullName":"Washington
+        Redskins","shortName":"Washington"}]}'
+    http_version: 
+  recorded_at: Sat, 14 Jun 2014 03:16:56 GMT
+recorded_with: VCR 2.9.2

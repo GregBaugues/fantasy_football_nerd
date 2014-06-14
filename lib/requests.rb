@@ -6,7 +6,7 @@ module Requests
 
   def request_service(service, api_key)
     url = service_url(service, api_key)
-    JSON.parse(open(url))
+    JSON.parse(open(url).read)
   end
 
 end
