@@ -1,0 +1,250 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.fantasyfootballnerd.com/service/auction/json/APIKEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Sat, 14 Jun 2014 04:38:42 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - PHPSESSID=50sln42u6vg9ueif9cb82osk07; path=/
+      - __cfduid=d673713bafc6b6113f4049851ec73ad4b1402720722011; expires=Mon, 23-Dec-2019
+        23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      X-Powered-By:
+      - PleskLin
+      Cf-Ray:
+      - 13a3d70093b609b8-ORD
+    body:
+      encoding: UTF-8
+      string: '{"AuctionValues":[{"playerId":"259","minPrice":"54","maxPrice":"54","avgPrice":"54","displayName":"Adrian
+        Peterson","team":"MIN","position":"RB"},{"playerId":"145","minPrice":"52","maxPrice":"52","avgPrice":"52","displayName":"Jamaal
+        Charles","team":"KC","position":"RB"},{"playerId":"810","minPrice":"52","maxPrice":"52","avgPrice":"52","displayName":"LeSean
+        McCoy","team":"PHI","position":"RB"},{"playerId":"230","minPrice":"49","maxPrice":"49","avgPrice":"49","displayName":"Marshawn
+        Lynch","team":"SEA","position":"RB"},{"playerId":"175","minPrice":"49","maxPrice":"49","avgPrice":"49","displayName":"Matt
+        Forte","team":"CHI","position":"RB"},{"playerId":"2313","minPrice":"45","maxPrice":"45","avgPrice":"45","displayName":"Eddie
+        Lacy","team":"GB","position":"RB"},{"playerId":"66","minPrice":"43","maxPrice":"43","avgPrice":"43","displayName":"Peyton
+        Manning","team":"DEN","position":"QB"},{"playerId":"454","minPrice":"41","maxPrice":"41","avgPrice":"41","displayName":"Calvin
+        Johnson","team":"DET","position":"WR"},{"playerId":"917","minPrice":"41","maxPrice":"41","avgPrice":"41","displayName":"Arian
+        Foster","team":"HOU","position":"RB"},{"playerId":"87","minPrice":"38","maxPrice":"38","avgPrice":"38","displayName":"Aaron
+        Rodgers","team":"GB","position":"QB"},{"playerId":"2289","minPrice":"38","maxPrice":"38","avgPrice":"38","displayName":"Le''Veon
+        Bell","team":"PIT","position":"RB"},{"playerId":"1421","minPrice":"38","maxPrice":"38","avgPrice":"38","displayName":"DeMarco
+        Murray","team":"DAL","position":"RB"},{"playerId":"14","minPrice":"38","maxPrice":"38","avgPrice":"38","displayName":"Drew
+        Brees","team":"NO","position":"QB"},{"playerId":"1187","minPrice":"38","maxPrice":"38","avgPrice":"38","displayName":"Jimmy
+        Graham","team":"NO","position":"TE"},{"playerId":"1172","minPrice":"36","maxPrice":"36","avgPrice":"36","displayName":"Demaryius
+        Thomas","team":"DEN","position":"WR"},{"playerId":"1441","minPrice":"36","maxPrice":"36","avgPrice":"36","displayName":"A.J.
+        Green","team":"CIN","position":"WR"},{"playerId":"1143","minPrice":"36","maxPrice":"36","avgPrice":"36","displayName":"Dez
+        Bryant","team":"DAL","position":"WR"},{"playerId":"1446","minPrice":"35","maxPrice":"35","avgPrice":"35","displayName":"Julio
+        Jones","team":"ATL","position":"WR"},{"playerId":"480","minPrice":"35","maxPrice":"35","avgPrice":"35","displayName":"Brandon
+        Marshall","team":"CHI","position":"WR"},{"playerId":"2185","minPrice":"35","maxPrice":"35","avgPrice":"35","displayName":"Montee
+        Ball","team":"DEN","position":"RB"},{"playerId":"1981","minPrice":"35","maxPrice":"35","avgPrice":"35","displayName":"Doug
+        Martin","team":"TB","position":"RB"},{"playerId":"1189","minPrice":"33","maxPrice":"33","avgPrice":"33","displayName":"Rob
+        Gronkowski","team":"NE","position":"TE"},{"playerId":"2273","minPrice":"33","maxPrice":"33","avgPrice":"33","displayName":"Giovani
+        Bernard","team":"CIN","position":"RB"},{"playerId":"2092","minPrice":"33","maxPrice":"33","avgPrice":"33","displayName":"Josh
+        Gordon","team":"CLE","position":"WR"},{"playerId":"1932","minPrice":"31","maxPrice":"31","avgPrice":"31","displayName":"Andrew
+        Luck","team":"IND","position":"QB"},{"playerId":"1142","minPrice":"31","maxPrice":"31","avgPrice":"31","displayName":"Antonio
+        Brown","team":"PIT","position":"WR"},{"playerId":"2254","minPrice":"30","maxPrice":"30","avgPrice":"30","displayName":"Zac
+        Stacy","team":"STL","position":"RB"},{"playerId":"1398","minPrice":"30","maxPrice":"30","avgPrice":"30","displayName":"Cam
+        Newton","team":"CAR","position":"QB"},{"playerId":"502","minPrice":"28","maxPrice":"28","avgPrice":"28","displayName":"Jordy
+        Nelson","team":"GB","position":"WR"},{"playerId":"2221","minPrice":"28","maxPrice":"28","avgPrice":"28","displayName":"Andre
+        Ellington","team":"ARI","position":"RB"},{"playerId":"139","minPrice":"28","maxPrice":"28","avgPrice":"28","displayName":"Reggie
+        Bush","team":"DET","position":"RB"},{"playerId":"1895","minPrice":"27","maxPrice":"27","avgPrice":"27","displayName":"Alshon
+        Jeffery","team":"CHI","position":"WR"},{"playerId":"394","minPrice":"26","maxPrice":"26","avgPrice":"26","displayName":"Larry
+        Fitzgerald","team":"ARI","position":"WR"},{"playerId":"1471","minPrice":"25","maxPrice":"25","avgPrice":"25","displayName":"Julius
+        Thomas","team":"DEN","position":"TE"},{"playerId":"1809","minPrice":"25","maxPrice":"25","avgPrice":"25","displayName":"Alfred
+        Morris","team":"WAS","position":"RB"},{"playerId":"1132","minPrice":"25","maxPrice":"25","avgPrice":"25","displayName":"Ryan
+        Mathews","team":"SD","position":"RB"},{"playerId":"1138","minPrice":"24","maxPrice":"24","avgPrice":"24","displayName":"Ben
+        Tate","team":"CLE","position":"RB"},{"playerId":"1437","minPrice":"24","maxPrice":"24","avgPrice":"24","displayName":"Randall
+        Cobb","team":"GB","position":"WR"},{"playerId":"576","minPrice":"23","maxPrice":"23","avgPrice":"23","displayName":"Wes
+        Welker","team":"DEN","position":"WR"},{"playerId":"830","minPrice":"23","maxPrice":"23","avgPrice":"23","displayName":"Michael
+        Crabtree","team":"SF","position":"WR"},{"playerId":"452","minPrice":"23","maxPrice":"23","avgPrice":"23","displayName":"Andre
+        Johnson","team":"HOU","position":"WR"},{"playerId":"626","minPrice":"22","maxPrice":"22","avgPrice":"22","displayName":"Vernon
+        Davis","team":"SF","position":"TE"},{"playerId":"269","minPrice":"22","maxPrice":"22","avgPrice":"22","displayName":"Ray
+        Rice","team":"BAL","position":"RB"},{"playerId":"1430","minPrice":"22","maxPrice":"22","avgPrice":"22","displayName":"Shane
+        Vereen","team":"NE","position":"RB"},{"playerId":"1136","minPrice":"22","maxPrice":"22","avgPrice":"22","displayName":"C.J.
+        Spiller","team":"BUF","position":"RB"},{"playerId":"404","minPrice":"21","maxPrice":"21","avgPrice":"21","displayName":"Pierre
+        Garcon","team":"WAS","position":"WR"},{"playerId":"793","minPrice":"21","maxPrice":"21","avgPrice":"21","displayName":"Matthew
+        Stafford","team":"DET","position":"QB"},{"playerId":"805","minPrice":"21","maxPrice":"21","avgPrice":"21","displayName":"Rashad
+        Jennings","team":"NYG","position":"RB"},{"playerId":"444","minPrice":"20","maxPrice":"20","avgPrice":"20","displayName":"Vincent
+        Jackson","team":"TB","position":"WR"},{"playerId":"1262","minPrice":"20","maxPrice":"20","avgPrice":"20","displayName":"Victor
+        Cruz","team":"NYG","position":"WR"},{"playerId":"13","minPrice":"19","maxPrice":"19","avgPrice":"19","displayName":"Tom
+        Brady","team":"NE","position":"QB"},{"playerId":"1801","minPrice":"19","maxPrice":"19","avgPrice":"19","displayName":"Nick
+        Foles","team":"PHI","position":"QB"},{"playerId":"1394","minPrice":"19","maxPrice":"19","avgPrice":"19","displayName":"Colin
+        Kaepernick","team":"SF","position":"QB"},{"playerId":"1806","minPrice":"19","maxPrice":"19","avgPrice":"19","displayName":"Robert
+        Griffin III","team":"WAS","position":"QB"},{"playerId":"2642","minPrice":"19","maxPrice":"19","avgPrice":"19","displayName":"Bishop
+        Sankey","team":"TEN","position":"RB"},{"playerId":"1199","minPrice":"18","maxPrice":"18","avgPrice":"18","displayName":"Dennis
+        Pitta","team":"BAL","position":"TE"},{"playerId":"208","minPrice":"18","maxPrice":"18","avgPrice":"18","displayName":"Chris
+        Johnson","team":"NYJ","position":"RB"},{"playerId":"2215","minPrice":"18","maxPrice":"18","avgPrice":"18","displayName":"Keenan
+        Allen","team":"SD","position":"WR"},{"playerId":"2328","minPrice":"18","maxPrice":"18","avgPrice":"18","displayName":"Cordarrelle
+        Patterson","team":"MIN","position":"WR"},{"playerId":"812","minPrice":"18","maxPrice":"18","avgPrice":"18","displayName":"Knowshon
+        Moreno","team":"MIA","position":"RB"},{"playerId":"205","minPrice":"18","maxPrice":"18","avgPrice":"18","displayName":"Steven
+        Jackson","team":"ATL","position":"RB"},{"playerId":"1879","minPrice":"17","maxPrice":"17","avgPrice":"17","displayName":"Trent
+        Richardson","team":"IND","position":"RB"},{"playerId":"578","minPrice":"17","maxPrice":"17","avgPrice":"17","displayName":"Roddy
+        White","team":"ATL","position":"WR"},{"playerId":"89","minPrice":"17","maxPrice":"17","avgPrice":"17","displayName":"Tony
+        Romo","team":"DAL","position":"QB"},{"playerId":"180","minPrice":"17","maxPrice":"17","avgPrice":"17","displayName":"Frank
+        Gore","team":"SF","position":"RB"},{"playerId":"1127","minPrice":"17","maxPrice":"17","avgPrice":"17","displayName":"Toby
+        Gerhart","team":"JAC","position":"RB"},{"playerId":"93","minPrice":"17","maxPrice":"17","avgPrice":"17","displayName":"Matt
+        Ryan","team":"ATL","position":"QB"},{"playerId":"1961","minPrice":"17","maxPrice":"17","avgPrice":"17","displayName":"Kendall
+        Wright","team":"TEN","position":"WR"},{"playerId":"832","minPrice":"17","maxPrice":"17","avgPrice":"17","displayName":"Julian
+        Edelman","team":"NE","position":"WR"},{"playerId":"733","minPrice":"16","maxPrice":"16","avgPrice":"16","displayName":"Jason
+        Witten","team":"DAL","position":"TE"},{"playerId":"217","minPrice":"16","maxPrice":"16","avgPrice":"16","displayName":"Maurice
+        Jones-Drew","team":"OAK","position":"RB"},{"playerId":"1458","minPrice":"16","maxPrice":"16","avgPrice":"16","displayName":"Torrey
+        Smith","team":"BAL","position":"WR"},{"playerId":"1847","minPrice":"16","maxPrice":"16","avgPrice":"16","displayName":"Russell
+        Wilson","team":"SEA","position":"QB"},{"playerId":"1168","minPrice":"16","maxPrice":"16","avgPrice":"16","displayName":"Emmanuel
+        Sanders","team":"DEN","position":"WR"},{"playerId":"840","minPrice":"16","maxPrice":"16","avgPrice":"16","displayName":"Percy
+        Harvin","team":"SEA","position":"WR"},{"playerId":"441","minPrice":"16","maxPrice":"16","avgPrice":"16","displayName":"DeSean
+        Jackson","team":"WAS","position":"WR"},{"playerId":"371","minPrice":"16","maxPrice":"16","avgPrice":"16","displayName":"Marques
+        Colston","team":"NO","position":"WR"},{"playerId":"684","minPrice":"15","maxPrice":"15","avgPrice":"15","displayName":"Greg
+        Olsen","team":"CAR","position":"TE"},{"playerId":"1836","minPrice":"15","maxPrice":"15","avgPrice":"15","displayName":"Michael
+        Floyd","team":"ARI","position":"WR"},{"playerId":"204","minPrice":"15","maxPrice":"15","avgPrice":"15","displayName":"Fred
+        Jackson","team":"BUF","position":"RB"},{"playerId":"1220","minPrice":"15","maxPrice":"15","avgPrice":"15","displayName":"Joique
+        Bell","team":"DET","position":"RB"},{"playerId":"863","minPrice":"15","maxPrice":"15","avgPrice":"15","displayName":"Mike
+        Wallace","team":"MIA","position":"WR"},{"playerId":"573","minPrice":"15","maxPrice":"15","avgPrice":"15","displayName":"Reggie
+        Wayne","team":"IND","position":"WR"},{"playerId":"313","minPrice":"14","maxPrice":"14","avgPrice":"14","displayName":"Danny
+        Woodhead","team":"SD","position":"RB"},{"playerId":"86","minPrice":"14","maxPrice":"14","avgPrice":"14","displayName":"Philip
+        Rivers","team":"SD","position":"QB"},{"playerId":"1461","minPrice":"14","maxPrice":"14","avgPrice":"14","displayName":"Jordan
+        Cameron","team":"CLE","position":"TE"},{"playerId":"2181","minPrice":"14","maxPrice":"14","avgPrice":"14","displayName":"Jordan
+        Reed","team":"WAS","position":"TE"},{"playerId":"1146","minPrice":"14","maxPrice":"14","avgPrice":"14","displayName":"Eric
+        Decker","team":"NYJ","position":"WR"},{"playerId":"285","minPrice":"14","maxPrice":"14","avgPrice":"14","displayName":"Darren
+        Sproles","team":"PHI","position":"RB"},{"playerId":"1170","minPrice":"14","maxPrice":"14","avgPrice":"14","displayName":"Golden
+        Tate","team":"DET","position":"WR"},{"playerId":"1937","minPrice":"14","maxPrice":"14","avgPrice":"14","displayName":"T.Y.
+        Hilton","team":"IND","position":"WR"},{"playerId":"292","minPrice":"13","maxPrice":"13","avgPrice":"13","displayName":"Pierre
+        Thomas","team":"NO","position":"RB"},{"playerId":"1423","minPrice":"13","maxPrice":"13","avgPrice":"13","displayName":"Stevan
+        Ridley","team":"NE","position":"RB"},{"playerId":"2432","minPrice":"13","maxPrice":"13","avgPrice":"13","displayName":"Sammy
+        Watkins","team":"BUF","position":"WR"},{"playerId":"847","minPrice":"13","maxPrice":"13","avgPrice":"13","displayName":"Jeremy
+        Maclin","team":"PHI","position":"WR"},{"playerId":"1467","minPrice":"12","maxPrice":"12","avgPrice":"12","displayName":"Kyle
+        Rudolph","team":"MIN","position":"TE"},{"playerId":"235","minPrice":"12","maxPrice":"12","avgPrice":"12","displayName":"Darren
+        McFadden","team":"OAK","position":"RB"},{"playerId":"28","minPrice":"12","maxPrice":"12","avgPrice":"12","displayName":"Jay
+        Cutler","team":"CHI","position":"QB"},{"playerId":"2562","minPrice":"12","maxPrice":"12","avgPrice":"12","displayName":"Johnny
+        Manziel","team":"CLE","position":"QB"},{"playerId":"1457","minPrice":"12","maxPrice":"12","avgPrice":"12","displayName":"Cecil
+        Shorts","team":"JAC","position":"WR"},{"playerId":"2160","minPrice":"12","maxPrice":"12","avgPrice":"12","displayName":"Terrance
+        Williams","team":"DAL","position":"WR"},{"playerId":"88","minPrice":"11","maxPrice":"11","avgPrice":"11","displayName":"Ben
+        Roethlisberger","team":"PIT","position":"QB"},{"playerId":"97","minPrice":"11","maxPrice":"11","avgPrice":"11","displayName":"Alex
+        Smith","team":"KC","position":"QB"},{"playerId":"1391","minPrice":"11","maxPrice":"11","avgPrice":"11","displayName":"Andy
+        Dalton","team":"CIN","position":"QB"},{"playerId":"602","minPrice":"11","maxPrice":"11","avgPrice":"11","displayName":"Martellus
+        Bennett","team":"CHI","position":"TE"},{"playerId":"343","minPrice":"11","maxPrice":"11","avgPrice":"11","displayName":"Dwayne
+        Bowe","team":"KC","position":"WR"},{"playerId":"310","minPrice":"11","maxPrice":"11","avgPrice":"11","displayName":"DeAngelo
+        Williams","team":"CAR","position":"RB"},{"playerId":"2338","minPrice":"11","maxPrice":"11","avgPrice":"11","displayName":"DeAndre
+        Hopkins","team":"HOU","position":"WR"},{"playerId":"2677","minPrice":"10","maxPrice":"10","avgPrice":"10","displayName":"Mike
+        Evans","team":"TB","position":"WR"},{"playerId":"1408","minPrice":"10","maxPrice":"10","avgPrice":"10","displayName":"Charles
+        Clay","team":"MIA","position":"TE"},{"playerId":"1758","minPrice":"10","maxPrice":"10","avgPrice":"10","displayName":"Ryan
+        Tannehill","team":"MIA","position":"QB"},{"playerId":"2663","minPrice":"9","maxPrice":"9","avgPrice":"9","displayName":"Kelvin
+        Benjamin","team":"CAR","position":"WR"},{"playerId":"341","minPrice":"9","maxPrice":"9","avgPrice":"9","displayName":"Anquan
+        Boldin","team":"SF","position":"WR"},{"playerId":"460","minPrice":"9","maxPrice":"9","avgPrice":"9","displayName":"James
+        Jones","team":"OAK","position":"WR"},{"playerId":"1056","minPrice":"9","maxPrice":"9","avgPrice":"9","displayName":"Seattle
+        Seahawks","team":"SEA","position":"DEF"},{"playerId":"2386","minPrice":"9","maxPrice":"9","avgPrice":"9","displayName":"Khiry
+        Robinson","team":"NO","position":"RB"},{"playerId":"2565","minPrice":"9","maxPrice":"9","avgPrice":"9","displayName":"Terrance
+        West","team":"CLE","position":"RB"},{"playerId":"1227","minPrice":"9","maxPrice":"9","avgPrice":"9","displayName":"Chris
+        Ivory","team":"NYJ","position":"RB"},{"playerId":"1395","minPrice":"8","maxPrice":"8","avgPrice":"8","displayName":"Jake
+        Locker","team":"TEN","position":"QB"},{"playerId":"2122","minPrice":"8","maxPrice":"8","avgPrice":"8","displayName":"Robert
+        Woods","team":"BUF","position":"WR"},{"playerId":"2173","minPrice":"8","maxPrice":"8","avgPrice":"8","displayName":"Zach
+        Ertz","team":"PHI","position":"TE"},{"playerId":"1145","minPrice":"8","maxPrice":"8","avgPrice":"8","displayName":"Riley
+        Cooper","team":"PHI","position":"WR"},{"playerId":"2139","minPrice":"8","maxPrice":"8","avgPrice":"8","displayName":"Aaron
+        Dobson","team":"NE","position":"WR"},{"playerId":"1415","minPrice":"8","maxPrice":"8","avgPrice":"8","displayName":"Mark
+        Ingram","team":"NO","position":"RB"},{"playerId":"2587","minPrice":"7","maxPrice":"7","avgPrice":"7","displayName":"Eric
+        Ebron","team":"DET","position":"TE"},{"playerId":"853","minPrice":"7","maxPrice":"7","avgPrice":"7","displayName":"Hakeem
+        Nicks","team":"IND","position":"WR"},{"playerId":"541","minPrice":"7","maxPrice":"7","avgPrice":"7","displayName":"Steve
+        Smith","team":"BAL","position":"WR"},{"playerId":"1055","minPrice":"7","maxPrice":"7","avgPrice":"7","displayName":"San
+        Francisco 49ers","team":"SF","position":"DEF"},{"playerId":"839","minPrice":"7","maxPrice":"7","avgPrice":"7","displayName":"Brian
+        Hartline","team":"MIA","position":"WR"},{"playerId":"1866","minPrice":"7","maxPrice":"7","avgPrice":"7","displayName":"Bernard
+        Pierce","team":"BAL","position":"RB"},{"playerId":"803","minPrice":"7","maxPrice":"7","avgPrice":"7","displayName":"Shonn
+        Greene","team":"TEN","position":"RB"},{"playerId":"1186","minPrice":"6","maxPrice":"6","avgPrice":"6","displayName":"Garrett
+        Graham","team":"HOU","position":"TE"},{"playerId":"1109","minPrice":"6","maxPrice":"6","avgPrice":"6","displayName":"Sam
+        Bradford","team":"STL","position":"QB"},{"playerId":"35","minPrice":"6","maxPrice":"6","avgPrice":"6","displayName":"Joe
+        Flacco","team":"BAL","position":"QB"},{"playerId":"1064","minPrice":"6","maxPrice":"6","avgPrice":"6","displayName":"Kansas
+        City Chiefs","team":"KC","position":"DEF"},{"playerId":"1048","minPrice":"6","maxPrice":"6","avgPrice":"6","displayName":"Carolina
+        Panthers","team":"CAR","position":"DEF"},{"playerId":"2388","minPrice":"6","maxPrice":"6","avgPrice":"6","displayName":"Kenny
+        Stills","team":"NO","position":"WR"},{"playerId":"1797","minPrice":"6","maxPrice":"6","avgPrice":"6","displayName":"David
+        Wilson","team":"NYG","position":"RB"},{"playerId":"2541","minPrice":"6","maxPrice":"6","avgPrice":"6","displayName":"Tre
+        Mason","team":"STL","position":"RB"},{"playerId":"1761","minPrice":"6","maxPrice":"6","avgPrice":"6","displayName":"Lamar
+        Miller","team":"MIA","position":"RB"},{"playerId":"1221","minPrice":"6","maxPrice":"6","avgPrice":"6","displayName":"LeGarrette
+        Blount","team":"PIT","position":"RB"},{"playerId":"79","minPrice":"5","maxPrice":"5","avgPrice":"5","displayName":"Carson
+        Palmer","team":"ARI","position":"QB"},{"playerId":"2114","minPrice":"5","maxPrice":"5","avgPrice":"5","displayName":"EJ
+        Manuel","team":"BUF","position":"QB"},{"playerId":"1161","minPrice":"5","maxPrice":"5","avgPrice":"5","displayName":"Dexter
+        McCluster","team":"TEN","position":"WR"},{"playerId":"1045","minPrice":"5","maxPrice":"5","avgPrice":"5","displayName":"Arizona
+        Cardinals","team":"ARI","position":"DEF"},{"playerId":"2257","minPrice":"5","maxPrice":"5","avgPrice":"5","displayName":"Tavon
+        Austin","team":"STL","position":"WR"},{"playerId":"2580","minPrice":"5","maxPrice":"5","avgPrice":"5","displayName":"Ka''Deem
+        Carey","team":"CHI","position":"RB"},{"playerId":"2361","minPrice":"5","maxPrice":"5","avgPrice":"5","displayName":"Justin
+        Hunter","team":"TEN","position":"WR"},{"playerId":"1059","minPrice":"5","maxPrice":"5","avgPrice":"5","displayName":"Cincinnati
+        Bengals","team":"CIN","position":"DEF"},{"playerId":"1872","minPrice":"5","maxPrice":"5","avgPrice":"5","displayName":"Marvin
+        Jones","team":"CIN","position":"WR"},{"playerId":"872","minPrice":"4","maxPrice":"4","avgPrice":"4","displayName":"Jared
+        Cook","team":"STL","position":"TE"},{"playerId":"643","minPrice":"4","maxPrice":"4","avgPrice":"4","displayName":"Antonio
+        Gates","team":"SD","position":"TE"},{"playerId":"65","minPrice":"4","maxPrice":"4","avgPrice":"4","displayName":"Eli
+        Manning","team":"NYG","position":"QB"},{"playerId":"1061","minPrice":"4","maxPrice":"4","avgPrice":"4","displayName":"Denver
+        Broncos","team":"DEN","position":"DEF"},{"playerId":"1067","minPrice":"4","maxPrice":"4","avgPrice":"4","displayName":"St.
+        Louis Rams","team":"STL","position":"DEF"},{"playerId":"797","minPrice":"4","maxPrice":"4","avgPrice":"4","displayName":"Andre
+        Brown","team":"HOU","position":"RB"},{"playerId":"2052","minPrice":"4","maxPrice":"4","avgPrice":"4","displayName":"Jarrett
+        Boykin","team":"GB","position":"WR"},{"playerId":"451","minPrice":"4","maxPrice":"4","avgPrice":"4","displayName":"Greg
+        Jennings","team":"MIN","position":"WR"},{"playerId":"1137","minPrice":"4","maxPrice":"4","avgPrice":"4","displayName":"James
+        Starks","team":"GB","position":"RB"},{"playerId":"2555","minPrice":"4","maxPrice":"4","avgPrice":"4","displayName":"Jeremy
+        Hill","team":"CIN","position":"RB"},{"playerId":"185","minPrice":"4","maxPrice":"4","avgPrice":"4","displayName":"BenJarvus
+        Green-Ellis","team":"CIN","position":"RB"},{"playerId":"287","minPrice":"4","maxPrice":"4","avgPrice":"4","displayName":"Jonathan
+        Stewart","team":"CAR","position":"RB"},{"playerId":"1041","minPrice":"4","maxPrice":"4","avgPrice":"4","displayName":"New
+        England Patriots","team":"NE","position":"DEF"},{"playerId":"752","minPrice":"3","maxPrice":"3","avgPrice":"3","displayName":"Stephen
+        Gostkowski","team":"NE","position":"K"},{"playerId":"1424","minPrice":"3","maxPrice":"3","avgPrice":"3","displayName":"Jacquizz
+        Rodgers","team":"ATL","position":"RB"},{"playerId":"564","minPrice":"3","maxPrice":"3","avgPrice":"3","displayName":"Delanie
+        Walker","team":"TEN","position":"TE"},{"playerId":"675","minPrice":"3","maxPrice":"3","avgPrice":"3","displayName":"Heath
+        Miller","team":"PIT","position":"TE"},{"playerId":"1057","minPrice":"3","maxPrice":"3","avgPrice":"3","displayName":"Tampa
+        Bay Buccaneers","team":"TB","position":"DEF"},{"playerId":"1799","minPrice":"3","maxPrice":"3","avgPrice":"3","displayName":"Rueben
+        Randle","team":"NYG","position":"WR"},{"playerId":"1038","minPrice":"3","maxPrice":"3","avgPrice":"3","displayName":"Baltimore
+        Ravens","team":"BAL","position":"DEF"},{"playerId":"769","minPrice":"3","maxPrice":"3","avgPrice":"3","displayName":"Matt
+        Prater","team":"DEN","position":"K"},{"playerId":"1549","minPrice":"3","maxPrice":"3","avgPrice":"3","displayName":"Doug
+        Baldwin","team":"SEA","position":"WR"},{"playerId":"94","minPrice":"3","maxPrice":"3","avgPrice":"3","displayName":"Matt
+        Schaub","team":"OAK","position":"QB"},{"playerId":"2530","minPrice":"3","maxPrice":"3","avgPrice":"3","displayName":"Carlos
+        Hyde","team":"SF","position":"RB"},{"playerId":"1414","minPrice":"3","maxPrice":"3","avgPrice":"3","displayName":"Kendall
+        Hunter","team":"SF","position":"RB"},{"playerId":"571","minPrice":"3","maxPrice":"3","avgPrice":"3","displayName":"Nate
+        Washington","team":"TEN","position":"WR"},{"playerId":"2293","minPrice":"3","maxPrice":"3","avgPrice":"3","displayName":"Markus
+        Wheaton","team":"PIT","position":"WR"},{"playerId":"2634","minPrice":"3","maxPrice":"3","avgPrice":"3","displayName":"Marqise
+        Lee","team":"JAC","position":"WR"},{"playerId":"2675","minPrice":"3","maxPrice":"3","avgPrice":"3","displayName":"Charles
+        Sims","team":"TB","position":"RB"},{"playerId":"373","minPrice":"3","maxPrice":"3","avgPrice":"3","displayName":"Jerricho
+        Cotchery","team":"CAR","position":"WR"},{"playerId":"2465","minPrice":"3","maxPrice":"3","avgPrice":"3","displayName":"Odell
+        Beckham","team":"NYG","position":"WR"},{"playerId":"328","minPrice":"3","maxPrice":"3","avgPrice":"3","displayName":"Miles
+        Austin","team":"CLE","position":"WR"},{"playerId":"1933","minPrice":"3","maxPrice":"3","avgPrice":"3","displayName":"Vick
+        Ballard","team":"IND","position":"RB"},{"playerId":"1060","minPrice":"3","maxPrice":"3","avgPrice":"3","displayName":"Cleveland
+        Browns","team":"CLE","position":"DEF"},{"playerId":"323","minPrice":"3","maxPrice":"3","avgPrice":"3","displayName":"Danny
+        Amendola","team":"NE","position":"WR"},{"playerId":"1450","minPrice":"3","maxPrice":"3","avgPrice":"3","displayName":"Denarius
+        Moore","team":"OAK","position":"WR"},{"playerId":"1940","minPrice":"2","maxPrice":"2","avgPrice":"2","displayName":"Dwayne
+        Allen","team":"IND","position":"TE"},{"playerId":"1047","minPrice":"2","maxPrice":"2","avgPrice":"2","displayName":"Buffalo
+        Bills","team":"BUF","position":"DEF"},{"playerId":"1849","minPrice":"2","maxPrice":"2","avgPrice":"2","displayName":"Robert
+        Turbin","team":"SEA","position":"RB"},{"playerId":"294","minPrice":"2","maxPrice":"2","avgPrice":"2","displayName":"Mike
+        Tolbert","team":"CAR","position":"RB"},{"playerId":"758","minPrice":"2","maxPrice":"2","avgPrice":"2","displayName":"Steven
+        Hauschka","team":"SEA","position":"K"},{"playerId":"69","minPrice":"2","maxPrice":"2","avgPrice":"2","displayName":"Josh
+        McCown","team":"TB","position":"QB"},{"playerId":"2669","minPrice":"2","maxPrice":"2","avgPrice":"2","displayName":"Brandin
+        Cooks","team":"NO","position":"WR"},{"playerId":"2184","minPrice":"2","maxPrice":"2","avgPrice":"2","displayName":"C.J.
+        Anderson","team":"DEN","position":"RB"},{"playerId":"2146","minPrice":"2","maxPrice":"2","avgPrice":"2","displayName":"Geno
+        Smith","team":"NYJ","position":"QB"},{"playerId":"384","minPrice":"2","maxPrice":"2","avgPrice":"2","displayName":"Harry
+        Douglas","team":"ATL","position":"WR"},{"playerId":"132","minPrice":"2","maxPrice":"2","avgPrice":"2","displayName":"Ahmad
+        Bradshaw","team":"IND","position":"RB"},{"playerId":"1422","minPrice":"2","maxPrice":"2","avgPrice":"2","displayName":"Bilal
+        Powell","team":"NYJ","position":"RB"},{"playerId":"2192","minPrice":"2","maxPrice":"2","avgPrice":"2","displayName":"Knile
+        Davis","team":"KC","position":"RB"},{"playerId":"2222","minPrice":"2","maxPrice":"2","avgPrice":"2","displayName":"Stepfan
+        Taylor","team":"ARI","position":"RB"}]}'
+    http_version: 
+  recorded_at: Sat, 14 Jun 2014 04:38:42 GMT
+recorded_with: VCR 2.9.2
