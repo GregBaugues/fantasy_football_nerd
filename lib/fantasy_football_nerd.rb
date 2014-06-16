@@ -3,6 +3,8 @@ require 'ostruct'
 require './lib/request.rb'
 require './lib/util.rb'
 
+POSITIONS = %w{QB RB WR TE K DEF}
+
 class FFNerd
   extend Request
 
@@ -47,6 +49,16 @@ class FFNerd
     #requires a 1 appended to url for ppr rankings
     response = request_service('draft-rankings', api_key, '1')
     ostruct_request('draft-rankings', 'DraftRankings')
+  end
+
+  def self.weekly_projections(position, week = nil)
+    #FFNerd will default to current week if week is left blank
+    raise "Weekly projections does not include DEF (but you can find those values in weekly rankings)" if position == "DEF"
+    raise "Must pass in a valid position" unless POSITIONS.include?(position)
+    raise "Your (optional) week must be between 1 and 17" if week && !(1..17).include?(week)
+    extras = [position, week]
+    response = request_service('weekly-projections', api_key, extras)
+    ostruct_request('weekly-projections', 'Projections')
   end
 
 end
