@@ -37,4 +37,16 @@ class FFNerd
     response = request_service('schedule', api_key)
     response['currentWeek']
   end
+
+  def self.standard_draft_rankings
+    response = request_service('draft-rankings', api_key)
+    ostruct_request('draft-rankings', 'DraftRankings')
+  end
+
+  def self.ppr_draft_rankings
+    #requires a 1 appended to url for ppr rankings
+    response = request_service('draft-rankings', api_key, '1')
+    ostruct_request('draft-rankings', 'DraftRankings')
+  end
+
 end
