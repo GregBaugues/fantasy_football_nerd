@@ -8,7 +8,7 @@ module Request
 
   def service_url(service, api_key, extras = [])
     service = service.to_s
-    [base_url, service, "json", api_key, extras].join("/")
+    [base_url, service, "json", api_key, extras].join("/").gsub(/\/$/, '')
   end
 
   def test_service_url(service, format = :json)
