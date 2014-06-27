@@ -20,6 +20,7 @@ class FFNerd
 
   def self.ostruct_request(service_name, json_key, extras = [])
     response = request_service(service_name, api_key, extras)
+    response[json_key] ||= {}
     response[json_key].each { |hash| hash.add_snakecase_keys }
     response[json_key].collect { |i| OpenStruct.new(i) }
   end
@@ -58,14 +59,33 @@ class FFNerd
     ostruct_request('draft-rankings', 'DraftRankings', '1')
   end
 
-  def self.weekly_projections(position, week = nil)
-    #FFNerd will default to current week if week is left blank
-    raise "Weekly projections does not include DEF (but you can find those values in weekly rankings)" if position == "DEF"
+  def self.weekly_rankings(position, week = nil)
     raise "Must pass in a valid position" unless POSITIONS.include?(position)
     raise "Your (optional) week must be between 1 and 17" if week && !(1..17).include?(week)
+    week ||= current_week
+    extras = [position, week, 1]
+    ostruct_request('weekly-rankings', 'Rankings')
+  end
+
+  def self.standard_weekly_projections(position, week = nil)
+    #FFNerd defaults to current week if week is left blank
+    weekly_projection_errors(position, week)
     extras = [position, week]
     ostruct_request('weekly-projections', 'Projections', extras)
   end
 
+  def self.ppr_weekly_projections(position, week = nil)
+    weekly_projection_errors(position, week)
+    week ||= current_week
+    # The 1 gives us back PPR data
+    extras = [position, week, 1]
+    ostruct_request('weekly-projections', 'Projections', extras)
+  end
+
+  def self.weekly_projection_errors(position, week)
+    raise "Weekly projections don't include DEF (but you can find those values in weekly rankings)" if position == "DEF"
+    raise "Must pass in a valid position" unless POSITIONS.include?(position)
+    raise "Your (optional) week must be between 1 and 17" if week && !(1..17).include?(week)
+  end
 
 end

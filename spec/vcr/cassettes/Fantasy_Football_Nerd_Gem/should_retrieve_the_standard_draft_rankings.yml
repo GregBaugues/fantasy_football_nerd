@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Fri, 27 Jun 2014 04:30:53 GMT
+      - Fri, 27 Jun 2014 23:03:59 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,8 +29,8 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - PHPSESSID=fc12tgbav9vr1m8k76n0j0ckj0; path=/
-      - __cfduid=d894e45940a94c063b815ef6d6290dbaa1403843453325; expires=Mon, 23-Dec-2019
+      - PHPSESSID=a4m7rce272it26jkaht6s96m43; path=/
+      - __cfduid=d8b8ab89cee1dfb2436777a29dcb4783b1403910239849; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -41,7 +41,7 @@ http_interactions:
       X-Powered-By:
       - PleskLin
       Cf-Ray:
-      - 140ee96f4f9509be-ORD
+      - 141547f7059909b8-ORD
     body:
       encoding: UTF-8
       string: '{"PPR":0,"DraftRankings":[{"playerId":"145","position":"RB","displayName":"Jamaal
@@ -1074,5 +1074,5 @@ http_interactions:
         Thompson","fname":"Ian","lname":"Thompson","team":"TB","byeWeek":"7","nerdRank":"5000.000","positionRank":"106","overallRank":"1027"},{"playerId":"2684","position":"K","displayName":"Patrick
         Murray","fname":"Patrick","lname":"Murray","team":"TB","byeWeek":"7","nerdRank":"5000.000","positionRank":"33","overallRank":"1028"}]}'
     http_version: 
-  recorded_at: Fri, 27 Jun 2014 04:30:52 GMT
+  recorded_at: Fri, 27 Jun 2014 23:04:00 GMT
 recorded_with: VCR 2.9.2

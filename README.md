@@ -215,18 +215,49 @@ Draft Projections
 
 Not yet implemented. 
 
+Weekly Rankings
+--------------------------------
 
-Weekly Projections
+I feel like the name of this one is a bit confusing, but Weekly Rankings returns the number of points each player is projected to score. This method includes both standard and PPR scoring. 
+
+You must pass in a position, and can optionally pass in a week number. If you do not pass in a week number, current_week will be selected for you. 
+
+```ruby
+rankings = FFNerd.weekly_rankings('QB', 2)
+player = rankings.first
+player.week             # "2"
+player.player_id        # "14"
+player.name             # "Drew Brees"
+player.position         # "QB"
+player.team             # "NO"
+player.standard         # "24.80"
+player.standard_low     # "18.92"
+player.standard_high    # "32.00"
+player.ppr              # "24.80"
+player.ppr_low          # "18.92"
+player.ppr_high         # "32.00"
+player.injury           # null
+player.practice_status  # null
+player.game_status      # null
+player.last_update      # null
+```
+
+Standard Weekly Projections
 ------------------------------
-Get the weekly rankings (Both PPR and Standard)
+Get the weekly rankings for standard scoring
 
-You will need to request a specific position: QB, RB, WR, TE, K, DEF. You will also need to send along the specific week number (1-17) you'd like as well. You can optionally send along a "1" if you'd like PPR results returned.
+You will need to request a specific position: QB, RB, WR, TE, K, DEF. You can also send along the specific week number (1-17) you'd like as well. If you omit a week number, we will default to the current week. 
 
-*Need to fix this to work with PPR*
+PPR Weekly Projections
+-------------------------------
+Get the weekly rankings for PPR scoring
+
+You will need to request a specific position: QB, RB, WR, TE, K, DEF. You can also send along the specific week number (1-17) you'd like as well. If you omit a week number, we will default to the current week. 
+
 
 Tests
 ------------------
-The gem includes RSpec tests and uses VCR to cache http responses. If you're going to update it, please write some. 
+The gem includes RSpec tests and uses VCR to cache http responses. If you're going to contribute, please write some tests. 
 
 Contributors
 -----------------

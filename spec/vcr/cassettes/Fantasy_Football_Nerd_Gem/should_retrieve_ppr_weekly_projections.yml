@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Fri, 27 Jun 2014 23:03:59 GMT
+      - Fri, 27 Jun 2014 23:04:01 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,8 +29,8 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - PHPSESSID=fs519ov68s77575lvcicv7ifr2; path=/
-      - __cfduid=d157060ae919eec6a3347f2b69ef31b751403910239721; expires=Mon, 23-Dec-2019
+      - PHPSESSID=lpb7nuqee9bv9f3chel50rrhp2; path=/
+      - __cfduid=d02cb9db9d0a5fd8e6e199d45fcb68e491403910241936; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -41,7 +41,7 @@ http_interactions:
       X-Powered-By:
       - PleskLin
       Cf-Ray:
-      - 141547f6407c09b8-ORD
+      - 141548041b2209b8-ORD
     body:
       encoding: UTF-8
       string: '{"currentWeek":"1","Schedule":[{"gameId":"1","gameWeek":"1","gameDate":"2014-09-04","awayTeam":"GB","homeTeam":"SEA","gameTimeET":"8:30
@@ -300,5 +300,55 @@ http_interactions:
         PM","tvStation":"FOX"},{"gameId":"256","gameWeek":"17","gameDate":"2014-12-28","awayTeam":"STL","homeTeam":"SEA","gameTimeET":"4:25
         PM","tvStation":"FOX"}]}'
     http_version: 
-  recorded_at: Fri, 27 Jun 2014 23:03:59 GMT
+  recorded_at: Fri, 27 Jun 2014 23:04:02 GMT
+- request:
+    method: get
+    uri: http://www.fantasyfootballnerd.com/service/weekly-projections/json/APIKEY/QB/1/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Fri, 27 Jun 2014 23:04:02 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '43'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d3dd4f1dc3ea581eea0c18af5da9b32c41403910242044; expires=Mon, 23-Dec-2019
+        23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
+      Expires:
+      - Sat, 28 Jun 2014 03:04:02 GMT
+      Cache-Control:
+      - public, max-age=14400
+      Pragma:
+      - no-cache
+      X-Powered-By:
+      - PleskLin
+      Cf-Cache-Status:
+      - HIT
+      Vary:
+      - Accept-Encoding
+      Cf-Ray:
+      - 14154804c23209b8-ORD
+    body:
+      encoding: UTF-8
+      string: '{"Week":1,"Position":"QB","Projections":[]}'
+    http_version: 
+  recorded_at: Fri, 27 Jun 2014 23:04:02 GMT
 recorded_with: VCR 2.9.2

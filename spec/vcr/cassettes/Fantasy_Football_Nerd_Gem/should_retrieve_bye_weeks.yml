@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Fri, 27 Jun 2014 04:30:52 GMT
+      - Fri, 27 Jun 2014 23:03:59 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,8 +29,8 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - PHPSESSID=tkmu6dncoinhfqfigv6gccovg3; path=/
-      - __cfduid=da1582dad64d15d872c4f92ad8db56bd31403843452816; expires=Mon, 23-Dec-2019
+      - PHPSESSID=rs79943ciu9faatq1vjetgg036; path=/
+      - __cfduid=d462b4c4d4c2d19d58cfc783d2c9ccc8c1403910239254; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -41,7 +41,7 @@ http_interactions:
       X-Powered-By:
       - PleskLin
       Cf-Ray:
-      - 140ee96c14b809b8-ORD
+      - 141547f35f4409b8-ORD
     body:
       encoding: UTF-8
       string: '{"Bye Week 4":[{"team":"ARI","byeWeek":"4","displayName":"Arizona Cardinals"},{"team":"CIN","byeWeek":"4","displayName":"Cincinnati
@@ -65,5 +65,5 @@ http_interactions:
         York Jets"}],"Bye Week 12":[{"team":"CAR","byeWeek":"12","displayName":"Carolina
         Panthers"},{"team":"PIT","byeWeek":"12","displayName":"Pittsburgh Steelers"}]}'
     http_version: 
-  recorded_at: Fri, 27 Jun 2014 04:30:52 GMT
+  recorded_at: Fri, 27 Jun 2014 23:03:59 GMT
 recorded_with: VCR 2.9.2

@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Fri, 27 Jun 2014 23:03:59 GMT
+      - Fri, 27 Jun 2014 23:04:00 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,8 +29,8 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - PHPSESSID=fs519ov68s77575lvcicv7ifr2; path=/
-      - __cfduid=d157060ae919eec6a3347f2b69ef31b751403910239721; expires=Mon, 23-Dec-2019
+      - PHPSESSID=54sfsvt2db3ticud2gqhe2pc63; path=/
+      - __cfduid=d39d19bdfede48da6e3b33f9e5ad5adfb1403910240670; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -41,7 +41,7 @@ http_interactions:
       X-Powered-By:
       - PleskLin
       Cf-Ray:
-      - 141547f6407c09b8-ORD
+      - 141547fc3d6409b8-ORD
     body:
       encoding: UTF-8
       string: '{"currentWeek":"1","Schedule":[{"gameId":"1","gameWeek":"1","gameDate":"2014-09-04","awayTeam":"GB","homeTeam":"SEA","gameTimeET":"8:30
@@ -300,5 +300,52 @@ http_interactions:
         PM","tvStation":"FOX"},{"gameId":"256","gameWeek":"17","gameDate":"2014-12-28","awayTeam":"STL","homeTeam":"SEA","gameTimeET":"4:25
         PM","tvStation":"FOX"}]}'
     http_version: 
-  recorded_at: Fri, 27 Jun 2014 23:03:59 GMT
+  recorded_at: Fri, 27 Jun 2014 23:04:00 GMT
+- request:
+    method: get
+    uri: http://www.fantasyfootballnerd.com/service/weekly-rankings/json/APIKEY
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - cloudflare-nginx
+      Date:
+      - Fri, 27 Jun 2014 23:04:01 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '36'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - PHPSESSID=vlbnmjghibhajmfme6ulp77hf3; path=/
+      - __cfduid=d7ad71c2719c07074084f91a519710b731403910241788; expires=Mon, 23-Dec-2019
+        23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      X-Powered-By:
+      - PleskLin
+      Cf-Ray:
+      - 141548032af109b8-ORD
+    body:
+      encoding: UTF-8
+      string: '{"Error":"Invalid Position Entered"}'
+    http_version: 
+  recorded_at: Fri, 27 Jun 2014 23:04:01 GMT
 recorded_with: VCR 2.9.2

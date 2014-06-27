@@ -39,4 +39,20 @@ describe 'Fantasy Football Nerd Gem', vcr: true do
     expect(FFNerd.standard_draft_rankings).to be
   end
 
+  it 'should retrieve the ppr draft rankings' do
+    expect(FFNerd.ppr_draft_rankings).to be
+  end
+
+  it 'should retrieve weekly rankings' do
+    expect(FFNerd.weekly_rankings('QB')).to be
+  end
+
+  it 'should retrieve standard weekly projections' do
+    expect(FFNerd.standard_weekly_projections('QB')).to be
+  end
+
+  it 'should retrieve ppr weekly projections' do
+    expect(FFNerd.ppr_weekly_projections('QB')).to be
+  end
+
 end
