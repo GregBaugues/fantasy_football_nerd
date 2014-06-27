@@ -13,8 +13,8 @@ class FFNerd
     ENV['FFNERD_API_KEY']
   end
 
-  def self.ostruct_request(service_name, json_key)
-    response = request_service(service_name, api_key)
+  def self.ostruct_request(service_name, json_key, extras = [])
+    response = request_service(service_name, api_key, extras)
     response[json_key].each { |hash| hash.add_snakecase_keys }
     response[json_key].collect { |i| OpenStruct.new(i) }
   end
@@ -36,6 +36,10 @@ class FFNerd
     ostruct_request('byes', "Bye Week #{week}")
   end
 
+  def self.injuries(week = nil)
+    ostruct_request('injuries', "Injuries", [week])
+  end
+
   def self.auction_values
     ostruct_request('auction', 'AuctionValues')
   end
@@ -46,14 +50,12 @@ class FFNerd
   end
 
   def self.standard_draft_rankings
-    response = request_service('draft-rankings', api_key)
     ostruct_request('draft-rankings', 'DraftRankings')
   end
 
   def self.ppr_draft_rankings
     #requires a 1 appended to url for ppr rankings
-    response = request_service('draft-rankings', api_key, '1')
-    ostruct_request('draft-rankings', 'DraftRankings')
+    ostruct_request('draft-rankings', 'DraftRankings', '1')
   end
 
   def self.weekly_projections(position, week = nil)
@@ -62,8 +64,7 @@ class FFNerd
     raise "Must pass in a valid position" unless POSITIONS.include?(position)
     raise "Your (optional) week must be between 1 and 17" if week && !(1..17).include?(week)
     extras = [position, week]
-    response = request_service('weekly-projections', api_key, extras)
-    ostruct_request('weekly-projections', 'Projections')
+    ostruct_request('weekly-projections', 'Projections', extras)
   end
 
 end

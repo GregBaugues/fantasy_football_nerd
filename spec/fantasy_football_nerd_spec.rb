@@ -19,6 +19,14 @@ describe 'Fantasy Football Nerd Gem', vcr: true do
     expect(FFNerd.byes(4)).to be
   end
 
+  it 'should retrieve injuries without a week' do
+    expect(FFNerd.injuries).to be
+  end
+
+  it 'should retrieve injuries with a week' do
+    expect(FFNerd.injuries(1)).to be
+  end
+
   it 'should retrieve auction values' do
     expect(FFNerd.auction_values.first).to be
   end
