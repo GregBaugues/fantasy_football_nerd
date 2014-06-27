@@ -9,7 +9,7 @@ class FFNerd
   extend Request
 
   def self.api_key
-    raise 'API key not set' unless ENV['FFNERD_API_KEY']
+    raise 'FFNERD_API_KEY environment variable not set' unless ENV['FFNERD_API_KEY']
     ENV['FFNERD_API_KEY']
   end
 
