@@ -25,6 +25,11 @@ Fantasy Football Nerd provides an API with access to this fantasy football data:
 
 Full API access costs $9 for a season subsciption, though if you are a developer with a modicum of interest in Fantasy Football, this is the best $9 you will spend all season.
 
+v1.0
+----------------
+
+Fantasy Football Nerd recently overhauled to their API that a) drastically improved their service and b) completed deprecated the old API. The previous version of this gem won't work anymore so update your Gemfiles. 
+
 Cache your data!
 ----------------
 Take heed to the warning on the [Fantasy Football Nerd API page](http://www.fantasyfootballnerd.com):
