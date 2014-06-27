@@ -23,9 +23,7 @@ Fantasy Football Nerd provides an API with access to this fantasy football data:
 * Season Schedule (not currently supported)
 * Current week
 
-
 Full API access costs $9 for a season subsciption, though if you are a developer with a modicum of interest in Fantasy Football, this is the best $9 you will spend all season.
-
 
 Cache your data!
 ----------------
@@ -56,23 +54,53 @@ In Rails, add the gem to your gemfile and run <tt>bundle install</tt>
 gem 'fantasy_football_nerd'
 ````
 
-Set your api_key before before making any call. You can find it on the [FFN api page](http://www.fantasyfootballnerd.com/api).
+Set your api_key as an environment variable before before making a call. You can find it on the [FFN api page](http://www.fantasyfootballnerd.com/api).
 
-````ruby
-FFNerd.api_key = 123456789
+````term
+export FFNERD_API_KEY = 123456789
 ````
 
 API Resources
 ===================
 
-Currently, this gem provides access to four feeds:
+This gem supports all Level 1 and Level 2 feeds listed above. Results are returned in an [ostruct](http://www.ruby-doc.org/stdlib-2.0/libdoc/ostruct/rdoc/OpenStruct.html) -- think of it as a hash that you can access as if it were an instance of a custom Class. 
 
-* Player List
-* Player Detail
-* Weekly Projections
-* Injuries
+Fantasy Football Nerd returns keys in CamelCase but that's not very ruby like. I've added snake_case attributes to each object so you can do ```player.DisplayName``` or ```player.display_name```, whichever suits your fancy. 
 
-Player List
+Current Week
+--------------------------
+
+Returns the current week
+
+```ruby 
+FFNerd.current_week
+```
+
+Teams
+--------------------------
+
+```ruby
+teams = FFNerd.teams
+team = teams.first
+team.code           # "ARI"
+team.full_name      # "Arizona Cardinals"
+team.short_name     # "Arizona"
+```
+
+Schedule
+--------------------------
+
+```ruby
+games = FFNerd.schedule
+game = games.first
+game.game_date          # "2014-09-04"
+game.away_team          # "GB"
+home_team               # "SEA"
+game_time_et            # "8:30 PM"
+game.tv_station         # "NBC"
+```
+
+Players
 --------------------------
 
 Returns an array of players:
@@ -80,99 +108,120 @@ Returns an array of players:
 ````ruby
 players = FFNerd.player_list
 player = players.first
-player.player_id
-player.name
-player.position
-player.team
+player.team           # "CAR"
+player.position       # "QB"
+player.height         # "6-6"
+player.weight         # "240"
+player.dob            # "1983-06-15"
+player.college        # "Oregon State"
+player.player_id      # "2"
+player.display_name   # "Derek Anderson"
 ````
 
-Player Detail
-------------------------------
+Byes
+---------------------------
 
-Returns a single player with a nested array of articles:
-````ruby
-player = FFNerd.player_detail(player_id)
-player.id
-player.first_name
-player.last_name
-player.team
-player.position
-article = player.articles.first
-article.title
-article.source
-article.published
-````
+Returns an array of teams on bye. Must pass a week between 4 and 12.
 
-Projections
----------------
-
-Returns an array of players, each with a nested projection:
-
-````ruby
-projections = FFNerd.projections(week)
-player = projections.first
-player.id
-player.name
-player.team
-player.position
-player.rank
-player.projected_points #equivalent to player.projection.standard
-player.projection.week
-player.projection.standard
-player.projection.standard_low
-player.projection.standard_high
-player.projection.ppr
-player.projection.ppr_low
-player.projection.ppr_high
-````
+```ruby
+  byes = FFNerd.byes
+  bye = byes.first
+  bye.team          # "ARI"
+  bye.byeWeek       # "4"
+  bye.displayName   # "Arizona Cardinals"
+  bye.bye_week      # "4"
+  bye.display_name  # "Arizona Cardinals"
+```
 
 Injuries
----------------------
+---------------------------
 
-Returns an array of players, each with a nested injury:
+Retrieve the injury reports for each team. 
+You can pass along a week number (1-17) to retrieve injuries for a specific week. Leave blank to retrieve injuries for the current week.
 
-````ruby
-injuries = FFNerd.injuries(week)
-player = injuries.first
-player.id
-player.name
-player.team
-player.position
-player.injury.week
-player.injury.injury_desc
-player.injury.practice_status_desc
-player.injury.game_status_desc
-player.injury.last_update
-````
 
-Projections to CSV
----------------------
-Returns a string of player projections that can be written to a CSV. Does not do the writing of the CSV itself - you need to handle that. But the string is all ready for you.
+```ruby
+injuries = FFNerd.injuries # or, e.g., FFNerd.injuries(3)
+injuries = injuries.first
+team_injuries.key         # "ARI"
+injury = team_injuries.first
+injury.week               # "1"
+injury.player_id          # "0"
+injury.player_name        # "Javier Arenas"
+injury.team               # "ARI"
+injury.position           # "CB"
+injury.injury             # "Hip"
+injury.practice_status    # "Full Practice"
+injury.game_status        # "Probable"
+injury.notes              # ""
+injury.last_update        # "2013-09-09"
+injury.practice_status_id # "0"
+```
 
-If you do not pass a week parameter, it will assume the current week.
+Auction Values
+------------------------
 
-````ruby
-week = 2
-output = FFNerd.projections_to_csv(week)
-````
+Returns an array of fantasy auction values:
 
-Current Week
----------------------
-Returns the current NFL week. Currently only set to work for the first 16 weeks of the 2012 season.
+```ruby
+values = FFNerd.auction_values
+value = values.first
+value.player_id     # "259"
+value.min_price     # "54"
+value.max_price     # "59"
+value.avg_price     # "57"
+value.display_name  # "Adrian Peterson"
+```
 
-````ruby
-FFNerd.current_week
-````
+Standard Draft Rankings
+--------------------------
 
-Still To Come
-------------------
+Returns draft rankings based on standard scoring. 
 
-* Better error reporting
-* Schedule
+```ruby
+rankings = FFNerd.standard_draft_rankings
+ranking = rankings.first
+ranking.player_id       # "145"
+ranking.display_name    # "Jamaal Charles"
+ranking.bye_week        # "6"
+ranking.nerd_rank       # "1.252"
+ranking.position_rank   # "1"
+ranking.overall_rank    # "1"
+```
+
+PPR Draft Rankings
+------------------------------
+
+Returns draft rankings based on PPR scoring. (Turns out Jamaal Charles is the man no matter how you score it.)
+
+```ruby
+rankings = FFNerd.standard_draft_rankings
+ranking = rankings.first
+ranking.player_id       # "145"
+ranking.display_name    # "Jamaal Charles"
+ranking.bye_week        # "6"
+ranking.nerd_rank       # "1.252"
+ranking.position_rank   # "1"
+ranking.overall_rank    # "1"
+```
+
+Draft Projections
+-------------------------------
+
+Not yet implemented. 
+
+
+Weekly Projections
+------------------------------
+Get the weekly rankings (Both PPR and Standard)
+
+You will need to request a specific position: QB, RB, WR, TE, K, DEF. You will also need to send along the specific week number (1-17) you'd like as well. You can optionally send along a "1" if you'd like PPR results returned.
+
+*Need to fix this to work with PPR*
 
 Tests
 ------------------
-The gem includes extensive RSpec tests.
+The gem includes RSpec tests and uses VCR to cache http responses. If you're going to update it, please write some. 
 
 Contributors
 -----------------
