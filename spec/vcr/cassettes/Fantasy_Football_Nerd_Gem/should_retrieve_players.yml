@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Mon, 16 Jun 2014 17:06:45 GMT
+      - Fri, 27 Jun 2014 04:22:19 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,10 +29,10 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=dbbeefc4c345467c7b3ae758a4e15e3991402938405526; expires=Mon, 23-Dec-2019
+      - __cfduid=d5e0a2acfa6436f0420165913eb20370b1403842939479; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
       Expires:
-      - Tue, 17 Jun 2014 05:06:45 GMT
+      - Fri, 27 Jun 2014 16:22:19 GMT
       Cache-Control:
       - public, max-age=43200
       Pragma:
@@ -44,7 +44,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Cf-Ray:
-      - 13b8998a842309b8-ORD
+      - 140edce3ba1e09b8-ORD
     body:
       encoding: UTF-8
       string: '{"Players":[{"playerId":"2","active":"1","jersey":"3","lname":"Anderson","fname":"Derek","displayName":"Derek
@@ -1056,8 +1056,7 @@ http_interactions:
         Wilson","team":"DET","position":"WR","height":"5-9","weight":"191","dob":"0000-00-00","college":"Central
         Michigan"},{"playerId":"2307","active":"1","jersey":"80","lname":"Fauria","fname":"Joseph","displayName":"Joseph
         Fauria","team":"DET","position":"TE","height":"6-7","weight":"255","dob":"0000-00-00","college":"UCLA"},{"playerId":"2308","active":"1","jersey":"89","lname":"Williams","fname":"Michael","displayName":"Michael
-        Williams","team":"DET","position":"TE","height":"6-6","weight":"270","dob":"0000-00-00","college":"Alabama"},{"playerId":"2312","active":"1","jersey":"23","lname":"Franklin","fname":"Johnathan","displayName":"Johnathan
-        Franklin","team":"GB","position":"RB","height":"5-10","weight":"205","dob":"0000-00-00","college":"UCLA"},{"playerId":"2313","active":"1","jersey":"27","lname":"Lacy","fname":"Eddie","displayName":"Eddie
+        Williams","team":"DET","position":"TE","height":"6-6","weight":"270","dob":"0000-00-00","college":"Alabama"},{"playerId":"2313","active":"1","jersey":"27","lname":"Lacy","fname":"Eddie","displayName":"Eddie
         Lacy","team":"GB","position":"RB","height":"5-11","weight":"230","dob":"0000-00-00","college":"Alabama"},{"playerId":"2316","active":"1","jersey":"0","lname":"Cunningham","fname":"Sederrik","displayName":"Sederrik
         Cunningham","team":"GB","position":"WR","height":"5-11","weight":"188","dob":"0000-00-00","college":"Furman"},{"playerId":"2317","active":"1","jersey":"16","lname":"Dorsey","fname":"Kevin","displayName":"Kevin
         Dorsey","team":"GB","position":"WR","height":"6-1","weight":"207","dob":"0000-00-00","college":"Maryland"},{"playerId":"2318","active":"1","jersey":"0","lname":"Gillett","fname":"Alex","displayName":"Alex
@@ -1527,5 +1526,5 @@ http_interactions:
         Thompson","team":"TB","position":"TE","height":"6-4","weight":"234","dob":"0000-00-00","college":"Louisiana-Lafayette"},{"playerId":"2684","active":"1","jersey":"0","lname":"Murray","fname":"Patrick","displayName":"Patrick
         Murray","team":"TB","position":"K","height":"5-7","weight":"182","dob":"0000-00-00","college":"Fordham"}]}'
     http_version: 
-  recorded_at: Mon, 16 Jun 2014 17:06:48 GMT
+  recorded_at: Fri, 27 Jun 2014 04:22:19 GMT
 recorded_with: VCR 2.9.2

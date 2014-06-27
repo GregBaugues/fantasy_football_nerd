@@ -31,6 +31,11 @@ class FFNerd
     ostruct_request('players', 'Players')
   end
 
+  def self.byes(week)
+    raise "Must include a bye week between 4 and 12" unless (4..12).include?(week)
+    ostruct_request('byes', "Bye Week #{week}")
+  end
+
   def self.auction_values
     ostruct_request('auction', 'AuctionValues')
   end

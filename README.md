@@ -1,13 +1,21 @@
 Fantasy Football Nerd API
 ==========================
 
-This is a Ruby Gem for the [Fantasy Football Nerd API](http://www.fantasyfootballnerd.com/api).
+A Ruby Gem for the [Fantasy Football Nerd API](http://www.fantasyfootballnerd.com/api).
 
 [Fantasy Football Nerd](http://www.fantasyfootballnerd.com) "takes the 'wisdom of the crowd' to a new level by aggregating the fantasy football rankings of the best fantasy football sites... and weighting the rankings based upon past accuracy."
 
 Fantasy Football Nerd provides an API with access to this fantasy football data:
 
-* Players List
+* Team List
+* Season schedule
+* Player list
+* Bye weeks
+* Injuries
+* Auction draft values
+* Standard/PPR scoring draft rankings
+* Standard/PPR weekly projections
+* Current week
 * Player Details (including recent articles)
 * Weekly Projections
 * Injury Reports

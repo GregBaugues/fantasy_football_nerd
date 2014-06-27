@@ -15,12 +15,20 @@ describe 'Fantasy Football Nerd Gem', vcr: true do
     expect(FFNerd.players.first).to be
   end
 
+  it 'should retrieve bye weeks' do
+    expect(FFNerd.byes(4)).to be
+  end
+
   it 'should retrieve auction values' do
     expect(FFNerd.auction_values.first).to be
   end
 
   it 'should retrieve the current week' do
     expect(FFNerd.current_week).to be
+  end
+
+  it 'should retrieve the standard draft rankings' do
+    expect(FFNerd.standard_draft_rankings).to be
   end
 
 end
