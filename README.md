@@ -13,14 +13,15 @@ Fantasy Football Nerd provides an API with access to this fantasy football data:
 * Bye weeks
 * Injuries
 * Auction draft values
-* Standard/PPR scoring draft rankings
-* Standard/PPR weekly projections
-* Current week
+* Standard/PPR draft rankings
+* Standard/PPR draft projections
+* Weekly rankings
+* Weekly projections
 * Player Details (including recent articles)
 * Weekly Projections
-* Injury Reports
 * Preseason Draft Rankings (not currently supported)
 * Season Schedule (not currently supported)
+* Current week
 
 
 Full API access costs $9 for a season subsciption, though if you are a developer with a modicum of interest in Fantasy Football, this is the best $9 you will spend all season.

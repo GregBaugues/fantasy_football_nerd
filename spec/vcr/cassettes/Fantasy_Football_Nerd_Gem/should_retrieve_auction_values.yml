@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Fri, 27 Jun 2014 04:22:20 GMT
+      - Fri, 27 Jun 2014 04:30:53 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,8 +29,8 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - PHPSESSID=5nthb42d19hdjgomit15faihs1; path=/
-      - __cfduid=d46a19fb5e78d86f0bb63135eced41a7d1403842940147; expires=Mon, 23-Dec-2019
+      - PHPSESSID=km4c2qs0n4g5jo85rvgr6sj5u2; path=/
+      - __cfduid=d47f3ce234a63c2b6fab40c8914db232e1403843453018; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -41,7 +41,7 @@ http_interactions:
       X-Powered-By:
       - PleskLin
       Cf-Ray:
-      - 140edce7ef8309b8-ORD
+      - 140ee96d536709b8-ORD
     body:
       encoding: UTF-8
       string: '{"AuctionValues":[{"playerId":"259","minPrice":"54","maxPrice":"59","avgPrice":"57","displayName":"Adrian
@@ -254,5 +254,5 @@ http_interactions:
         Streater","team":"OAK","position":"WR"},{"playerId":"1996","minPrice":"0","maxPrice":"0","avgPrice":"0","displayName":"Chris
         Polk","team":"PHI","position":"RB"}]}'
     http_version: 
-  recorded_at: Fri, 27 Jun 2014 04:22:19 GMT
+  recorded_at: Fri, 27 Jun 2014 04:30:52 GMT
 recorded_with: VCR 2.9.2

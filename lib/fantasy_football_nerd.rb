@@ -13,6 +13,11 @@ class FFNerd
     ENV['FFNERD_API_KEY']
   end
 
+  def self.current_week
+    response = request_service('schedule', api_key)
+    response['currentWeek']
+  end
+
   def self.ostruct_request(service_name, json_key, extras = [])
     response = request_service(service_name, api_key, extras)
     response[json_key].each { |hash| hash.add_snakecase_keys }
@@ -44,17 +49,12 @@ class FFNerd
     ostruct_request('auction', 'AuctionValues')
   end
 
-  def self.current_week
-    response = request_service('schedule', api_key)
-    response['currentWeek']
-  end
-
   def self.standard_draft_rankings
     ostruct_request('draft-rankings', 'DraftRankings')
   end
 
   def self.ppr_draft_rankings
-    #requires a 1 appended to url for ppr rankings
+    #appended a 1 to url for ppr rankings
     ostruct_request('draft-rankings', 'DraftRankings', '1')
   end
 
@@ -66,5 +66,6 @@ class FFNerd
     extras = [position, week]
     ostruct_request('weekly-projections', 'Projections', extras)
   end
+
 
 end

@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Fri, 27 Jun 2014 04:28:25 GMT
+      - Fri, 27 Jun 2014 04:30:52 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -29,10 +29,10 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=d91a42df899315efa7cae289ee7809aac1403843305202; expires=Mon, 23-Dec-2019
+      - __cfduid=d5aa804ab87fea8166f63c2f1cd7693231403843452989; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
       Expires:
-      - Fri, 27 Jun 2014 08:28:25 GMT
+      - Fri, 27 Jun 2014 08:30:52 GMT
       Cache-Control:
       - public, max-age=14400
       Pragma:
@@ -40,14 +40,14 @@ http_interactions:
       X-Powered-By:
       - PleskLin
       Cf-Cache-Status:
-      - MISS
+      - HIT
       Vary:
       - Accept-Encoding
       Cf-Ray:
-      - 140ee5d18deb09b8-ORD
+      - 140ee96d29ff09b8-ORD
     body:
       encoding: UTF-8
       string: '{"Week":1,"Injuries":[]}'
     http_version: 
-  recorded_at: Fri, 27 Jun 2014 04:28:24 GMT
+  recorded_at: Fri, 27 Jun 2014 04:30:52 GMT
 recorded_with: VCR 2.9.2
