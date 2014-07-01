@@ -67,22 +67,22 @@ class FFNerd
     ostruct_request('weekly-rankings', 'Rankings', extras)
   end
 
-  def self.standard_weekly_projections(position, week = nil)
-    #FFNerd defaults to current week if week is left blank
-    raise "Weekly projections don't include DEF (but you can find those values in weekly rankings)" if position == "DEF"
-    raise "Must pass in a valid position" unless POSITIONS.include?(position)
-    raise "Your (optional) week must be between 1 and 17" if week && !(1..17).include?(week)
-    extras = [position, week]
-    ostruct_request('weekly-projections', 'Projections', extras)
-  end
+  # def self.standard_weekly_projections(position, week = nil)
+  #   #FFNerd defaults to current week if week is left blank
+  #   raise "Weekly projections don't include DEF (but you can find those values in weekly rankings)" if position == "DEF"
+  #   raise "Must pass in a valid position" unless POSITIONS.include?(position)
+  #   raise "Your (optional) week must be between 1 and 17" if week && !(1..17).include?(week)
+  #   extras = [position, week]
+  #   ostruct_request('weekly-projections', 'Projections', extras)
+  # end
 
-  def self.ppr_weekly_projections(position, week = nil)
-    raise "Weekly projections don't include DEF (but you can find those values in weekly rankings)" if position == "DEF"
-    raise "Must pass in a valid position" unless POSITIONS.include?(position)
-    raise "Your (optional) week must be between 1 and 17" if week && !(1..17).include?(week)
-    week ||= current_week
-    extras = [position, week, 1] # The 1 gives us back PPR data
-    ostruct_request('weekly-projections', 'Projections', extras)
-  end
+  # def self.ppr_weekly_projections(position, week = nil)
+  #   raise "Weekly projections don't include DEF (but you can find those values in weekly rankings)" if position == "DEF"
+  #   raise "Must pass in a valid position" unless POSITIONS.include?(position)
+  #   raise "Your (optional) week must be between 1 and 17" if week && !(1..17).include?(week)
+  #   week ||= current_week
+  #   extras = [position, week, 1] # The 1 gives us back PPR data
+  #   ostruct_request('weekly-projections', 'Projections', extras)
+  # end
 
 end
