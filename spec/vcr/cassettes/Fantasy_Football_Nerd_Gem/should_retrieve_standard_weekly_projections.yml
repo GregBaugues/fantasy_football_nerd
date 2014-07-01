@@ -21,33 +21,33 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Fri, 27 Jun 2014 23:04:01 GMT
+      - Tue, 01 Jul 2014 23:15:28 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '43'
+      - '35'
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=dd1707a7d9fe5c7f7805fec00c434fb9a1403910241861; expires=Mon, 23-Dec-2019
+      - __cfduid=da95a0d40471be778e2509588b15351fd1404256528665; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
       Expires:
-      - Sat, 28 Jun 2014 03:04:01 GMT
+      - Wed, 01 Jul 2015 23:15:28 GMT
       Cache-Control:
-      - public, max-age=14400
+      - public, max-age=31536000
       Pragma:
       - no-cache
       X-Powered-By:
       - PleskLin
       Cf-Cache-Status:
-      - EXPIRED
+      - HIT
       Vary:
       - Accept-Encoding
       Cf-Ray:
-      - 14154803ab0b09b8-ORD
+      - 14364e4826e109b8-ORD
     body:
       encoding: UTF-8
-      string: '{"Week":1,"Position":"QB","Projections":[]}'
+      string: '{"Error":"Test Data Not Available"}'
     http_version: 
-  recorded_at: Fri, 27 Jun 2014 23:04:01 GMT
+  recorded_at: Tue, 01 Jul 2014 23:15:28 GMT
 recorded_with: VCR 2.9.2

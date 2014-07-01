@@ -3,6 +3,10 @@ require_relative '../lib/fantasy_football_nerd.rb'
 
 describe 'Fantasy Football Nerd Gem', vcr: true do
 
+  before :all do
+    ENV['FFNERD_API_KEY'] = 'test'
+  end
+
   it 'should retrieve teams' do
     expect(FFNerd.teams.first).to be
   end
@@ -47,12 +51,12 @@ describe 'Fantasy Football Nerd Gem', vcr: true do
     expect(FFNerd.weekly_rankings('QB')).to be
   end
 
-  it 'should retrieve standard weekly projections' do
-    expect(FFNerd.standard_weekly_projections('QB')).to be
-  end
+  # it 'should retrieve standard weekly projections' do
+  #   expect(FFNerd.standard_weekly_projections('QB')).to be
+  # end
 
-  it 'should retrieve ppr weekly projections' do
-    expect(FFNerd.ppr_weekly_projections('QB')).to be
-  end
+  # it 'should retrieve ppr weekly projections' do
+  #   expect(FFNerd.ppr_weekly_projections('QB')).to be
+  # end
 
 end

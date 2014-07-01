@@ -11,11 +11,6 @@ module Request
     [base_url, service, "json", api_key, extras].join("/").gsub(/\/$/, '')
   end
 
-  def test_url(service, extras = [])
-    service = service.to_s
-    [base_url, service, "json", "test", extras].join("/").gsub(/\/$/, '')
-  end
-
   def request_service(service, api_key, extras = [])
     url = service_url(service, api_key, extras)
     JSON.parse(open(url).read)

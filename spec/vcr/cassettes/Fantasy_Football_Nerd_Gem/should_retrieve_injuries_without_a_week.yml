@@ -21,16 +21,16 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Fri, 27 Jun 2014 23:03:59 GMT
+      - Tue, 01 Jul 2014 23:14:21 GMT
       Content-Type:
       - application/json
-      Content-Length:
-      - '24'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
       Set-Cookie:
-      - PHPSESSID=tv0b1e6sue4gdl3v6n613edvo5; path=/
-      - __cfduid=d3d10a2cde8a1582a0f3bf8e4a22725021403910239349; expires=Mon, 23-Dec-2019
+      - PHPSESSID=sttlqo3je38v96oh6t7p18q670; path=/
+      - __cfduid=db54a9b37824f9ca64df810909c11ab261404256461037; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -41,10 +41,804 @@ http_interactions:
       X-Powered-By:
       - PleskLin
       Cf-Ray:
-      - 141547f3e84109b8-ORD
+      - 14364ca1735a09b8-ORD
     body:
       encoding: UTF-8
-      string: '{"Week":1,"Injuries":[]}'
+      string: '{"Week":1,"Injuries":{"ARI":[{"week":"1","playerId":"0","playerName":"Javier
+        Arenas","team":"ARI","position":"CB","injury":"Hip","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Calais
+        Campbell","team":"ARI","position":"DE","injury":"Quadriceps","practiceStatus":"Did
+        not practice","gameStatus":"Questionable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"2221","playerName":"Andre
+        Ellington","team":"ARI","position":"RB","injury":"Hamstring","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"1465","playerName":"Rob
+        Housler","team":"ARI","position":"TE","injury":"Ankle","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Missed Week 1 at St. Louis","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"2232","playerName":"D.C.
+        Jefferson","team":"ARI","position":"TE","injury":"Knee","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"666","playerName":"Mike
+        Leach","team":"ARI","position":"TE","injury":"Hamstring","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"240","playerName":"Rashard
+        Mendenhall","team":"ARI","position":"RB","injury":"Knee","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"1166","playerName":"Andre
+        Roberts","team":"ARI","position":"WR","injury":"Quadriceps","practiceStatus":"Limited
+        in practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Dan
+        Williams","team":"ARI","position":"DT","injury":"Ankle","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Daryl
+        Washington","team":"ARI","position":"LB","injury":"Suspension","practiceStatus":"","gameStatus":"","notes":"Four-game
+        suspension. Eligible to return Week 5 vs. Carolina","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"2024","playerName":"LaRon
+        Byrd","team":"ARI","position":"WR","injury":"Undisclosed","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"2227","playerName":"Javone
+        Lawson","team":"ARI","position":"WR","injury":"Undisclosed","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Everrette
+        Thompson","team":"ARI","position":"DL","injury":"Shoulder","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"661","playerName":"Jeff
+        King","team":"ARI","position":"TE","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-31","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Daniel
+        Giordano","team":"ARI","position":"LB","injury":"","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-27","practiceStatusId":""}],"ATL":[{"week":"1","playerId":"743","playerName":"Matt
+        Bryant","team":"ATL","position":"K","injury":"Back","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Joe
+        Hawley","team":"ATL","position":"C","injury":"Illness","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Stephen
+        Nicholas","team":"ATL","position":"LB","injury":"Thigh","practiceStatus":"Limited
+        in practice","gameStatus":"Questionable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Asante
+        Samuel","team":"ATL","position":"CB","injury":"Thigh","practiceStatus":"Limited
+        in practice","gameStatus":"Questionable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"578","playerName":"Roddy
+        White","team":"ATL","position":"WR","injury":"Ankle","practiceStatus":"Limited
+        in practice","gameStatus":"Questionable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"2367","playerName":"Sean
+        Renfree","team":"ATL","position":"QB","injury":"Shoulder","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"1795","playerName":"Andrew
+        Szczerba","team":"ATL","position":"TE","injury":"Undisclosed","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""}],"BAL":[{"week":"1","playerId":"459","playerName":"Jacoby
+        Jones","team":"BAL","position":"WR","injury":"Knee","practiceStatus":"","gameStatus":"","notes":"Out
+        until at least Week 5 at Miami","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"1182","playerName":"Ed
+        Dickson","team":"BAL","position":"TE","injury":"Thigh","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Ryan
+        Jensen","team":"BAL","position":"C","injury":"Foot","practiceStatus":"Did
+        not practice","gameStatus":"Doubtful","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Arthur
+        Jones","team":"BAL","position":"DE","injury":"Illness","practiceStatus":"","gameStatus":"Out","notes":"Missed
+        Week 1 at Denver","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Pernell
+        McPhee","team":"BAL","position":"LB","injury":"Knee","practiceStatus":"","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"2037","playerName":"Deonte
+        Thompson","team":"BAL","position":"WR","injury":"Foot","practiceStatus":"Did
+        not practice","gameStatus":"Doubtful","notes":"Missed Week 1 at Denver","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Brandon
+        Williams","team":"BAL","position":"DT","injury":"Toe","practiceStatus":"Did
+        not practice","gameStatus":"Doubtful","notes":"Missed Week 1 at Denver","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Asa
+        Jackson","team":"BAL","position":"DB","injury":"Suspension","practiceStatus":"","gameStatus":"","notes":"Eligible
+        to return Week 10 vs. Cincinnati","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Christian
+        Thompson","team":"BAL","position":"DB","injury":"Suspension","practiceStatus":"","gameStatus":"","notes":"Eligible
+        to return Week 5 at Miami","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"1199","playerName":"Dennis
+        Pitta","team":"BAL","position":"TE","injury":"Hip","practiceStatus":"Will
+        not play","gameStatus":"Out","notes":"Eligible to return Week 6 at Dallas","lastUpdate":"2013-09-04","practiceStatusId":2},{"week":"1","playerId":"0","playerName":"D.J.
+        Bryant","team":"BAL","position":"LB","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Adrian
+        Hamilton","team":"BAL","position":"LB","injury":"Wrist","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Jameel
+        McClain","team":"BAL","position":"ILB","injury":"","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-28","practiceStatusId":""}],"BUF":[{"week":"1","playerId":"0","playerName":"Ron
+        Brooks","team":"BUF","position":"DB","injury":"Foot","practiceStatus":"","gameStatus":"","notes":"Out
+        for Week 2 vs. Carolina","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Jairus
+        Byrd","team":"BUF","position":"S","injury":"Foot","practiceStatus":"Limited
+        in practice","gameStatus":"Doubtful","notes":"Missed Week 1 vs. New England","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Stephon
+        Gilmore","team":"BUF","position":"CB","injury":"Wrist","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Missed Week 1 vs. New England","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"2118","playerName":"Marquise
+        Goodwin","team":"BUF","position":"WR","injury":"Hand","practiceStatus":"","gameStatus":"","notes":"Left
+        Week 1 vs. New England","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"2124","playerName":"Dustin
+        Hopkins","team":"BUF","position":"K","injury":"Right Groin","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Missed Week 1 vs. New England","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"2114","playerName":"EJ
+        Manuel","team":"BUF","position":"QB","injury":"Knee","practiceStatus":"","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Doug
+        Legursky","team":"BUF","position":"G","injury":"KNEE","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-08","practiceStatusId":""},{"week":"1","playerId":"1949","playerName":"Kevin
+        Elliott","team":"BUF","position":"WR","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"538","playerName":"Brad
+        Smith","team":"BUF","position":"WR","injury":"Ribs","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"60","playerName":"Kevin
+        Kolb","team":"BUF","position":"QB","injury":"Concussion","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-30","practiceStatusId":""}],"CAR":[{"week":"1","playerId":"2378","playerName":"Kenjon
+        Barner","team":"CAR","position":"RB","injury":"Foot","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Missed Week 1 vs. Seattle","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Jon
+        Beason","team":"CAR","position":"LB","injury":"Knee","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"James
+        Dockery","team":"CAR","position":"CB","injury":"Thumb","practiceStatus":"Limited
+        in practice","gameStatus":"Out","notes":"Missed Week 1 vs. Seattle","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Dwan
+        Edwards","team":"CAR","position":"DT","injury":"Thigh","practiceStatus":"Did
+        not practice","gameStatus":"Questionable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"650","playerName":"Ben
+        Hartsock","team":"CAR","position":"TE","injury":"Foot","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"429","playerName":"Domenik
+        Hixon","team":"CAR","position":"WR","injury":"Hamstring","practiceStatus":"Limited
+        in practice","gameStatus":"Questionable","notes":"Missed Week 1 vs. Seattle","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Mike
+        Mitchell","team":"CAR","position":"S","injury":"Calf","practiceStatus":"","gameStatus":"Doubtful","notes":"Missed
+        Week 1 vs. Seattle","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Amini
+        Silatolu","team":"CAR","position":"G","injury":"Hamstring","practiceStatus":"Limited
+        in practice","gameStatus":"Questionable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"294","playerName":"Mike
+        Tolbert","team":"CAR","position":"RB","injury":"Hamstring","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"1112","playerName":"Jimmy
+        Clausen","team":"CAR","position":"QB","injury":"Shoulder","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Linden
+        Gaydosh","team":"CAR","position":"DL","injury":"Back","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"1453","playerName":"Kealoha
+        Pilares","team":"CAR","position":"WR","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"2382","playerName":"R.J.
+        Webb","team":"CAR","position":"WR","injury":"Undisclosed","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Michael
+        Zordich","team":"CAR","position":"RB","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"287","playerName":"Jonathan
+        Stewart","team":"CAR","position":"RB","injury":"","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-28","practiceStatusId":""}],"CHI":[{"week":"1","playerId":"0","playerName":"Kelvin
+        Hayden","team":"CHI","position":"DB","injury":"Hamstring","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""}],"CIN":[{"week":"1","playerId":"0","playerName":"Carlos
+        Dunlap","team":"CIN","position":"DE","injury":"Concussion","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"2279","playerName":"Tyler
+        Eifert","team":"CIN","position":"TE","injury":"Forearm","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Brandon
+        Ghee","team":"CIN","position":"CB","injury":"Concussion","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Missed Week 1 at Chicago","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Dre
+        Kirkpatrick","team":"CIN","position":"CB","injury":"Concusison","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Andre
+        Smith","team":"CIN","position":"T","injury":"Knee","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Devon
+        Still","team":"CIN","position":"DT","injury":"Knee","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Andrew
+        Whitworth","team":"CIN","position":"T","injury":"Knee","practiceStatus":"Did
+        not practice","gameStatus":"Doubtful","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"DeQuin
+        Evans","team":"CIN","position":"LB","injury":"Suspension","practiceStatus":"","gameStatus":"","notes":"Eight-game
+        suspension. Eligible to return Week 9 at Miami","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Mike
+        Pollak","team":"CIN","position":"G","injury":"KNEE","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Eligible to return Week 6 at Dallas","lastUpdate":"2013-09-08","practiceStatusId":1},{"week":"1","playerId":"1385","playerName":"Andrew
+        Hawkins","team":"CIN","position":"WR","injury":"Ankle","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-04","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Emmanuel
+        Lamur","team":"CIN","position":"LB","injury":"Arm","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"816","playerName":"Bernard
+        Scott","team":"CIN","position":"RB","injury":"","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-01","practiceStatusId":""},{"week":"1","playerId":"932","playerName":"Chris
+        Pressley","team":"CIN","position":"FB","injury":"","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-28","practiceStatusId":""},{"week":"1","playerId":"1118","playerName":"Zac
+        Robinson","team":"CIN","position":"QB","injury":"","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-28","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Brandon
+        Joiner","team":"CIN","position":"LB","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-27","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Sean
+        Porter","team":"CIN","position":"LB","injury":"Shoulder","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-27","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Larry
+        Black","team":"CIN","position":"DL","injury":"Ankle","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-07","practiceStatusId":""}],"CLE":[{"week":"1","playerId":"0","playerName":"T.J.
+        Ward","team":"CLE","position":"DB","injury":"Shoulder","practiceStatus":"","gameStatus":"","notes":"Questionable
+        for Week 2 at Baltimore","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"338","playerName":"Davone
+        Bess","team":"CLE","position":"WR","injury":"Knee","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Desmond
+        Bryant","team":"CLE","position":"DE","injury":"Back","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"1461","playerName":"Jordan
+        Cameron","team":"CLE","position":"TE","injury":"Groin","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Eric
+        Martin","team":"CLE","position":"LB","injury":"Foot","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Barkevious
+        Mingo","team":"CLE","position":"LB","injury":"Lung","practiceStatus":"Limited
+        in practice","gameStatus":"Out","notes":"Missed Week 1 vs. Miami","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Chris
+        Owens","team":"CLE","position":"CB","injury":"Foot","practiceStatus":"","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Ahtyba
+        Rubin","team":"CLE","position":"DE","injury":"Calf","practiceStatus":"Did
+        not practice","gameStatus":"Questionable","notes":"Missed Week 1 vs. Miami","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Jabaal
+        Sheard","team":"CLE","position":"LB","injury":"Illness","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Buster
+        Skrine","team":"CLE","position":"CB","injury":"Shoulder","practiceStatus":"Did
+        not practice","gameStatus":"Questionable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"2092","playerName":"Josh
+        Gordon","team":"CLE","position":"WR","injury":"Suspension","practiceStatus":"","gameStatus":"","notes":"Eligible
+        to return Week 3 at Minnesota","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Shawn
+        Lauvao","team":"CLE","position":"G","injury":"ANKLE","practiceStatus":"Will
+        not play","gameStatus":"Out","notes":"Eligible to return Week 6 at Dallas","lastUpdate":"2013-09-08","practiceStatusId":2},{"week":"1","playerId":"2287","playerName":"Brandon
+        Bogotay","team":"CLE","position":"K","injury":"Groin","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"1128","playerName":"Montario
+        Hardesty","team":"CLE","position":"RB","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-27","practiceStatusId":""},{"week":"1","playerId":"1418","playerName":"Dion
+        Lewis","team":"CLE","position":"RB","injury":"Leg","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-26","practiceStatusId":""}],"DAL":[{"week":"1","playerId":"1143","playerName":"Dez
+        Bryant","team":"DAL","position":"WR","injury":"Foot","practiceStatus":"","gameStatus":"","notes":"Questionable
+        for Week 2 at Kansas City","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"1785","playerName":"Lance
+        Dunbar","team":"DAL","position":"RB","injury":"Foot","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Missed Week 1 vs. N.Y. Giants","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Ronald
+        Leary","team":"DAL","position":"G","injury":"Knee","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Danny
+        McCray","team":"DAL","position":"S","injury":"Hamstring","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Missed Week 1 vs. N.Y. Giants","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Anthony
+        Spencer","team":"DAL","position":"DE","injury":"Knee","practiceStatus":"Did
+        not practice","gameStatus":"Doubtful","notes":"Missed Week 1 vs. N.Y. Giants","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Eric
+        Frampton","team":"DAL","position":"DB","injury":"Calf","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-04","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Matt
+        Johnson","team":"DAL","position":"DB","injury":"Foot","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-31","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Jay
+        Ratliff","team":"DAL","position":"NT","injury":"","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-28","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Tyrone
+        Crawford","team":"DAL","position":"DL","injury":"Achilles","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-27","practiceStatusId":""}],"DEN":[{"week":"1","playerId":"2184","playerName":"C.J.
+        Anderson","team":"DEN","position":"RB","injury":"Knee","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Missed Week 1 vs. Baltimore","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Robert
+        Ayers","team":"DEN","position":"DE","injury":"Achilles","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Champ
+        Bailey","team":"DEN","position":"CB","injury":"Foot","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Missed Week 1 vs. Baltimore","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Ryan
+        Clady","team":"DEN","position":"T","injury":"Shoulder","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"631","playerName":"Joel
+        Dreessen","team":"DEN","position":"TE","injury":"Knee","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Missed Week 1 vs. Baltimore","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Chris
+        Kuper","team":"DEN","position":"G","injury":"Ankle","practiceStatus":"Limited
+        in practice","gameStatus":"Doubtful","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"1814","playerName":"Brock
+        Osweiler","team":"DEN","position":"QB","injury":"Left Shoulder","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"576","playerName":"Wes
+        Welker","team":"DEN","position":"WR","injury":"Ankle","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Von
+        Miller","team":"DEN","position":"LB","injury":"Suspension","practiceStatus":"","gameStatus":"","notes":"Eligible
+        to return Week 7 at Indianapolis","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Adrian
+        Robinson","team":"DEN","position":"LB","injury":"FOOT","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-15","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Lerentee
+        McCray","team":"DEN","position":"LB","injury":"Ankle","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Quanterus
+        Smith","team":"DEN","position":"DL","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Stewart
+        Bradley","team":"DEN","position":"LB","injury":"Undisclosed","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-31","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"J.D.
+        Walton","team":"DEN","position":"C","injury":"","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-28","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Quinton
+        Carter","team":"DEN","position":"DB","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-27","practiceStatusId":""}],"DET":[{"week":"1","playerId":"0","playerName":"Don
+        Carey","team":"DET","position":"DB","injury":"Undisclosed","practiceStatus":"","gameStatus":"","notes":"Left
+        Week 1 vs. Minnesota","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Ziggy
+        Ansah","team":"DET","position":"DE","injury":"Concussion","practiceStatus":"","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Louis
+        Delmas","team":"DET","position":"S","injury":"Knee","practiceStatus":"Did
+        not practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Jason
+        Jones","team":"DET","position":"DE","injury":"Knee","practiceStatus":"Did
+        not practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Cory
+        Greenwood","team":"DET","position":"LB","injury":"Neck","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"252","playerName":"Montell
+        Owens","team":"DET","position":"RB","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"2308","playerName":"Michael
+        Williams","team":"DET","position":"TE","injury":"Hand","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-31","practiceStatusId":""}],"GB":[{"week":"1","playerId":"0","playerName":"Morgan
+        Burnett","team":"GB","position":"S","injury":"Hamstring","practiceStatus":"Did
+        not practice","gameStatus":"Questionable","notes":"Missed Week 1 at San Francisco","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Jarrett
+        Bush","team":"GB","position":"CB","injury":"Ankle","practiceStatus":"Limited
+        in practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Casey
+        Hayward","team":"GB","position":"CB","injury":"Hamstring","practiceStatus":"Will
+        not play","gameStatus":"Out","notes":"Missed Week 1 at San Francisco","lastUpdate":"2013-09-09","practiceStatusId":2},{"week":"1","playerId":"0","playerName":"Brad
+        Jones","team":"GB","position":"LB","injury":"Hamstring","practiceStatus":"Limited
+        in practice","gameStatus":"Questionable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"2316","playerName":"Sederrik
+        Cunningham","team":"GB","position":"WR","injury":"Wrist","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Sean
+        Richardson","team":"GB","position":"SAF","injury":"","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-28","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Derek
+        Sherrod","team":"GB","position":"T","injury":"","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-28","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"J.C.
+        Tretter","team":"GB","position":"T","injury":"","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-28","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Jerel
+        Worthy","team":"GB","position":"DE","injury":"","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-28","practiceStatusId":""},{"week":"1","playerId":"2317","playerName":"Kevin
+        Dorsey","team":"GB","position":"WR","injury":"Toe","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-27","practiceStatusId":""},{"week":"1","playerId":"1511","playerName":"DuJuan
+        Harris","team":"GB","position":"RB","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-27","practiceStatusId":""}],"HOU":[{"week":"1","playerId":"0","playerName":"A.J.
+        Bouye","team":"HOU","position":"CB","injury":"Knee","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"Probable for Week 1 at San Diego","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Brian
+        Cushing","team":"HOU","position":"LB","injury":"Knee","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"Probable for Week 1 at San Diego","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"917","playerName":"Arian
+        Foster","team":"HOU","position":"RB","injury":"Calf","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"Probable for Week 1 at San Diego","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"1186","playerName":"Garrett
+        Graham","team":"HOU","position":"TE","injury":"Hip","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"Probable for Week 1 at San Diego","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"2338","playerName":"DeAndre
+        Hopkins","team":"HOU","position":"WR","injury":"Concussion","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"Probable for Week 1 at San Diego","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Brice
+        McCain","team":"HOU","position":"CB","injury":"Knee","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"Probable for Week 1 at San Diego","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Whitney
+        Mercilus","team":"HOU","position":"LB","injury":"Hamstring","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"Probable for Week 1 at San Diego","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Sam
+        Montgomery","team":"HOU","position":"LB","injury":"Achilles","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"Probable for Week 1 at San Diego","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Eddie
+        Pleasant","team":"HOU","position":"S","injury":"Knee","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"Probable for Week 1 at San Diego","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"1928","playerName":"DeVier
+        Posey","team":"HOU","position":"WR","injury":"Achilles","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"Probable for Week 1 at San Diego","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Brooks
+        Reed","team":"HOU","position":"LB","injury":"Back","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"Probable for Week 1 at San Diego","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Ed
+        Reed","team":"HOU","position":"S","injury":"Hip","practiceStatus":"Limited
+        in practice","gameStatus":"Questionable","notes":"Questionable for Week 1
+        at San Diego","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Darryl
+        Sharpton","team":"HOU","position":"LB","injury":"Concussion","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Out for Week 1 at San Diego","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Wade
+        Smith","team":"HOU","position":"G","injury":"Knee","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Antonio
+        Smith","team":"HOU","position":"DL","injury":"Suspension","practiceStatus":"","gameStatus":"","notes":"Eligible
+        to return Week 2 vs. Tennessee","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"David
+        Quessenberry","team":"HOU","position":"T","injury":"FOOT","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Eligible to return Week 6 at Dallas","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"2336","playerName":"Alan
+        Bonner","team":"HOU","position":"WR","injury":"Hamstring","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Trevardo
+        Williams","team":"HOU","position":"LB","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"2339","playerName":"Alec
+        Lemon","team":"HOU","position":"WR","injury":"Undisclosed","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-27","practiceStatusId":""}],"IND":[{"week":"1","playerId":"1940","playerName":"Dwayne
+        Allen","team":"IND","position":"TE","injury":"Foot","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"Left Week 1 vs. Oakland","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Pat
+        Angerer","team":"IND","position":"LB","injury":"Concussion","practiceStatus":"Did
+        not practice","gameStatus":"Doubtful","notes":"Missed Week 1 vs. Oakland","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"132","playerName":"Ahmad
+        Bradshaw","team":"IND","position":"RB","injury":"Foot","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Anthony
+        Castonzo","team":"IND","position":"T","injury":"Knee","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Kavell
+        Conner","team":"IND","position":"LB","injury":"Ankle","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Missed Week 1 vs. Oakland","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"1941","playerName":"Coby
+        Fleener","team":"IND","position":"TE","injury":"Knee","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Mario
+        Harvey","team":"IND","position":"LB","injury":"Knee","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Joe
+        Lefeged","team":"IND","position":"S","injury":"Knee","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Mike
+        McGlynn","team":"IND","position":"G","injury":"Knee","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Fili
+        Moala","team":"IND","position":"DE","injury":"Foot","practiceStatus":"","gameStatus":"Questionable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"1165","playerName":"David
+        Reed","team":"IND","position":"WR","injury":"Head","practiceStatus":"Did not
+        practice","gameStatus":"Questionable","notes":"Missed Week 1 vs. Oakland","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"1936","playerName":"LaVon
+        Brazill","team":"IND","position":"WR","injury":"Suspension","practiceStatus":"","gameStatus":"","notes":"Eligible
+        to return Week 5 vs. Seattle","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Justin
+        Hickman","team":"IND","position":"DL","injury":"Foot","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Scott
+        Lutrus","team":"IND","position":"LB","injury":"Undisclosed","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"2343","playerName":"Dan
+        Moore","team":"IND","position":"RB","injury":"Undisclosed","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Lawrence
+        Sidbury","team":"IND","position":"LB","injury":"Shoulder","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Quinton
+        Spears","team":"IND","position":"LB","injury":"Hamstring","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""}],"JAC":[{"week":"1","playerId":"0","playerName":"Dwayne
+        Gratz","team":"JAC","position":"DB","injury":"Ankle","practiceStatus":"","gameStatus":"","notes":"Out
+        for Week 2 at Oakland","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"1436","playerName":"Stephen
+        Burton","team":"JAC","position":"WR","injury":"Illness","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Johnathan
+        Cyprien","team":"JAC","position":"S","injury":"Hamstring","practiceStatus":"","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"174","playerName":"Justin
+        Forsett","team":"JAC","position":"RB","injury":"Toe","practiceStatus":"Full
+        Practice","gameStatus":"Questionable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"1393","playerName":"Blaine
+        Gabbert","team":"JAC","position":"QB","injury":"Right Thumb","practiceStatus":"Limited
+        in practice","gameStatus":"Questionable","notes":"Out for Week 2 at Oakland","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"668","playerName":"Marcedes
+        Lewis","team":"JAC","position":"TE","injury":"Calf","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Missed Week 1 vs. Kansas City","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Roy
+        Miller","team":"JAC","position":"DT","injury":"Knee","practiceStatus":"Limited
+        in practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Jeremy
+        Mincey","team":"JAC","position":"DE","injury":"Illness","practiceStatus":"Limited
+        in practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Will
+        Rackley","team":"JAC","position":"G","injury":"Ankle","practiceStatus":"Limited
+        in practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"1947","playerName":"Justin
+        Blackmon","team":"JAC","position":"WR","injury":"Suspension","practiceStatus":"","gameStatus":"","notes":"Eligible
+        to return Week 5 at St. Louis","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"1164","playerName":"Taylor
+        Price","team":"JAC","position":"WR","injury":"Foot","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Jeremy
+        Harris","team":"JAC","position":"DB","injury":"Back","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-27","practiceStatusId":""}],"KC":[{"week":"1","playerId":"0","playerName":"Husain
+        Abdullah","team":"KC","position":"S","injury":"Foot","practiceStatus":"Limited
+        in practice","gameStatus":"Questionable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Jon
+        Asamoah","team":"KC","position":"G","injury":"Calf","practiceStatus":"Did
+        not practice","gameStatus":"Questionable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Allen
+        Bailey","team":"KC","position":"DE","injury":"Not Injury Related","practiceStatus":"Did
+        not practice","gameStatus":"Questionable","notes":"Missed Week 1 at Jacksonville","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"145","playerName":"Jamaal
+        Charles","team":"KC","position":"RB","injury":"Quadriceps","practiceStatus":"","gameStatus":"","notes":"Left
+        Week 1 at Jacksonville","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Quintin
+        Demps","team":"KC","position":"S","injury":"Hamstring","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Eric
+        Fisher","team":"KC","position":"T","injury":"Shoulder","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"James-Michael
+        Johnson","team":"KC","position":"LB","injury":"Groin","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Nico
+        Johnson","team":"KC","position":"LB","injury":"Ankle","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Missed Week 1 at Jacksonville","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"2198","playerName":"Travis
+        Kelce","team":"KC","position":"TE","injury":"Knee","practiceStatus":"Limited
+        in practice","gameStatus":"Questionable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Dezman
+        Moses","team":"KC","position":"LB","injury":"Toe","practiceStatus":"Full Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Sean
+        Smith","team":"KC","position":"CB","injury":"Neck","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Donald
+        Stephenson","team":"KC","position":"T","injury":"Shoulder","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Sanders
+        Commings","team":"KC","position":"DB","injury":"Collarbone","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"1194","playerName":"Tony
+        Moeaki","team":"KC","position":"TE","injury":"Shoulder","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""}],"MIA":[{"week":"1","playerId":"0","playerName":"Will
+        Davis","team":"MIA","position":"CB","injury":"Toe","practiceStatus":"Did not
+        practice","gameStatus":"Out","notes":"Missed Week 1 at Cleveland","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"1479","playerName":"Pat
+        Devlin","team":"MIA","position":"QB","injury":"Ankle","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Missed Week 1 at Cleveland","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Jonathan
+        Freeny","team":"MIA","position":"LB","injury":"Shoulder","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Dion
+        Jordan","team":"MIA","position":"DE","injury":"Shoulder","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Vaughn
+        Martin","team":"MIA","position":"DE","injury":"Ankle","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Dimitri
+        Patterson","team":"MIA","position":"CB","injury":"Ankle","practiceStatus":"Limited
+        in practice","gameStatus":"Questionable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"2133","playerName":"Dion
+        Sims","team":"MIA","position":"TE","injury":"Groin","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Jamar
+        Taylor","team":"MIA","position":"CB","injury":"Groin","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Missed Week 1 at Cleveland","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Jimmy
+        Wilson","team":"MIA","position":"S","injury":"Hamstring","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"659","playerName":"Dustin
+        Keller","team":"MIA","position":"TE","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""}],"MIN":[{"week":"1","playerId":"1475","playerName":"McLeod
+        Bethel-Thompson","team":"MIN","position":"QB","injury":"Illness","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"Missed Week 1 at Detroit","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Chris
+        Cook","team":"MIN","position":"CB","injury":"Groin","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Larry
+        Dean","team":"MIN","position":"LB","injury":"Shoulder","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Sharrif
+        Floyd","team":"MIN","position":"DT","injury":"Knee","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Letroy
+        Guion","team":"MIN","position":"DT","injury":"Finger","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Erin
+        Henderson","team":"MIN","position":"LB","injury":"Heel","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Phil
+        Loadholt","team":"MIN","position":"T","injury":"Knee","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"2328","playerName":"Cordarrelle
+        Patterson","team":"MIN","position":"WR","injury":"Back","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Mistral
+        Raymond","team":"MIN","position":"S","injury":"Shoulder","practiceStatus":"","gameStatus":"Probable","notes":"Missed
+        Week 1 at Detroit","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Harrison
+        Smith","team":"MIN","position":"S","injury":"Back","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Kevin
+        Williams","team":"MIN","position":"DT","injury":"Knee","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Missed Week 1 at Detroit","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"173","playerName":"Jerome
+        Felton","team":"MIN","position":"RB","injury":"Suspension","practiceStatus":"","gameStatus":"","notes":"Three-game
+        suspension. Eligible to return Week 4 vs. Pittsburgh","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Bobby
+        Felder","team":"MIN","position":"DB","injury":"Ankle","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"D''Aundre
+        Reed","team":"MIN","position":"DL","injury":"Ankle","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"1921","playerName":"Greg
+        Childs","team":"MIN","position":"WR","injury":"","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-28","practiceStatusId":""}],"NE":[{"week":"1","playerId":"2144","playerName":"Zach
+        Sudfeld","team":"NE","position":"TE","injury":"Hamstring","practiceStatus":"","gameStatus":"","notes":"Questionable
+        for Week 2 vs. N.Y. Jets","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"1430","playerName":"Shane
+        Vereen","team":"NE","position":"RB","injury":"Wrist","practiceStatus":"","gameStatus":"","notes":"Doubtful
+        for Week 2 vs. N.Y. Jets","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"323","playerName":"Danny
+        Amendola","team":"NE","position":"WR","injury":"Groin","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"1769","playerName":"Brandon
+        Bolden","team":"NE","position":"RB","injury":"Knee","practiceStatus":"Limited
+        in practice","gameStatus":"Questionable","notes":"Missed Week 1 at Buffalo","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"2139","playerName":"Aaron
+        Dobson","team":"NE","position":"WR","injury":"Hamstring","practiceStatus":"Limited
+        in practice","gameStatus":"Questionable","notes":"Missed Week 1 at Buffalo","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Nate
+        Ebner","team":"NE","position":"S","injury":"Ankle","practiceStatus":"Limited
+        in practice","gameStatus":"Questionable","notes":"Missed Week 1 at Buffalo","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"1189","playerName":"Rob
+        Gronkowski","team":"NE","position":"TE","injury":"Back, Forearm","practiceStatus":"Limited
+        in practice","gameStatus":"Doubtful","notes":"Missed Week 1 at Buffalo","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Duron
+        Harmon","team":"NE","position":"S","injury":"Hamstring","practiceStatus":"Limited
+        in practice","gameStatus":"Questionable","notes":"Missed Week 1 at Buffalo","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Will
+        Svitek","team":"NE","position":"T","injury":"KNEE","practiceStatus":"Did not
+        practice","gameStatus":"Out","notes":"Eligible to return Week 6 at Dallas","lastUpdate":"2013-09-08","practiceStatusId":1},{"week":"1","playerId":"2141","playerName":"T.J.
+        Moe","team":"NE","position":"WR","injury":"Achilles","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Adrian
+        Wilson","team":"NE","position":"DB","injury":"Undisclosed","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-31","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Cory
+        Grissom","team":"NE","position":"DL","injury":"Leg","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-26","practiceStatusId":""}],"NO":[{"week":"1","playerId":"0","playerName":"Patrick
+        Robinson","team":"NO","position":"DB","injury":"Foot","practiceStatus":"","gameStatus":"","notes":"Left
+        Week 1 vs. Atlanta","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Isa
+        Abdul-Quddus","team":"NO","position":"S","injury":"Ankle","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Missed Week 1 vs. Atlanta","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Terron
+        Armstead","team":"NO","position":"T","injury":"Stomach","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Brodrick
+        Bunkley","team":"NO","position":"DL","injury":"Leg","practiceStatus":"","gameStatus":"","notes":"Left
+        Week 1 vs. Atlanta","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"1974","playerName":"Travaris
+        Cadet","team":"NO","position":"RB","injury":"Foot","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"371","playerName":"Marques
+        Colston","team":"NO","position":"WR","injury":"Foot","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Jahri
+        Evans","team":"NO","position":"G","injury":"Back","practiceStatus":"Full Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Glenn
+        Foster","team":"NO","position":"DE","injury":"Ankle","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Missed Week 1 vs. Atlanta","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Junior
+        Galette","team":"NO","position":"LB","injury":"Hamstring","practiceStatus":"","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Kevin
+        Reddick","team":"NO","position":"LB","injury":"Shoulder","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Zach
+        Strief","team":"NO","position":"T","injury":"Back","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"1978","playerName":"Nick
+        Toon","team":"NO","position":"WR","injury":"Chest","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Tyrunn
+        Walker","team":"NO","position":"DL","injury":"Leg","practiceStatus":"","gameStatus":"","notes":"Left
+        Week 1 vs. Atlanta","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Martez
+        Wilson","team":"NO","position":"LB","injury":"Elbow","practiceStatus":"","gameStatus":"Probable","notes":"Missed
+        Week 1 vs. Atlanta","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"A.J.
+        Davis","team":"NO","position":"DB","injury":"Undisclosed","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Jonathan
+        Vilma","team":"NO","position":"LB","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Kenyon
+        Coleman","team":"NO","position":"DL","injury":"Chest","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-31","practiceStatusId":""},{"week":"1","playerId":"2072","playerName":"Chris
+        Givens","team":"NO","position":"WR","injury":"Undisclosed","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-31","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Victor
+        Butler","team":"NO","position":"OLB","injury":"","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-28","practiceStatusId":""},{"week":"1","playerId":"1618","playerName":"Joe
+        Morgan","team":"NO","position":"WR","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-27","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Will
+        Smith","team":"NO","position":"DL","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-27","practiceStatusId":""}],"NYG":[{"week":"1","playerId":"0","playerName":"Prince
+        Amukamara","team":"NYG","position":"DB","injury":"Concussion","practiceStatus":"","gameStatus":"","notes":"Left
+        Week 1 at Dallas","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"1262","playerName":"Victor
+        Cruz","team":"NYG","position":"WR","injury":"Heel","practiceStatus":"Limited
+        in practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"1798","playerName":"Henry
+        Hynoski","team":"NYG","position":"RB","injury":"Knee","practiceStatus":"Limited
+        in practice","gameStatus":"Questionable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Damontre
+        Moore","team":"NYG","position":"DE","injury":"Shoulder","practiceStatus":"Limited
+        in practice","gameStatus":"Questionable","notes":"Missed Week 1 at Dallas","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Jason
+        Pierre-Paul","team":"NYG","position":"DE","injury":"Back","practiceStatus":"Limited
+        in practice","gameStatus":"Questionable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Will
+        Hill","team":"NYG","position":"DB","injury":"Suspension","practiceStatus":"","gameStatus":"","notes":"Four-game
+        suspension. Eligible to return Week 5 vs. Philadelphia","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"David
+        Baas","team":"NYG","position":"C","injury":"KNEE","practiceStatus":"Did not
+        practice","gameStatus":"Out","notes":"Eligible to return Week 6 at Dallas","lastUpdate":"2013-09-08","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"David
+        Diehl","team":"NYG","position":"T","injury":"KNEE","practiceStatus":"Will
+        not play","gameStatus":"Out","notes":"Eligible to return Week 6 at Dallas","lastUpdate":"2013-09-08","practiceStatusId":2},{"week":"1","playerId":"797","playerName":"Andre
+        Brown","team":"NYG","position":"RB","injury":"Leg","practiceStatus":"Will
+        not play","gameStatus":"Out","notes":"Eligible to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":2},{"week":"1","playerId":"823","playerName":"Ramses
+        Barden","team":"NYG","position":"WR","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-01","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Markus
+        Kuhn","team":"NYG","position":"DT","injury":"","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-01","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Stevie
+        Brown","team":"NYG","position":"DB","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-25","practiceStatusId":""}],"NYJ":[{"week":"1","playerId":"0","playerName":"Nick
+        Bellore","team":"NYJ","position":"LB","injury":"Oblique","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Willie
+        Colon","team":"NYJ","position":"G","injury":"Knee, Shoulder","practiceStatus":"","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Quinton
+        Coples","team":"NYJ","position":"LB","injury":"Ankle","practiceStatus":"","gameStatus":"Out","notes":"Missed
+        Week 1 vs. Tampa Bay","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Antonio
+        Cromartie","team":"NYJ","position":"CB","injury":"Hip","practiceStatus":"Limited
+        in practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"1313","playerName":"Jeff
+        Cumberland","team":"NYJ","position":"TE","injury":"Head","practiceStatus":"","gameStatus":"","notes":"Left
+        Week 1 vs. Tampa Bay","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Leger
+        Douzable","team":"NYJ","position":"DE","injury":"Illness","practiceStatus":"","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Vladimir
+        Ducasse","team":"NYJ","position":"G","injury":"Calf","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Kenrick
+        Ellis","team":"NYJ","position":"DT","injury":"Back","practiceStatus":"Limited
+        in practice","gameStatus":"Questionable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"1440","playerName":"Clyde
+        Gates","team":"NYJ","position":"WR","injury":"Shoulder","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"David
+        Harris","team":"NYJ","position":"LB","injury":"Hip","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Damon
+        Harrison","team":"NYJ","position":"DT","injury":"Knee","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"1781","playerName":"Stephen
+        Hill","team":"NYJ","position":"WR","injury":"Knee","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"431","playerName":"Santonio
+        Holmes","team":"NYJ","position":"WR","injury":"Foot","practiceStatus":"Limited
+        in practice","gameStatus":"Questionable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Ben
+        Ijalana","team":"NYJ","position":"T","injury":"Knee","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"1447","playerName":"Jeremy
+        Kerley","team":"NYJ","position":"WR","injury":"Finger","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"Left Week 1 vs. Tampa Bay","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Ellis
+        Lankster","team":"NYJ","position":"CB","injury":"Foot, Hamstring","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Dee
+        Milliner","team":"NYJ","position":"CB","injury":"Achilles","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"792","playerName":"Mark
+        Sanchez","team":"NYJ","position":"QB","injury":"Right Shoulder","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Out for Week 2 at New England","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"1776","playerName":"Matt
+        Simms","team":"NYJ","position":"QB","injury":"Calf, Oblique","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"2146","playerName":"Geno
+        Smith","team":"NYJ","position":"QB","injury":"Ankle","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"732","playerName":"Kellen
+        Winslow","team":"NYJ","position":"TE","injury":"Knee","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Brian
+        Winters","team":"NYJ","position":"G","injury":"Ankle","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"802","playerName":"Mike
+        Goodson","team":"NYJ","position":"RB","injury":"Suspension","practiceStatus":"","gameStatus":"","notes":"Eligible
+        to return Week 5 at Atlanta","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"1508","playerName":"John
+        Griffin","team":"NYJ","position":"RB","injury":"Leg","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"1588","playerName":"Vidal
+        Hazelton","team":"NYJ","position":"WR","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"200","playerName":"Lex
+        Hilliard","team":"NYJ","position":"RB","injury":"Shoulder","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Josh
+        Mauga","team":"NYJ","position":"LB","injury":"Back","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Aaron
+        Berry","team":"NYJ","position":"DB","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-07-26","practiceStatusId":""}],"OAK":[{"week":"1","playerId":"0","playerName":"Tyvon
+        Branch","team":"OAK","position":"DB","injury":"Shoulder","practiceStatus":"","gameStatus":"","notes":"Questionable
+        for Week 2 vs. Jacksonville","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"1433","playerName":"David
+        Ausberry","team":"OAK","position":"TE","injury":"Shoulder","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Missed Week 1 at Indianapolis","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"36","playerName":"Matt
+        Flynn","team":"OAK","position":"QB","injury":"Right Elbow","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"759","playerName":"Sebastian
+        Janikowski","team":"OAK","position":"K","injury":"Right Calf","practiceStatus":"Limited
+        in practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Sio
+        Moore","team":"OAK","position":"LB","injury":"Foot","practiceStatus":"Limited
+        in practice","gameStatus":"Questionable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"1592","playerName":"Andre
+        Holmes","team":"OAK","position":"WR","injury":"Suspension","practiceStatus":"","gameStatus":"","notes":"Four-game
+        suspension. Eligible to return Week 5 vs. San Diego","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Menelik
+        Watson","team":"OAK","position":"T","injury":"KNEE","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Eligible to return Week 6 at Dallas","lastUpdate":"2013-09-08","practiceStatusId":1},{"week":"1","playerId":"2013","playerName":"Eddy
+        Carmona","team":"OAK","position":"K","injury":"Undisclosed","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Miles
+        Burris","team":"OAK","position":"OLB","injury":"","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-28","practiceStatusId":""},{"week":"1","playerId":"2201","playerName":"Latavius
+        Murray","team":"OAK","position":"RB","injury":"Ankle","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-27","practiceStatusId":""}],"PHI":[{"week":"1","playerId":"0","playerName":"Dennis
+        Kelly","team":"PHI","position":"T","injury":"BACK","practiceStatus":"Will
+        not play","gameStatus":"Out","notes":"Eligible to return Week 6 at Dallas","lastUpdate":"2013-09-09","practiceStatusId":2},{"week":"1","playerId":"1140","playerName":"Arrelious
+        Benn","team":"PHI","position":"WR","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Jason
+        Phillips","team":"PHI","position":"LB","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Phillip
+        Hunt","team":"PHI","position":"LB","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-27","practiceStatusId":""},{"week":"1","playerId":"847","playerName":"Jeremy
+        Maclin","team":"PHI","position":"WR","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-07-30","practiceStatusId":""}],"PIT":[{"week":"1","playerId":"775","playerName":"Shaun
+        Suisham","team":"PIT","position":"K","injury":"Hamstring","practiceStatus":"","gameStatus":"","notes":"Questionable
+        for Week 2 at Cincinnati","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Cortez
+        Allen","team":"PIT","position":"DB","injury":"Ankle","practiceStatus":"","gameStatus":"","notes":"Left
+        Week 1 vs. Tennessee","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"2289","playerName":"Le''Veon
+        Bell","team":"PIT","position":"RB","injury":"Foot","practiceStatus":"Did not
+        practice","gameStatus":"Out","notes":"Missed Week 1 vs. Tennessee","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"1887","playerName":"Will
+        Johnson","team":"PIT","position":"RB","injury":"Hamstring","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Jarvis
+        Jones","team":"PIT","position":"LB","injury":"Chest","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Brett
+        Keisel","team":"PIT","position":"DE","injury":"Not Injury Related","practiceStatus":"Limited
+        in practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"675","playerName":"Heath
+        Miller","team":"PIT","position":"TE","injury":"Knee","practiceStatus":"Limited
+        in practice","gameStatus":"Doubtful","notes":"Missed Week 1 vs. Tennessee","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Larry
+        Foote","team":"PIT","position":"LB","injury":"Biceps","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"817","playerName":"LaRod
+        Stephens-Howling","team":"PIT","position":"RB","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"716","playerName":"Matt
+        Spaeth","team":"PIT","position":"TE","injury":"Foot","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Nick
+        Williams","team":"PIT","position":"DL","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Sean
+        Spence","team":"PIT","position":"LB","injury":"","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-27","practiceStatusId":""},{"week":"1","playerId":"356","playerName":"Plaxico
+        Burress","team":"PIT","position":"WR","injury":"Shoulder","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-13","practiceStatusId":""}],"SD":[{"week":"1","playerId":"395","playerName":"Malcom
+        Floyd","team":"SD","position":"WR","injury":"Knee","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"Probable for Week 1 vs. Houston","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Corey
+        Liuget","team":"SD","position":"DE","injury":"Shoulder","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"Probable for Week 1 vs. Houston","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Johnny
+        Patrick","team":"SD","position":"CB","injury":"Concussion, Not Injury Related","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"Probable for Week 1 vs. Houston","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"526","playerName":"Eddie
+        Royal","team":"SD","position":"WR","injury":"Chest, Concussion","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"Probable for Week 1 vs. Houston","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Brandon
+        Taylor","team":"SD","position":"S","injury":"Knee","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"Probable for Week 1 vs. Houston","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Manti
+        Te''o","team":"SD","position":"LB","injury":"Foot","practiceStatus":"Did not
+        practice","gameStatus":"Out","notes":"Out for Week 1 vs. Houston","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Shareece
+        Wright","team":"SD","position":"CB","injury":"Chest","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"Probable for Week 1 vs. Houston","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Jonas
+        Mouton","team":"SD","position":"LB","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"1375","playerName":"Danario
+        Alexander","team":"SD","position":"WR","injury":"","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-02","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Melvin
+        Ingram","team":"SD","position":"OLB","injury":"","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-27","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Byron
+        Jerideau","team":"SD","position":"DL","injury":"Shoulder","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-26","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Steve
+        Williams","team":"SD","position":"DB","injury":"Pectoral","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-26","practiceStatusId":""}],"SEA":[{"week":"1","playerId":"0","playerName":"Cliff
+        Avril","team":"SEA","position":"DE","injury":"Hamstring","practiceStatus":"Full
+        Practice","gameStatus":"Doubtful","notes":"Missed Week 1 at Carolina","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Brandon
+        Browner","team":"SEA","position":"CB","injury":"Hamstring","practiceStatus":"Did
+        not practice","gameStatus":"Questionable","notes":"Missed Week 1 at Carolina","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Chris
+        Clemons","team":"SEA","position":"DE","injury":"Knee","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Missed Week 1 at Carolina","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Jordan
+        Hill","team":"SEA","position":"DT","injury":"Biceps","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Missed Week 1 at Carolina","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Tony
+        McDaniel","team":"SEA","position":"DT","injury":"Groin","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Brandon
+        Mebane","team":"SEA","position":"DT","injury":"Groin","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"519","playerName":"Sidney
+        Rice","team":"SEA","position":"WR","injury":"Knee","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"1309","playerName":"Stephen
+        Williams","team":"SEA","position":"WR","injury":"Head","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Bruce
+        Irvin","team":"SEA","position":"DL","injury":"Suspension","practiceStatus":"","gameStatus":"","notes":"Four-game
+        suspension. Eligible to return Week 5 at Indianapolis","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Michael
+        Bowie","team":"SEA","position":"T","injury":"SHOULDER","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Eligible to return Week 6 at Dallas","lastUpdate":"2013-09-08","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Kenneth
+        Boatright","team":"SEA","position":"DL","injury":"Undisclosed","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Chandler
+        Fenner","team":"SEA","position":"DB","injury":"Undisclosed","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"840","playerName":"Percy
+        Harvin","team":"SEA","position":"WR","injury":"","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-28","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Greg
+        Scruggs","team":"SEA","position":"DE","injury":"","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-28","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Tharold
+        Simon","team":"SEA","position":"CB","injury":"","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-28","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Jesse
+        Williams","team":"SEA","position":"DL","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-26","practiceStatusId":""},{"week":"1","playerId":"1193","playerName":"Anthony
+        McCoy","team":"SEA","position":"TE","injury":"Achilles","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-07-26","practiceStatusId":""}],"SF":[{"week":"1","playerId":"0","playerName":"Nnamdi
+        Asomugha","team":"SF","position":"CB","injury":"Collarbone","practiceStatus":"Limited
+        in practice","gameStatus":"Questionable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"1839","playerName":"LaMichael
+        James","team":"SF","position":"RB","injury":"Knee","practiceStatus":"Did not
+        practice","gameStatus":"Questionable","notes":"Missed Week 1 vs. Green Bay","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"2112","playerName":"Demarcus
+        Dobbs","team":"SF","position":"DL","injury":"Suspension","practiceStatus":"","gameStatus":"","notes":"Eligible
+        to return Week 2 at Seattle","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"1826","playerName":"Brandon
+        Carswell","team":"SF","position":"WR","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"2237","playerName":"Alex
+        Debniak","team":"SF","position":"RB","injury":"Achilles","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Darius
+        Fleming","team":"SF","position":"LB","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"830","playerName":"Michael
+        Crabtree","team":"SF","position":"WR","injury":"","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-28","practiceStatusId":""},{"week":"1","playerId":"479","playerName":"Mario
+        Manningham","team":"SF","position":"WR","injury":"","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-28","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Chris
+        Culliver","team":"SF","position":"DB","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-27","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Lawrence
+        Okoye","team":"SF","position":"DL","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-27","practiceStatusId":""}],"STL":[{"week":"1","playerId":"1863","playerName":"Cory
+        Harkey","team":"STL","position":"TE","injury":"Knee","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Missed Week 1 vs. Arizona","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Quinton
+        Pointer","team":"STL","position":"S","injury":"Thigh","practiceStatus":"","gameStatus":"Out","notes":"Missed
+        Week 1 vs. Arizona","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Darian
+        Stewart","team":"STL","position":"S","injury":"Thigh","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Missed Week 1 vs. Arizona","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Jonathan
+        Stewart","team":"STL","position":"LB","injury":"Hip","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Missed Week 1 vs. Arizona","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"1856","playerName":"Isaiah
+        Pead","team":"STL","position":"RB","injury":"Suspension","practiceStatus":"","gameStatus":"","notes":"Eligible
+        to return Week 2 at Atlanta","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"2256","playerName":"C.J.
+        Akins","team":"STL","position":"WR","injury":"Achilles","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Phillip
+        Steward","team":"STL","position":"LB","injury":"Achilles","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""}],"TB":[{"week":"1","playerId":"0","playerName":"Michael
+        Adams","team":"TB","position":"DB","injury":"Knee","practiceStatus":"","gameStatus":"","notes":"Questionable
+        for Week 2 vs. New Orleans","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"1016","playerName":"Tom
+        Crabtree","team":"TB","position":"TE","injury":"Ankle","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Missed Week 1 at N.Y. Jets","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Demar
+        Dotson","team":"TB","position":"T","injury":"Back","practiceStatus":"Limited
+        in practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"2393","playerName":"Mike
+        James","team":"TB","position":"RB","injury":"Eye","practiceStatus":"Limited
+        in practice","gameStatus":"Questionable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"1984","playerName":"Erik
+        Lorig","team":"TB","position":"RB","injury":"Calf","practiceStatus":"Limited
+        in practice","gameStatus":"Questionable","notes":"Missed Week 1 at N.Y. Jets","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Rashaan
+        Melvin","team":"TB","position":"CB","injury":"Hamstring","practiceStatus":"Did
+        not practice","gameStatus":"Doubtful","notes":"Missed Week 1 at N.Y. Jets","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Darrelle
+        Revis","team":"TB","position":"CB","injury":"Knee","practiceStatus":"Full
+        Practice","gameStatus":"Probable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Carl
+        Nicks","team":"TB","position":"G","injury":"FOOT","practiceStatus":"Did not
+        practice","gameStatus":"Out","notes":"Eligible to return Week 6 at Dallas","lastUpdate":"2013-09-08","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Marvin
+        Booker","team":"TB","position":"DL","injury":"Undisclosed","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Jacob
+        Cutrera","team":"TB","position":"LB","injury":"Undisclosed","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Danny
+        Gorrer","team":"TB","position":"DB","injury":"Groin","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Anthony
+        Gaitor","team":"TB","position":"DB","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-26","practiceStatusId":""},{"week":"1","playerId":"1982","playerName":"Michael
+        Smith","team":"TB","position":"RB","injury":"Foot","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-26","practiceStatusId":""}],"TEN":[{"week":"1","playerId":"0","playerName":"Akeem
+        Ayers","team":"TEN","position":"LB","injury":"Ankle","practiceStatus":"Full
+        Practice","gameStatus":"Questionable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":0},{"week":"1","playerId":"0","playerName":"Zaviar
+        Gooden","team":"TEN","position":"LB","injury":"Ankle","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Missed Week 1 at Pittsburgh","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"803","playerName":"Shonn
+        Greene","team":"TEN","position":"RB","injury":"Knee","practiceStatus":"","gameStatus":"","notes":"Left
+        Week 1 at Pittsburgh","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"David
+        Stewart","team":"TEN","position":"T","injury":"Calf","practiceStatus":"Did
+        not practice","gameStatus":"Questionable","notes":"","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"808","playerName":"Quinn
+        Johnson","team":"TEN","position":"RB","injury":"Quadriceps","practiceStatus":"Did
+        not practice","gameStatus":"Out","notes":"Eligible to return Week 6 at Dallas","lastUpdate":"2013-09-07","practiceStatusId":1},{"week":"1","playerId":"1962","playerName":"Brandon
+        Barden","team":"TEN","position":"TE","injury":"Hamstring","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"1160","playerName":"Marc
+        Mariani","team":"TEN","position":"WR","injury":"Shoulder","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"567","playerName":"Kevin
+        Walter","team":"TEN","position":"WR","injury":"","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-28","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Markelle
+        Martin","team":"TEN","position":"DB","injury":"Hamstring","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-27","practiceStatusId":""}],"WAS":[{"week":"1","playerId":"0","playerName":"Brandon
+        Meriweather","team":"WAS","position":"S","injury":"Groin","practiceStatus":"Limited
+        in practice","gameStatus":"Questionable","notes":"Missed Week 1 vs. Philadelphia","lastUpdate":"2013-09-09","practiceStatusId":1},{"week":"1","playerId":"0","playerName":"Jarvis
+        Jenkins","team":"WAS","position":"DL","injury":"Suspension","practiceStatus":"","gameStatus":"","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Rob
+        Jackson","team":"WAS","position":"DL","injury":"Suspension","practiceStatus":"","gameStatus":"","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-09","practiceStatusId":""},{"week":"1","playerId":"1141","playerName":"Dezmon
+        Briscoe","team":"WAS","position":"WR","injury":"Shoulder","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Doug
+        Worthington","team":"WAS","position":"DL","injury":"Undisclosed","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-03","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Maurice
+        Hurt","team":"WAS","position":"G","injury":"","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-09-01","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Adam
+        Carriker","team":"WAS","position":"DE","injury":"","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-28","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Richard
+        Crawford","team":"WAS","position":"DB","injury":"Knee","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-28","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Jeremy
+        Kimbrough","team":"WAS","position":"LB","injury":"Shoulder","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-28","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Keenan
+        Robinson","team":"WAS","position":"LB","injury":"Pectoral","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-26","practiceStatusId":""},{"week":"1","playerId":"0","playerName":"Phillip
+        Thomas","team":"WAS","position":"DB","injury":"Foot","practiceStatus":"","gameStatus":"Out","notes":"Eligible
+        to return Week 6 at Dallas","lastUpdate":"2013-08-13","practiceStatusId":""}]}}'
     http_version: 
-  recorded_at: Fri, 27 Jun 2014 23:03:59 GMT
+  recorded_at: Tue, 01 Jul 2014 23:14:21 GMT
 recorded_with: VCR 2.9.2

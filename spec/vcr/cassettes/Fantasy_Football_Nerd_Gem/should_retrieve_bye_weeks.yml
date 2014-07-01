@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Fri, 27 Jun 2014 23:03:59 GMT
+      - Tue, 01 Jul 2014 23:14:20 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,8 +29,8 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - PHPSESSID=rs79943ciu9faatq1vjetgg036; path=/
-      - __cfduid=d462b4c4d4c2d19d58cfc783d2c9ccc8c1403910239254; expires=Mon, 23-Dec-2019
+      - PHPSESSID=o83k8b5cg4ugkl7blhg6b3l0d5; path=/
+      - __cfduid=d707b9ddc11b302783ea78ea522a8928e1404256460951; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -41,29 +41,30 @@ http_interactions:
       X-Powered-By:
       - PleskLin
       Cf-Ray:
-      - 141547f35f4409b8-ORD
+      - 14364ca0f33609b8-ORD
     body:
       encoding: UTF-8
-      string: '{"Bye Week 4":[{"team":"ARI","byeWeek":"4","displayName":"Arizona Cardinals"},{"team":"CIN","byeWeek":"4","displayName":"Cincinnati
-        Bengals"},{"team":"DEN","byeWeek":"4","displayName":"Denver Broncos"},{"team":"STL","byeWeek":"4","displayName":"St.
-        Louis Rams"},{"team":"SEA","byeWeek":"4","displayName":"Seattle Seahawks"},{"team":"CLE","byeWeek":"4","displayName":"Cleveland
-        Browns"}],"Bye Week 5":[{"team":"MIA","byeWeek":"5","displayName":"Miami Dolphins"},{"team":"OAK","byeWeek":"5","displayName":"Oakland
-        Raiders"}],"Bye Week 6":[{"team":"NO","byeWeek":"6","displayName":"New Orleans
-        Saints"},{"team":"KC","byeWeek":"6","displayName":"Kansas City Chiefs"}],"Bye
-        Week 7":[{"team":"PHI","byeWeek":"7","displayName":"Philadelphia Eagles"},{"team":"TB","byeWeek":"7","displayName":"Tampa
-        Bay Buccaneers"}],"Bye Week 8":[{"team":"NYG","byeWeek":"8","displayName":"New
-        York Giants"},{"team":"SF","byeWeek":"8","displayName":"San Francisco 49ers"}],"Bye
-        Week 9":[{"team":"TEN","byeWeek":"9","displayName":"Tennessee Titans"},{"team":"GB","byeWeek":"9","displayName":"Green
-        Bay Packers"},{"team":"DET","byeWeek":"9","displayName":"Detroit Lions"},{"team":"CHI","byeWeek":"9","displayName":"Chicago
-        Bears"},{"team":"BUF","byeWeek":"9","displayName":"Buffalo Bills"},{"team":"ATL","byeWeek":"9","displayName":"Atlanta
-        Falcons"}],"Bye Week 10":[{"team":"HOU","byeWeek":"10","displayName":"Houston
-        Texans"},{"team":"NE","byeWeek":"10","displayName":"New England Patriots"},{"team":"WAS","byeWeek":"10","displayName":"Washington
-        Redskins"},{"team":"SD","byeWeek":"10","displayName":"San Diego Chargers"},{"team":"MIN","byeWeek":"10","displayName":"Minnesota
-        Vikings"},{"team":"IND","byeWeek":"10","displayName":"Indianapolis Colts"}],"Bye
-        Week 11":[{"team":"BAL","byeWeek":"11","displayName":"Baltimore Ravens"},{"team":"DAL","byeWeek":"11","displayName":"Dallas
-        Cowboys"},{"team":"JAC","byeWeek":"11","displayName":"Jacksonville Jaguars"},{"team":"NYJ","byeWeek":"11","displayName":"New
-        York Jets"}],"Bye Week 12":[{"team":"CAR","byeWeek":"12","displayName":"Carolina
-        Panthers"},{"team":"PIT","byeWeek":"12","displayName":"Pittsburgh Steelers"}]}'
+      string: '{"Bye Week 4":[{"team":"CAR","byeWeek":"4","displayName":"Carolina
+        Panthers"},{"team":"GB","byeWeek":"4","displayName":"Green Bay Packers"}],"Bye
+        Week 5":[{"team":"WAS","byeWeek":"5","displayName":"Washington Redskins"},{"team":"TB","byeWeek":"5","displayName":"Tampa
+        Bay Buccaneers"},{"team":"PIT","byeWeek":"5","displayName":"Pittsburgh Steelers"},{"team":"MIN","byeWeek":"5","displayName":"Minnesota
+        Vikings"}],"Bye Week 6":[{"team":"MIA","byeWeek":"6","displayName":"Miami
+        Dolphins"},{"team":"ATL","byeWeek":"6","displayName":"Atlanta Falcons"}],"Bye
+        Week 7":[{"team":"NO","byeWeek":"7","displayName":"New Orleans Saints"},{"team":"OAK","byeWeek":"7","displayName":"Oakland
+        Raiders"}],"Bye Week 8":[{"team":"CHI","byeWeek":"8","displayName":"Chicago
+        Bears"},{"team":"BAL","byeWeek":"8","displayName":"Baltimore Ravens"},{"team":"IND","byeWeek":"8","displayName":"Indianapolis
+        Colts"},{"team":"HOU","byeWeek":"8","displayName":"Houston Texans"},{"team":"SD","byeWeek":"8","displayName":"San
+        Diego Chargers"},{"team":"TEN","byeWeek":"8","displayName":"Tennessee Titans"}],"Bye
+        Week 9":[{"team":"SF","byeWeek":"9","displayName":"San Francisco 49ers"},{"team":"NYG","byeWeek":"9","displayName":"New
+        York Giants"},{"team":"ARI","byeWeek":"9","displayName":"Arizona Cardinals"},{"team":"DEN","byeWeek":"9","displayName":"Denver
+        Broncos"},{"team":"DET","byeWeek":"9","displayName":"Detroit Lions"},{"team":"JAC","byeWeek":"9","displayName":"Jacksonville
+        Jaguars"}],"Bye Week 10":[{"team":"NE","byeWeek":"10","displayName":"New England
+        Patriots"},{"team":"CLE","byeWeek":"10","displayName":"Cleveland Browns"},{"team":"KC","byeWeek":"10","displayName":"Kansas
+        City Chiefs"},{"team":"NYJ","byeWeek":"10","displayName":"New York Jets"}],"Bye
+        Week 11":[{"team":"STL","byeWeek":"11","displayName":"St. Louis Rams"},{"team":"DAL","byeWeek":"11","displayName":"Dallas
+        Cowboys"}],"Bye Week 12":[{"team":"PHI","byeWeek":"12","displayName":"Philadelphia
+        Eagles"},{"team":"SEA","byeWeek":"12","displayName":"Seattle Seahawks"},{"team":"BUF","byeWeek":"12","displayName":"Buffalo
+        Bills"},{"team":"CIN","byeWeek":"12","displayName":"Cincinnati Bengals"}]}'
     http_version: 
-  recorded_at: Fri, 27 Jun 2014 23:03:59 GMT
+  recorded_at: Tue, 01 Jul 2014 23:14:21 GMT
 recorded_with: VCR 2.9.2

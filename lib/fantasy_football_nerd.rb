@@ -2,6 +2,7 @@ require 'json'
 require 'ostruct'
 require './lib/request.rb'
 require './lib/util.rb'
+require 'pry'
 
 POSITIONS = %w{QB RB WR TE K DEF}
 
@@ -19,10 +20,9 @@ class FFNerd
   end
 
   def self.ostruct_request(service_name, json_key, extras = [])
-    response = request_service(service_name, api_key, extras)
-    response[json_key] ||= {}
-    response[json_key].each { |hash| hash.add_snakecase_keys }
-    response[json_key].collect { |i| OpenStruct.new(i) }
+    data = request_service(service_name, api_key, extras)[json_key]
+    data = data.values.flatten if data.is_a? Hash
+    data.collect { |i| OpenStruct.new(i.add_snakecase_keys) }
   end
 
   def self.teams
@@ -43,7 +43,7 @@ class FFNerd
   end
 
   def self.injuries(week = nil)
-    ostruct_request('injuries', "Injuries", [week])
+    ostruct_request('injuries', 'Injuries')
   end
 
   def self.auction_values
@@ -64,28 +64,25 @@ class FFNerd
     raise "Your (optional) week must be between 1 and 17" if week && !(1..17).include?(week)
     week ||= current_week
     extras = [position, week, 1]
-    ostruct_request('weekly-rankings', 'Rankings')
+    ostruct_request('weekly-rankings', 'Rankings', extras)
   end
 
   def self.standard_weekly_projections(position, week = nil)
     #FFNerd defaults to current week if week is left blank
-    weekly_projection_errors(position, week)
+    raise "Weekly projections don't include DEF (but you can find those values in weekly rankings)" if position == "DEF"
+    raise "Must pass in a valid position" unless POSITIONS.include?(position)
+    raise "Your (optional) week must be between 1 and 17" if week && !(1..17).include?(week)
     extras = [position, week]
     ostruct_request('weekly-projections', 'Projections', extras)
   end
 
   def self.ppr_weekly_projections(position, week = nil)
-    weekly_projection_errors(position, week)
-    week ||= current_week
-    # The 1 gives us back PPR data
-    extras = [position, week, 1]
-    ostruct_request('weekly-projections', 'Projections', extras)
-  end
-
-  def self.weekly_projection_errors(position, week)
     raise "Weekly projections don't include DEF (but you can find those values in weekly rankings)" if position == "DEF"
     raise "Must pass in a valid position" unless POSITIONS.include?(position)
     raise "Your (optional) week must be between 1 and 17" if week && !(1..17).include?(week)
+    week ||= current_week
+    extras = [position, week, 1] # The 1 gives us back PPR data
+    ostruct_request('weekly-projections', 'Projections', extras)
   end
 
 end
