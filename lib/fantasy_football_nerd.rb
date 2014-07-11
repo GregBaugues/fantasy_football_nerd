@@ -60,6 +60,11 @@ class FFNerd
     ostruct_request('draft-rankings', 'DraftRankings', '1')
   end
 
+  def self.draft_projections(position)
+    raise "Must pass in a valid position" unless POSITIONS.include?(position)
+    ostruct_request('draft-projections', 'DraftProjections', [position])
+  end
+
   def self.weekly_rankings(position, week = nil)
     raise "Must pass in a valid position" unless POSITIONS.include?(position)
     raise "Your (optional) week must be between 1 and 17" if week && !(1..17).include?(week)
@@ -77,6 +82,5 @@ class FFNerd
     extras = [position, week]
     ostruct_request('weekly-projections', 'Projections', extras)
   end
-
 
 end

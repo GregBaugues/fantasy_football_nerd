@@ -120,6 +120,21 @@ describe 'Fantasy Football Nerd Gem', vcr: true do
     expect(player.overall_rank).to eq "4"
   end
 
+  it 'should retrieve draft projections' do
+    player = FFNerd.draft_projections('QB').first
+    expect(player.player_id).to eq "14"
+    expect(player.completions).to eq "422"
+    expect(player.attempts).to eq "640"
+    expect(player.passing_yards).to eq "4992"
+    expect(player.passing_td).to eq "40"
+    expect(player.passing_int).to eq "17"
+    expect(player.rush_yards).to eq "28"
+    expect(player.rush_td).to eq "1"
+    expect(player.fantasy_points).to eq "335"
+    expect(player.display_name).to eq "Drew Brees"
+    expect(player.team).to eq "NO"
+  end
+
   it 'should retrieve weekly rankings' do
     player = FFNerd.weekly_rankings('QB', 2).first
     expect(player.week).to eq "2"
@@ -171,6 +186,5 @@ describe 'Fantasy Football Nerd Gem', vcr: true do
     expect(player.display_name).to eq "Drew Brees"
     expect(player.team).to eq "NO"
   end
-
 
 end

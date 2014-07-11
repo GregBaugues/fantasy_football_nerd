@@ -7,21 +7,18 @@ A Ruby Gem for the [Fantasy Football Nerd API](http://www.fantasyfootballnerd.co
 
 Fantasy Football Nerd provides an API with access to this fantasy football data:
 
+* Current Week
 * Team List
 * Season schedule
 * Player list
 * Bye weeks
 * Injuries
 * Auction draft values
-* Standard/PPR draft rankings
-* Standard/PPR draft projections
-* Weekly rankings
-* Weekly projections
+* Draft rankings 
+* Weekly rankings (projected total fantasy points for both PPR and Standard)
+* Weekly projections (project stats for each scoring category)
 * Player Details (including recent articles)
-* Weekly Projections
-* Preseason Draft Rankings (not currently supported)
-* Season Schedule (not currently supported)
-* Current week
+
 
 Full API access costs $9 for a season subsciption, though if you are a developer with a modicum of interest in Fantasy Football, this is the best $9 you will spend all season.
 
