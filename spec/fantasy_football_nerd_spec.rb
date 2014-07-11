@@ -47,7 +47,18 @@ describe 'Fantasy Football Nerd Gem', vcr: true do
   end
 
   it 'should retrieve injuries without a week' do
-    expect(FFNerd.injuries).to be
+    injury = FFNerd.injuries.first
+    expect(injury.week).to eq "1"
+    expect(injury.player_id).to eq "0"
+    expect(injury.player_name).to eq "Javier Arenas"
+    expect(injury.team).to eq "ARI"
+    expect(injury.position).to eq "CB"
+    expect(injury.injury).to eq "Hip"
+    expect(injury.practice_status).to eq "Full Practice"
+    expect(injury.game_status).to eq "Probable"
+    expect(injury.notes).to eq ""
+    expect(injury.last_update).to eq "2013-09-09"
+    expect(injury.practice_status_id).to eq 0
   end
 
   it 'should retrieve injuries with a week' do
