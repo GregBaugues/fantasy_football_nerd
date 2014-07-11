@@ -1,8 +1,7 @@
 require 'json'
 require 'ostruct'
-require './lib/request.rb'
-require './lib/util.rb'
-require 'pry'
+require 'fantasy_football_nerd/request.rb'
+require 'fantasy_football_nerd/util.rb'
 
 POSITIONS = %w{QB RB WR TE K DEF}
 

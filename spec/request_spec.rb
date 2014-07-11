@@ -1,5 +1,5 @@
 require 'spec_helper.rb'
-require './lib/request.rb'
+require 'fantasy_football_nerd/request.rb'
 include Request
 
 describe 'Request' do
