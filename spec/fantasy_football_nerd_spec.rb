@@ -92,11 +92,32 @@ describe 'Fantasy Football Nerd Gem', vcr: true do
   end
 
   it 'should retrieve the standard draft rankings' do
-    expect(FFNerd.standard_draft_rankings).to be
+    # player 3 is where we get the first deviation between standard and ppr
+    player = FFNerd.standard_draft_rankings[3]
+    expect(player.playerId).to eq "1136"
+    expect(player.position).to eq "RB"
+    expect(player.displayName).to eq "C.J. Spiller"
+    expect(player.fname).to eq "C.J."
+    expect(player.lname).to eq "Spiller"
+    expect(player.team).to eq "BUF"
+    expect(player.byeWeek).to eq "12"
+    expect(player.nerdRank).to eq "6.140"
+    expect(player.positionRank).to eq "4"
+    expect(player.overallRank).to eq "4"
   end
 
   it 'should retrieve the ppr draft rankings' do
-    expect(FFNerd.ppr_draft_rankings).to be
+    player = FFNerd.ppr_draft_rankings[3]
+    expect(player.player_id).to eq "454"
+    expect(player.position).to eq "WR"
+    expect(player.display_name).to eq "Calvin Johnson"
+    expect(player.fname).to eq "Calvin"
+    expect(player.lname).to eq "Johnson"
+    expect(player.team).to eq "DET"
+    expect(player.bye_week).to eq "9"
+    expect(player.nerd_rank).to eq "7.209"
+    expect(player.position_rank).to eq "1"
+    expect(player.overall_rank).to eq "4"
   end
 
   it 'should retrieve weekly rankings' do
