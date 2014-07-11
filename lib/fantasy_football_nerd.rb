@@ -43,7 +43,8 @@ class FFNerd
   end
 
   def self.injuries(week = nil)
-    ostruct_request('injuries', 'Injuries')
+    extras = [week]
+    ostruct_request('injuries', 'Injuries', extras)
   end
 
   def self.auction_values

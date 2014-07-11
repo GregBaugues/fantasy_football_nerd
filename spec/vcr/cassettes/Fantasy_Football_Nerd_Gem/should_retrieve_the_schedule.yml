@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Tue, 01 Jul 2014 23:14:20 GMT
+      - Fri, 11 Jul 2014 17:53:35 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,19 +29,19 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - PHPSESSID=8r9rvlhrumn0d4otj2n74d5332; path=/
-      - __cfduid=df001b488bef408f67575594a9926bcd71404256460513; expires=Mon, 23-Dec-2019
+      - PHPSESSID=o5j3m78dvthvidk08p60n2rb80; path=/
+      - __cfduid=dd618e56b317546cbad9d20d0f5d03d8b1405101215563; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
-      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      - must-revalidate, post-check=0, pre-check=0
       Pragma:
       - no-cache
       X-Powered-By:
       - PleskLin
       Cf-Ray:
-      - 14364c9e346409b8-ORD
+      - 1486dc8548c809b8-ORD
     body:
       encoding: UTF-8
       string: '{"currentWeek":17,"Schedule":[{"gameId":"1","gameWeek":"1","gameDate":"2013-09-05","awayTeam":"BAL","homeTeam":"DEN","gameTimeET":"8:30
@@ -302,5 +302,5 @@ http_interactions:
         PM","tvStation":"FOX"},{"gameId":"256","gameWeek":"17","gameDate":"2013-12-29","awayTeam":"DEN","homeTeam":"OAK","gameTimeET":"4:25
         PM","tvStation":"CBS"}]}'
     http_version: 
-  recorded_at: Tue, 01 Jul 2014 23:14:20 GMT
+  recorded_at: Fri, 11 Jul 2014 17:53:37 GMT
 recorded_with: VCR 2.9.2

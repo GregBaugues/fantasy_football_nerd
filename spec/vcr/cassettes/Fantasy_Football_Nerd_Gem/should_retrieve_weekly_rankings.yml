@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Tue, 01 Jul 2014 23:14:22 GMT
+      - Fri, 11 Jul 2014 17:53:37 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,19 +29,19 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - PHPSESSID=uqruibp1l55qfp67pogo3m78c1; path=/
-      - __cfduid=d864c13ef9291191e364905d59f6a95281404256462318; expires=Mon, 23-Dec-2019
+      - PHPSESSID=tpnu46g2f3j5q3ok478kbs25a2; path=/
+      - __cfduid=dea3a55e9d5f8af3236a0813a307413c71405101217788; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
-      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      - must-revalidate, post-check=0, pre-check=0
       Pragma:
       - no-cache
       X-Powered-By:
       - PleskLin
       Cf-Ray:
-      - 14364ca9730b09be-ORD
+      - 1486dc932a2309b8-ORD
     body:
       encoding: UTF-8
       string: '{"currentWeek":17,"Schedule":[{"gameId":"1","gameWeek":"1","gameDate":"2013-09-05","awayTeam":"BAL","homeTeam":"DEN","gameTimeET":"8:30
@@ -302,7 +302,7 @@ http_interactions:
         PM","tvStation":"FOX"},{"gameId":"256","gameWeek":"17","gameDate":"2013-12-29","awayTeam":"DEN","homeTeam":"OAK","gameTimeET":"4:25
         PM","tvStation":"CBS"}]}'
     http_version: 
-  recorded_at: Tue, 01 Jul 2014 23:14:22 GMT
+  recorded_at: Fri, 11 Jul 2014 17:53:39 GMT
 - request:
     method: get
     uri: http://www.fantasyfootballnerd.com/service/weekly-rankings/json/APIKEY/QB/17/1
@@ -324,7 +324,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Tue, 01 Jul 2014 23:14:22 GMT
+      - Fri, 11 Jul 2014 17:53:38 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -332,10 +332,10 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=d377d5fd2c570088e01cb7466373a43631404256462403; expires=Mon, 23-Dec-2019
+      - __cfduid=de1058585d3788912decae19156a26e151405101217948; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
       Expires:
-      - Wed, 01 Jul 2015 23:14:22 GMT
+      - Sat, 11 Jul 2015 17:53:37 GMT
       Cache-Control:
       - public, max-age=31536000
       Pragma:
@@ -347,7 +347,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Cf-Ray:
-      - 14364caa0f2609be-ORD
+      - 1486dc94238309b8-ORD
     body:
       encoding: UTF-8
       string: '{"Week":17,"PPR":1,"Position":"QB","Rankings":[{"week":"17","playerId":"66","name":"Peyton
@@ -425,5 +425,5 @@ http_interactions:
         Hill","position":"QB","team":"DET","standard":"0.00","standardLow":"0.00","standardHigh":"0.00","ppr":"0.00","pprLow":"0.00","pprHigh":"0.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"17","playerId":"82","name":"Brady
         Quinn","position":"QB","team":"STL","standard":"0.00","standardLow":"0.00","standardHigh":"0.00","ppr":"0.00","pprLow":"0.00","pprHigh":"0.00","injury":"Hip","practiceStatus":"","gameStatus":"Out","lastUpdate":"2013-11-23"}]}'
     http_version: 
-  recorded_at: Tue, 01 Jul 2014 23:14:22 GMT
+  recorded_at: Fri, 11 Jul 2014 17:53:39 GMT
 recorded_with: VCR 2.9.2

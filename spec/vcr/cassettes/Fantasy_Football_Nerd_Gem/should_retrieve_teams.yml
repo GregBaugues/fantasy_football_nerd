@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Tue, 01 Jul 2014 23:14:20 GMT
+      - Fri, 11 Jul 2014 17:53:35 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,19 +29,19 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - PHPSESSID=s0ahc6q61b1lqbbmfg1ff1l4q3; path=/
-      - __cfduid=d2806ed0fab2055baf99e88e7839781741404256460450; expires=Mon, 23-Dec-2019
+      - PHPSESSID=sspffufrc6odl7kadau8o1q8h1; path=/
+      - __cfduid=d15369a9d4c83a7b716a184e465ee42cc1405101215498; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
       Cache-Control:
-      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      - must-revalidate, post-check=0, pre-check=0
       Pragma:
       - no-cache
       X-Powered-By:
       - PleskLin
       Cf-Ray:
-      - 14364c9dddd509b8-ORD
+      - 1486dc84d92009b8-ORD
     body:
       encoding: UTF-8
       string: '{"NFLTeams":[{"code":"ARI","fullName":"Arizona Cardinals","shortName":"Arizona"},{"code":"ATL","fullName":"Atlanta
@@ -66,5 +66,5 @@ http_interactions:
         Bay"},{"code":"TEN","fullName":"Tennessee Titans","shortName":"Tennessee"},{"code":"WAS","fullName":"Washington
         Redskins","shortName":"Washington"}]}'
     http_version: 
-  recorded_at: Tue, 01 Jul 2014 23:14:20 GMT
+  recorded_at: Fri, 11 Jul 2014 17:53:37 GMT
 recorded_with: VCR 2.9.2
