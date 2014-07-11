@@ -139,12 +139,38 @@ describe 'Fantasy Football Nerd Gem', vcr: true do
     expect(player.last_update).to be_nil
   end
 
-  # it 'should retrieve standard weekly projections' do
-  #   expect(FFNerd.standard_weekly_projections('QB')).to be
-  # end
+  it 'should retrieve weekly projections' do
+    player = FFNerd.weekly_projections('QB', 1).first
+    expect(player.week).to eq "1"
+    expect(player.player_id).to eq "14"
+    expect(player.position).to eq "QB"
+    expect(player.pass_att).to eq "39.0"
+    expect(player.pass_cmp).to eq "25.0"
+    expect(player.pass_yds).to eq "317.0"
+    expect(player.pass_td).to eq "2.0"
+    expect(player.pass_int).to eq "1.0"
+    expect(player.rush_att).to eq "1.0"
+    expect(player.rush_yds).to eq "1.0"
+    expect(player.rush_td).to eq "0.0"
+    expect(player.fumbles_lost).to eq "0.0"
+    expect(player.receptions).to eq "0.0"
+    expect(player.rec_yds).to eq "0.0"
+    expect(player.rec_td).to eq "0.0"
+    expect(player.fg).to eq "0.0"
+    expect(player.fg_att).to eq "0.0"
+    expect(player.xp).to eq "0.0"
+    expect(player.def_int).to eq "0.0"
+    expect(player.def_fr).to eq "0.0"
+    expect(player.def_ff).to eq "0.0"
+    expect(player.def_sack).to eq "0.0"
+    expect(player.def_td).to eq "0.0"
+    expect(player.def_ret_td).to eq "0.0"
+    expect(player.def_safety).to eq "0.0"
+    expect(player.def_pa).to eq "0.0"
+    expect(player.def_yds_allowed).to eq "0.0"
+    expect(player.display_name).to eq "Drew Brees"
+    expect(player.team).to eq "NO"
+  end
 
-  # it 'should retrieve ppr weekly projections' do
-  #   expect(FFNerd.ppr_weekly_projections('QB')).to be
-  # end
 
 end

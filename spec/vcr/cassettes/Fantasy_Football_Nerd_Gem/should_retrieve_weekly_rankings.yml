@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Fri, 11 Jul 2014 18:09:15 GMT
+      - Fri, 11 Jul 2014 18:16:40 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,10 +29,10 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=d68066d00f8d547d4300623d230c4454e1405102155578; expires=Mon, 23-Dec-2019
+      - __cfduid=d549168131b92f0963369dbab850be6971405102599913; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
       Expires:
-      - Sat, 11 Jul 2015 18:09:15 GMT
+      - Sat, 11 Jul 2015 18:16:40 GMT
       Cache-Control:
       - public, max-age=31536000
       Pragma:
@@ -40,11 +40,11 @@ http_interactions:
       X-Powered-By:
       - PleskLin
       Cf-Cache-Status:
-      - MISS
+      - HIT
       Vary:
       - Accept-Encoding
       Cf-Ray:
-      - 1486f378573e09be-ORD
+      - 1486fe517c6b09b8-ORD
     body:
       encoding: UTF-8
       string: '{"Week":2,"PPR":1,"Position":"QB","Rankings":[{"week":"2","playerId":"14","name":"Drew
@@ -108,5 +108,5 @@ http_interactions:
         Anderson","position":"QB","team":"CAR","standard":"0.00","standardLow":"0.00","standardHigh":"0.00","ppr":"0.00","pprLow":"0.00","pprHigh":"0.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"76","name":"Kyle
         Orton","position":"QB","team":"DAL","standard":"0.00","standardLow":"0.00","standardHigh":"0.00","ppr":"0.00","pprLow":"0.00","pprHigh":"0.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null}]}'
     http_version: 
-  recorded_at: Fri, 11 Jul 2014 18:09:17 GMT
+  recorded_at: Fri, 11 Jul 2014 18:16:41 GMT
 recorded_with: VCR 2.9.2
