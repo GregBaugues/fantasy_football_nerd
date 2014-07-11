@@ -13,19 +13,19 @@ Gem::Specification.new do |s|
     'spec/fantasy_football_nerd_spec.rb',
     'spec/request_spec.rb',
     'spec/spec_helper.rb',
-    'spec/vcr/Fantasy_Football_Nerd_Gem/should_retrieve_auction_values.yml',
-    'spec/vcr/Fantasy_Football_Nerd_Gem/should_retrieve_bye_weeks.yml',
-    'spec/vcr/Fantasy_Football_Nerd_Gem/should_retrieve_draft_projections.yml',
-    'spec/vcr/Fantasy_Football_Nerd_Gem/should_retrieve_injuries_with_a_week.yml',
-    'spec/vcr/Fantasy_Football_Nerd_Gem/should_retrieve_injuries_without_a_week.yml',
-    'spec/vcr/Fantasy_Football_Nerd_Gem/should_retrieve_players.yml',
-    'spec/vcr/Fantasy_Football_Nerd_Gem/should_retrieve_teams.yml',
-    'spec/vcr/Fantasy_Football_Nerd_Gem/should_retrieve_the_current_week.yml',
-    'spec/vcr/Fantasy_Football_Nerd_Gem/should_retrieve_the_ppr_draft_rankings.yml',
-    'spec/vcr/Fantasy_Football_Nerd_Gem/should_retrieve_the_schedule.yml',
-    'spec/vcr/Fantasy_Football_Nerd_Gem/should_retrieve_the_standard_draft_rankings.yml',
-    'spec/vcr/Fantasy_Football_Nerd_Gem/should_retrieve_weekly_projections.yml',
-    'spec/vcr/Fantasy_Football_Nerd_Gem/should_retrieve_weekly_rankings.yml']
+    'spec/vcr/cassettes/Fantasy_Football_Nerd_Gem/should_retrieve_auction_values.yml',
+    'spec/vcr/cassettes/Fantasy_Football_Nerd_Gem/should_retrieve_bye_weeks.yml',
+    'spec/vcr/cassettes/Fantasy_Football_Nerd_Gem/should_retrieve_draft_projections.yml',
+    'spec/vcr/cassettes/Fantasy_Football_Nerd_Gem/should_retrieve_injuries_with_a_week.yml',
+    'spec/vcr/cassettes/Fantasy_Football_Nerd_Gem/should_retrieve_injuries_without_a_week.yml',
+    'spec/vcr/cassettes/Fantasy_Football_Nerd_Gem/should_retrieve_players.yml',
+    'spec/vcr/cassettes/Fantasy_Football_Nerd_Gem/should_retrieve_teams.yml',
+    'spec/vcr/cassettes/Fantasy_Football_Nerd_Gem/should_retrieve_the_current_week.yml',
+    'spec/vcr/cassettes/Fantasy_Football_Nerd_Gem/should_retrieve_the_ppr_draft_rankings.yml',
+    'spec/vcr/cassettes/Fantasy_Football_Nerd_Gem/should_retrieve_the_schedule.yml',
+    'spec/vcr/cassettes/Fantasy_Football_Nerd_Gem/should_retrieve_the_standard_draft_rankings.yml',
+    'spec/vcr/cassettes/Fantasy_Football_Nerd_Gem/should_retrieve_weekly_projections.yml',
+    'spec/vcr/cassettes/Fantasy_Football_Nerd_Gem/should_retrieve_weekly_rankings.yml']
   s.homepage = 'http://www.baugues.com'
   s.has_rdoc = false
   s.rubyforge_project = 'fantasy_football_nerd'
