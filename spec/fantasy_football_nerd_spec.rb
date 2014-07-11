@@ -77,7 +77,14 @@ describe 'Fantasy Football Nerd Gem', vcr: true do
   end
 
   it 'should retrieve auction values' do
-    expect(FFNerd.auction_values.first).to be
+    value = FFNerd.auction_values.first
+    expect(value.player_id).to eq "259"
+    expect(value.min_price).to eq "60"
+    expect(value.max_price).to eq "66"
+    expect(value.avg_price).to eq "63"
+    expect(value.display_name).to eq "Adrian Peterson"
+    expect(value.team).to eq "MIN"
+    expect(value.position).to eq "RB"
   end
 
   it 'should retrieve the current week' do
