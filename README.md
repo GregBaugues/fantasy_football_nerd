@@ -1,13 +1,13 @@
-Fantasy Football Nerd API
-==========================
+Fantasy Football Nerd API Ruby Gem
+==================================
 
-A Ruby Gem for the [Fantasy Football Nerd API](http://www.fantasyfootballnerd.com/api).
+A Ruby Gem for the [Fantasy Football Nerd API](http://www.fantasyfootballnerd.com/api) which: 
 
-[Fantasy Football Nerd](http://www.fantasyfootballnerd.com) "takes the 'wisdom of the crowd' to a new level by aggregating the fantasy football rankings of the best fantasy football sites... and weighting the rankings based upon past accuracy."
+> takes the "wisdom of the crowd" to a new level by aggregating the fantasy football rankings of the best fantasy football sites on the planet to analyze the rankings given to each player to produce a consensus ranking.
 
-This gem currently supports all Level 2 streams. Level 2 access costs $9/season which is a total no-brainer if you're into fantasy sports and programming. Give the man his money.  
+This gem currently supports all Level 1 and Level 2 streams which cost $9 per season -- a total no-brainer if you're into fantasy sports and programming. Give the man his money.  
 
-Here's what you get: 
+Here's what you get with $9 and this gem: 
 
 * Current Week
 * Team List
@@ -17,7 +17,7 @@ Here's what you get:
 * Injuries
 * Auction draft values
 * Draft rankings - projected fantasy points for the entire season
-* Draft projections - projected stats for each scoring category for the entire season
+* Draft projections - projected stats for each scoring category for the entire season 
 * Weekly rankings - projected fantasy points (PPR || Standard)
 * Weekly projections - projected stats for each scoring category
 
@@ -32,7 +32,7 @@ Take heed to the warning on the [Fantasy Football Nerd API page](http://www.fant
 
 >The data does not generally change more than once or twice per day, so it becomes unnecessary to continually make the same calls. Please store the results locally and reference the cached responses... Your account may be suspended or API access revoked if you are found to be making excessive data calls.
 
-Seriously, FFN is not a big operation. Don't abuse their servers.
+Seriously, Fantasy Football Nerd is not a big operation. Don't abuse their servers.
 
 Setup
 =================
@@ -74,7 +74,7 @@ FFNerd.api_key = 123456789
 API Resources
 ===================
 
-This gem supports all of FFNerd's Level 1 and Level 2 resources. Results are typically returned as an array of [ostructs](http://www.ruby-doc.org/stdlib-2.0/libdoc/ostruct/rdoc/OpenStruct.html) (which is basically a hash that you can access with "dot notation" as if it were an object instance variable). Fantasy Football Nerd returns keys in CamelCase, but that's not very Ruby like, so I've added snake_case attributes so that you can do ```player.displayName``` or ```player.display_name```, whichever suits your fancy. 
+This gem supports all of Fantasy Football Nerd's Level 1 and Level 2 resources. Results are typically returned as an array of [ostructs](http://www.ruby-doc.org/stdlib-2.0/libdoc/ostruct/rdoc/OpenStruct.html) (which is basically a hash that you can access with "dot notation" as if it were an object instance variable). Fantasy Football Nerd returns keys in CamelCase, but that's not very Ruby like, so I've added snake_case attributes so that you can do ```player.displayName``` or ```player.display_name```, whichever suits your fancy. 
 
 Teams
 --------------------------
@@ -169,7 +169,7 @@ value.position      # "RB"
 
 Current Week
 --------------------------
-Returns the current week. 
+Returns the current NFL week as an integer. 
 
 ```ruby
 FFNerd.current_week  # 17
@@ -177,7 +177,7 @@ FFNerd.current_week  # 17
 
 Standard Draft Rankings
 --------------------------
-Ranks each player according to their projected draft values based on standard scoring. In this example I'm looking at the fourth element in the array, because the PPR and standard rankings don't deviate until then in the test data. 
+Returns an array of players according to their projected draft values based on standard scoring. In this example I'm looking at the fourth element in the array because the PPR and standard rankings don't deviate until then in the test data. 
 
 ```ruby   
 player = FFNerd.standard_draft_rankings[3]
@@ -195,7 +195,7 @@ player.overallRank   # "4"
 
 PPR Draft Rankings
 --------------------------
-Ranks each player according to their projected draft values based on PPR scoring. 
+Returns an array of players according to their projected draft values based on PPR scoring. 
 
 ```ruby
 player = FFNerd.ppr_draft_rankings[3]
@@ -213,7 +213,9 @@ player.overall_rank  # "4"
 
 Draft Projections
 --------------------------
-Must pass in a valid position. Projected stats for a number of scoring categories. This data is useless once the season starts. 
+Returns an array of players with projected stats for a number of scoring categories. This data is useless once the season starts. 
+
+Must pass in a valid position of QB, RB, WR, TE, K, DEF.
 
 ```ruby
 player = FFNerd.draft_projections('QB').first
@@ -232,7 +234,7 @@ player.team              # "NO"
 
 Weekly Rankings
 --------------------------
-Returns an array of players with expected fantasy points for both standard and PPR scoring. 
+Returns an array of players with expected weekly fantasy points for both standard and PPR scoring. 
 
 Must requests a specific position: QB, RB, WR, TE, K, DEF. You can also send along the specific week number (1-17). If you omit a week, it defaults to the current week. 
 
@@ -257,6 +259,7 @@ player.last_update      # nil
 
 Weekly Projections
 --------------------------
+Returns an array of players with expected weekly values for each scoring category. 
 
 Must requests a specific position: QB, RB, WR, TE, K (But *NOT DEF!*). You can also send along the specific week number (1-17). If you omit a week, it defaults to the current week. 
 
