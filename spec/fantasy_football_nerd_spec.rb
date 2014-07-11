@@ -8,7 +8,10 @@ describe 'Fantasy Football Nerd Gem', vcr: true do
   end
 
   it 'should retrieve teams' do
-    expect(FFNerd.teams.first).to be
+    team = FFNerd.teams.first
+    expect(team.code).to eq "ARI"
+    expect(team.fullName).to eq "Arizona Cardinals"
+    expect(team.shortName).to eq "Arizona"
   end
 
   it 'should retrieve the schedule' do
@@ -36,7 +39,7 @@ describe 'Fantasy Football Nerd Gem', vcr: true do
   end
 
   it 'should retrieve the current week' do
-    expect(FFNerd.current_week).to be
+    expect(FFNerd.current_week).to eq 17
   end
 
   it 'should retrieve the standard draft rankings' do
