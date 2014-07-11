@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
     'lib/fantasy_football_nerd/request.rb',
     'spec/fantasy_football_nerd_spec.rb',
     'spec/request_spec.rb',
+    'spec/api_key_setter_spec.rb',
     'spec/spec_helper.rb',
     'spec/vcr/cassettes/Fantasy_Football_Nerd_Gem/should_retrieve_auction_values.yml',
     'spec/vcr/cassettes/Fantasy_Football_Nerd_Gem/should_retrieve_bye_weeks.yml',
