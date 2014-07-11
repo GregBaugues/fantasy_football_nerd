@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.fantasyfootballnerd.com/service/draft-projections/json/APIKEY/QB
+    uri: http://www.fantasyfootballnerd.com/service/draft-projections/json/test/QB
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Fri, 11 Jul 2014 20:26:33 GMT
+      - Fri, 11 Jul 2014 22:41:46 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,10 +29,10 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=da6c8d9ba95596081e85fedb05d5603ac1405110393448; expires=Mon, 23-Dec-2019
+      - __cfduid=dde9a9e5d59ff7658f3734cc04a7117621405118506558; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
       Expires:
-      - Sat, 11 Jul 2015 20:26:33 GMT
+      - Sat, 11 Jul 2015 22:41:46 GMT
       Cache-Control:
       - public, max-age=31536000
       Pragma:
@@ -40,11 +40,11 @@ http_interactions:
       X-Powered-By:
       - PleskLin
       Cf-Cache-Status:
-      - MISS
+      - HIT
       Vary:
       - Accept-Encoding
       Cf-Ray:
-      - 1487bc9709e809b8-ORD
+      - 148882a9fe5309b8-ORD
     body:
       encoding: UTF-8
       string: '{"DraftProjections":[{"playerId":"14","completions":"422","attempts":"640","passingYards":"4992","passingTD":"40","passingInt":"17","rushYards":"28","rushTD":"1","fantasyPoints":"335","displayName":"Drew
@@ -94,5 +94,5 @@ http_interactions:
         Orton","team":"DAL"},{"playerId":"786","completions":"12","attempts":"21","passingYards":"151","passingTD":"1","passingInt":"1","rushYards":"4","rushTD":"0","fantasyPoints":"8","displayName":"Chase
         Daniel","team":"KC"}]}'
     http_version: 
-  recorded_at: Fri, 11 Jul 2014 20:26:33 GMT
+  recorded_at: Fri, 11 Jul 2014 22:41:46 GMT
 recorded_with: VCR 2.9.2

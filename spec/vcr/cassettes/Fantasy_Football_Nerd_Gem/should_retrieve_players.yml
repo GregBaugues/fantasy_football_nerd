@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.fantasyfootballnerd.com/service/players/json/APIKEY
+    uri: http://www.fantasyfootballnerd.com/service/players/json/test
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Fri, 11 Jul 2014 18:16:38 GMT
+      - Fri, 11 Jul 2014 22:41:44 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,10 +29,10 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=d8f26c33a09bf3d20a227d22014a0e2ec1405102598347; expires=Mon, 23-Dec-2019
+      - __cfduid=dc175139829b7c6f5a6260c230c3c6d9b1405118504955; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
       Expires:
-      - Sat, 12 Jul 2014 06:16:38 GMT
+      - Sat, 12 Jul 2014 10:41:44 GMT
       Cache-Control:
       - public, max-age=43200
       Pragma:
@@ -44,7 +44,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Cf-Ray:
-      - 1486fe47a1ae09b8-ORD
+      - 1488829ff0d909b8-ORD
     body:
       encoding: UTF-8
       string: '{"Players":[{"playerId":"2","active":"1","jersey":"3","lname":"Anderson","fname":"Derek","displayName":"Derek
@@ -1670,5 +1670,5 @@ http_interactions:
         State"},{"playerId":"2430","active":"1","jersey":"11","lname":"Williams","fname":"Maurice","displayName":"Maurice
         Williams","team":"IND","position":"WR","height":"6-1","weight":"190","dob":"0000-00-00","college":"Pittsburgh"}]}'
     http_version: 
-  recorded_at: Fri, 11 Jul 2014 18:16:40 GMT
+  recorded_at: Fri, 11 Jul 2014 22:41:44 GMT
 recorded_with: VCR 2.9.2

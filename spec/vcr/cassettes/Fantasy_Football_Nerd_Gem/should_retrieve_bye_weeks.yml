@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.fantasyfootballnerd.com/service/byes/json/APIKEY
+    uri: http://www.fantasyfootballnerd.com/service/byes/json/test
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Fri, 11 Jul 2014 18:16:38 GMT
+      - Fri, 11 Jul 2014 22:41:45 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,8 +29,8 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - PHPSESSID=6d0caenlvtqql2lf832pnkhtf6; path=/
-      - __cfduid=dc79a48d894e860456571b7ad04a374cd1405102598614; expires=Mon, 23-Dec-2019
+      - PHPSESSID=7rqbjf81j0od3f81vbq107h4t3; path=/
+      - __cfduid=d787263244a8724a998cbf9ba1c2521611405118505261; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -41,7 +41,7 @@ http_interactions:
       X-Powered-By:
       - PleskLin
       Cf-Ray:
-      - 1486fe49594e09b8-ORD
+      - 148882a1e03a09b8-ORD
     body:
       encoding: UTF-8
       string: '{"Bye Week 4":[{"team":"CAR","byeWeek":"4","displayName":"Carolina
@@ -66,5 +66,5 @@ http_interactions:
         Eagles"},{"team":"SEA","byeWeek":"12","displayName":"Seattle Seahawks"},{"team":"BUF","byeWeek":"12","displayName":"Buffalo
         Bills"},{"team":"CIN","byeWeek":"12","displayName":"Cincinnati Bengals"}]}'
     http_version: 
-  recorded_at: Fri, 11 Jul 2014 18:16:40 GMT
+  recorded_at: Fri, 11 Jul 2014 22:41:45 GMT
 recorded_with: VCR 2.9.2

@@ -6,11 +6,18 @@ require 'fantasy_football_nerd/util.rb'
 POSITIONS = %w{QB RB WR TE K DEF}
 
 class FFNerd
+  @@api_key = nil
+
   extend Request
 
   def self.api_key
-    raise 'FFNERD_API_KEY environment variable not set' unless ENV['FFNERD_API_KEY']
-    ENV['FFNERD_API_KEY']
+    @@api_key ||= ENV['FFNERD_API_KEY']
+    raise 'API key not set' if @@api_key.nil?
+    @@api_key
+  end
+
+  def self.api_key=(key)
+    @@api_key = key
   end
 
   def self.current_week

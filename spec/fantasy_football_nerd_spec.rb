@@ -3,8 +3,8 @@ require_relative '../lib/fantasy_football_nerd.rb'
 
 describe 'Fantasy Football Nerd Gem', vcr: true do
 
-  before :all do
-    ENV['FFNERD_API_KEY'] = 'test'
+  before :each do
+    FFNerd.api_key = 'test'
   end
 
   it 'should retrieve teams' do

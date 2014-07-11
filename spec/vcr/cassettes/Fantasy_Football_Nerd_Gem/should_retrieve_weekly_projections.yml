@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.fantasyfootballnerd.com/service/weekly-projections/json/APIKEY/QB/1
+    uri: http://www.fantasyfootballnerd.com/service/weekly-projections/json/test/QB/1
     body:
       encoding: US-ASCII
       string: ''
@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Fri, 11 Jul 2014 18:16:40 GMT
+      - Fri, 11 Jul 2014 22:41:46 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,10 +29,10 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=da144b41b4b0b62687a6ce100f8dea4601405102600097; expires=Mon, 23-Dec-2019
+      - __cfduid=de69d6d5d0372d0deb988ba6de7acb2fe1405118506706; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
       Expires:
-      - Sat, 11 Jul 2015 18:16:40 GMT
+      - Sat, 11 Jul 2015 22:41:46 GMT
       Cache-Control:
       - public, max-age=31536000
       Pragma:
@@ -40,11 +40,11 @@ http_interactions:
       X-Powered-By:
       - PleskLin
       Cf-Cache-Status:
-      - MISS
+      - HIT
       Vary:
       - Accept-Encoding
       Cf-Ray:
-      - 1486fe52900609b8-ORD
+      - 148882aaedb009b8-ORD
     body:
       encoding: UTF-8
       string: '{"Week":1,"Position":"QB","Projections":[{"week":"1","playerId":"14","position":"QB","passAtt":"39.0","passCmp":"25.0","passYds":"317.0","passTD":"2.0","passInt":"1.0","rushAtt":"1.0","rushYds":"1.0","rushTD":"0.0","fumblesLost":"0.0","receptions":"0.0","recYds":"0.0","recTD":"0.0","fg":"0.0","fgAtt":"0.0","xp":"0.0","defInt":"0.0","defFR":"0.0","defFF":"0.0","defSack":"0.0","defTD":"0.0","defRetTD":"0.0","defSafety":"0.0","defPA":"0.0","defYdsAllowed":"0.0","displayName":"Drew
@@ -104,5 +104,5 @@ http_interactions:
         Hasselbeck","team":"IND"},{"week":"1","playerId":"2168","position":"QB","passAtt":"0.0","passCmp":"0.0","passYds":"0.0","passTD":"0.0","passInt":"0.0","rushAtt":"0.0","rushYds":"0.0","rushTD":"0.0","fumblesLost":"0.0","receptions":"0.0","recYds":"0.0","recTD":"0.0","fg":"0.0","fgAtt":"0.0","xp":"0.0","defInt":"0.0","defFR":"0.0","defFF":"0.0","defSack":"0.0","defTD":"0.0","defRetTD":"0.0","defSafety":"0.0","defPA":"0.0","defYdsAllowed":"0.0","displayName":"Matt
         Barkley","team":"PHI"}]}'
     http_version: 
-  recorded_at: Fri, 11 Jul 2014 18:16:41 GMT
+  recorded_at: Fri, 11 Jul 2014 22:41:46 GMT
 recorded_with: VCR 2.9.2
