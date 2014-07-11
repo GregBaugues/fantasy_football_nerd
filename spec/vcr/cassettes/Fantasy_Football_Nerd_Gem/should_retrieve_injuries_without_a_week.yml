@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Fri, 11 Jul 2014 17:53:36 GMT
+      - Fri, 11 Jul 2014 18:09:14 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,8 +29,8 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - PHPSESSID=mto3j0vqctiebvlubisu7n2es6; path=/
-      - __cfduid=d2411b1c6ea21fb05785901de674de81b1405101216184; expires=Mon, 23-Dec-2019
+      - PHPSESSID=bb5e6cbs5kc38f721sp8us3ea5; path=/
+      - __cfduid=d194015f49f257ad64429fcbc4d9a27ca1405102154013; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
       Expires:
       - Thu, 19 Nov 1981 08:52:00 GMT
@@ -41,7 +41,7 @@ http_interactions:
       X-Powered-By:
       - PleskLin
       Cf-Ray:
-      - 1486dc89239609b8-ORD
+      - 1486f36e90c309be-ORD
     body:
       encoding: UTF-8
       string: '{"Week":1,"Injuries":{"ARI":[{"week":"1","playerId":"0","playerName":"Javier
@@ -840,5 +840,5 @@ http_interactions:
         Thomas","team":"WAS","position":"DB","injury":"Foot","practiceStatus":"","gameStatus":"Out","notes":"Eligible
         to return Week 6 at Dallas","lastUpdate":"2013-08-13","practiceStatusId":""}]}}'
     http_version: 
-  recorded_at: Fri, 11 Jul 2014 17:53:38 GMT
+  recorded_at: Fri, 11 Jul 2014 18:09:15 GMT
 recorded_with: VCR 2.9.2

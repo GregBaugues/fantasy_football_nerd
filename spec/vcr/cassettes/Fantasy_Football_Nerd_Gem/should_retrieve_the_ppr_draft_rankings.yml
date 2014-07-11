@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Fri, 11 Jul 2014 17:53:37 GMT
+      - Fri, 11 Jul 2014 18:09:15 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,10 +29,10 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=d95bdb2737e3cfd56902680a9193648c01405101217307; expires=Mon, 23-Dec-2019
+      - __cfduid=d2cb8fef61ce3ca442cca6ac4faed6d911405102155188; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
       Expires:
-      - Sat, 11 Jul 2015 17:53:37 GMT
+      - Sat, 11 Jul 2015 18:09:15 GMT
       Cache-Control:
       - public, max-age=31536000
       Pragma:
@@ -40,11 +40,11 @@ http_interactions:
       X-Powered-By:
       - PleskLin
       Cf-Cache-Status:
-      - MISS
+      - HIT
       Vary:
       - Accept-Encoding
       Cf-Ray:
-      - 1486dc902b9409b8-ORD
+      - 1486f375e8ae09be-ORD
     body:
       encoding: UTF-8
       string: '{"PPR":1,"DraftRankings":[{"playerId":"259","position":"RB","displayName":"Adrian
@@ -1166,5 +1166,5 @@ http_interactions:
         Cook","fname":"Jamaine","lname":"Cook","team":"CLE","byeWeek":"10","nerdRank":"5000.000","positionRank":"271","overallRank":"1116"},{"playerId":"2430","position":"WR","displayName":"Maurice
         Williams","fname":"Maurice","lname":"Williams","team":"IND","byeWeek":"8","nerdRank":"5000.000","positionRank":"424","overallRank":"1117"}]}'
     http_version: 
-  recorded_at: Fri, 11 Jul 2014 17:53:39 GMT
+  recorded_at: Fri, 11 Jul 2014 18:09:17 GMT
 recorded_with: VCR 2.9.2

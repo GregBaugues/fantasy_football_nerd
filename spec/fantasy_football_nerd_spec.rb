@@ -121,7 +121,22 @@ describe 'Fantasy Football Nerd Gem', vcr: true do
   end
 
   it 'should retrieve weekly rankings' do
-    expect(FFNerd.weekly_rankings('QB')).to be
+    player = FFNerd.weekly_rankings('QB', 2).first
+    expect(player.week).to eq "2"
+    expect(player.player_id).to eq "14"
+    expect(player.name).to eq "Drew Brees"
+    expect(player.position).to eq "QB"
+    expect(player.team).to eq "NO"
+    expect(player.standard).to eq "24.80"
+    expect(player.standard_low).to eq "18.92"
+    expect(player.standard_high).to eq "32.00"
+    expect(player.ppr).to eq "24.80"
+    expect(player.ppr_low).to eq "18.92"
+    expect(player.ppr_high).to eq "32.00"
+    expect(player.injury).to be_nil
+    expect(player.practice_status).to be_nil
+    expect(player.game_status).to be_nil
+    expect(player.last_update).to be_nil
   end
 
   # it 'should retrieve standard weekly projections' do

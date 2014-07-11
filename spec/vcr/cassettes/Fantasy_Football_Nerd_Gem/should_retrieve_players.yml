@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - cloudflare-nginx
       Date:
-      - Fri, 11 Jul 2014 17:53:35 GMT
+      - Fri, 11 Jul 2014 18:09:13 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,10 +29,10 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=d28ddbeaad6299b62709b4ad269c8ae401405101215683; expires=Mon, 23-Dec-2019
+      - __cfduid=d2247792b17cb367e3f62e3118ca1d1231405102153621; expires=Mon, 23-Dec-2019
         23:50:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
       Expires:
-      - Sat, 12 Jul 2014 05:53:35 GMT
+      - Sat, 12 Jul 2014 06:09:13 GMT
       Cache-Control:
       - public, max-age=43200
       Pragma:
@@ -40,11 +40,11 @@ http_interactions:
       X-Powered-By:
       - PleskLin
       Cf-Cache-Status:
-      - EXPIRED
+      - HIT
       Vary:
       - Accept-Encoding
       Cf-Ray:
-      - 1486dc86096209b8-ORD
+      - 1486f36c2a0b09be-ORD
     body:
       encoding: UTF-8
       string: '{"Players":[{"playerId":"2","active":"1","jersey":"3","lname":"Anderson","fname":"Derek","displayName":"Derek
@@ -1670,5 +1670,5 @@ http_interactions:
         State"},{"playerId":"2430","active":"1","jersey":"11","lname":"Williams","fname":"Maurice","displayName":"Maurice
         Williams","team":"IND","position":"WR","height":"6-1","weight":"190","dob":"0000-00-00","college":"Pittsburgh"}]}'
     http_version: 
-  recorded_at: Fri, 11 Jul 2014 17:53:37 GMT
+  recorded_at: Fri, 11 Jul 2014 18:09:15 GMT
 recorded_with: VCR 2.9.2
