@@ -40,7 +40,10 @@ describe 'Fantasy Football Nerd Gem', vcr: true do
   end
 
   it 'should retrieve bye weeks' do
-    expect(FFNerd.byes(4)).to be
+    bye = FFNerd.byes(4).first
+    expect(bye.team).to eq "CAR"
+    expect(bye.bye_week).to eq "4"
+    expect(bye.display_name).to eq "Carolina Panthers"
   end
 
   it 'should retrieve injuries without a week' do
