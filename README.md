@@ -1,7 +1,7 @@
 Fantasy Football Nerd API Ruby Gem
 ==================================
 
-A Ruby Gem for the [Fantasy Football Nerd API](http://www.fantasyfootballnerd.com/api) which: 
+A Ruby Gem for the [Fantasy Football Nerd API](http://www.fantasyfootballnerd.com/fantasy-football-api) which: 
 
 > takes the "wisdom of the crowd" to a new level by aggregating the fantasy football rankings of the best fantasy football sites on the planet to analyze the rankings given to each player to produce a consensus ranking.
 
