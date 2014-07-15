@@ -57,24 +57,24 @@ If you're using Rails, add the gem to your Gemfile and run ```bundle install```
 gem 'fantasy_football_nerd'
 ````
 
-Before you can access the feeds you must set your API key (found on the [Fantasy Football Nerd API dashboard](http://www.fantasyfootballnerd.com/api)) via one of two ways: 
+Before you can access the feeds you must set your API key (found on the [Fantasy Football Nerd API dashboard](http://www.fantasyfootballnerd.com/api)) by one of two methods: 
 
-Set an environment variable via the terminal. 
+Set an environment variable via the terminal (good for production environments where you don't want to commit credentials to a repo). 
 
 ````term
-export FFNERD_API_KEY = 123456789
+export FFNERD_API_KEY="ABC123DEF"
 ````
 
-Set a class variable from your script. 
+Set a class variable from your script (good for one-offs like pulling down stats from IRB).
 
 ```ruby
-FFNerd.api_key = 123456789
+FFNerd.api_key = "ABC123DEF"
 ```
 
 API Resources
 ===================
 
-This gem supports all of Fantasy Football Nerd's Level 1 and Level 2 resources. Results are typically returned as an array of [ostructs](http://www.ruby-doc.org/stdlib-2.0/libdoc/ostruct/rdoc/OpenStruct.html) (which is basically a hash that you can access with "dot notation" as if it were an object instance variable). Fantasy Football Nerd returns keys in CamelCase, but that's not very Ruby like, so I've added snake_case attributes so that you can do ```player.displayName``` or ```player.display_name```, whichever suits your fancy. 
+This gem supports all of Fantasy Football Nerd's Level 1 and Level 2 resources. Results are typically returned as an array of [ostructs](http://www.ruby-doc.org/stdlib-2.0/libdoc/ostruct/rdoc/OpenStruct.html) (which is basically a hash that you can access with "dot notation" as if it were an object instance variable). Fantasy Football Nerd returns keys in CamelCase but that's not very Ruby like. I've added snake_case attributes so that you can do ```player.displayName``` or ```player.display_name```, whichever suits your fancy. 
 
 Teams
 --------------------------
@@ -236,7 +236,7 @@ Weekly Rankings
 --------------------------
 Returns an array of players with expected weekly fantasy points for both standard and PPR scoring. 
 
-Must requests a specific position: QB, RB, WR, TE, K, DEF. You can also send along the specific week number (1-17). If you omit a week, it defaults to the current week. 
+Must request a specific position: QB, RB, WR, TE, K, DEF. You can also send along the specific week number (1-17). If you omit a week, it defaults to the current week. 
 
 ```ruby
 player = FFNerd.weekly_rankings('QB', 2).first
@@ -261,7 +261,7 @@ Weekly Projections
 --------------------------
 Returns an array of players with expected weekly values for each scoring category. 
 
-Must requests a specific position: QB, RB, WR, TE, K (But *NOT DEF!*). You can also send along the specific week number (1-17). If you omit a week, it defaults to the current week. 
+Must request a specific position: QB, RB, WR, TE, K (But *NOT DEF!*). You can also send along the specific week number (1-17). If you omit a week, it defaults to the current week. 
 
 ```ruby
 player = FFNerd.weekly_projections('QB', 1).first
@@ -299,12 +299,12 @@ player.team             # "NO"
 Tests
 ===================
 
-Set your API key to "test" to access FFNerd's test feeds. This is useful if you're developing your app prior to the beginning of the season or if you'd like to have a static dataset that won't change as the season progresses. All of the Rspec tests here use the test feeds. Speaking of rspec... 
+Set your API key to "test" to access FFNerd's test feeds. This is useful if you're developing your app prior to the beginning of the season or if you'd like to have a static dataset that won't change as the season progresses. All of the Rspec tests here use the test feeds. Speaking of RSpec... 
 
-This gem includes RSpec tests and uses VCR to cache http responses. If you're going to contribute, please write some tests. 
+This gem includes comprehensive tests and uses VCR to cache http responses. If you're going to contribute, please write some tests. 
 
 Contributors
------------------
+======================
 Greg Baugues ([greg@baugues.com](mailto:greg@baugues.com))<br/>
 [www.baugues.com](http://www.baugues.com)
 
