@@ -296,6 +296,31 @@ player.display_name     # "Drew Brees"
 player.team             # "NO"
 ```
 
+Player Stats
+-------------
+
+*Commercial Access only!* 
+
+Get the historical stats and info for each player. You will need to pass along the playerId of the player you want.
+
+```ruby
+  player = FFNerd.player(13)
+  player.player_id  # "13"
+  player.star  # "1"
+  player.active  # "1"
+  player.jersey  # "12"
+  player.lname  # "Brady"
+  player.fname  # "Tom"
+  player.display_name  # "Tom Brady"
+  player.team  # "NE"
+  player.position  # "QB"
+  player.height  # "6-4"
+  player.weight  # "225"
+  player.dob  # "1977-08-03"
+  player.college  # "Michigan"
+  player.twitter_id  # "tomedbrady12"
+```
+
 Tests
 ===================
 

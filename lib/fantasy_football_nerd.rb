@@ -2,6 +2,7 @@ require 'json'
 require 'ostruct'
 require 'fantasy_football_nerd/request.rb'
 require 'fantasy_football_nerd/util.rb'
+require 'fantasy_football_nerd/commercial_feeds.rb'
 
 POSITIONS = %w{QB RB WR TE K DEF}
 
@@ -9,6 +10,7 @@ class FFNerd
   @@api_key = nil
 
   extend Request
+  extend CommercialFeeds
 
   def self.api_key
     @@api_key ||= ENV['FFNERD_API_KEY']
@@ -26,6 +28,7 @@ class FFNerd
   end
 
   def self.ostruct_request(service_name, json_key, extras = [])
+    extras = [extras].flatten
     data = request_service(service_name, api_key, extras)[json_key]
     data = data.values.flatten if data.is_a? Hash
     data.collect { |i| OpenStruct.new(i.add_snakecase_keys) }
