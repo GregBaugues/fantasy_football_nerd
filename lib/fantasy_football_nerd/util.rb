@@ -10,8 +10,10 @@ class Hash
   end
 
   def change_key(source, target)
-    self[target] = self[source]
-    self.delete(source)
+    unless self[target].nil?
+      self[target] = self[source]
+      self.delete(source)
+    end
   end
 
 end
