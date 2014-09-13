@@ -32,10 +32,16 @@ describe 'Utility helpers' do
 
   it 'should change string values to numbers' do
     hash = {tds: '1.0', yds: '15.5', name: 'bob'}
-    hash.change_string_values_to_numbers
-    expect(hash[:tds]).to eq 1
+    hash.change_string_values_to_floats
+    expect(hash[:tds]).to eq 1.0
     expect(hash[:yds]).to eq 15.5
     expect(hash[:name]).to eq 'bob'
+  end
+
+  it 'should change a string with 0 to a number' do
+    hash = {tds: "0"}
+    hash.change_string_values_to_floats
+    expect(hash[:tds]).to eq 0.0
   end
 
 end

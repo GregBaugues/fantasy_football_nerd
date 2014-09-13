@@ -29,7 +29,7 @@ class Hash
     key_hash.each { |k,v| self.change_key(k,v) }
   end
 
-  def change_string_values_to_numbers
+  def change_string_values_to_floats
     self.each do |k,v|
       self[k] = ((float = Float(v)) && (float % 1.0 == 0) ? float.to_i : float) rescue v
     end
