@@ -1,6 +1,5 @@
 require 'spec_helper.rb'
 require_relative '../lib/fantasy_football_nerd.rb'
-require 'pry'
 
 describe 'Fantasy Football Nerd Commercial Feeds', vcr: true do
 
