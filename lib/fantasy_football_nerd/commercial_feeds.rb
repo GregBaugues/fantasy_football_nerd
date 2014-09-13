@@ -7,18 +7,21 @@ module CommercialFeeds
   end
 
   def player_stats(id)
+    raise 'You must pass along a player id' if id.nil?
     data = request_service('player', FFNerd.api_key, id)
     data = data['Stats']
     data.change_keys_to_ints
     data.each do |year, weeks|
-      weeks.each do |week, stats|
-        stats.change_keys(new_keys)
-        stats.add_snakecase_keys
-        stats.change_string_values_to_floats
-        weeks[week] = OpenStruct.new(stats)
-      end
+      weeks.each { |week, stats| weeks[week] = create_stats_ostruct(stats) }
     end
     data
+  end
+
+  def create_stats_ostruct(stats)
+    stats.change_string_values_to_floats
+    stats.change_keys(new_keys)
+    stats.add_snakecase_keys
+    OpenStruct.new(stats)
   end
 
   def new_keys
