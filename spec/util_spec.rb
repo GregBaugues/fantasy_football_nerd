@@ -30,4 +30,12 @@ describe 'Utility helpers' do
     expect(hash['PlayerID']).to be nil
   end
 
+  it 'should change string values to numbers' do
+    hash = {tds: '1.0', yds: '15.5', name: 'bob'}
+    hash.change_string_values_to_numbers
+    expect(hash[:tds]).to eq 1
+    expect(hash[:yds]).to eq 15.5
+    expect(hash[:name]).to eq 'bob'
+  end
+
 end
