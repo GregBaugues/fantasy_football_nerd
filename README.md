@@ -296,15 +296,15 @@ player.display_name     # "Drew Brees"
 player.team             # "NO"
 ```
 
-Player Stats
+Player Information
 -------------
 
 *Commercial Access only!* 
 
-Get the historical stats and info for each player. You will need to pass along the playerId of the player you want.
+Get biographical info for each player. You will need to pass along the playerId of the player you want. Unlike the FFNerd API, this resource does not return the player stats -- that comes from FFNerd.player_stats
 
 ```ruby
-  player = FFNerd.player(13)
+  player = FFNerd.player_info(13)
   player.player_id  # "13"
   player.star  # "1"
   player.active  # "1"
@@ -319,6 +319,58 @@ Get the historical stats and info for each player. You will need to pass along t
   player.dob  # "1977-08-03"
   player.college  # "Michigan"
   player.twitter_id  # "tomedbrady12"
+```
+
+Player Stats
+-------------
+
+* Commercial access only!* 
+
+I deviated from the FFNerd API feed and broke historical stats off of the player information resource to make the data collection more modular. I've also changed the names of the fields to make them consistent with ```FFNerd.weekly_projections```.  
+
+```ruby
+year = 2000
+week = 1
+player_stats = FFNerd.player_stats(13)
+stats = player_stats[year][week]
+stats.year  # 2000
+stats.player_id  # 13
+stats.week  # 1
+stats.game_date  # "09/03"
+stats.opponent  # "TB"
+stats.final_score  # "L16-21"
+stats.game_played  # 0
+stats.game_started  # 0
+stats.completions  # 0
+stats.pass_att  # 0
+stats.percentage  # 0.00
+stats.pass_yds  # 0
+stats.avg_pass_yds  # 0.00
+stats.pass_td  # 0
+stats.interceptions  # 0
+stats.sacks  # 0
+stats.sack_yds  # 0
+stats.qb_rating  # 0.00
+stats.rush_att  # 0
+stats.rush_yds  # 0
+stats.rush_avg  # 0.00
+stats.rush_td  # 0
+stats.fumbles  # 0
+stats.fumbles_lost  # 0
+```
+
+The stats ostruct does not include irrelevant stats keys. In this case, Tom Brady doesn't have keys for receiving stats. If you query Matt Forte, you'll get a few additional values: 
+
+```ruby
+year = 2008
+week = 1
+player_stats = FFNerd.player_stats(175)
+stats = player_stats[year][week]
+stats.receptions # 3
+stats.rec_yds # 18
+stats.rec_avg # 6.00
+stats.long_rec # 9
+stats.rec_td # 0
 ```
 
 Tests
