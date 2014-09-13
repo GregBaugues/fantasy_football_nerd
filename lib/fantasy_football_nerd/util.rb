@@ -10,10 +10,19 @@ class Hash
   end
 
   def change_key(source, target)
-    unless self[target].nil?
+    unless self[source].nil?
       self[target] = self[source]
       self.delete(source)
     end
+  end
+
+  def change_keys_to_ints
+    keys = self.keys
+    keys.each do |k|
+      self[k].change_keys_to_ints if self[k].is_a? Hash
+      self.change_key(k, k.to_i) unless k.match(/[a-z]/)
+    end
+    self
   end
 
 end
