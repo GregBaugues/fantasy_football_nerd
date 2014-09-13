@@ -326,7 +326,7 @@ Player Stats
 
 * Commercial access only!* 
 
-I deviated from the FFNerd API feed and broke historical stats off of the player information resource to make the data collection more modular. I've also changed the names of the fields to make them consistent with ```FFNerd.weekly_projections```.  
+I deviated from the FFNerd API feed and broke historical stats off of the player information resource. I've also changed some of the field names to make them consistent with ```FFNerd.weekly_projections```.  
 
 ```ruby
 year = 2000
@@ -359,7 +359,7 @@ stats.fumbles  # 0
 stats.fumbles_lost  # 0
 ```
 
-The stats ostruct does not include irrelevant stats keys. In this case, Tom Brady doesn't have keys for receiving stats. If you query Matt Forte, you'll get a few additional values: 
+A player's ostruct/hash does not include keys for stats that would be irrelevant for him. For example, when you pull Matt Forte's stats, you'll find some values that are absent for Brady (and vice versa).
 
 ```ruby
 year = 2008
