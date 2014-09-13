@@ -25,6 +25,10 @@ class Hash
     self
   end
 
+  def change_keys(key_hash)
+    key_hash.each { |k,v| self.change_key(k,v) }
+  end
+
 end
 
 class String

@@ -21,4 +21,13 @@ describe 'Utility helpers' do
     expect(stats['bob']).to eq 'whatever'
   end
 
+  it 'should change keys given a hash' do
+    keys_hash = {'PlayerID' => 'player_id', 'RushTDS' => 'rush_td' }
+    hash = {'PlayerID' => 167, 'RushTDS' => 10 }
+    hash.change_keys(keys_hash)
+    expect(hash['player_id']).to eq 167
+    expect(hash['rush_td']).to eq 10
+    expect(hash['PlayerID']).to be nil
+  end
+
 end
