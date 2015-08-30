@@ -84,7 +84,6 @@ class FFNerd
 
   def self.weekly_projections(position, week = nil)
     #FFNerd defaults to current week if week is left blank
-    raise "Weekly projections don't include DEF (but you can find those values in weekly rankings)" if position == "DEF"
     raise "Must pass in a valid position" unless POSITIONS.include?(position)
     raise "Your (optional) week must be between 1 and 17" if week && !(1..17).include?(week)
     week ||= current_week
