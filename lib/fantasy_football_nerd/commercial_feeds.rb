@@ -27,7 +27,6 @@ module CommercialFeeds
   def new_keys
     {
       'passAttempts' => 'passAtt',
-      'passYards' => 'passYds',
       'avgPassYards' => 'avgPassYds',
       'passYards' => 'passYds',
       'Sacks' => 'sacks',
