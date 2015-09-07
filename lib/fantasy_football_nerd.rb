@@ -34,6 +34,10 @@ class FFNerd
     data.collect { |i| OpenStruct.new(i.add_snakecase_keys) }
   end
 
+  def self.weather
+    ostruct_request('weather', 'Games')
+  end
+
   def self.teams
     ostruct_request('nfl-teams', 'NFLTeams')
   end
