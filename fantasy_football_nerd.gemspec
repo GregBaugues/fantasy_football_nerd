@@ -1,8 +1,8 @@
 Gem::Specification.new do |s|
   s.name = "fantasy_football_nerd"
-  s.version = "1.0.1"
+  s.version = "1.1.1"
   s.authors = ["Greg Baugues"]
-  s.date = %q{2014-07-11}
+  s.date = %q{2015-10-20}
   s.description = 'Fantasy Football Nerd API wrapper'
   s.summary = 'A ruby gem for the Fantasy Football Nerd API'
   s.email = 'greg@baugues.com'
@@ -17,6 +17,8 @@ Gem::Specification.new do |s|
     'spec/vcr/cassettes/Fantasy_Football_Nerd_Gem/should_retrieve_auction_values.yml',
     'spec/vcr/cassettes/Fantasy_Football_Nerd_Gem/should_retrieve_bye_weeks.yml',
     'spec/vcr/cassettes/Fantasy_Football_Nerd_Gem/should_retrieve_draft_projections.yml',
+    'spec/vcr/cassettes/Fantasy_Football_Nerd_Gem/should_retrieve_fanduel_s_league_info.yml',
+    'spec/vcr/cassettes/Fantasy_Football_Nerd_Gem/should_retrieve_Flacco_s_dfs_fanduel_projections.yml',
     'spec/vcr/cassettes/Fantasy_Football_Nerd_Gem/should_retrieve_injuries_with_a_week.yml',
     'spec/vcr/cassettes/Fantasy_Football_Nerd_Gem/should_retrieve_injuries_without_a_week.yml',
     'spec/vcr/cassettes/Fantasy_Football_Nerd_Gem/should_retrieve_players.yml',

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    fantasy_football_nerd (1.0.1)
+    fantasy_football_nerd (1.1.1)
 
 GEM
   remote: https://rubygems.org/
