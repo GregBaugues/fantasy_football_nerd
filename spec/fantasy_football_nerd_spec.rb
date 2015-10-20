@@ -205,4 +205,16 @@ describe 'Fantasy Football Nerd Gem', vcr: true do
     expect(aggressive_projections["projected_points"]).to eq 19.34
     expect(aggressive_projections["bang_for_your_buck_score"]).to eq 21.388
   end
+
+  it 'should retrieve fanduel\'s league info' do
+    platform = "fanduel"
+    info = FFNerd.daily_fantasy_league_info(platform)
+    expect(info.current_week).to eq "4"
+    expect(info.platform).to eq "FanDuel"
+    expect(info.cap).to eq 60000
+    expect(info.roster_requirements).to eq({"QB" => 1, "RB" => 2, "WR" => 3,
+                                            "TE" => 1, "DEF" => 1, "K" => 1, "FLEX" => 0})
+    expect(info.flex_positions).to eq []
+    expect(info.dev_notes).to include "The lower the Bang"
+  end
 end

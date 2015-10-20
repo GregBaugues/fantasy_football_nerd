@@ -22,6 +22,14 @@ module CommercialFeeds
     ostruct_request('daily', 'players', [dfs_platform])
   end
 
+  def daily_fantasy_league_info(dfs_platform)
+    raise "You must pass along a valid dfs platform (#{DFS_PLATFORMS})" unless DFS_PLATFORMS.include?(dfs_platform)
+    data = request_service('daily', api_key, dfs_platform)
+    OpenStruct.new(current_week: data["week"], cap: data["cap"],
+                   platform: data["platform"], roster_requirements: data["rosterRequirements"],
+                   flex_positions: data["flexPositions"], dev_notes: data["developerNotes"])
+  end
+
   def create_stats_ostruct(stats)
     stats.change_string_values_to_floats
     stats.change_keys(new_keys)
