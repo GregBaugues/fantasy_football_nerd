@@ -187,4 +187,34 @@ describe 'Fantasy Football Nerd Gem', vcr: true do
     expect(player.team).to eq "NO"
   end
 
+  it 'should retrieve Flacco\'s dfs fanduel projections' do
+    platform = "fanduel"
+    player = FFNerd.daily_fantasy_projections(platform).first
+    expect(player.player_id).to eq 35
+    expect(player.position).to eq "QB"
+    expect(player.name).to eq "Joe Flacco"
+    expect(player.team).to eq "BAL"
+    expect(player.salary).to eq "8000"
+    conservative_projections = player.projections["conservative"]
+    consensus_projections = player.projections["consensus"]
+    aggressive_projections = player.projections["aggressive"]
+    expect(conservative_projections["projected_points"]).to eq 13.6
+    expect(conservative_projections["bang_for_your_buck_score"]).to eq 43.253
+    expect(consensus_projections["projected_points"]).to eq 16.5
+    expect(consensus_projections["bang_for_your_buck_score"]).to eq 29.385
+    expect(aggressive_projections["projected_points"]).to eq 19.34
+    expect(aggressive_projections["bang_for_your_buck_score"]).to eq 21.388
+  end
+
+  it 'should retrieve fanduel\'s league info' do
+    platform = "fanduel"
+    info = FFNerd.daily_fantasy_league_info(platform)
+    expect(info.current_week).to eq "4"
+    expect(info.platform).to eq "FanDuel"
+    expect(info.cap).to eq 60000
+    expect(info.roster_requirements).to eq({"QB" => 1, "RB" => 2, "WR" => 3,
+                                            "TE" => 1, "DEF" => 1, "K" => 1, "FLEX" => 0})
+    expect(info.flex_positions).to eq []
+    expect(info.dev_notes).to include "The lower the Bang"
+  end
 end

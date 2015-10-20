@@ -324,7 +324,7 @@ Get biographical info for each player. You will need to pass along the playerId 
 Player Stats
 -------------
 
-* Commercial access only!* 
+*Commercial access only!* 
 
 I deviated from the FFNerd API feed and broke historical stats off of the player information resource. I've also changed some of the field names to make them consistent with ```FFNerd.weekly_projections```.  
 
@@ -373,6 +373,55 @@ stats.long_rec # 9
 stats.rec_td # 0
 ```
 
+Daily Fantasy Projections
+-------------
+
+*Commercial access only!* 
+
+Get Daily Fantasy Sports information from the three major DFS sites (fanduel, draftkings, and yahoo) for the upcoming week.
+All projections are based on the respective DFS site's scoring rules.
+
+There are three projections available:
+1) Conservative - This is the minimum projection of the sampled aggregate sites.
+2) Consensus - This is the 'NerdRank' average of the sampled aggregate sites. See more here: http://www.fantasyfootballnerd.com/nerdRank
+3) Aggressive - This is the maximum projection of the sampled aggregate sites.
+
+The bang for your buck is a metric combining salary and projection. Lower is better value.
+
+```ruby
+platform = "fanduel"
+player = FFNerd.daily_fantasy_projections(platform).first
+projection_type = "consensus" #Types: conservative, consensus, aggressive
+consensus_projections = player.projections[projection_type]
+player.player_id # 35
+player.position # "QB"
+player.name # "Joe Flacco"
+player.team # "BAL"
+player.salary # "8000"
+consensus_projections["projected_points"] # 16.5
+consensus_projections["bang_for_your_buck_score"] # 29.385
+```
+
+Daily Fantasy League Info
+-------------
+
+*Commercial access only!* 
+
+Get information on league info for a given daily fantasy platform .
+Projections are only available for the upcoming week, indicated by the current_week variable.
+
+```ruby
+platform = "fanduel"
+info = FFNerd.daily_fantasy_league_info(platform)
+info.current_week # "4"
+info.platform # "FanDuel"
+info.cap # 60000
+info.roster_requirements # {"QB" => 1, "RB" => 2, "WR" => 3, "TE" => 1, "DEF" => 1, "K" => 1, "FLEX" => 0})
+info.flex_positions # []
+info.dev_notes # "Projections below are based...
+```
+
+
 Tests
 ===================
 
@@ -383,6 +432,7 @@ This gem includes comprehensive tests and uses VCR to cache http responses. If y
 Contributors
 ======================
 Greg Baugues ([greg@baugues.com](mailto:greg@baugues.com))<br/>
-[www.baugues.com](http://www.baugues.com)
+[www.baugues.com](http://www.baugues.com)<br/>
+Dan Dimond ([dtdimond@gmail.com](mailto:dtdimond@gmail.com))
 
 

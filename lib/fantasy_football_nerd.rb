@@ -5,6 +5,7 @@ require 'fantasy_football_nerd/util.rb'
 require 'fantasy_football_nerd/commercial_feeds.rb'
 
 POSITIONS = %w{QB RB WR TE K DEF}
+DFS_PLATFORMS = %w{fanduel draftkings yahoo}
 
 class FFNerd
   @@api_key = nil
@@ -32,6 +33,10 @@ class FFNerd
     data = request_service(service_name, api_key, extras)[json_key]
     data = data.values.flatten if data.is_a? Hash
     data.collect { |i| OpenStruct.new(i.add_snakecase_keys) }
+  end
+
+  def self.weather
+    ostruct_request('weather', 'Games')
   end
 
   def self.teams
@@ -84,12 +89,10 @@ class FFNerd
 
   def self.weekly_projections(position, week = nil)
     #FFNerd defaults to current week if week is left blank
-    raise "Weekly projections don't include DEF (but you can find those values in weekly rankings)" if position == "DEF"
     raise "Must pass in a valid position" unless POSITIONS.include?(position)
     raise "Your (optional) week must be between 1 and 17" if week && !(1..17).include?(week)
     week ||= current_week
     extras = [position, week]
     ostruct_request('weekly-projections', 'Projections', extras)
   end
-
 end
