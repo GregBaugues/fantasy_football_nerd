@@ -5,6 +5,7 @@ require 'fantasy_football_nerd/util.rb'
 require 'fantasy_football_nerd/commercial_feeds.rb'
 
 POSITIONS = %w{QB RB WR TE K DEF}
+DFS_PLATFORMS = %w{fanduel draftkings yahoo}
 
 class FFNerd
   @@api_key = nil
@@ -94,5 +95,4 @@ class FFNerd
     extras = [position, week]
     ostruct_request('weekly-projections', 'Projections', extras)
   end
-
 end

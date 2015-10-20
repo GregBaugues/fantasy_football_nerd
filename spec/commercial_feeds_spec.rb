@@ -82,5 +82,4 @@ describe 'Fantasy Football Nerd Commercial Feeds', vcr: true do
     expect(stats.fumbles).to eq 0
     expect(stats.fumbles_lost).to eq 0
   end
-
 end
