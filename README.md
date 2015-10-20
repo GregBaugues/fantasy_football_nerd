@@ -373,7 +373,7 @@ stats.long_rec # 9
 stats.rec_td # 0
 ```
 
-Daily Fantasy Stats
+Daily Fantasy Projections
 -------------
 
 *Commercial access only!* 
@@ -400,6 +400,25 @@ player.team # "BAL"
 player.salary # "8000"
 consensus_projections["projected_points"] # 16.5
 consensus_projections["bang_for_your_buck_score"] # 29.385
+```
+
+Daily Fantasy League Info
+-------------
+
+*Commercial access only!* 
+
+Get information on league info for a given daily fantasy platform .
+Projections are only available for the upcoming week, indicated by the current_week variable.
+
+```ruby
+platform = "fanduel"
+info = FFNerd.daily_fantasy_league_info(platform)
+info.current_week # "4"
+info.platform # "FanDuel"
+info.cap # 60000
+info.roster_requirements # {"QB" => 1, "RB" => 2, "WR" => 3, "TE" => 1, "DEF" => 1, "K" => 1, "FLEX" => 0})
+info.flex_positions # []
+info.dev_notes # "Projections below are based...
 ```
 
 
