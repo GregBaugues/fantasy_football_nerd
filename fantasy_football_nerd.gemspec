@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
     'lib/fantasy_football_nerd.rb',
     'lib/fantasy_football_nerd/util.rb',
     'lib/fantasy_football_nerd/request.rb',
+    'lib/fantasy_football_nerd/commercial_feeds.rb',
     'spec/fantasy_football_nerd_spec.rb',
     'spec/request_spec.rb',
     'spec/api_key_setter_spec.rb',
