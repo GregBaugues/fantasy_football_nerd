@@ -5,9 +5,9 @@ A Ruby Gem for the [Fantasy Football Nerd API](http://www.fantasyfootballnerd.co
 
 > takes the "wisdom of the crowd" to a new level by aggregating the fantasy football rankings of the best fantasy football sites on the planet to analyze the rankings given to each player to produce a consensus ranking.
 
-This gem currently supports all Level 1 and Level 2 streams which cost $9 per season -- a total no-brainer if you're into fantasy sports and programming. Give the man his money.  
+This gem currently supports all Level 1 and Level 2 streams which cost $11.95 per season -- a total no-brainer if you're into fantasy sports and programming. Give the man his money.  
 
-Here's what you get with $9 and this gem: 
+Here's what you get with $11.95 and this gem: 
 
 * Current Week
 * Team List
