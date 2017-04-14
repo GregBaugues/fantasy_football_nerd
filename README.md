@@ -382,7 +382,6 @@ This gem includes comprehensive tests and uses VCR to cache http responses. If y
 
 Contributors
 ======================
-Greg Baugues ([greg@baugues.com](mailto:greg@baugues.com))<br/>
-[www.baugues.com](http://www.baugues.com)
+Greg Baugues ([greg@baugues.com](mailto:greg@baugues.com)) [www.baugues.com](http://www.baugues.com)
 
-
+[Chris Roerig](https://github.com/chris-roerig)
