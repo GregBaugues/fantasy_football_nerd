@@ -3,7 +3,7 @@ require 'open-uri'
 module Request
 
   def base_url
-    "http://www.fantasyfootballnerd.com/service"
+    "https://www.fantasyfootballnerd.com/service"
   end
 
   def service_url(service, api_key, extras = [])
