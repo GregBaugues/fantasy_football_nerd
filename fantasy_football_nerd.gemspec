@@ -1,8 +1,8 @@
 Gem::Specification.new do |s|
   s.name = "fantasy_football_nerd"
-  s.version = "1.2.0"
+  s.version = "1.2.1"
   s.authors = ["Greg Baugues"]
-  s.date = %q{2014-07-11}
+  s.date = %q{2017-06-29}
   s.description = 'Fantasy Football Nerd API wrapper'
   s.summary = 'A ruby gem for the Fantasy Football Nerd API'
   s.email = 'greg@baugues.com'
