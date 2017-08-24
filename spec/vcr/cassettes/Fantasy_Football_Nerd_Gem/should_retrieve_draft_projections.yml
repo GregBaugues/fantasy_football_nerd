@@ -95,4 +95,99 @@ http_interactions:
         Daniel","team":"KC"}]}'
     http_version: 
   recorded_at: Fri, 11 Jul 2014 22:41:46 GMT
+- request:
+    method: get
+    uri: https://www.fantasyfootballnerd.com/service/draft-projections/json/test/QB
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 24 Aug 2017 16:14:57 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d214c414b81ed6e029c2a4b403042ed791503591297; expires=Fri, 24-Aug-18
+        16:14:57 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
+      X-Powered-By:
+      - PHP/5.6.30
+      Expires:
+      - Fri, 24 Aug 2018 16:14:57 GMT
+      Cache-Control:
+      - public, max-age=31536000
+      Pragma:
+      - no-cache
+      Cf-Cache-Status:
+      - MISS
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 39379b8b7b48286a-SJC
+    body:
+      encoding: UTF-8
+      string: '{"DraftProjections":[{"playerId":"14","completions":"422","attempts":"640","passingYards":"4992","passingTD":"40","passingInt":"17","rushYards":"28","rushTD":"1","fantasyPoints":"335","displayName":"Drew
+        Brees","team":"NO"},{"playerId":"87","completions":"355","attempts":"526","passingYards":"4358","passingTD":"35","passingInt":"8","rushYards":"223","rushTD":"2","fantasyPoints":"332","displayName":"Aaron
+        Rodgers","team":"GB"},{"playerId":"1398","completions":"306","attempts":"501","passingYards":"3853","passingTD":"20","passingInt":"14","rushYards":"683","rushTD":"7","fantasyPoints":"316","displayName":"Cam
+        Newton","team":"CAR"},{"playerId":"66","completions":"402","attempts":"595","passingYards":"4631","passingTD":"36","passingInt":"14","rushYards":"22","rushTD":"0","fantasyPoints":"303","displayName":"Peyton
+        Manning","team":"DEN"},{"playerId":"93","completions":"395","attempts":"602","passingYards":"4645","passingTD":"31","passingInt":"14","rushYards":"81","rushTD":"1","fantasyPoints":"296","displayName":"Matt
+        Ryan","team":"ATL"},{"playerId":"793","completions":"398","attempts":"651","passingYards":"4722","passingTD":"30","passingInt":"15","rushYards":"92","rushTD":"1","fantasyPoints":"294","displayName":"Matthew
+        Stafford","team":"DET"},{"playerId":"89","completions":"375","attempts":"562","passingYards":"4399","passingTD":"30","passingInt":"15","rushYards":"74","rushTD":"1","fantasyPoints":"279","displayName":"Tony
+        Romo","team":"DAL"},{"playerId":"13","completions":"370","attempts":"578","passingYards":"4377","passingTD":"28","passingInt":"9","rushYards":"33","rushTD":"1","fantasyPoints":"278","displayName":"Tom
+        Brady","team":"NE"},{"playerId":"1806","completions":"284","attempts":"451","passingYards":"3383","passingTD":"21","passingInt":"10","rushYards":"532","rushTD":"4","fantasyPoints":"276","displayName":"Robert
+        Griffin III","team":"WAS"},{"playerId":"1394","completions":"256","attempts":"420","passingYards":"3096","passingTD":"18","passingInt":"9","rushYards":"608","rushTD":"6","fantasyPoints":"275","displayName":"Colin
+        Kaepernick","team":"SF"},{"playerId":"1932","completions":"339","attempts":"561","passingYards":"4131","passingTD":"26","passingInt":"14","rushYards":"191","rushTD":"2","fantasyPoints":"272","displayName":"Andrew
+        Luck","team":"IND"},{"playerId":"1847","completions":"274","attempts":"439","passingYards":"3310","passingTD":"22","passingInt":"10","rushYards":"474","rushTD":"3","fantasyPoints":"265","displayName":"Russell
+        Wilson","team":"SEA"},{"playerId":"65","completions":"337","attempts":"551","passingYards":"4223","passingTD":"28","passingInt":"16","rushYards":"29","rushTD":"0","fantasyPoints":"252","displayName":"Eli
+        Manning","team":"NYG"},{"playerId":"28","completions":"314","attempts":"516","passingYards":"3904","passingTD":"25","passingInt":"16","rushYards":"183","rushTD":"1","fantasyPoints":"248","displayName":"Jay
+        Cutler","team":"CHI"},{"playerId":"1391","completions":"339","attempts":"551","passingYards":"3912","passingTD":"26","passingInt":"15","rushYards":"113","rushTD":"1","fantasyPoints":"247","displayName":"Andy
+        Dalton","team":"CIN"},{"playerId":"79","completions":"323","attempts":"562","passingYards":"4190","passingTD":"27","passingInt":"17","rushYards":"38","rushTD":"0","fantasyPoints":"246","displayName":"Carson
+        Palmer","team":"ARI"},{"playerId":"1109","completions":"335","attempts":"568","passingYards":"3976","passingTD":"25","passingInt":"14","rushYards":"65","rushTD":"1","fantasyPoints":"244","displayName":"Sam
+        Bradford","team":"STL"},{"playerId":"105","completions":"263","attempts":"446","passingYards":"3298","passingTD":"18","passingInt":"13","rushYards":"456","rushTD":"3","fantasyPoints":"242","displayName":"Michael
+        Vick","team":"PHI"},{"playerId":"788","completions":"303","attempts":"522","passingYards":"3805","passingTD":"23","passingInt":"15","rushYards":"185","rushTD":"1","fantasyPoints":"239","displayName":"Josh
+        Freeman","team":"MIN"},{"playerId":"97","completions":"322","attempts":"528","passingYards":"3702","passingTD":"23","passingInt":"13","rushYards":"170","rushTD":"1","fantasyPoints":"237","displayName":"Alex
+        Smith","team":"KC"},{"playerId":"88","completions":"319","attempts":"498","passingYards":"3723","passingTD":"23","passingInt":"11","rushYards":"97","rushTD":"1","fantasyPoints":"235","displayName":"Ben
+        Roethlisberger","team":"PIT"},{"playerId":"35","completions":"314","attempts":"531","passingYards":"3770","passingTD":"23","passingInt":"12","rushYards":"76","rushTD":"1","fantasyPoints":"233","displayName":"Joe
+        Flacco","team":"BAL"},{"playerId":"1877","completions":"311","attempts":"518","passingYards":"3896","passingTD":"24","passingInt":"15","rushYards":"96","rushTD":"0","fantasyPoints":"232","displayName":"Brandon
+        Weeden","team":"CLE"},{"playerId":"86","completions":"336","attempts":"522","passingYards":"3788","passingTD":"26","passingInt":"14","rushYards":"34","rushTD":"0","fantasyPoints":"231","displayName":"Philip
+        Rivers","team":"SD"},{"playerId":"1758","completions":"312","attempts":"524","passingYards":"3713","passingTD":"21","passingInt":"14","rushYards":"180","rushTD":"1","fantasyPoints":"229","displayName":"Ryan
+        Tannehill","team":"MIA"},{"playerId":"1395","completions":"262","attempts":"455","passingYards":"3231","passingTD":"18","passingInt":"14","rushYards":"356","rushTD":"2","fantasyPoints":"221","displayName":"Jake
+        Locker","team":"TEN"},{"playerId":"94","completions":"331","attempts":"522","passingYards":"3915","passingTD":"21","passingInt":"12","rushYards":"26","rushTD":"0","fantasyPoints":"220","displayName":"Matt
+        Schaub","team":"HOU"},{"playerId":"2114","completions":"239","attempts":"429","passingYards":"2857","passingTD":"17","passingInt":"13","rushYards":"328","rushTD":"2","fantasyPoints":"201","displayName":"EJ
+        Manuel","team":"BUF"},{"playerId":"1399","completions":"244","attempts":"406","passingYards":"2676","passingTD":"17","passingInt":"11","rushYards":"174","rushTD":"1","fantasyPoints":"176","displayName":"Christian
+        Ponder","team":"MIN"},{"playerId":"1696","completions":"142","attempts":"274","passingYards":"1718","passingTD":"8","passingInt":"8","rushYards":"394","rushTD":"3","fantasyPoints":"142","displayName":"Terrelle
+        Pryor","team":"OAK"},{"playerId":"1393","completions":"229","attempts":"388","passingYards":"2449","passingTD":"14","passingInt":"10","rushYards":"59","rushTD":"0","fantasyPoints":"140","displayName":"Blaine
+        Gabbert","team":"JAC"},{"playerId":"2146","completions":"183","attempts":"329","passingYards":"2155","passingTD":"11","passingInt":"12","rushYards":"190","rushTD":"2","fantasyPoints":"137","displayName":"Geno
+        Smith","team":"NYJ"},{"playerId":"52","completions":"88","attempts":"154","passingYards":"1007","passingTD":"5","passingInt":"4","rushYards":"24","rushTD":"0","fantasyPoints":"54","displayName":"Chad
+        Henne","team":"JAC"},{"playerId":"1801","completions":"79","attempts":"124","passingYards":"879","passingTD":"5","passingInt":"3","rushYards":"48","rushTD":"0","fantasyPoints":"54","displayName":"Nick
+        Foles","team":"PHI"},{"playerId":"36","completions":"90","attempts":"151","passingYards":"982","passingTD":"4","passingInt":"3","rushYards":"18","rushTD":"0","fantasyPoints":"51","displayName":"Matt
+        Flynn","team":"GB"},{"playerId":"792","completions":"74","attempts":"131","passingYards":"917","passingTD":"4","passingInt":"3","rushYards":"18","rushTD":"0","fantasyPoints":"49","displayName":"Mark
+        Sanchez","team":"NYJ"},{"playerId":"34","completions":"36","attempts":"61","passingYards":"420","passingTD":"3","passingInt":"2","rushYards":"25","rushTD":"0","fantasyPoints":"28","displayName":"Ryan
+        Fitzpatrick","team":"TEN"},{"playerId":"22","completions":"47","attempts":"81","passingYards":"502","passingTD":"2","passingInt":"2","rushYards":"25","rushTD":"0","fantasyPoints":"27","displayName":"Matt
+        Cassel","team":"MIN"},{"playerId":"1805","completions":"26","attempts":"42","passingYards":"298","passingTD":"2","passingInt":"1","rushYards":"17","rushTD":"0","fantasyPoints":"20","displayName":"Kirk
+        Cousins","team":"WAS"},{"playerId":"20","completions":"20","attempts":"33","passingYards":"239","passingTD":"1","passingInt":"1","rushYards":"18","rushTD":"0","fantasyPoints":"14","displayName":"Jason
+        Campbell","team":"CLE"},{"playerId":"41","completions":"26","attempts":"47","passingYards":"303","passingTD":"1","passingInt":"2","rushYards":"10","rushTD":"0","fantasyPoints":"13","displayName":"Bruce
+        Gradkowski","team":"PIT"},{"playerId":"2168","completions":"20","attempts":"35","passingYards":"235","passingTD":"1","passingInt":"1","rushYards":"6","rushTD":"0","fantasyPoints":"12","displayName":"Matt
+        Barkley","team":"PHI"},{"playerId":"54","completions":"10","attempts":"16","passingYards":"114","passingTD":"1","passingInt":"0","rushYards":"2","rushTD":"0","fantasyPoints":"9","displayName":"Shaun
+        Hill","team":"DET"},{"playerId":"76","completions":"9","attempts":"15","passingYards":"110","passingTD":"1","passingInt":"0","rushYards":"2","rushTD":"0","fantasyPoints":"8","displayName":"Kyle
+        Orton","team":"DAL"},{"playerId":"786","completions":"12","attempts":"21","passingYards":"151","passingTD":"1","passingInt":"1","rushYards":"4","rushTD":"0","fantasyPoints":"8","displayName":"Chase
+        Daniel","team":"KC"}]}'
+    http_version: 
+  recorded_at: Thu, 24 Aug 2017 16:14:56 GMT
 recorded_with: VCR 2.9.2
