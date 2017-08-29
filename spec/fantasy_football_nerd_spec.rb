@@ -163,6 +163,30 @@ describe 'Fantasy Football Nerd Gem', vcr: true do
     expect(player.last_update).to be_nil
   end
 
+  it 'should retrieve weather forecasts' do
+    forecast = FFNerd.weather.first
+    expect(forecast.game_id).to eq "1"
+    expect(forecast.game_week).to eq "1"
+    expect(forecast.game_date).to eq "2014-09-04"
+    expect(forecast.away_team).to eq "GB"
+    expect(forecast.home_team).to eq "SEA"
+    expect(forecast.game_time_et).to eq "8:30 PM"
+    expect(forecast.tv_station).to eq "NBC"
+    expect(forecast.stadium).to eq "CenturyLink Field"
+    expect(forecast.is_dome).to eq "0"
+    expect(forecast.geo_lat).to eq "47.595153"
+    expect(forecast.geo_long).to eq "-122.331625"
+    expect(forecast.low).to eq "56"
+    expect(forecast.high).to eq "76"
+    expect(forecast.forecast).to eq "Sunny"
+    expect(forecast.wind_chill).to eq "0"
+    expect(forecast.wind_speed).to eq "0"
+    expect(forecast.dome_img).to eq ""
+    expect(forecast.small_img).to eq "http://www.fantasyfootballnerd.com/images/weather/20/32.gif"
+    expect(forecast.medium_img).to eq "http://www.fantasyfootballnerd.com/images/weather/31/32.gif"
+    expect(forecast.large_img).to eq "http://www.fantasyfootballnerd.com/images/weather/52/32.gif"
+  end
+
   it 'should retrieve weekly projections' do
     player = FFNerd.weekly_projections('QB', 1).first
     expect(player.week).to eq "1"
