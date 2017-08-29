@@ -109,4 +109,113 @@ http_interactions:
         Orton","position":"QB","team":"DAL","standard":"0.00","standardLow":"0.00","standardHigh":"0.00","ppr":"0.00","pprLow":"0.00","pprHigh":"0.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null}]}'
     http_version: 
   recorded_at: Fri, 11 Jul 2014 22:41:46 GMT
+- request:
+    method: get
+    uri: https://www.fantasyfootballnerd.com/service/weekly-rankings/json/test/QB/2/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 24 Aug 2017 16:15:01 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d58cd204dbf55772e1c1e6c1247f237641503591300; expires=Fri, 24-Aug-18
+        16:15:00 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
+      X-Powered-By:
+      - PHP/5.6.30
+      Expires:
+      - Fri, 24 Aug 2018 16:15:01 GMT
+      Cache-Control:
+      - public, max-age=31536000
+      Pragma:
+      - no-cache
+      Cf-Cache-Status:
+      - MISS
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 39379b9e8f4d6c46-SJC
+    body:
+      encoding: UTF-8
+      string: '{"Week":2,"PPR":1,"Position":"QB","Rankings":[{"week":"2","playerId":"14","name":"Drew
+        Brees","position":"QB","team":"NO","standard":"24.80","standardLow":"18.92","standardHigh":"32.00","ppr":"24.80","pprLow":"18.92","pprHigh":"32.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"66","name":"Peyton
+        Manning","position":"QB","team":"DEN","standard":"23.70","standardLow":"17.00","standardHigh":"36.00","ppr":"23.70","pprLow":"17.00","pprHigh":"36.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"87","name":"Aaron
+        Rodgers","position":"QB","team":"GB","standard":"23.60","standardLow":"19.00","standardHigh":"34.00","ppr":"23.60","pprLow":"19.00","pprHigh":"34.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"13","name":"Tom
+        Brady","position":"QB","team":"NE","standard":"23.10","standardLow":"14.80","standardHigh":"24.20","ppr":"23.10","pprLow":"14.80","pprHigh":"24.20","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"93","name":"Matt
+        Ryan","position":"QB","team":"ATL","standard":"22.10","standardLow":"17.00","standardHigh":"29.00","ppr":"22.10","pprLow":"17.00","pprHigh":"29.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"793","name":"Matthew
+        Stafford","position":"QB","team":"DET","standard":"21.10","standardLow":"15.91","standardHigh":"29.00","ppr":"21.10","pprLow":"15.91","pprHigh":"29.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"1394","name":"Colin
+        Kaepernick","position":"QB","team":"SF","standard":"21.00","standardLow":"14.20","standardHigh":"29.00","ppr":"21.00","pprLow":"14.20","pprHigh":"29.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"1806","name":"Robert
+        Griffin III","position":"QB","team":"WAS","standard":"20.90","standardLow":"13.00","standardHigh":"36.46","ppr":"20.90","pprLow":"13.00","pprHigh":"36.46","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"89","name":"Tony
+        Romo","position":"QB","team":"DAL","standard":"20.60","standardLow":"16.95","standardHigh":"25.90","ppr":"20.60","pprLow":"16.95","pprHigh":"25.90","injury":"Ribs","practiceStatus":"Full
+        Participation in Practice","gameStatus":"Probable","lastUpdate":"2013-09-16"},{"week":"2","playerId":"1398","name":"Cam
+        Newton","position":"QB","team":"CAR","standard":"20.50","standardLow":"14.00","standardHigh":"30.00","ppr":"20.50","pprLow":"14.00","pprHigh":"30.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"1932","name":"Andrew
+        Luck","position":"QB","team":"IND","standard":"20.10","standardLow":"16.70","standardHigh":"27.00","ppr":"20.10","pprLow":"16.70","pprHigh":"27.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"105","name":"Michael
+        Vick","position":"QB","team":"PHI","standard":"19.30","standardLow":"13.00","standardHigh":"36.00","ppr":"19.30","pprLow":"13.00","pprHigh":"36.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"1847","name":"Russell
+        Wilson","position":"QB","team":"SEA","standard":"19.20","standardLow":"14.57","standardHigh":"23.00","ppr":"19.20","pprLow":"14.57","pprHigh":"23.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"65","name":"Eli
+        Manning","position":"QB","team":"NYG","standard":"18.80","standardLow":"11.00","standardHigh":"27.00","ppr":"18.80","pprLow":"11.00","pprHigh":"27.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"88","name":"Ben
+        Roethlisberger","position":"QB","team":"PIT","standard":"17.80","standardLow":"14.00","standardHigh":"21.00","ppr":"17.80","pprLow":"14.00","pprHigh":"21.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"35","name":"Joe
+        Flacco","position":"QB","team":"BAL","standard":"16.90","standardLow":"10.00","standardHigh":"21.00","ppr":"16.90","pprLow":"10.00","pprHigh":"21.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"97","name":"Alex
+        Smith","position":"QB","team":"KC","standard":"16.80","standardLow":"9.00","standardHigh":"21.00","ppr":"16.80","pprLow":"9.00","pprHigh":"21.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"94","name":"Matt
+        Schaub","position":"QB","team":"HOU","standard":"16.40","standardLow":"9.16","standardHigh":"29.00","ppr":"16.40","pprLow":"9.16","pprHigh":"29.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"1109","name":"Sam
+        Bradford","position":"QB","team":"STL","standard":"16.30","standardLow":"10.00","standardHigh":"24.00","ppr":"16.30","pprLow":"10.00","pprHigh":"24.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"79","name":"Carson
+        Palmer","position":"QB","team":"ARI","standard":"16.10","standardLow":"11.00","standardHigh":"25.00","ppr":"16.10","pprLow":"11.00","pprHigh":"25.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"788","name":"Josh
+        Freeman","position":"QB","team":"TB","standard":"16.10","standardLow":"13.48","standardHigh":"23.70","ppr":"16.10","pprLow":"13.48","pprHigh":"23.70","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"1391","name":"Andy
+        Dalton","position":"QB","team":"CIN","standard":"15.80","standardLow":"9.00","standardHigh":"30.00","ppr":"15.80","pprLow":"9.00","pprHigh":"30.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"1696","name":"Terrelle
+        Pryor","position":"QB","team":"OAK","standard":"15.70","standardLow":"12.30","standardHigh":"24.00","ppr":"15.70","pprLow":"12.30","pprHigh":"24.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"28","name":"Jay
+        Cutler","position":"QB","team":"CHI","standard":"15.60","standardLow":"10.00","standardHigh":"23.00","ppr":"15.60","pprLow":"10.00","pprHigh":"23.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"1758","name":"Ryan
+        Tannehill","position":"QB","team":"MIA","standard":"15.50","standardLow":"12.00","standardHigh":"21.00","ppr":"15.50","pprLow":"12.00","pprHigh":"21.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"86","name":"Philip
+        Rivers","position":"QB","team":"SD","standard":"14.60","standardLow":"11.10","standardHigh":"21.00","ppr":"14.60","pprLow":"11.10","pprHigh":"21.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"2114","name":"EJ
+        Manuel","position":"QB","team":"BUF","standard":"14.20","standardLow":"10.56","standardHigh":"19.00","ppr":"14.20","pprLow":"10.56","pprHigh":"19.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"1395","name":"Jake
+        Locker","position":"QB","team":"TEN","standard":"13.90","standardLow":"9.78","standardHigh":"16.80","ppr":"13.90","pprLow":"9.78","pprHigh":"16.80","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"1877","name":"Brandon
+        Weeden","position":"QB","team":"CLE","standard":"13.80","standardLow":"9.43","standardHigh":"19.00","ppr":"13.80","pprLow":"9.43","pprHigh":"19.00","injury":"Hand","practiceStatus":"","gameStatus":"","lastUpdate":"2013-09-16"},{"week":"2","playerId":"52","name":"Chad
+        Henne","position":"QB","team":"JAC","standard":"13.80","standardLow":"3.48","standardHigh":"17.00","ppr":"13.80","pprLow":"3.48","pprHigh":"17.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"1399","name":"Christian
+        Ponder","position":"QB","team":"MIN","standard":"12.90","standardLow":"9.07","standardHigh":"18.00","ppr":"12.90","pprLow":"9.07","pprHigh":"18.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"2146","name":"Geno
+        Smith","position":"QB","team":"NYJ","standard":"12.10","standardLow":"10.00","standardHigh":"19.00","ppr":"12.10","pprLow":"10.00","pprHigh":"19.00","injury":"Ankle","practiceStatus":"Full
+        Participation in Practice","gameStatus":"Probable","lastUpdate":"2013-09-16"},{"week":"2","playerId":"34","name":"Ryan
+        Fitzpatrick","position":"QB","team":"TEN","standard":"3.20","standardLow":"0.00","standardHigh":"11.36","ppr":"3.20","pprLow":"0.00","pprHigh":"11.36","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"22","name":"Matt
+        Cassel","position":"QB","team":"MIN","standard":"3.00","standardLow":"0.00","standardHigh":"8.46","ppr":"3.00","pprLow":"0.00","pprHigh":"8.46","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"2392","name":"Mike
+        Glennon","position":"QB","team":"TB","standard":"1.00","standardLow":"0.00","standardHigh":"1.73","ppr":"1.00","pprLow":"0.00","pprHigh":"1.73","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"36","name":"Matt
+        Flynn","position":"QB","team":"OAK","standard":"1.00","standardLow":"0.00","standardHigh":"1.84","ppr":"1.00","pprLow":"0.00","pprHigh":"1.84","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"1805","name":"Kirk
+        Cousins","position":"QB","team":"WAS","standard":"0.90","standardLow":"0.00","standardHigh":"1.58","ppr":"0.90","pprLow":"0.00","pprHigh":"1.58","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"51","name":"Matt
+        Hasselbeck","position":"QB","team":"IND","standard":"0.60","standardLow":"0.00","standardHigh":"1.35","ppr":"0.60","pprLow":"0.00","pprHigh":"1.35","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"102","name":"Drew
+        Stanton","position":"QB","team":"ARI","standard":"0.60","standardLow":"0.00","standardHigh":"1.36","ppr":"0.60","pprLow":"0.00","pprHigh":"1.36","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"110","name":"Charlie
+        Whitehurst","position":"QB","team":"SD","standard":"0.60","standardLow":"0.00","standardHigh":"1.44","ppr":"0.60","pprLow":"0.00","pprHigh":"1.44","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"69","name":"Josh
+        McCown","position":"QB","team":"CHI","standard":"0.60","standardLow":"0.00","standardHigh":"1.46","ppr":"0.60","pprLow":"0.00","pprHigh":"1.46","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"56","name":"Tarvaris
+        Jackson","position":"QB","team":"SEA","standard":"0.00","standardLow":"0.00","standardHigh":"0.00","ppr":"0.00","pprLow":"0.00","pprHigh":"0.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"21","name":"David
+        Carr","position":"QB","team":"NYG","standard":"0.00","standardLow":"0.00","standardHigh":"0.00","ppr":"0.00","pprLow":"0.00","pprHigh":"0.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"20","name":"Jason
+        Campbell","position":"QB","team":"CLE","standard":"0.00","standardLow":"0.00","standardHigh":"0.00","ppr":"0.00","pprLow":"0.00","pprHigh":"0.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"70","name":"Luke
+        McCown","position":"QB","team":"NO","standard":"0.00","standardLow":"0.00","standardHigh":"0.00","ppr":"0.00","pprLow":"0.00","pprHigh":"0.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"2168","name":"Matt
+        Barkley","position":"QB","team":"PHI","standard":"0.00","standardLow":"0.00","standardHigh":"0.00","ppr":"0.00","pprLow":"0.00","pprHigh":"0.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"54","name":"Shaun
+        Hill","position":"QB","team":"DET","standard":"0.00","standardLow":"0.00","standardHigh":"0.00","ppr":"0.00","pprLow":"0.00","pprHigh":"0.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"23","name":"Kellen
+        Clemens","position":"QB","team":"STL","standard":"0.00","standardLow":"0.00","standardHigh":"0.00","ppr":"0.00","pprLow":"0.00","pprHigh":"0.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"107","name":"Seneca
+        Wallace","position":"QB","team":"GB","standard":"0.00","standardLow":"0.00","standardHigh":"0.00","ppr":"0.00","pprLow":"0.00","pprHigh":"0.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"1475","name":"McLeod
+        Bethel-Thompson","position":"QB","team":"MIN","standard":"0.00","standardLow":"0.00","standardHigh":"0.00","ppr":"0.00","pprLow":"0.00","pprHigh":"0.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"75","name":"Dan
+        Orlovsky","position":"QB","team":"TB","standard":"0.00","standardLow":"0.00","standardHigh":"0.00","ppr":"0.00","pprLow":"0.00","pprHigh":"0.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"41","name":"Bruce
+        Gradkowski","position":"QB","team":"PIT","standard":"0.00","standardLow":"0.00","standardHigh":"0.00","ppr":"0.00","pprLow":"0.00","pprHigh":"0.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"45","name":"Rex
+        Grossman","position":"QB","team":"WAS","standard":"0.00","standardLow":"0.00","standardHigh":"0.00","ppr":"0.00","pprLow":"0.00","pprHigh":"0.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"1393","name":"Blaine
+        Gabbert","position":"QB","team":"JAC","standard":"0.00","standardLow":"0.00","standardHigh":"10.90","ppr":"0.00","pprLow":"0.00","pprHigh":"10.90","injury":"Right
+        Thumb, Right Hand","practiceStatus":"Did Not Participate In Practice","gameStatus":"Out","lastUpdate":"2013-09-16"},{"week":"2","playerId":"2","name":"Derek
+        Anderson","position":"QB","team":"CAR","standard":"0.00","standardLow":"0.00","standardHigh":"0.00","ppr":"0.00","pprLow":"0.00","pprHigh":"0.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null},{"week":"2","playerId":"76","name":"Kyle
+        Orton","position":"QB","team":"DAL","standard":"0.00","standardLow":"0.00","standardHigh":"0.00","ppr":"0.00","pprLow":"0.00","pprHigh":"0.00","injury":null,"practiceStatus":null,"gameStatus":null,"lastUpdate":null}]}'
+    http_version: 
+  recorded_at: Thu, 24 Aug 2017 16:14:59 GMT
 recorded_with: VCR 2.9.2

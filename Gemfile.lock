@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    fantasy_football_nerd (1.0.1)
+    fantasy_football_nerd (1.2.3)
 
 GEM
   remote: https://rubygems.org/
@@ -36,3 +36,6 @@ DEPENDENCIES
   rspec (~> 3.0.0)
   vcr (~> 2.9.2)
   webmock (~> 1.18.0)
+
+BUNDLED WITH
+   1.14.6

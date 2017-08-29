@@ -1,13 +1,13 @@
 Fantasy Football Nerd API Ruby Gem
 ==================================
 
-A Ruby Gem for the [Fantasy Football Nerd API](http://www.fantasyfootballnerd.com/fantasy-football-api) which: 
+A Ruby Gem for the [Fantasy Football Nerd API](http://www.fantasyfootballnerd.com/fantasy-football-api) which:
 
 > takes the "wisdom of the crowd" to a new level by aggregating the fantasy football rankings of the best fantasy football sites on the planet to analyze the rankings given to each player to produce a consensus ranking.
 
-This gem currently supports all Level 1 and Level 2 streams which cost $11.95 per season -- a total no-brainer if you're into fantasy sports and programming. Give the man his money.  
+This gem currently supports all Level 1 and Level 2 streams which cost $11.95 per season -- a total no-brainer if you're into fantasy sports and programming. Give the man his money.
 
-Here's what you get with $11.95 and this gem: 
+Here's what you get with $11.95 and this gem:
 
 * Current Week
 * Team List
@@ -17,14 +17,14 @@ Here's what you get with $11.95 and this gem:
 * Injuries
 * Auction draft values
 * Draft rankings - projected fantasy points for the entire season
-* Draft projections - projected stats for each scoring category for the entire season 
+* Draft projections - projected stats for each scoring category for the entire season
 * Weekly rankings - projected fantasy points (PPR || Standard)
 * Weekly projections - projected stats for each scoring category
 
 v1.0
 ----------------
 
-Fantasy Football Nerd recently overhauled to their API which a) drastically improved their service and b) completely deprecated the old API. The previous version of this gem won't work anymore so update your Gemfiles. 
+Fantasy Football Nerd recently overhauled to their API which a) drastically improved their service and b) completely deprecated the old API. The previous version of this gem won't work anymore so update your Gemfiles.
 
 Cache your data!
 ----------------
@@ -36,7 +36,7 @@ Seriously, Fantasy Football Nerd is not a big operation. Don't abuse their serve
 
 Setup
 =================
-First, [sign up](http://www.fantasyfootballnerd.com/create-account) for a Fantasy Football Nerd account. Then... 
+First, [sign up](http://www.fantasyfootballnerd.com/create-account) for a Fantasy Football Nerd account. Then...
 
 In plain ol' Ruby, install the gem:
 
@@ -57,9 +57,9 @@ If you're using Rails, add the gem to your Gemfile and run ```bundle install```
 gem 'fantasy_football_nerd'
 ````
 
-Before you can access the feeds you must set your API key (found on the [Fantasy Football Nerd API dashboard](http://www.fantasyfootballnerd.com/api)) by one of two methods: 
+Before you can access the feeds you must set your API key (found on the [Fantasy Football Nerd API dashboard](http://www.fantasyfootballnerd.com/api)) by one of two methods:
 
-Set an environment variable via the terminal (good for production environments where you don't want to commit credentials to a repo). 
+Set an environment variable via the terminal (good for production environments where you don't want to commit credentials to a repo).
 
 ````term
 export FFNERD_API_KEY="ABC123DEF"
@@ -74,11 +74,11 @@ FFNerd.api_key = "ABC123DEF"
 API Resources
 ===================
 
-This gem supports all of Fantasy Football Nerd's Level 1 and Level 2 resources. Results are typically returned as an array of [ostructs](http://www.ruby-doc.org/stdlib-2.0/libdoc/ostruct/rdoc/OpenStruct.html) (which is basically a hash that you can access with "dot notation" as if it were an object instance variable). Fantasy Football Nerd returns keys in CamelCase but that's not very Ruby like. I've added snake_case attributes so that you can do ```player.displayName``` or ```player.display_name```, whichever suits your fancy. 
+This gem supports all of Fantasy Football Nerd's Level 1 and Level 2 resources. Results are typically returned as an array of [ostructs](http://www.ruby-doc.org/stdlib-2.0/libdoc/ostruct/rdoc/OpenStruct.html) (which is basically a hash that you can access with "dot notation" as if it were an object instance variable). Fantasy Football Nerd returns keys in CamelCase but that's not very Ruby like. I've added snake_case attributes so that you can do ```player.displayName``` or ```player.display_name```, whichever suits your fancy.
 
 Teams
 --------------------------
-Returns an array of teams. 
+Returns an array of teams.
 
 ```ruby
 team = FFNerd.teams.first
@@ -89,7 +89,7 @@ team.short_name  # "Arizona"
 
 Schedule
 --------------------------
-Returns an array of games. 
+Returns an array of games.
 
 ```ruby
 game = FFNerd.schedule.first
@@ -102,7 +102,7 @@ game.home_team       # "DEN"
 
 Players
 --------------------------
-Returns an array of players. 
+Returns an array of players.
 
 ```ruby
 player = FFNerd.players.first
@@ -122,7 +122,7 @@ player.college       # "Oregon State"
 
 Bye Weeks
 --------------------------
-Returns an array of the teams on bye for the given week. 
+Returns an array of the teams on bye for the given week.
 
 ```ruby
 bye = FFNerd.byes(4).first
@@ -133,7 +133,7 @@ bye.display_name # "Carolina Panthers"
 
 Injuries
 --------------------------
-Returns an array of injured players. Takes an optional parameter for the week number, or defaults to the current week. 
+Returns an array of injured players. Takes an optional parameter for the week number, or defaults to the current week.
 
 ```ruby
 injury = FFNerd.injuries(6)     # all injuries for week 6
@@ -154,7 +154,7 @@ injury.practice_status_id # 0
 
 Auction Values
 --------------------------
-Returns an array of draft auction values. 
+Returns an array of draft auction values.
 
 ```ruby
 value = FFNerd.auction_values.first
@@ -169,7 +169,7 @@ value.position      # "RB"
 
 Current Week
 --------------------------
-Returns the current NFL week as an integer. 
+Returns the current NFL week as an integer.
 
 ```ruby
 FFNerd.current_week  # 17
@@ -177,9 +177,9 @@ FFNerd.current_week  # 17
 
 Standard Draft Rankings
 --------------------------
-Returns an array of players according to their projected draft values based on standard scoring. In this example I'm looking at the fourth element in the array because the PPR and standard rankings don't deviate until then in the test data. 
+Returns an array of players according to their projected draft values based on standard scoring. In this example I'm looking at the fourth element in the array because the PPR and standard rankings don't deviate until then in the test data.
 
-```ruby   
+```ruby
 player = FFNerd.standard_draft_rankings[3]
 player.playerId      # "1136"
 player.position      # "RB"
@@ -195,7 +195,7 @@ player.overallRank   # "4"
 
 PPR Draft Rankings
 --------------------------
-Returns an array of players according to their projected draft values based on PPR scoring. 
+Returns an array of players according to their projected draft values based on PPR scoring.
 
 ```ruby
 player = FFNerd.ppr_draft_rankings[3]
@@ -211,9 +211,22 @@ player.position_rank # "1"
 player.overall_rank  # "4"
 ```
 
+Position Tiers
+--------------------------
+Returns an array of players grouped by position tiers for value-based drafting strategies.
+
+```ruby
+player = FFNerd.tiers.first
+player.player_id     # "1142"
+player.position      # "WR"
+player.tier          # "1"
+player.display_name  # "Antonio Brown"
+player.team          # "PIT"
+```
+
 Draft Projections
 --------------------------
-Returns an array of players with projected stats for a number of scoring categories. This data is useless once the season starts. 
+Returns an array of players with projected stats for a number of scoring categories. This data is useless once the season starts.
 
 Must pass in a valid position of QB, RB, WR, TE, K, DEF.
 
@@ -234,9 +247,9 @@ player.team              # "NO"
 
 Weekly Rankings
 --------------------------
-Returns an array of players with expected weekly fantasy points for both standard and PPR scoring. 
+Returns an array of players with expected weekly fantasy points for both standard and PPR scoring.
 
-Must request a specific position: QB, RB, WR, TE, K, DEF. You can also send along the specific week number (1-17). If you omit a week, it defaults to the current week. 
+Must request a specific position: QB, RB, WR, TE, K, DEF. You can also send along the specific week number (1-17). If you omit a week, it defaults to the current week.
 
 ```ruby
 player = FFNerd.weekly_rankings('QB', 2).first
@@ -259,9 +272,9 @@ player.last_update      # nil
 
 Weekly Projections
 --------------------------
-Returns an array of players with expected weekly values for each scoring category. 
+Returns an array of players with expected weekly values for each scoring category.
 
-Must request a specific position: QB, RB, WR, TE, K (But *NOT DEF!*). You can also send along the specific week number (1-17). If you omit a week, it defaults to the current week. 
+Must request a specific position: QB, RB, WR, TE, K (But *NOT DEF!*). You can also send along the specific week number (1-17). If you omit a week, it defaults to the current week.
 
 ```ruby
 player = FFNerd.weekly_projections('QB', 1).first
@@ -299,7 +312,7 @@ player.team             # "NO"
 Player Information
 -------------
 
-*Commercial Access only!* 
+*Commercial Access only!*
 
 Get biographical info for each player. You will need to pass along the playerId of the player you want. Unlike the FFNerd API, this resource does not return the player stats -- that comes from FFNerd.player_stats
 
@@ -324,9 +337,9 @@ Get biographical info for each player. You will need to pass along the playerId 
 Player Stats
 -------------
 
-* Commercial access only!* 
+* Commercial access only!*
 
-I deviated from the FFNerd API feed and broke historical stats off of the player information resource. I've also changed some of the field names to make them consistent with ```FFNerd.weekly_projections```.  
+I deviated from the FFNerd API feed and broke historical stats off of the player information resource. I've also changed some of the field names to make them consistent with ```FFNerd.weekly_projections```.
 
 ```ruby
 year = 2000
@@ -376,9 +389,9 @@ stats.rec_td # 0
 Tests
 ===================
 
-Set your API key to "test" to access FFNerd's test feeds. This is useful if you're developing your app prior to the beginning of the season or if you'd like to have a static dataset that won't change as the season progresses. All of the Rspec tests here use the test feeds. Speaking of RSpec... 
+Set your API key to "test" to access FFNerd's test feeds. This is useful if you're developing your app prior to the beginning of the season or if you'd like to have a static dataset that won't change as the season progresses. All of the Rspec tests here use the test feeds. Speaking of RSpec...
 
-This gem includes comprehensive tests and uses VCR to cache http responses. If you're going to contribute, please write some tests. 
+This gem includes comprehensive tests and uses VCR to cache http responses. If you're going to contribute, please write some tests.
 
 Contributors
 ======================

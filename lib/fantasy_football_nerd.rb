@@ -29,7 +29,11 @@ class FFNerd
 
   def self.ostruct_request(service_name, json_key, extras = [])
     extras = [extras].flatten
-    data = request_service(service_name, api_key, extras)[json_key]
+    if json_key.nil?
+      data = request_service(service_name, api_key, extras)
+    else
+      data = request_service(service_name, api_key, extras)[json_key]
+    end
     data = data.values.flatten if data.is_a? Hash
     data.collect { |i| OpenStruct.new(i.add_snakecase_keys) }
   end
@@ -72,6 +76,10 @@ class FFNerd
   def self.draft_projections(position)
     raise "Must pass in a valid position" unless POSITIONS.include?(position)
     ostruct_request('draft-projections', 'DraftProjections', [position])
+  end
+
+  def self.tiers
+    ostruct_request('tiers', nil)
   end
 
   def self.weekly_rankings(position, week = nil)

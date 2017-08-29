@@ -135,6 +135,15 @@ describe 'Fantasy Football Nerd Gem', vcr: true do
     expect(player.team).to eq "NO"
   end
 
+  it 'should retrieve position tiers' do
+    player = FFNerd.tiers.first
+    expect(player.player_id).to eq "1142"
+    expect(player.position).to eq "WR"
+    expect(player.tier).to eq "1"
+    expect(player.display_name).to eq "Antonio Brown"
+    expect(player.team).to eq "PIT"
+  end
+
   it 'should retrieve weekly rankings' do
     player = FFNerd.weekly_rankings('QB', 2).first
     expect(player.week).to eq "2"
