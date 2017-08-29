@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "fantasy_football_nerd"
-  s.version = "1.2.3"
+  s.version = "1.3.0"
   s.authors = ["Greg Baugues"]
   s.date = %q{2017-06-29}
   s.description = 'Fantasy Football Nerd API wrapper'
@@ -15,6 +15,9 @@ Gem::Specification.new do |s|
     'spec/request_spec.rb',
     'spec/api_key_setter_spec.rb',
     'spec/spec_helper.rb',
+    'spec/vcr/cassettes/Fantasy_Football_Nerd_Commercial_Feeds/should_retrieve_Brady_s_player_stats.yml',
+    'spec/vcr/cassettes/Fantasy_Football_Nerd_Commercial_Feeds/should_retrieve_Forte_s_player_stats.yml',
+    'spec/vcr/cassettes/Fantasy_Football_Nerd_Commercial_Feeds/should_retrieve_player_information.yml',
     'spec/vcr/cassettes/Fantasy_Football_Nerd_Gem/should_retrieve_auction_values.yml',
     'spec/vcr/cassettes/Fantasy_Football_Nerd_Gem/should_retrieve_bye_weeks.yml',
     'spec/vcr/cassettes/Fantasy_Football_Nerd_Gem/should_retrieve_draft_projections.yml',
