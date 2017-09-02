@@ -1,0 +1,78 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.fantasyfootballnerd.com/service/weather/json/test
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 29 Aug 2017 23:23:27 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d0b2b6fce496445ce4ce11a8fb040c5851504049007; expires=Wed, 29-Aug-18
+        23:23:27 GMT; path=/; domain=.fantasyfootballnerd.com; HttpOnly
+      X-Powered-By:
+      - PHP/5.6.31
+      Expires:
+      - Tue, 29 Aug 2017 23:53:27 GMT
+      Cache-Control:
+      - public, max-age=1800
+      Pragma:
+      - no-cache
+      Cf-Cache-Status:
+      - MISS
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 3963421abd7e5170-SJC
+    body:
+      encoding: UTF-8
+      string: '{"Today":"2014-09-02","Week":"1","Games":{"SEA":{"gameId":"1","gameWeek":"1","gameDate":"2014-09-04","awayTeam":"GB","homeTeam":"SEA","gameTimeET":"8:30
+        PM","tvStation":"NBC","stadium":"CenturyLink Field","isDome":"0","geoLat":"47.595153","geoLong":"-122.331625","low":"56","high":"76","forecast":"Sunny","windChill":"0","windSpeed":"0","domeImg":"","smallImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/20\/32.gif","mediumImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/31\/32.gif","largeImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/52\/32.gif"},"CHI":{"gameId":"2","gameWeek":"1","gameDate":"2014-09-07","awayTeam":"BUF","homeTeam":"CHI","gameTimeET":"1:00
+        PM","tvStation":"FOX","stadium":"Soldier Field","isDome":"0","geoLat":"41.86232002142857","geoLong":"-87.61669903993606","low":"61","high":"72","forecast":"Sunny","windChill":"0","windSpeed":"0","domeImg":"","smallImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/20\/32.gif","mediumImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/31\/32.gif","largeImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/52\/32.gif"},"ATL":{"gameId":"3","gameWeek":"1","gameDate":"2014-09-07","awayTeam":"NO","homeTeam":"ATL","gameTimeET":"1:00
+        PM","tvStation":"FOX","stadium":"Georgia Dome","isDome":"1","geoLat":"33.757614","geoLong":"-84.400972","low":"68","high":"87","forecast":"PM
+        Thunderstorms","windChill":"0","windSpeed":"0","domeImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/20\/dome.gif","smallImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/20\/38.gif","mediumImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/31\/38.gif","largeImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/52\/38.gif"},"BAL":{"gameId":"4","gameWeek":"1","gameDate":"2014-09-07","awayTeam":"CIN","homeTeam":"BAL","gameTimeET":"1:00
+        PM","tvStation":"CBS","stadium":"M&T Bank Stadium","isDome":"0","geoLat":"39.27798508915832","geoLong":"-76.62278831005096","low":"57","high":"78","forecast":"AM
+        Showers","windChill":"0","windSpeed":"0","domeImg":"","smallImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/20\/39.gif","mediumImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/31\/39.gif","largeImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/52\/39.gif"},"PHI":{"gameId":"5","gameWeek":"1","gameDate":"2014-09-07","awayTeam":"JAC","homeTeam":"PHI","gameTimeET":"1:00
+        PM","tvStation":"CBS","stadium":"Lincoln Financial Field","isDome":"0","geoLat":"39.90077153490717","geoLong":"-75.16746997833252","low":"61","high":"79","forecast":"AM
+        Showers","windChill":"0","windSpeed":"0","domeImg":"","smallImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/20\/39.gif","mediumImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/31\/39.gif","largeImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/52\/39.gif"},"HOU":{"gameId":"6","gameWeek":"1","gameDate":"2014-09-07","awayTeam":"WAS","homeTeam":"HOU","gameTimeET":"1:00
+        PM","tvStation":"FOX","stadium":"NRG Stadium","isDome":"1","geoLat":"29.684543515321976","geoLong":"-95.41093289852142","low":"73","high":"89","forecast":"Scattered
+        Thunderstorms","windChill":"0","windSpeed":"0","domeImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/20\/dome.gif","smallImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/20\/38.gif","mediumImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/31\/38.gif","largeImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/52\/38.gif"},"PIT":{"gameId":"7","gameWeek":"1","gameDate":"2014-09-07","awayTeam":"CLE","homeTeam":"PIT","gameTimeET":"1:00
+        PM","tvStation":"CBS","stadium":"Heinz Field","isDome":"0","geoLat":"40.446751106051884","geoLong":"-80.01570761203766","low":"51","high":"77","forecast":"Sunny","windChill":"0","windSpeed":"0","domeImg":"","smallImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/20\/32.gif","mediumImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/31\/32.gif","largeImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/52\/32.gif"},"STL":{"gameId":"8","gameWeek":"1","gameDate":"2014-09-07","awayTeam":"MIN","homeTeam":"STL","gameTimeET":"1:00
+        PM","tvStation":"FOX","stadium":"Edward Jones Dome","isDome":"1","geoLat":"38.632975","geoLong":"-90.188547","low":"53","high":"79","forecast":"Sunny","windChill":"0","windSpeed":"0","domeImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/20\/dome.gif","smallImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/20\/32.gif","mediumImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/31\/32.gif","largeImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/52\/32.gif"},"KC":{"gameId":"9","gameWeek":"1","gameDate":"2014-09-07","awayTeam":"TEN","homeTeam":"KC","gameTimeET":"1:00
+        PM","tvStation":"CBS","stadium":"Arrowhead Stadium","isDome":"0","geoLat":"39.04900221390707","geoLong":"-94.48386490345001","low":"56","high":"78","forecast":"Sunny","windChill":"0","windSpeed":"0","domeImg":"","smallImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/20\/32.gif","mediumImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/31\/32.gif","largeImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/52\/32.gif"},"MIA":{"gameId":"10","gameWeek":"1","gameDate":"2014-09-07","awayTeam":"NE","homeTeam":"MIA","gameTimeET":"1:00
+        PM","tvStation":"CBS","stadium":"Sun Life Stadium","isDome":"0","geoLat":"25.957740809581857","geoLong":"-80.23878157138824","low":"77","high":"89","forecast":"Scattered
+        Thunderstorms","windChill":"0","windSpeed":"0","domeImg":"","smallImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/20\/38.gif","mediumImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/31\/38.gif","largeImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/52\/38.gif"},"NYJ":{"gameId":"11","gameWeek":"1","gameDate":"2014-09-07","awayTeam":"OAK","homeTeam":"NYJ","gameTimeET":"1:00
+        PM","tvStation":"CBS","stadium":"MetLife Stadium","isDome":"0","geoLat":"40.813611","geoLong":"-74.074444","low":"58","high":"78","forecast":"Partly
+        Cloudy","windChill":"0","windSpeed":"0","domeImg":"","smallImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/20\/30.gif","mediumImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/31\/30.gif","largeImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/52\/30.gif"},"DAL":{"gameId":"12","gameWeek":"1","gameDate":"2014-09-07","awayTeam":"SF","homeTeam":"DAL","gameTimeET":"4:25
+        PM","tvStation":"FOX","stadium":"AT&T Stadium","isDome":"1","geoLat":"32.747778","geoLong":"-97.092778","low":"74","high":"91","forecast":"Partly
+        Cloudy","windChill":"0","windSpeed":"0","domeImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/20\/dome.gif","smallImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/20\/30.gif","mediumImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/31\/30.gif","largeImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/52\/30.gif"},"TB":{"gameId":"13","gameWeek":"1","gameDate":"2014-09-07","awayTeam":"CAR","homeTeam":"TB","gameTimeET":"4:25
+        PM","tvStation":"FOX","stadium":"Raymond James Stadium","isDome":"0","geoLat":"27.975967","geoLong":"-82.50335","low":"77","high":"89","forecast":"Scattered
+        Thunderstorms","windChill":"0","windSpeed":"0","domeImg":"","smallImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/20\/38.gif","mediumImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/31\/38.gif","largeImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/52\/38.gif"},"DEN":{"gameId":"14","gameWeek":"1","gameDate":"2014-09-07","awayTeam":"IND","homeTeam":"DEN","gameTimeET":"8:30
+        PM","tvStation":"NBC","stadium":"Sports Authority Field at Mile High","isDome":"0","geoLat":"39.743936","geoLong":"-105.020097","low":"57","high":"83","forecast":"Mostly
+        Sunny","windChill":"0","windSpeed":"0","domeImg":"","smallImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/20\/34.gif","mediumImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/31\/34.gif","largeImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/52\/34.gif"},"DET":{"gameId":"15","gameWeek":"1","gameDate":"2014-09-08","awayTeam":"NYG","homeTeam":"DET","gameTimeET":"7:10
+        PM","tvStation":"ESPN","stadium":"Ford Field","isDome":"1","geoLat":"42.34002138352224","geoLong":"-83.04577767848968","low":null,"high":null,"forecast":null,"windChill":null,"windSpeed":null,"domeImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/20\/dome.gif","smallImg":"","mediumImg":"","largeImg":""},"ARI":{"gameId":"16","gameWeek":"1","gameDate":"2014-09-08","awayTeam":"SD","homeTeam":"ARI","gameTimeET":"10:20
+        PM","tvStation":"ESPN","stadium":"University of Phoenix Stadium","isDome":"1","geoLat":"33.527558","geoLong":"-112.263036","low":null,"high":null,"forecast":null,"windChill":null,"windSpeed":null,"domeImg":"http:\/\/www.fantasyfootballnerd.com\/images\/weather\/20\/dome.gif","smallImg":"","mediumImg":"","largeImg":""}}}'
+    http_version: 
+  recorded_at: Tue, 29 Aug 2017 23:23:28 GMT
+recorded_with: VCR 2.9.2
